@@ -2114,7 +2114,7 @@
         "repo": "TheSimpsonsGameRecomp"
       },
       "release_channel": "stable",
-      "cover_url": null,
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/The%20Simpsons%20Game%20(USA).png",
       "logo_url": null,
       "asset_rules": {
         "linux-x86_64": "(?i)Linux-x64\\.tar\\.gz$",
