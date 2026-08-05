@@ -23,8 +23,8 @@ import urllib.request
 import urllib.error
 
 API = "https://www.steamgriddb.com/api/v2"
-# Vertical capsule sizes (2:3). We ask for these first, then any as fallback.
-VERTICAL = "600x900,660x930,342x482,512x724"
+# Vertical capsule sizes (valid SteamGridDB dimensions only). Any grid as fallback.
+VERTICAL = "600x900,342x482,660x930"
 
 
 def sgdb_get(path, key):
@@ -40,7 +40,7 @@ def sgdb_get(path, key):
 
 
 def find_game_id(name, key):
-    term = urllib.parse.quote(name)
+    term = urllib.parse.quote(name, safe="")  # encode '/' too
     results = sgdb_get(f"/search/autocomplete/{term}", key)
     if not results:
         return None

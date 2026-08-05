@@ -127,7 +127,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "zelda-64-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png"
     },
     {
       "id": "ship-of-harkinian",
@@ -175,7 +176,8 @@
       "mods": {
         "source": "gamebanana",
         "community": "16121"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png"
     },
     {
       "id": "2ship2harkinian",
@@ -223,7 +225,8 @@
       "mods": {
         "source": "gamebanana",
         "community": "20371"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png"
     },
     {
       "id": "spaghettikart-mk64",
@@ -273,7 +276,8 @@
       "mods": {
         "source": "gamebanana",
         "community": "22970"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/bc11db020cb9418782afa3d1e0a1209b.png"
     },
     {
       "id": "perfect-dark-pc",
@@ -320,7 +324,8 @@
       "year": 2000,
       "developer": "Rare",
       "genre": "Disparos en primera persona",
-      "wiki": "Perfect Dark"
+      "wiki": "Perfect Dark",
+      "box_art": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png"
     },
     {
       "id": "sm64coopdx",
@@ -364,7 +369,8 @@
       "year": 1996,
       "developer": "Nintendo",
       "genre": "Plataformas",
-      "wiki": "Super Mario 64"
+      "wiki": "Super Mario 64",
+      "box_art": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png"
     },
     {
       "id": "redriver2",
@@ -406,7 +412,8 @@
       "year": 2000,
       "developer": "Reflections",
       "genre": "Conducción",
-      "wiki": "Driver 2"
+      "wiki": "Driver 2",
+      "box_art": "https://cdn2.steamgriddb.com/grid/eb101d7eef150524b3cd895d08e4f673.png"
     },
     {
       "id": "sonic-cd-decomp",
@@ -450,7 +457,8 @@
       "year": 1993,
       "developer": "Sega",
       "genre": "Plataformas",
-      "wiki": "Sonic CD"
+      "wiki": "Sonic CD",
+      "box_art": "https://cdn2.steamgriddb.com/grid/08d916f9d739fc65496e16fbcbd38af4.png"
     },
     {
       "id": "sonic-1-2-decomp",
@@ -493,7 +501,8 @@
       "year": 1991,
       "developer": "Sega",
       "genre": "Plataformas",
-      "wiki": "Sonic the Hedgehog (videojuego de 1991)"
+      "wiki": "Sonic the Hedgehog (videojuego de 1991)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/b0b00b17faeeefd1680c86db2a1bf8c6.png"
     },
     {
       "id": "gen1recomp",
@@ -537,7 +546,8 @@
       "year": 1996,
       "developer": "Game Freak",
       "genre": "RPG",
-      "wiki": "Pokémon Rojo y Azul"
+      "wiki": "Pokémon Rojo y Azul",
+      "box_art": "https://cdn2.steamgriddb.com/grid/deaf47d9953d7c0216d9c3aa944fe5ba.png"
     },
     {
       "id": "banjo-recomp",
@@ -587,7 +597,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "banjo-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png"
     },
     {
       "id": "dino-recomp",
@@ -634,7 +645,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "dinosaur-planet-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/11738c383581f80d010ca13ac005d763.png"
     },
     {
       "id": "goemon64-recomp",
@@ -680,7 +692,8 @@
       "year": 1997,
       "developer": "Konami",
       "genre": "Acción-aventura",
-      "wiki": "Ganbare Goemon: Neo Momoyama Bakufu no Odori"
+      "wiki": "Ganbare Goemon: Neo Momoyama Bakufu no Odori",
+      "box_art": "https://cdn2.steamgriddb.com/grid/47e596b1edee7909345c64a4d1a39517.png"
     },
     {
       "id": "megaman64-recomp",
@@ -730,7 +743,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "mega-man-64-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg"
     },
     {
       "id": "skate3-recomp",
@@ -774,7 +788,8 @@
       "year": 2010,
       "developer": "EA Black Box",
       "genre": "Deportes",
-      "wiki": "Skate 3"
+      "wiki": "Skate 3",
+      "box_art": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png"
     },
     {
       "id": "nocturne-recomp",
@@ -818,7 +833,8 @@
       "year": 1997,
       "developer": "Konami",
       "genre": "Metroidvania",
-      "wiki": "Castlevania: Symphony of the Night"
+      "wiki": "Castlevania: Symphony of the Night",
+      "box_art": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png"
     },
     {
       "id": "severed-chains-lod",
@@ -863,7 +879,8 @@
       "year": 1999,
       "developer": "SCEI",
       "genre": "RPG",
-      "wiki": "The Legend of Dragoon"
+      "wiki": "The Legend of Dragoon",
+      "box_art": "https://cdn2.steamgriddb.com/grid/aa82fd1c7df60df76d515816cbdb76a0.png"
     },
     {
       "id": "trx-tombraider",
@@ -906,7 +923,8 @@
       "year": 1996,
       "developer": "Core Design",
       "genre": "Acción-aventura",
-      "wiki": "Tomb Raider (videojuego de 1996)"
+      "wiki": "Tomb Raider (videojuego de 1996)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/87368138229b6995db6b5c482f90a5bf.jpg"
     },
     {
       "id": "sonic-mania-decomp",
@@ -949,7 +967,8 @@
       "year": 2017,
       "developer": "Christian Whitehead",
       "genre": "Plataformas",
-      "wiki": "Sonic Mania"
+      "wiki": "Sonic Mania",
+      "box_art": "https://cdn2.steamgriddb.com/grid/850dc71b17efabd2c38aa16820445433.png"
     },
     {
       "id": "dethrace-carmageddon",
@@ -991,7 +1010,8 @@
       "year": 1997,
       "developer": "Stainless Games",
       "genre": "Carreras",
-      "wiki": "Carmageddon"
+      "wiki": "Carmageddon",
+      "box_art": "https://cdn2.steamgriddb.com/grid/0b10574b8240b424056808b793bef04f.png"
     },
     {
       "id": "runescape-classic",
@@ -1033,7 +1053,8 @@
       "year": 2001,
       "developer": "Jagex",
       "genre": "MMORPG",
-      "wiki": "RuneScape"
+      "wiki": "RuneScape",
+      "box_art": "https://cdn2.steamgriddb.com/grid/0a544b368c0e804e1d704353be3ee0d9.png"
     },
     {
       "id": "opentdu",
@@ -1075,7 +1096,8 @@
       "year": 2006,
       "developer": "Eden Games",
       "genre": "Carreras",
-      "wiki": "Test Drive Unlimited"
+      "wiki": "Test Drive Unlimited",
+      "box_art": "https://cdn2.steamgriddb.com/grid/5b776b4aeed9a6abe4c8f6e26aa3b74f.png"
     },
     {
       "id": "ambermoon-net",
@@ -1117,7 +1139,8 @@
       "year": 1993,
       "developer": "Thalion Software",
       "genre": "RPG",
-      "wiki": "Ambermoon"
+      "wiki": "Ambermoon",
+      "box_art": "https://cdn2.steamgriddb.com/grid/fa540b3545829bc68d6922545dd0e2ff.jpg"
     },
     {
       "id": "devilutionx-diablo",
@@ -1159,7 +1182,8 @@
       "year": 1996,
       "developer": "Blizzard North",
       "genre": "Action RPG",
-      "wiki": "Diablo (videojuego)"
+      "wiki": "Diablo (videojuego)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/cced2922f69c1c789ba9d1c9c4210b1c.png"
     },
     {
       "id": "alive-oddworld",
@@ -1201,7 +1225,8 @@
       "year": 1997,
       "developer": "Oddworld Inhabitants",
       "genre": "Plataformas",
-      "wiki": "Oddworld: Abe's Oddysee"
+      "wiki": "Oddworld: Abe's Oddysee",
+      "box_art": "https://cdn2.steamgriddb.com/grid/80c1f602065ea6c3e6db56273de523cb.png"
     },
     {
       "id": "psydoom",
@@ -1245,7 +1270,8 @@
       "year": 1995,
       "developer": "id Software",
       "genre": "Disparos en primera persona",
-      "wiki": "Doom (videojuego de 1993)"
+      "wiki": "Doom (videojuego de 1993)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/ef58f7ffe086514aa0164c7fc4f6cea8.png"
     },
     {
       "id": "dusklight-tp",
@@ -1287,7 +1313,8 @@
       "year": 2006,
       "developer": "Nintendo",
       "genre": "Acción-aventura",
-      "wiki": "The Legend of Zelda: Twilight Princess"
+      "wiki": "The Legend of Zelda: Twilight Princess",
+      "box_art": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png"
     },
     {
       "id": "bomberman64-recomp",
@@ -1335,7 +1362,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "bomberman-64-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png"
     },
     {
       "id": "bombermanhero-recomp",
@@ -1379,7 +1407,8 @@
       "year": 1998,
       "developer": "Hudson Soft",
       "genre": "Plataformas",
-      "wiki": "Bomberman Hero"
+      "wiki": "Bomberman Hero",
+      "box_art": "https://cdn2.steamgriddb.com/grid/0e6e9339d71b9008e8ecd4680608d0ec.png"
     },
     {
       "id": "harvestmoon64-recomp",
@@ -1427,7 +1456,8 @@
       "mods": {
         "source": "thunderstore",
         "community": "harvest-moon-64-recompiled"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/cab8fb3904dfe2e30a8579bc38e74ada.png"
     },
     {
       "id": "snowboardkids2-recomp",
@@ -1469,7 +1499,8 @@
       "year": 1999,
       "developer": "Racdym",
       "genre": "Deportes",
-      "wiki": "Snowboard Kids 2"
+      "wiki": "Snowboard Kids 2",
+      "box_art": "https://cdn2.steamgriddb.com/grid/b1a491999695f9df23123c2290041da8.jpg"
     },
     {
       "id": "kameo-recomp",
@@ -1511,7 +1542,8 @@
       "year": 2005,
       "developer": "Rare",
       "genre": "Acción-aventura",
-      "wiki": "Kameo: Elements of Power"
+      "wiki": "Kameo: Elements of Power",
+      "box_art": "https://cdn2.steamgriddb.com/grid/94461b919021d58fa910449500cf8845.png"
     },
     {
       "id": "ghostship-sm64",
@@ -1559,7 +1591,8 @@
       "mods": {
         "source": "gamebanana",
         "community": "24131"
-      }
+      },
+      "box_art": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png"
     },
     {
       "id": "unleashed-recomp",
@@ -1599,7 +1632,8 @@
       "year": 2008,
       "developer": "Sega",
       "genre": "Plataformas",
-      "wiki": "Sonic Unleashed"
+      "wiki": "Sonic Unleashed",
+      "box_art": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png"
     },
     {
       "id": "drmario64-recomp",
@@ -1639,7 +1673,8 @@
       "year": 2001,
       "developer": "Nintendo",
       "genre": "Puzle",
-      "wiki": "Dr. Mario 64"
+      "wiki": "Dr. Mario 64",
+      "box_art": "https://cdn2.steamgriddb.com/grid/c3884b938f2ccc63708d922671c5ea23.png"
     },
     {
       "id": "tip-recomp",
@@ -1679,7 +1714,8 @@
       "year": 2008,
       "developer": "Rare",
       "genre": "Simulación",
-      "wiki": "Viva Piñata: Trouble in Paradise"
+      "wiki": "Viva Piñata: Trouble in Paradise",
+      "box_art": "https://cdn2.steamgriddb.com/grid/e9437348054c27c0951c7d9d59bac04f.png"
     },
     {
       "id": "recherry-lollipop",
@@ -1719,7 +1755,8 @@
       "year": 2012,
       "developer": "Grasshopper Manufacture",
       "genre": "Hack and slash",
-      "wiki": "Lollipop Chainsaw"
+      "wiki": "Lollipop Chainsaw",
+      "box_art": "https://cdn2.steamgriddb.com/grid/7e601e63a48cb33f754d5bd684631118.png"
     },
     {
       "id": "renut-banjo-nb",
@@ -1759,7 +1796,8 @@
       "year": 2008,
       "developer": "Rare",
       "genre": "Plataformas",
-      "wiki": "Banjo-Kazooie: Nuts & Bolts"
+      "wiki": "Banjo-Kazooie: Nuts & Bolts",
+      "box_art": "https://cdn2.steamgriddb.com/grid/17faa600670ae46a32ff83f76e83806a.png"
     },
     {
       "id": "restuff-naughtybear",
@@ -1799,7 +1837,8 @@
       "year": 2010,
       "developer": "Behaviour Interactive",
       "genre": "Acción",
-      "wiki": "Naughty Bear"
+      "wiki": "Naughty Bear",
+      "box_art": "https://cdn2.steamgriddb.com/grid/cb9078c5cafe2934e4eceadc54d585c5.png"
     },
     {
       "id": "ctr-native",
@@ -1839,7 +1878,8 @@
       "year": 1999,
       "developer": "Naughty Dog",
       "genre": "Carreras",
-      "wiki": "Crash Team Racing"
+      "wiki": "Crash Team Racing",
+      "box_art": "https://cdn2.steamgriddb.com/grid/3a6430ccda63161354c5c81e538e7196.jpg"
     },
     {
       "id": "symphony-recomp",
@@ -1882,7 +1922,8 @@
       "year": 1997,
       "developer": "Konami",
       "genre": "Metroidvania",
-      "wiki": "Castlevania: Symphony of the Night"
+      "wiki": "Castlevania: Symphony of the Night",
+      "box_art": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png"
     },
     {
       "id": "golden-balloon",
@@ -1926,7 +1967,8 @@
       "year": 1997,
       "developer": "Rare",
       "genre": "Carreras",
-      "wiki": "Diddy Kong Racing"
+      "wiki": "Diddy Kong Racing",
+      "box_art": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png"
     },
     {
       "id": "lighthouse-banjo",
@@ -1970,7 +2012,8 @@
       "year": 1998,
       "developer": "Rare",
       "genre": "Plataformas",
-      "wiki": "Banjo-Kazooie"
+      "wiki": "Banjo-Kazooie",
+      "box_art": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png"
     },
     {
       "id": "ape-escape-recomp",
@@ -2010,7 +2053,8 @@
       "year": 1999,
       "developer": "Sony Computer Entertainment",
       "genre": "Plataformas",
-      "wiki": "Ape Escape"
+      "wiki": "Ape Escape",
+      "box_art": "https://cdn2.steamgriddb.com/grid/41653fbde31f556e57a71ea6edf1efaa.png"
     },
     {
       "id": "minish-cap-picori",
@@ -2056,7 +2100,8 @@
       "year": 2004,
       "developer": "Nintendo / Capcom",
       "genre": "Acción-aventura",
-      "wiki": "The Legend of Zelda: The Minish Cap"
+      "wiki": "The Legend of Zelda: The Minish Cap",
+      "box_art": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png"
     },
     {
       "id": "kirby-wii-recomp",
@@ -2099,7 +2144,8 @@
       "year": 2011,
       "developer": "HAL Laboratory",
       "genre": "Plataformas",
-      "wiki": "Kirby's Return to Dream Land"
+      "wiki": "Kirby's Return to Dream Land",
+      "box_art": "https://cdn2.steamgriddb.com/grid/e63bb9e9a4b930959b8cc4259afc9ba4.png"
     },
     {
       "id": "simpsons-game-recomp",
@@ -2141,7 +2187,8 @@
       "year": 2007,
       "developer": "Electronic Arts",
       "genre": "Acción-plataformas",
-      "wiki": "The Simpsons Game"
+      "wiki": "The Simpsons Game",
+      "box_art": "https://cdn2.steamgriddb.com/grid/df5ffddf7952e45a242c550a389dfb0b.png"
     },
     {
       "id": "automobili-lamborghini-recomp",
@@ -2183,7 +2230,8 @@
       "year": 1997,
       "developer": "Titus",
       "genre": "Carreras",
-      "wiki": "Automobili Lamborghini (video game)"
+      "wiki": "Automobili Lamborghini (video game)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/1c7e02e71df12a6cdae7888b9785b38f.png"
     }
   ]
 }
