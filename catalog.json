@@ -2231,6 +2231,47 @@
       "genre": "Carreras",
       "wiki": "Automobili Lamborghini (video game)",
       "box_art": "https://cdn2.steamgriddb.com/grid/1c7e02e71df12a6cdae7888b9785b38f.png"
+    },
+    {
+      "id": "condemned2-recomp",
+      "name": "Condemned 2 Recompiled",
+      "original_game": "Condemned 2: Bloodshot",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "psxrestore",
+        "repo": "Condemned2Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/93a77d951ae320600dc9619f3ddeee72.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)Condemned2Recomp.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita los archivos extraídos de tu copia de Condemned 2: Bloodshot (Xbox 360) en una carpeta «Assets» junto al ejecutable."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "condemned2recomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "0.1.0",
+        "published_at": "2026-08-05T02:16:24Z"
+      },
+      "year": 2008,
+      "developer": "Monolith Productions",
+      "genre": "Terror",
+      "wiki": "Condemned 2: Bloodshot",
+      "box_art": "https://cdn2.steamgriddb.com/grid/93a77d951ae320600dc9619f3ddeee72.png"
     }
   ]
 }
