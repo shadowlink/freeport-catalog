@@ -128,7 +128,8 @@
         "source": "thunderstore",
         "community": "zelda-64-recompiled"
       },
-      "box_art": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png"
+      "box_art": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
+      "ra_supported": true
     },
     {
       "id": "ship-of-harkinian",
