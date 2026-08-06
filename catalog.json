@@ -2272,6 +2272,211 @@
       "genre": "Terror",
       "wiki": "Condemned 2: Bloodshot",
       "box_art": "https://cdn2.steamgriddb.com/grid/93a77d951ae320600dc9619f3ddeee72.png"
+    },
+    {
+      "id": "quest64-recomp",
+      "name": "Quest 64 Recompiled",
+      "original_game": "Quest 64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "rainchus",
+        "repo": "Quest64-Recomp"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)Quest64Recompiled.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Te pedirá tu ROM de Quest 64 (N64) al arrancar."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1",
+        "published_at": "2026-01-11T23:08:21Z"
+      },
+      "year": 1998,
+      "developer": "Imagineer",
+      "genre": "RPG",
+      "wiki": "Quest 64",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/59e6bb2bb03821bb51050ea6d0a23bb8.png",
+      "box_art": "https://cdn2.steamgriddb.com/grid/59e6bb2bb03821bb51050ea6d0a23bb8.png",
+      "logo_url": null
+    },
+    {
+      "id": "chameleontwist-recomp",
+      "name": "Chameleon Twist Recompiled",
+      "original_game": "Chameleon Twist",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "rainchus",
+        "repo": "ChameleonTwist1-JP-Recomp"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)ChameleonTwist.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Te pedirá tu ROM de Chameleon Twist (N64, versión JP) al arrancar."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1",
+        "published_at": "2024-12-14T08:14:13Z"
+      },
+      "year": 1997,
+      "developer": "Japan System Supply",
+      "genre": "Plataformas",
+      "wiki": "Chameleon Twist",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/78ec3e9ba98d856873f1bdb01194eef9.png",
+      "box_art": "https://cdn2.steamgriddb.com/grid/78ec3e9ba98d856873f1bdb01194eef9.png",
+      "logo_url": null
+    },
+    {
+      "id": "svr07-recomp",
+      "name": "SmackDown vs Raw 2007 Recompiled",
+      "original_game": "WWE SmackDown vs. Raw 2007",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "HollywoodAkeem",
+        "repo": "SVR07-Recomp"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)svr07.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita los archivos extraídos de tu copia de WWE SmackDown vs. Raw 2007 (Xbox 360)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0",
+        "published_at": "2026-04-24T05:37:53Z"
+      },
+      "year": 2006,
+      "developer": "Yuke's",
+      "genre": "Lucha libre",
+      "wiki": "WWE SmackDown vs. Raw 2007",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/9bcc55f2146b211f2cc87e59ec6b39c2.png",
+      "box_art": "https://cdn2.steamgriddb.com/grid/9bcc55f2146b211f2cc87e59ec6b39c2.png",
+      "logo_url": null
+    },
+    {
+      "id": "zelda3-pc",
+      "name": "A Link to the Past (PC)",
+      "original_game": "The Legend of Zelda: A Link to the Past",
+      "system": "snes",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "snesrev",
+        "repo": "zelda3"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)zelda3.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "zelda3.sfc",
+        "subdir": null,
+        "notes": "Necesita tu ROM de A Link to the Past (US); se copiará como zelda3.sfc junto al ejecutable."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3",
+        "published_at": "2023-08-17T01:18:40Z"
+      },
+      "year": 1991,
+      "developer": "Nintendo",
+      "genre": "Acción-aventura",
+      "wiki": "The Legend of Zelda: A Link to the Past",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+      "box_art": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+      "logo_url": null
+    },
+    {
+      "id": "smw-pc",
+      "name": "Super Mario World (PC)",
+      "original_game": "Super Mario World",
+      "system": "snes",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "snesrev",
+        "repo": "smw"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)smw.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "smw.sfc",
+        "subdir": null,
+        "notes": "Necesita tu ROM de Super Mario World (US); se copiará como smw.sfc junto al ejecutable."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1",
+        "published_at": "2023-08-16T22:38:38Z"
+      },
+      "year": 1990,
+      "developer": "Nintendo",
+      "genre": "Plataformas",
+      "wiki": "Super Mario World",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
+      "box_art": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
+      "logo_url": null
     }
   ]
 }
