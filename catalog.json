@@ -600,8 +600,7 @@
         "community": "banjo-recompiled"
       },
       "box_art": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png",
-      "ra_supported": true,
-      "ra_beta": true
+      "ra_supported": true
     },
     {
       "id": "dino-recomp",
