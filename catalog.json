@@ -2530,6 +2530,51 @@
       "genre": "Acción-aventura",
       "wiki": "Castlevania: Legacy of Darkness",
       "box_art": "https://cdn2.steamgriddb.com/grid/363ed890155b2eeda0aa492cc52e3d34.png"
+    },
+    {
+      "id": "openxwa",
+      "name": "X-Wing Alliance (OpenXWA)",
+      "original_game": "Star Wars: X-Wing Alliance",
+      "system": "pc",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "elyosh",
+        "repo": "OpenXWA"
+      },
+      "release_channel": "stable",
+      "cover_url": null,
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x86_64.*\\.tar",
+        "windows-x86_64": "(?i)windows",
+        "macos-aarch64": "(?i)macos-arm64"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas una copia completa de X-Wing Alliance (GOG o Steam). OpenXWA te pedirá la carpeta del juego original al arrancar."
+      },
+      "launch": {
+        "linux": "OpenXWA",
+        "windows": "OpenXWA.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.0.14",
+        "published_at": "2026-08-05T20:15:30Z"
+      },
+      "year": 1999,
+      "developer": "Totally Games",
+      "genre": "Simulador de combate espacial",
+      "wiki": "Star Wars: X-Wing Alliance",
+      "box_art": "https://cdn2.steamgriddb.com/grid/3f3a9b160a4e4cbc2f2228e3024dda79.png"
     }
   ]
 }
