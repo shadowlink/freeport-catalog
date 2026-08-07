@@ -599,7 +599,9 @@
         "source": "thunderstore",
         "community": "banjo-recompiled"
       },
-      "box_art": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png"
+      "box_art": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png",
+      "ra_supported": true,
+      "ra_beta": true
     },
     {
       "id": "dino-recomp",
@@ -745,7 +747,9 @@
         "source": "thunderstore",
         "community": "mega-man-64-recompiled"
       },
-      "box_art": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg"
+      "box_art": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg",
+      "ra_supported": true,
+      "ra_beta": true
     },
     {
       "id": "skate3-recomp",
@@ -1364,7 +1368,9 @@
         "source": "thunderstore",
         "community": "bomberman-64-recompiled"
       },
-      "box_art": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png"
+      "box_art": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png",
+      "ra_supported": true,
+      "ra_beta": true
     },
     {
       "id": "bombermanhero-recomp",
@@ -1458,7 +1464,9 @@
         "source": "thunderstore",
         "community": "harvest-moon-64-recompiled"
       },
-      "box_art": "https://cdn2.steamgriddb.com/grid/cab8fb3904dfe2e30a8579bc38e74ada.png"
+      "box_art": "https://cdn2.steamgriddb.com/grid/cab8fb3904dfe2e30a8579bc38e74ada.png",
+      "ra_supported": true,
+      "ra_beta": true
     },
     {
       "id": "snowboardkids2-recomp",
