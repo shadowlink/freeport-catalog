@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.72",
-        "published_at": "2026-08-05T20:49:40Z"
+        "latest_tag": "v0.1.75",
+        "published_at": "2026-08-06T14:41:33Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1791,8 +1791,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "better_options",
-        "published_at": "2026-07-16T20:36:16Z"
+        "latest_tag": "mnk",
+        "published_at": "2026-08-07T02:24:26Z"
       },
       "year": 2008,
       "developer": "Rare",
@@ -1918,8 +1918,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.4.1b",
-        "published_at": "2026-08-06T04:19:48Z"
+        "latest_tag": "v0.4.2b",
+        "published_at": "2026-08-07T01:48:14Z"
       },
       "year": 1997,
       "developer": "Konami",
@@ -1963,8 +1963,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.4",
-        "published_at": "2026-08-04T19:16:22Z"
+        "latest_tag": "v1.0.5",
+        "published_at": "2026-08-06T10:41:48Z"
       },
       "year": 1997,
       "developer": "Rare",
