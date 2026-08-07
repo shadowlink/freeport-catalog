@@ -2485,6 +2485,51 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
       "box_art": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
       "logo_url": null
+    },
+    {
+      "id": "cvlod-recomp",
+      "name": "Castlevania: Legacy of Darkness (Recompiled)",
+      "original_game": "Castlevania: Legacy of Darkness",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "fliperama86",
+        "repo": "cvlod_recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Castlevania%20-%20Legacy%20of%20Darkness%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x64\\.tar",
+        "windows-x86_64": "(?i)windows",
+        "macos-aarch64": "(?i)macos-arm64"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El juego te pedirá tu ROM de Castlevania: Legacy of Darkness (US) al arrancar."
+      },
+      "launch": {
+        "linux": "LodRecomp",
+        "windows": "LodRecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.2.26",
+        "published_at": "2026-07-02T14:10:34Z"
+      },
+      "year": 1999,
+      "developer": "Konami",
+      "genre": "Acción-aventura",
+      "wiki": "Castlevania: Legacy of Darkness",
+      "box_art": "https://cdn2.steamgriddb.com/grid/363ed890155b2eeda0aa492cc52e3d34.png"
     }
   ]
 }
