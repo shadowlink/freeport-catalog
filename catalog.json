@@ -1916,7 +1916,7 @@
         "notes": "El juego te pedirá los datos de tu copia de Symphony of the Night al arrancar."
       },
       "launch": {
-        "linux": null,
+        "linux": "run.sh",
         "windows": null
       },
       "cached": {
