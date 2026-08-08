@@ -831,8 +831,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.0",
-        "published_at": "2026-07-31T18:52:20Z"
+        "latest_tag": "v1.4.1",
+        "published_at": "2026-08-07T18:14:31Z"
       },
       "year": 1997,
       "developer": "Konami",
@@ -1970,8 +1970,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.5",
-        "published_at": "2026-08-06T10:41:48Z"
+        "latest_tag": "v1.1.0",
+        "published_at": "2026-08-07T21:26:30Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -2519,8 +2519,8 @@
       "cached": {
         "platforms": [
           "linux-x86_64",
-          "windows-x86_64",
-          "macos-aarch64"
+          "macos-aarch64",
+          "windows-x86_64"
         ],
         "latest_tag": "v0.2.26",
         "published_at": "2026-07-02T14:10:34Z"
@@ -2564,11 +2564,11 @@
       "cached": {
         "platforms": [
           "linux-x86_64",
-          "windows-x86_64",
-          "macos-aarch64"
+          "macos-aarch64",
+          "windows-x86_64"
         ],
-        "latest_tag": "v0.0.14",
-        "published_at": "2026-08-05T20:15:30Z"
+        "latest_tag": "v0.0.15",
+        "published_at": "2026-08-07T15:33:13Z"
       },
       "year": 1999,
       "developer": "Totally Games",
