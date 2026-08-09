@@ -1925,8 +1925,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.4.2b",
-        "published_at": "2026-08-07T01:48:14Z"
+        "latest_tag": "v0.4.3b",
+        "published_at": "2026-08-09T04:07:50Z"
       },
       "year": 1997,
       "developer": "Konami",
@@ -2015,8 +2015,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "1.0.2",
-        "published_at": "2026-08-05T18:27:15Z"
+        "latest_tag": "1.0.3",
+        "published_at": "2026-08-09T00:01:49Z"
       },
       "year": 1998,
       "developer": "Rare",
