@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.75",
-        "published_at": "2026-08-06T14:41:33Z"
+        "latest_tag": "v0.1.77",
+        "published_at": "2026-08-10T21:19:12Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -831,8 +831,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.1",
-        "published_at": "2026-08-07T18:14:31Z"
+        "latest_tag": "v1.4.2",
+        "published_at": "2026-08-10T11:46:06Z"
       },
       "year": 1997,
       "developer": "Konami",
@@ -1137,8 +1137,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.13.6",
-        "published_at": "2026-06-23T06:46:51Z"
+        "latest_tag": "v1.13.7",
+        "published_at": "2026-08-10T07:21:36Z"
       },
       "year": 1993,
       "developer": "Thalion Software",
@@ -1970,8 +1970,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.1.0",
-        "published_at": "2026-08-07T21:26:30Z"
+        "latest_tag": "v1.2.0",
+        "published_at": "2026-08-10T16:31:41Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -2567,8 +2567,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.15",
-        "published_at": "2026-08-07T15:33:13Z"
+        "latest_tag": "v0.0.16",
+        "published_at": "2026-08-10T21:38:05Z"
       },
       "year": 1999,
       "developer": "Totally Games",
