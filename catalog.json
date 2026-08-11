@@ -2575,6 +2575,49 @@
       "genre": "Simulador de combate espacial",
       "wiki": "Star Wars: X-Wing Alliance",
       "box_art": "https://cdn2.steamgriddb.com/grid/3f3a9b160a4e4cbc2f2228e3024dda79.png"
+    },
+    {
+      "id": "fzerox-gdiffuser",
+      "name": "F-Zero X (G-Diffuser)",
+      "original_game": "F-Zero X",
+      "system": "n64",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "Zorkats",
+        "repo": "G-Diffuser"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x64\\.tar",
+        "windows-x86_64": "(?i)windows"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu ROM de F-Zero X (US rev0) en formato .z64 (big-endian). G-Diffuser te la pedirá en la pantalla de setup del primer arranque."
+      },
+      "launch": {
+        "linux": "G-Diffuser",
+        "windows": "G-Diffuser.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.1",
+        "published_at": "2026-08-11T04:21:49Z"
+      },
+      "year": 1998,
+      "developer": "Nintendo",
+      "genre": "Carreras",
+      "wiki": "F-Zero X",
+      "box_art": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png"
     }
   ]
 }
