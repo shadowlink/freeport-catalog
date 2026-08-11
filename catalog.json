@@ -2618,6 +2618,49 @@
       "genre": "Carreras",
       "wiki": "F-Zero X",
       "box_art": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png"
+    },
+    {
+      "id": "dkr-recomp",
+      "name": "Diddy Kong Racing (Recompiled)",
+      "original_game": "Diddy Kong Racing",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ThatGuyMcd",
+        "repo": "DKR-R"
+      },
+      "release_channel": "stable",
+      "cover_url": null,
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux.*appimage",
+        "windows-x86_64": "(?i)windows"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El juego te pedirá tu ROM de Diddy Kong Racing (US) al arrancar."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "DKR-R.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "Version1.0.0",
+        "published_at": "2026-08-10T07:19:24Z"
+      },
+      "year": 1997,
+      "developer": "Rare",
+      "genre": "Carreras",
+      "wiki": "Diddy Kong Racing",
+      "box_art": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png"
     }
   ]
 }
