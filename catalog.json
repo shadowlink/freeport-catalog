@@ -2661,6 +2661,49 @@
       "genre": "Carreras",
       "wiki": "Diddy Kong Racing",
       "box_art": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png"
+    },
+    {
+      "id": "crash-recomp",
+      "name": "Crash Bandicoot (Recompiled)",
+      "original_game": "Crash Bandicoot",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Matteo842",
+        "repo": "CrashBandicoot-Launcher"
+      },
+      "release_channel": "stable",
+      "cover_url": null,
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux",
+        "windows-x86_64": "(?i)win\\.exe"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Crash Bandicoot (PS1, NTSC-U, SCUS-94900). El launcher te pedirá la imagen del disco al arrancar."
+      },
+      "launch": {
+        "linux": "CrashBandicoot_Linux",
+        "windows": "CrashBandicoot_win.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.6.1",
+        "published_at": "2026-07-29T13:47:17Z"
+      },
+      "year": 1996,
+      "developer": "Naughty Dog",
+      "genre": "Plataformas",
+      "wiki": "Crash Bandicoot (video game)",
+      "box_art": "https://cdn2.steamgriddb.com/grid/8282b546dda9ec05515966ba0fe3e5d1.png"
     }
   ]
 }
