@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.79",
-        "published_at": "2026-08-12T01:44:15Z"
+        "latest_tag": "v0.1.80",
+        "published_at": "2026-08-12T21:16:12Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1094,8 +1094,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_f48ecb6",
-        "published_at": "2026-08-12T04:37:46Z"
+        "latest_tag": "nightly_a953a1e",
+        "published_at": "2026-08-13T01:58:11Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -1798,8 +1798,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "mnk",
-        "published_at": "2026-08-07T02:24:26Z"
+        "latest_tag": "texturereplacements",
+        "published_at": "2026-08-12T20:34:31Z"
       },
       "year": 2008,
       "developer": "Rare",
@@ -2692,12 +2692,9 @@
         "windows": "CrashBandicoot_win.exe"
       },
       "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "1.6.1",
-        "published_at": "2026-07-29T13:47:17Z"
+        "platforms": [],
+        "latest_tag": "1.7",
+        "published_at": "2026-08-12T23:18:51Z"
       },
       "year": 1996,
       "developer": "Naughty Dog",
