@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.83",
-        "published_at": "2026-08-13T20:49:23Z"
+        "latest_tag": "v0.1.90",
+        "published_at": "2026-08-15T03:48:41Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1094,8 +1094,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_a953a1e",
-        "published_at": "2026-08-13T01:58:11Z"
+        "latest_tag": "nightly_4b6beb9",
+        "published_at": "2026-08-14T22:18:48Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -2692,7 +2692,9 @@
         "windows": "CrashBandicoot_win.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-x86_64"
+        ],
         "latest_tag": "1.7.1",
         "published_at": "2026-08-14T04:36:43Z"
       },
