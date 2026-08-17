@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.96",
-        "published_at": "2026-08-16T03:38:05Z"
+        "latest_tag": "v0.1.99",
+        "published_at": "2026-08-17T02:37:20Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1094,8 +1094,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_0c99912",
-        "published_at": "2026-08-16T00:53:07Z"
+        "latest_tag": "nightly_c50d34b",
+        "published_at": "2026-08-17T03:16:14Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -1970,8 +1970,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.2.0",
-        "published_at": "2026-08-10T16:31:41Z"
+        "latest_tag": "v1.3.0",
+        "published_at": "2026-08-16T15:22:17Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -2015,8 +2015,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "1.0.3",
-        "published_at": "2026-08-09T00:01:49Z"
+        "latest_tag": "1.1.0",
+        "published_at": "2026-08-17T02:20:38Z"
       },
       "year": 1998,
       "developer": "Rare",
