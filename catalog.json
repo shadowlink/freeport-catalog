@@ -541,8 +541,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.19",
-        "published_at": "2026-08-22T02:57:24Z"
+        "latest_tag": "v0.2.20",
+        "published_at": "2026-08-22T23:21:59Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -2695,8 +2695,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "1.7.1",
-        "published_at": "2026-08-14T04:36:43Z"
+        "latest_tag": "1.8",
+        "published_at": "2026-08-22T18:38:05Z"
       },
       "year": 1996,
       "developer": "Naughty Dog",
