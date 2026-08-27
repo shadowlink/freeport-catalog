@@ -526,7 +526,7 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)-linux\\.zip$",
+        "linux-x86_64": "(?i)-linux-x86_64\\.AppImage$",
         "windows-x86_64": "(?i)-windows\\.zip$",
         "macos-x86_64": "(?i)-macos\\.zip$"
       },
@@ -543,6 +543,7 @@
       },
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "macos-x86_64",
           "windows-x86_64"
         ],
