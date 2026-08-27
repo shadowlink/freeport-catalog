@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-02",
+  "updated_at": "2026-08-27",
   "source": "probed",
   "systems": [
     {
@@ -74,6 +74,12 @@
       "name": "Wii",
       "short": "WII",
       "color": "#4aa3d6"
+    },
+    {
+      "id": "nds",
+      "name": "Nintendo DS",
+      "short": "NDS",
+      "color": "#95a3b8"
     }
   ],
   "projects": [
@@ -2703,6 +2709,453 @@
       "genre": "Plataformas",
       "wiki": "Crash Bandicoot (video game)",
       "box_art": "https://cdn2.steamgriddb.com/grid/8282b546dda9ec05515966ba0fe3e5d1.png"
+    },
+    {
+      "id": "starship-sf64",
+      "name": "Starship",
+      "original_game": "Star Fox 64",
+      "system": "n64",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "HarbourMasters",
+        "repo": "Starship"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Fox%2064%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux\\.zip$",
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar, selecciona tu ROM de Star Fox 64 (US 1.0 o 1.1) en formato .z64; el juego genera sus assets (O2R) desde ella."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "starship.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.0.0",
+        "published_at": "2025-05-25T03:33:23Z"
+      },
+      "year": 1997,
+      "developer": "Nintendo",
+      "genre": "Matamarcianos",
+      "wiki": "Star Fox 64"
+    },
+    {
+      "id": "mph-recomp",
+      "name": "Metroid Prime Hunters Recomp",
+      "original_game": "Metroid Prime Hunters",
+      "system": "nds",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mstan",
+        "repo": "MetroidPrimeHuntersRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)\\.appimage$",
+        "windows-x86_64": "(?i)windows-x64.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Coloca tu ROM de Metroid Prime Hunters (USA, rev 0) en .nds; se copia junto al ejecutable y el juego la detecta."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "MetroidPrimeHuntersRecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.2-alpha",
+        "published_at": "2026-08-27T04:53:11Z"
+      },
+      "year": 2006,
+      "developer": "Nintendo (NST)",
+      "genre": "Shooter en primera persona",
+      "wiki": "Metroid Prime Hunters"
+    },
+    {
+      "id": "tomba-recomp",
+      "name": "Tomba! Recomp",
+      "original_game": "Tomba!",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mstan",
+        "repo": "TombaRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tomba%21%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x64\\.zip$",
+        "windows-x86_64": "(?i)windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Launcher gráfico al arrancar: selecciona tu imagen de disco de Tomba! (USA, SCUS-94236; .bin/.cue o .chd). BIOS OpenBIOS incluida, la retail es opcional."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "TombaRecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.12.3-alpha",
+        "published_at": "2026-08-27T00:12:20Z"
+      },
+      "year": 1997,
+      "developer": "Whoopee Camp",
+      "genre": "Plataformas",
+      "wiki": "Tomba!"
+    },
+    {
+      "id": "ygofm-recomp",
+      "name": "Forbidden Memories Recomp",
+      "original_game": "Yu-Gi-Oh! Forbidden Memories",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Unchiga",
+        "repo": "YuGiOhForbiddenMemoriesRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Yu-Gi-Oh%21%20Forbidden%20Memories%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)win-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "En el primer arranque selecciona tu disco de Yu-Gi-Oh! Forbidden Memories (PS1); el juego se genera desde tu copia. BIOS OpenBIOS incluida."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.8",
+        "published_at": "2026-08-27T00:29:02Z"
+      },
+      "year": 1999,
+      "developer": "Konami",
+      "genre": "Juego de cartas",
+      "wiki": "Yu-Gi-Oh! Forbidden Memories"
+    },
+    {
+      "id": "digimonworld-recomp",
+      "name": "Digimon World Recomp",
+      "original_game": "Digimon World",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Ethan4love",
+        "repo": "Digimon-world-PSX-RECOMP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)win-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar, pulsa «Browse Disc» y selecciona el .cue de tu Digimon World (PS1, USA). La primera vez construye el juego desde tu disco (10-30 min, solo una vez)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Digimon_World_Recompiled.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.5",
+        "published_at": "2026-08-26T21:58:32Z"
+      },
+      "year": 1999,
+      "developer": "Bandai",
+      "genre": "RPG",
+      "wiki": "Digimon World"
+    },
+    {
+      "id": "sonic3-air",
+      "name": "Sonic 3 A.I.R.",
+      "original_game": "Sonic 3 & Knuckles",
+      "system": "genesis",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Eukaryot",
+        "repo": "sonic3air"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Sonic%20_%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%203%20%28Europe%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "sonic3air_game\\.tar\\.gz$",
+        "windows-x86_64": "(?i)sonic3air_game_64bit\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita la ROM de Sonic 3 & Knuckles (la de la versión de Steam sirve); el juego te pedirá localizarla en el primer arranque."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v26.03.28.0-stable",
+        "published_at": "2026-03-28T00:00:00Z"
+      },
+      "year": 1994,
+      "developer": "Sega",
+      "genre": "Plataformas",
+      "wiki": "Sonic 3 & Knuckles"
+    },
+    {
+      "id": "wwf-nomercy-recomp",
+      "name": "No Mercy Recompiled",
+      "original_game": "WWF No Mercy",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jessetbh",
+        "repo": "WWFNoMercyRecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WWF%20No%20Mercy%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo acepta la ROM USA Rev 1 de WWF No Mercy (los assets se cargan directamente de tu ROM, sin extracción)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-07-22T00:37:52Z"
+      },
+      "year": 2000,
+      "developer": "AKI Corporation / Asmik Ace",
+      "genre": "Lucha libre",
+      "wiki": "WWF No Mercy"
+    },
+    {
+      "id": "wm2000-recomp",
+      "name": "WrestleMania 2000 Recompiled",
+      "original_game": "WWF WrestleMania 2000",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jessetbh",
+        "repo": "WWFWrestleMania2000Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WWF%20WrestleMania%202000%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu ROM USA de WWF WrestleMania 2000 (los assets se cargan directamente de la ROM)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-07-15T01:15:49Z"
+      },
+      "year": 1999,
+      "developer": "AKI Corporation / Asmik Ace",
+      "genre": "Lucha libre",
+      "wiki": "WWF WrestleMania 2000"
+    },
+    {
+      "id": "vpw64-recomp",
+      "name": "VPW64 Recompiled",
+      "original_game": "Virtual Pro Wrestling 64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jessetbh",
+        "repo": "VPW64Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Virtual%20Pro%20Wrestling%2064%20%28Japan%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu ROM japonesa de Virtual Pro Wrestling 64 (los assets se cargan directamente de la ROM)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-07-15T00:24:17Z"
+      },
+      "year": 1997,
+      "developer": "AKI Corporation / Asmik Ace",
+      "genre": "Lucha libre",
+      "wiki": "Virtual Pro Wrestling 64"
+    },
+    {
+      "id": "wcw-revenge-recomp",
+      "name": "Revenge Recompiled",
+      "original_game": "WCW/nWo Revenge",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jessetbh",
+        "repo": "WCWnWoRevengeRecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WCW-nWo%20Revenge%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu ROM USA de WCW/nWo Revenge (los assets se cargan directamente de la ROM)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-07-18T14:54:51Z"
+      },
+      "year": 1998,
+      "developer": "AKI Corporation / Asmik Ace",
+      "genre": "Lucha libre",
+      "wiki": "WCW/nWo Revenge"
+    },
+    {
+      "id": "wcw-worldtour-recomp",
+      "name": "World Tour Recompiled",
+      "original_game": "WCW vs. nWo: World Tour",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jessetbh",
+        "repo": "WCWvsNWOWorldTourRecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WCW%20vs.%20nWo%20-%20World%20Tour%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu ROM USA de WCW vs. nWo: World Tour (los assets se cargan directamente de la ROM)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.2",
+        "published_at": "2026-07-08T12:17:51Z"
+      },
+      "year": 1997,
+      "developer": "AKI Corporation / Asmik Ace",
+      "genre": "Lucha libre",
+      "wiki": "WCW vs. nWo: World Tour"
     }
   ]
 }
