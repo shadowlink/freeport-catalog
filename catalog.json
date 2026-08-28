@@ -2770,7 +2770,6 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)\\.appimage$",
         "windows-x86_64": "(?i)windows-x64.*\\.zip$"
       },
       "rom": {
