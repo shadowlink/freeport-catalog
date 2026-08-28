@@ -547,8 +547,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.31",
-        "published_at": "2026-08-27T12:11:43Z"
+        "latest_tag": "v0.2.33",
+        "published_at": "2026-08-28T16:51:01Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -837,8 +837,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.4",
-        "published_at": "2026-08-21T23:02:13Z"
+        "latest_tag": "v1.4.5",
+        "published_at": "2026-08-27T23:17:33Z"
       },
       "year": 1997,
       "developer": "Konami",
@@ -2062,8 +2062,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.1-issue3-diagnostics.1",
-        "published_at": "2026-08-27T05:54:03Z"
+        "latest_tag": "v0.2.1",
+        "published_at": "2026-08-27T20:36:10Z"
       },
       "year": 1999,
       "developer": "Sony Computer Entertainment",
@@ -2788,7 +2788,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "v0.6.4-alpha",
-        "published_at": "2026-08-28T06:26:49Z"
+        "published_at": "2026-08-28T06:30:51Z"
       },
       "year": 2006,
       "developer": "Nintendo (NST)",
@@ -2869,8 +2869,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.8",
-        "published_at": "2026-08-27T00:29:30Z"
+        "latest_tag": "v0.3.9",
+        "published_at": "2026-08-27T21:42:02Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -3191,8 +3191,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v1.3",
-        "published_at": "2026-08-26T00:01:48Z"
+        "latest_tag": "v1.4",
+        "published_at": "2026-08-28T00:40:58Z"
       },
       "year": 2003,
       "developer": "Namco",
@@ -3311,8 +3311,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0",
-        "published_at": "2026-08-26T00:07:14Z"
+        "latest_tag": "v2.1",
+        "published_at": "2026-08-27T20:30:52Z"
       },
       "year": 1998,
       "developer": "Namco",
