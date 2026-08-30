@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-29",
+  "updated_at": "2026-08-30",
   "source": "probed",
   "systems": [
     {
@@ -3650,6 +3650,49 @@
       "developer": "989 Studios",
       "genre": "Combate vehicular",
       "wiki": "Twisted Metal 4"
+    },
+    {
+      "id": "dk64-recomp",
+      "name": "DK64 Recompiled",
+      "original_game": "Donkey Kong 64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Rainchus",
+        "repo": "Donkey-Kong-64-Recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x64",
+        "windows-x86_64": "(?i)windows"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El juego te pedirá tu ROM de Donkey Kong 64 (US) al arrancar, como los demás recomps de N64Recomp. Requiere GPU con Vulkan y CPU con AVX."
+      },
+      "launch": {
+        "linux": "DK64Recompiled",
+        "windows": "DK64Recompiled.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.0.1",
+        "published_at": "2026-08-29T22:01:44Z"
+      },
+      "year": 1999,
+      "developer": "Rare",
+      "genre": "Plataformas",
+      "wiki": "Donkey Kong 64"
     }
   ]
 }
