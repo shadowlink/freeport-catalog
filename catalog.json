@@ -547,8 +547,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.39",
-        "published_at": "2026-08-30T01:03:39Z"
+        "latest_tag": "v0.2.43",
+        "published_at": "2026-08-31T01:59:17Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1100,8 +1100,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_7e8f961",
-        "published_at": "2026-08-29T06:49:54Z"
+        "latest_tag": "nightly_5811b42",
+        "published_at": "2026-08-30T16:58:58Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -3395,8 +3395,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0.0",
-        "published_at": "2026-08-22T15:20:42Z"
+        "latest_tag": "v2.1.0",
+        "published_at": "2026-08-31T01:08:42Z"
       },
       "year": 1996,
       "developer": "Konami",
