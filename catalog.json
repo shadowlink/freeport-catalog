@@ -3483,7 +3483,10 @@
       "year": 2006,
       "developer": "Mistwalker / Artoon",
       "genre": "RPG",
-      "wiki": "Blue Dragon (video game)"
+      "wiki": "Blue Dragon (video game)",
+      "launch_env": {
+        "SDL_VIDEODRIVER": "x11"
+      }
     },
     {
       "id": "opentie",
