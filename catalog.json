@@ -565,8 +565,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.53",
-        "published_at": "2026-09-03T00:42:49Z"
+        "latest_tag": "v0.2.55",
+        "published_at": "2026-09-03T21:31:08Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -2080,8 +2080,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.1",
-        "published_at": "2026-08-27T20:36:10Z"
+        "latest_tag": "shared-staging-20260903",
+        "published_at": "2026-09-03T17:12:42Z"
       },
       "year": 1999,
       "developer": "Sony Computer Entertainment",
@@ -2680,8 +2680,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "Version1.0.2",
-        "published_at": "2026-09-02T17:27:55Z"
+        "latest_tag": "Version1.0.4",
+        "published_at": "2026-09-03T19:55:18Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -2887,8 +2887,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.5.2",
-        "published_at": "2026-09-02T08:10:32Z"
+        "latest_tag": "v0.5.3",
+        "published_at": "2026-09-04T00:44:43Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -3209,8 +3209,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v1.5",
-        "published_at": "2026-09-02T12:22:16Z"
+        "latest_tag": "v1.5.1",
+        "published_at": "2026-09-03T19:29:23Z"
       },
       "year": 2003,
       "developer": "Namco",
@@ -3249,8 +3249,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "beta1",
-        "published_at": "2026-07-02T08:30:49Z"
+        "latest_tag": "crossplatform-beta",
+        "published_at": "2026-09-04T08:39:34Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -4246,8 +4246,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.9",
-        "published_at": "2026-09-02T14:46:42Z"
+        "latest_tag": "shared-staging-20260903",
+        "published_at": "2026-09-03T17:12:24Z"
       },
       "year": 1999,
       "developer": "Whoopee Camp",
@@ -4410,8 +4410,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.9",
-        "published_at": "2026-08-15T21:56:53Z"
+        "latest_tag": "shared-staging-20260903",
+        "published_at": "2026-09-03T17:13:50Z"
       },
       "year": 2001,
       "developer": "Capcom",
