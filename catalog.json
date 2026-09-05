@@ -565,8 +565,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.55",
-        "published_at": "2026-09-03T21:31:08Z"
+        "latest_tag": "v0.2.56",
+        "published_at": "2026-09-04T15:01:48Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -898,7 +898,6 @@
       "cached": {
         "platforms": [
           "linux-aarch64",
-          "linux-x86_64",
           "windows-x86_64"
         ],
         "latest_tag": "devbuild",
@@ -1118,8 +1117,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_45ab55a",
-        "published_at": "2026-09-03T01:54:02Z"
+        "latest_tag": "nightly_c65696f",
+        "published_at": "2026-09-05T06:43:29Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -3209,8 +3208,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v1.5.1",
-        "published_at": "2026-09-03T19:29:23Z"
+        "latest_tag": "v1.5.2",
+        "published_at": "2026-09-04T17:03:06Z"
       },
       "year": 2003,
       "developer": "Namco",
@@ -5505,8 +5504,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "1.1-rc5",
-        "published_at": "2026-08-23T19:53:27Z"
+        "latest_tag": "1.1-stable",
+        "published_at": "2026-09-04T19:56:56Z"
       },
       "year": 1985,
       "developer": "Nintendo",
