@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-05",
   "source": "probed",
   "systems": [
     {
@@ -5633,6 +5633,48 @@
       "developer": "HAL Laboratory",
       "genre": "Lucha",
       "wiki": "Super Smash Bros. (video game)"
+    },
+    {
+      "id": "sfex2plus-recomp",
+      "name": "SF EX2 Plus Recompiled",
+      "original_game": "Street Fighter EX2 Plus",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "strider973",
+        "repo": "Street-Fighter-EX2-Plus-Recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20EX2%20Plus%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux-x64\\.zip$",
+        "windows-x86_64": "(?i)windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Street Fighter EX2 Plus (PS1); se genera desde tu copia (OpenBIOS incluida, la retail opcional)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-08-29T15:14:14Z"
+      },
+      "year": 1999,
+      "developer": "Arika",
+      "genre": "Lucha",
+      "wiki": "Street Fighter EX2"
     }
   ]
 }
