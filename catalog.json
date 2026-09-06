@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-05",
+  "updated_at": "2026-09-06",
   "source": "probed",
   "systems": [
     {
@@ -5716,6 +5716,46 @@
       "developer": "Intelligent Systems",
       "genre": "Carreras",
       "wiki": "Mario Kart: Super Circuit"
+    },
+    {
+      "id": "opennectar-pikmin",
+      "name": "Open Nectar",
+      "original_game": "Pikmin",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "SSunnKing",
+        "repo": "Open-Nectar---Pikmin-Decompilation-Linux-Port"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pikmin%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)nectar-portable.*\\.tar\\.gz$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El launcher te pedirá tu ISO/GCM de Pikmin USA Rev. 1 (GPIE01); extrae los assets y arranca. Port nativo experimental del decomp projectPiki — la mayor parte del juego es jugable."
+      },
+      "launch": {
+        "linux": "nectar-launcher",
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64"
+        ],
+        "latest_tag": "0.1",
+        "published_at": "2026-09-06T09:06:03Z"
+      },
+      "year": 2001,
+      "developer": "Nintendo",
+      "genre": "Estrategia en tiempo real",
+      "wiki": "Pikmin (video game)"
     }
   ]
 }
