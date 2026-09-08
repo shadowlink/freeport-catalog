@@ -92,6 +92,10 @@ def main():
     catalog = json.load(open(path))
 
     for p in catalog.get("projects", []):
+        # Self-hosted (direct-download) projects have no GitHub releases to
+        # probe; their cached fields are curated by hand.
+        if p.get("direct") or p.get("repo", {}).get("host", "github") != "github":
+            continue
         cached = probe_project(p, token)
         if cached is not None:
             p["cached"] = cached
