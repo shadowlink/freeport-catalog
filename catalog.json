@@ -1124,8 +1124,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_db8b292",
-        "published_at": "2026-09-06T20:34:03Z"
+        "latest_tag": "nightly_8d1b911",
+        "published_at": "2026-09-08T06:07:20Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -2811,8 +2811,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.9-alpha",
-        "published_at": "2026-09-02T05:54:38Z"
+        "latest_tag": "v0.7.0-alpha",
+        "published_at": "2026-09-08T05:44:38Z"
       },
       "year": 2006,
       "developer": "Nintendo (NST)",
@@ -2893,8 +2893,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.5.5",
-        "published_at": "2026-09-07T05:44:35Z"
+        "latest_tag": "v0.5.7",
+        "published_at": "2026-09-07T23:52:30Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -4416,8 +4416,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "shared-staging-20260903",
-        "published_at": "2026-09-03T17:13:50Z"
+        "latest_tag": "v1.0.10",
+        "published_at": "2026-09-07T20:21:35Z"
       },
       "year": 2001,
       "developer": "Capcom",
@@ -5755,8 +5755,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "0.1",
-        "published_at": "2026-09-06T09:54:16Z"
+        "latest_tag": "0.3",
+        "published_at": "2026-09-07T19:13:39Z"
       },
       "year": 2001,
       "developer": "Nintendo",
@@ -5850,7 +5850,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "v.1.3.1",
-        "published_at": "2026-09-06T22:16:34Z"
+        "published_at": "2026-09-06T22:16:40Z"
       },
       "year": 1999,
       "developer": "Naughty Dog",
@@ -5889,8 +5889,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.0",
-        "published_at": "2026-09-07T06:52:06Z"
+        "latest_tag": "v1.1.0",
+        "published_at": "2026-09-08T06:36:42Z"
       },
       "year": 1999,
       "developer": "Pacific Coast Power & Light",
@@ -5931,7 +5931,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "jetmoto-v1.2.0",
-        "published_at": "2026-08-28T01:29:37Z"
+        "published_at": "2026-08-28T01:30:10Z"
       },
       "year": 1996,
       "developer": "SingleTrac",
@@ -5972,7 +5972,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "jetmoto2-v1.2.0",
-        "published_at": "2026-08-28T01:29:37Z"
+        "published_at": "2026-08-28T01:30:16Z"
       },
       "year": 1997,
       "developer": "SingleTrac",
@@ -6013,7 +6013,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "jetmoto3-v1.1.0",
-        "published_at": "2026-08-28T01:29:37Z"
+        "published_at": "2026-08-28T01:30:21Z"
       },
       "year": 1999,
       "developer": "SingleTrac",
@@ -6053,7 +6053,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "v0.6.0-alpha.1",
-        "published_at": "2026-09-07T20:37:58Z"
+        "published_at": "2026-09-07T21:01:52Z"
       },
       "year": 2011,
       "developer": "Grezzo / Nintendo",
@@ -6095,7 +6095,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "v1.0.1",
-        "published_at": "2026-09-07T20:33:49Z"
+        "published_at": "2026-09-07T20:34:29Z"
       },
       "year": 1999,
       "developer": "HAL Laboratory / Pax Softnica",
