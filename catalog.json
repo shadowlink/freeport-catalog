@@ -2811,8 +2811,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.0-alpha",
-        "published_at": "2026-09-08T05:44:38Z"
+        "latest_tag": "v0.7.1-alpha",
+        "published_at": "2026-09-09T00:24:31Z"
       },
       "year": 2006,
       "developer": "Nintendo (NST)",
@@ -2893,8 +2893,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.5.7",
-        "published_at": "2026-09-07T23:52:30Z"
+        "latest_tag": "v0.5.9",
+        "published_at": "2026-09-09T07:30:08Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -3295,8 +3295,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.1",
-        "published_at": "2026-08-29T19:18:38Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-09-08T17:28:40Z"
       },
       "year": 2001,
       "developer": "Capcom / M4",
@@ -3588,8 +3588,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0",
-        "published_at": "2026-08-22T18:03:38Z"
+        "latest_tag": "v1.1",
+        "published_at": "2026-09-08T19:40:41Z"
       },
       "year": 2001,
       "developer": "Paradox Development",
@@ -3668,8 +3668,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.29",
-        "published_at": "2026-08-26T05:20:46Z"
+        "latest_tag": "v0.3.30",
+        "published_at": "2026-09-08T21:55:14Z"
       },
       "year": 1999,
       "developer": "989 Studios",
@@ -3792,8 +3792,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.6.3-alpha",
-        "published_at": "2026-08-31T21:35:58Z"
+        "latest_tag": "0.6.4-alpha",
+        "published_at": "2026-09-08T20:36:59Z"
       },
       "year": 1996,
       "developer": "Namco",
@@ -5752,11 +5752,9 @@
         "windows": null
       },
       "cached": {
-        "platforms": [
-          "linux-x86_64"
-        ],
-        "latest_tag": "0.3",
-        "published_at": "2026-09-07T19:13:39Z"
+        "platforms": [],
+        "latest_tag": "0.3.5",
+        "published_at": "2026-09-08T21:02:48Z"
       },
       "year": 2001,
       "developer": "Nintendo",
@@ -6052,8 +6050,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.0-alpha.1",
-        "published_at": "2026-09-07T21:01:52Z"
+        "latest_tag": "v0.6.0-alpha.1c",
+        "published_at": "2026-09-08T15:37:27Z"
       },
       "year": 2011,
       "developer": "Grezzo / Nintendo",
@@ -6094,8 +6092,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.1",
-        "published_at": "2026-09-07T20:34:29Z"
+        "latest_tag": "v1.0.2",
+        "published_at": "2026-09-09T01:22:53Z"
       },
       "year": 1999,
       "developer": "HAL Laboratory / Pax Softnica",
