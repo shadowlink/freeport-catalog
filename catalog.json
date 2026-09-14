@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11",
+  "updated_at": "2026-09-14",
   "source": "probed",
   "systems": [
     {
@@ -6145,6 +6145,94 @@
       "genre": "Disparos en primera persona",
       "wiki": "Perfect Dark",
       "box_art": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png"
+    },
+    {
+      "id": "melee-pc",
+      "name": "Melee PC",
+      "original_game": "Super Smash Bros. Melee",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "999sian",
+        "repo": "melee-pc"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^melee-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Melee-Windows-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar se abre un launcher para elegir tu imagen de disco de Melee (ISO/GCM/CISO/RVZ); la verifica por SHA-1 contra Redump. Solo NTSC-U v1.02 (GALE01). Port en beta."
+      },
+      "launch": {
+        "linux": "melee",
+        "windows": "melee.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-beta",
+        "published_at": "2026-09-14T04:32:32Z"
+      },
+      "year": 2001,
+      "developer": "HAL Laboratory",
+      "genre": "Lucha",
+      "wiki": "Super Smash Bros. Melee"
+    },
+    {
+      "id": "strikers-pc",
+      "name": "Strikers (port nativo)",
+      "original_game": "Super Mario Strikers",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "new-coke",
+        "repo": "strikers"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Strikers%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^strikers-linux-x86_64\\.tar\\.gz$",
+        "linux-aarch64": "(?i)^strikers-linux-arm64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^strikers-windows-x86_64\\.zip$",
+        "macos-aarch64": "(?i)^strikers-macos-arm64\\.tar\\.gz$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu imagen de disco de Super Mario Strikers (ISO/GCM/CISO/GCZ o carpeta extraída; US, EU o JP). Indica su ruta en la app strikers-settings incluida (o en strikers.ini)."
+      },
+      "launch": {
+        "linux": "strikers",
+        "windows": "strikers.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.1",
+        "published_at": "2026-09-13T20:41:03Z"
+      },
+      "year": 2005,
+      "developer": "Next Level Games",
+      "genre": "Deportes",
+      "wiki": "Super Mario Strikers"
     }
   ]
 }
