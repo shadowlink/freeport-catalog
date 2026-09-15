@@ -2734,8 +2734,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "1.9.1",
-        "published_at": "2026-09-12T22:24:29Z"
+        "latest_tag": "1.9.2",
+        "published_at": "2026-09-14T23:58:33Z"
       },
       "year": 1996,
       "developer": "Naughty Dog",
@@ -5852,8 +5852,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v.1.3.1",
-        "published_at": "2026-09-06T22:16:40Z"
+        "latest_tag": "v.1.4.1",
+        "published_at": "2026-09-15T09:42:31Z"
       },
       "year": 1999,
       "developer": "Naughty Dog",
@@ -6097,8 +6097,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.7",
-        "published_at": "2026-09-14T01:39:10Z"
+        "latest_tag": "v1.0.8",
+        "published_at": "2026-09-15T02:38:01Z"
       },
       "year": 1999,
       "developer": "HAL Laboratory / Pax Softnica",
@@ -6143,8 +6143,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v3.5.0",
-        "published_at": "2026-09-13T03:40:22Z"
+        "latest_tag": "v3.7.0",
+        "published_at": "2026-09-15T06:47:22Z"
       },
       "year": 2000,
       "developer": "Rare",
@@ -6186,8 +6186,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.1-beta",
-        "published_at": "2026-09-14T09:23:17Z"
+        "latest_tag": "v0.1.4-beta",
+        "published_at": "2026-09-15T02:49:15Z"
       },
       "year": 2001,
       "developer": "HAL Laboratory",
@@ -6232,8 +6232,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.1.1",
-        "published_at": "2026-09-13T20:41:03Z"
+        "latest_tag": "v1.1.5",
+        "published_at": "2026-09-14T19:53:42Z"
       },
       "year": 2005,
       "developer": "Next Level Games",
@@ -6444,8 +6444,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.5.11",
-        "published_at": "2026-09-14T02:09:50Z"
+        "latest_tag": "v0.5.13",
+        "published_at": "2026-09-14T23:36:59Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
