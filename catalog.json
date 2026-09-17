@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-17",
   "source": "probed",
   "systems": [
     {
@@ -6451,6 +6451,295 @@
       "developer": "Mistwalker / feelplus",
       "genre": "RPG",
       "wiki": "Lost Odyssey"
+    },
+    {
+      "id": "racewave46",
+      "name": "RaceWave46",
+      "original_game": "Wave Race 64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "DomazinUS",
+        "repo": "RaceWave46"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Wave%20Race%2064%20-%20Kawasaki%20Jet%20Ski%20%28USA%29%20%28Rev%201%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^RaceWave46-Windows-x64-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar, elige «Select USA ROM» e importa tu ROM de Wave Race 64 (USA, Rev 1). Los datos importados, partidas y fantasmas quedan en la carpeta .runtime de la instalación."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "WaveRace64Recompiled.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.0",
+        "published_at": "2026-09-16T19:07:29Z"
+      },
+      "year": 1996,
+      "developer": "Nintendo EAD",
+      "genre": "Carreras",
+      "wiki": "Wave Race 64"
+    },
+    {
+      "id": "paperboat-pm64",
+      "name": "PaperBoat",
+      "original_game": "Paper Mario",
+      "system": "n64",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "HarbourMasters",
+        "repo": "PaperBoat"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Paperboat-.*-Linux\\.zip$",
+        "windows-x86_64": "(?i)^Paperboat-.*-Win64\\.zip$",
+        "macos-x86_64": "(?i)^Paperboat-.*-Mac\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Selecciona tu ROM de Paper Mario (US); se copia a la carpeta del juego y el port la detecta al arrancar (como Ship of Harkinian). Comprueba tu dump en https://paperboat.equipment/. Release alfa."
+      },
+      "launch": {
+        "linux": "Paperboat.AppImage",
+        "windows": "Paperboat.exe"
+      },
+      "mods": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.0.0",
+        "published_at": "2026-09-17T01:19:09Z"
+      },
+      "year": 2000,
+      "developer": "Intelligent Systems",
+      "genre": "RPG",
+      "wiki": "Paper Mario (video game)"
+    },
+    {
+      "id": "mmx2snes-recomp",
+      "name": "Mega Man X2 Recomp",
+      "original_game": "Mega Man X2",
+      "system": "snes",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mstan",
+        "repo": "MegaManX2Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X2%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)linux.*\\.AppImage$",
+        "windows-x86_64": "(?i)windows.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El juego te pedirá tu ROM de Mega Man X2 (SNES, USA) al arrancar. Emula el chip Cx4 a nivel de instrucción; no necesita firmware."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-08-06T01:59:11Z"
+      },
+      "year": 1994,
+      "developer": "Capcom",
+      "genre": "Plataformas",
+      "wiki": "Mega Man X2"
+    },
+    {
+      "id": "beetle-adventure-racing-recomp",
+      "name": "Beetle Adventure Racing Recomp",
+      "original_game": "Beetle Adventure Racing!",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "danielgomesvieira2000",
+        "repo": "beetle-adventure-racing-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Beetle%20Adventure%20Racing%21%20%28USA%29%20%28En%2CFr%2CDe%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^beetle-adventure-racing-recomp-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El launcher integrado te pedirá tu ROM de Beetle Adventure Racing! (N64, USA) al arrancar. Alfa: jugable, con asperezas; la build Linux aún no arranca."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "beetle-adventure-racing-recomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0-alpha",
+        "published_at": "2026-09-17T14:53:51Z"
+      },
+      "year": 1999,
+      "developer": "Paradigm Entertainment",
+      "genre": "Carreras",
+      "wiki": "Beetle Adventure Racing!"
+    },
+    {
+      "id": "busters-hidden-treasure-pc",
+      "name": "Buster's Hidden Treasure PC",
+      "original_game": "Tiny Toon Adventures: Buster's Hidden Treasure",
+      "system": "genesis",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Darhkfox",
+        "repo": "busters-hidden-treasure-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sega%20-%20Mega%20Drive%20-%20Genesis/Named_Boxarts/Tiny%20Toon%20Adventures%20-%20Buster%27s%20Hidden%20Treasure%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Busters-Hidden-Treasure-PC\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Selecciona tu ROM de Tiny Toon Adventures: Buster's Hidden Treasure (Mega Drive, USA; .bin/.md/.gen); se copia junto al ejecutable y el juego la detecta solo. Otras regiones o hacks se rechazan."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Buster's Hidden Treasure.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1",
+        "published_at": "2026-09-16T17:56:23Z"
+      },
+      "year": 1993,
+      "developer": "Konami",
+      "genre": "Plataformas",
+      "wiki": "Tiny Toon Adventures: Buster's Hidden Treasure"
+    },
+    {
+      "id": "issd-native",
+      "name": "ISSD Native",
+      "original_game": "International Superstar Soccer Deluxe",
+      "system": "snes",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "sergiomanzur",
+        "repo": "issd-native"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/International%20Superstar%20Soccer%20Deluxe%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^ISSDNative-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar sin ROM configurada se abre un selector: elige tu ROM de International Superstar Soccer Deluxe (SNES, USA, .sfc sin cabecera). Beta."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "ISSDNative.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-beta.1",
+        "published_at": "2026-09-16T19:02:24Z"
+      },
+      "year": 1995,
+      "developer": "Konami",
+      "genre": "Deportes",
+      "wiki": "International Superstar Soccer Deluxe"
+    },
+    {
+      "id": "goldeneye-pc-port",
+      "name": "GoldenEye PC Port",
+      "original_game": "GoldenEye 007",
+      "system": "n64",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "jkdansereau",
+        "repo": "goldeneye-pc-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^goldeneye-pc-port-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^goldeneye-pc-port-.*-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "ge007.ntsc-final.z64",
+        "subdir": "data",
+        "notes": "Selecciona tu ROM de GoldenEye 007 (N64, NTSC-U); se copia a data/ con el nombre exacto. El primer arranque tarda unos segundos generando los assets. Port del decomp del N64 (no del XBLA)."
+      },
+      "launch": {
+        "linux": "ge007.x86_64",
+        "windows": "ge007.x86_64.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.2",
+        "published_at": "2026-09-16T13:30:57Z"
+      },
+      "year": 1997,
+      "developer": "Rare",
+      "genre": "Disparos en primera persona",
+      "wiki": "GoldenEye 007 (1997 video game)"
     }
   ]
 }
