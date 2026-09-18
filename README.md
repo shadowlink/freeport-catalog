@@ -34,7 +34,22 @@ GITHUB_TOKEN=ghp_xxx python3 tools/probe.py catalog.json
 `tools/discover.py` cruza las listas de la comunidad con repos que publican
 binarios, como ayuda para descubrir candidatos nuevos.
 
+## Varias versiones del mismo juego (`game_id`)
+
+Cuando dos proyectos portan el **mismo juego** (Zelda64Recomp y 2Ship son ambos
+Majora's Mask), la app los agrupa en **una sola tarjeta** con selector de versión
+en la ficha. La clave es `game_id`: por defecto el *slug* de `original_game`
+(`tools/groups.py` lo rellena y lista los grupos). Edítalo a mano si el nombre
+coincide pero el juego no, o para juntar un remaster con el original. Un
+`preferred: true` opcional marca la versión mostrada por defecto; si falta, la app
+prefiere la build nativa de la plataforma y después la release más reciente.
+
+```bash
+python3 tools/groups.py catalog.json          # rellena game_id que falten + informe
+python3 tools/groups.py --check catalog.json  # falla si algún proyecto no lo tiene
+```
+
 ## Añadir un juego
 
-Edita `catalog.json` (añade un objeto a `projects`) y abre un PR. La CI rellenará
-su `cached` en la siguiente ejecución.
+Edita `catalog.json` (añade un objeto a `projects`, con su `game_id`) y abre un PR.
+La CI rellenará su `cached` en la siguiente ejecución.
