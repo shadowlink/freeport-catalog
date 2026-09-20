@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.63",
-        "published_at": "2026-09-19T02:11:21Z"
+        "latest_tag": "v0.2.66",
+        "published_at": "2026-09-19T21:15:21Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1152,8 +1152,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_776845b",
-        "published_at": "2026-09-18T05:36:17Z"
+        "latest_tag": "nightly_3b475b2",
+        "published_at": "2026-09-20T05:21:54Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -1374,8 +1374,8 @@
           "linux-aarch64",
           "linux-x86_64"
         ],
-        "latest_tag": "v2.0.0",
-        "published_at": "2026-09-19T00:04:12Z"
+        "latest_tag": "v2.0.1",
+        "published_at": "2026-09-20T00:36:12Z"
       },
       "year": 2006,
       "developer": "Nintendo",
@@ -2920,8 +2920,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.13.0-alpha",
-        "published_at": "2026-09-12T02:37:05Z"
+        "latest_tag": "v0.14.0-alpha",
+        "published_at": "2026-09-20T00:23:04Z"
       },
       "year": 1997,
       "developer": "Whoopee Camp",
@@ -2961,8 +2961,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.1",
-        "published_at": "2026-09-13T16:09:00Z"
+        "latest_tag": "v0.6.2",
+        "published_at": "2026-09-20T04:49:40Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -3584,8 +3584,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.1.0",
-        "published_at": "2026-09-11T21:02:33Z"
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-09-19T23:26:20Z"
       },
       "year": 2006,
       "developer": "Mistwalker / Artoon",
@@ -4642,8 +4642,8 @@
       },
       "cached": {
         "platforms": [],
-        "latest_tag": "v1.2.0",
-        "published_at": "2026-09-18T13:25:44Z"
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-09-20T00:14:23Z"
       },
       "year": 2007,
       "developer": "tri-Crescendo",
@@ -5183,8 +5183,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.3",
-        "published_at": "2026-08-16T07:37:35Z"
+        "latest_tag": "v1.6.0",
+        "published_at": "2026-09-20T00:44:07Z"
       },
       "year": 1993,
       "developer": "Capcom",
@@ -5889,8 +5889,8 @@
       },
       "cached": {
         "platforms": [],
-        "latest_tag": "0.6",
-        "published_at": "2026-09-15T22:34:38Z"
+        "latest_tag": "0.6.5",
+        "published_at": "2026-09-19T21:12:42Z"
       },
       "year": 2001,
       "developer": "Nintendo",
@@ -6026,8 +6026,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.2.0",
-        "published_at": "2026-09-10T16:22:47Z"
+        "latest_tag": "v1.3.1",
+        "published_at": "2026-09-19T20:54:06Z"
       },
       "year": 1999,
       "developer": "Pacific Coast Power & Light",
@@ -6234,8 +6234,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.8",
-        "published_at": "2026-09-15T02:38:01Z"
+        "latest_tag": "v1.0.9",
+        "published_at": "2026-09-20T04:17:33Z"
       },
       "year": 1999,
       "developer": "HAL Laboratory / Pax Softnica",
@@ -6325,8 +6325,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.8-beta",
-        "published_at": "2026-09-19T03:32:48Z"
+        "latest_tag": "v0.1.9-beta",
+        "published_at": "2026-09-19T23:44:49Z"
       },
       "year": 2001,
       "developer": "HAL Laboratory",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.1",
-        "published_at": "2026-09-18T17:49:18Z"
+        "latest_tag": "v0.6.6",
+        "published_at": "2026-09-20T08:10:24Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -6760,8 +6760,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0-alpha",
-        "published_at": "2026-09-17T14:53:51Z"
+        "latest_tag": "v0.4.1-alpha",
+        "published_at": "2026-09-19T17:46:35Z"
       },
       "year": 1999,
       "developer": "Paradigm Entertainment",
@@ -6842,8 +6842,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.0-beta.1",
-        "published_at": "2026-09-16T19:02:24Z"
+        "latest_tag": "v0.1.1b",
+        "published_at": "2026-09-19T15:26:15Z"
       },
       "year": 1995,
       "developer": "Konami",
