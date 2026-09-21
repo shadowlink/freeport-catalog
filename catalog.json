@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.66",
-        "published_at": "2026-09-19T21:15:21Z"
+        "latest_tag": "v0.2.68",
+        "published_at": "2026-09-21T10:13:48Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1152,8 +1152,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_3b475b2",
-        "published_at": "2026-09-20T05:21:54Z"
+        "latest_tag": "nightly_c7c89d6",
+        "published_at": "2026-09-21T03:40:46Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -2920,8 +2920,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.14.0-alpha",
-        "published_at": "2026-09-20T00:23:04Z"
+        "latest_tag": "v0.14.1-alpha",
+        "published_at": "2026-09-20T21:32:09Z"
       },
       "year": 1997,
       "developer": "Whoopee Camp",
@@ -3882,8 +3882,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.6.7-alpha",
-        "published_at": "2026-09-15T23:47:16Z"
+        "latest_tag": "0.6.8-alpha-raytracer",
+        "published_at": "2026-09-20T18:02:05Z"
       },
       "year": 1996,
       "developer": "Namco",
@@ -5183,8 +5183,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.6.0",
-        "published_at": "2026-09-20T00:44:07Z"
+        "latest_tag": "v1.6.3",
+        "published_at": "2026-09-21T03:12:26Z"
       },
       "year": 1993,
       "developer": "Capcom",
@@ -5226,8 +5226,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.12.0",
-        "published_at": "2026-09-11T08:01:27Z"
+        "latest_tag": "v0.13.1",
+        "published_at": "2026-09-21T00:25:10Z"
       },
       "year": 1990,
       "developer": "Nintendo",
@@ -5267,8 +5267,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.5",
-        "published_at": "2026-09-14T07:19:11Z"
+        "latest_tag": "v0.0.6",
+        "published_at": "2026-09-21T05:32:51Z"
       },
       "year": 2004,
       "developer": "Game Freak",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.6",
-        "published_at": "2026-09-20T08:10:24Z"
+        "latest_tag": "v0.6.7",
+        "published_at": "2026-09-20T20:09:28Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -6760,8 +6760,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.4.1-alpha",
-        "published_at": "2026-09-19T17:46:35Z"
+        "latest_tag": "v0.4.2-alpha",
+        "published_at": "2026-09-20T11:01:55Z"
       },
       "year": 1999,
       "developer": "Paradigm Entertainment",
@@ -6885,8 +6885,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.2",
-        "published_at": "2026-09-16T13:30:57Z"
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-09-20T21:39:24Z"
       },
       "year": 1997,
       "developer": "Rare",
