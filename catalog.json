@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.68",
-        "published_at": "2026-09-21T10:13:48Z"
+        "latest_tag": "v0.2.73",
+        "published_at": "2026-09-22T01:03:59Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -5183,8 +5183,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.6.3",
-        "published_at": "2026-09-21T03:12:26Z"
+        "latest_tag": "v1.6.5",
+        "published_at": "2026-09-22T01:51:27Z"
       },
       "year": 1993,
       "developer": "Capcom",
@@ -5226,8 +5226,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.13.1",
-        "published_at": "2026-09-21T00:25:10Z"
+        "latest_tag": "v0.14.1",
+        "published_at": "2026-09-22T03:04:23Z"
       },
       "year": 1990,
       "developer": "Nintendo",
@@ -6325,8 +6325,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.9-beta",
-        "published_at": "2026-09-19T23:44:49Z"
+        "latest_tag": "v0.1.10.1-beta",
+        "published_at": "2026-09-21T18:08:51Z"
       },
       "year": 2001,
       "developer": "HAL Laboratory",
@@ -6415,8 +6415,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0",
-        "published_at": "2026-09-18T21:03:10Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-09-21T14:03:03Z"
       },
       "year": 1997,
       "developer": "ASCII Corporation",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.7",
-        "published_at": "2026-09-20T20:09:28Z"
+        "latest_tag": "v0.6.11",
+        "published_at": "2026-09-22T06:44:37Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -6716,11 +6716,10 @@
       },
       "cached": {
         "platforms": [
-          "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.1",
-        "published_at": "2026-08-06T01:59:11Z"
+        "latest_tag": "v0.1.2",
+        "published_at": "2026-09-22T01:39:39Z"
       },
       "year": 1994,
       "developer": "Capcom",
