@@ -9,8 +9,9 @@ it like any cover, and `cover_url` (libretro) still drives the screenshots.
 
 Get a free API key at https://www.steamgriddb.com/profile/preferences/api
 
-    export SGDB_KEY=...
-    python3 tools/art.py catalog.json
+    export SGDB_KEY=...            # o guarda la clave en ~/.config/freeport-catalog/sgdb_key
+    python3 tools/art.py catalog.json          # rellena solo los proyectos sin box_art
+    python3 tools/art.py --force catalog.json  # rehace todos
 
 Then review + commit catalog.json.
 """
@@ -39,6 +40,15 @@ def sgdb_get(path, key):
     return data.get("data")
 
 
+def read_key_file():
+    """Clave en ~/.config/freeport-catalog/sgdb_key (una línea), para no pasarla por la shell."""
+    f = os.path.expanduser("~/.config/freeport-catalog/sgdb_key")
+    try:
+        return open(f, encoding="utf-8").read().strip() or None
+    except OSError:
+        return None
+
+
 def find_game_id(name, key):
     term = urllib.parse.quote(name, safe="")  # encode '/' too
     results = sgdb_get(f"/search/autocomplete/{term}", key)
@@ -64,15 +74,19 @@ def main():
     if len(sys.argv) < 2:
         print("uso: art.py <catalog.json>")
         return 1
-    key = os.environ.get("SGDB_KEY")
+    key = os.environ.get("SGDB_KEY") or read_key_file()
     if not key:
-        print("ERROR: falta SGDB_KEY en el entorno.", file=sys.stderr)
+        print("ERROR: falta SGDB_KEY (variable de entorno o ~/.config/freeport-catalog/sgdb_key).", file=sys.stderr)
         return 2
-    path = sys.argv[1]
+    force = "--force" in sys.argv
+    path = [a for a in sys.argv[1:] if not a.startswith("--")][0]
     catalog = json.load(open(path))
 
-    ok = miss = 0
+    ok = miss = kept = 0
     for p in catalog.get("projects", []):
+        if p.get("box_art") and not force:
+            kept += 1  # curated/previous art stays unless --force
+            continue
         name = p.get("original_game") or p.get("name") or ""
         if not name:
             miss += 1
@@ -99,7 +113,7 @@ def main():
 
     json.dump(catalog, open(path, "w"), indent=2, ensure_ascii=False)
     open(path, "a").write("\n")
-    print(f"\nlisto: {ok} con box_art, {miss} sin arte  ·  revisa y commitea {path}")
+    print(f"\nlisto: {ok} con box_art nuevo, {kept} ya tenían, {miss} sin arte  ·  revisa y commitea {path}")
     return 0
 
 
