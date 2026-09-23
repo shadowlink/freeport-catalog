@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-09-23",
   "source": "probed",
   "systems": [
     {
@@ -6887,6 +6887,96 @@
       "developer": "Rare",
       "genre": "Disparos en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)"
+    },
+    {
+      "id": "pilotwings64-recomp",
+      "name": "Pilotwings 64 Recomp",
+      "original_game": "Pilotwings 64",
+      "game_id": "pilotwings-64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "danielgomesvieira2000",
+        "repo": "pilotwings-64-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Pilotwings%2064%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Pilotwings64Recomp-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Pilotwings64Recomp-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El launcher integrado te pedirá tu ROM de Pilotwings 64 (N64, USA; .z64/.n64/.v64 o zip) al arrancar. Mismo runtime que RaceWave46. En Linux necesita Vulkan, SDL2, GTK 3 y FreeType del sistema."
+      },
+      "launch": {
+        "linux": "Pilotwings64Recomp",
+        "windows": "Pilotwings64Recomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-09-17T17:14:55Z"
+      },
+      "year": 1996,
+      "developer": "Paradigm Simulation",
+      "genre": "Simulación",
+      "wiki": "Pilotwings 64"
+    },
+    {
+      "id": "z2rs",
+      "name": "z2rs",
+      "original_game": "Zelda II: The Adventure of Link",
+      "game_id": "zelda-ii-the-adventure-of-link",
+      "system": "nes",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "troyedwardsjr",
+        "repo": "z2rs"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20Entertainment%20System/Named_Boxarts/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^z2rs-.*-x86_64-unknown-linux-gnu\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^z2rs-.*-x86_64-pc-windows-msvc\\.zip$",
+        "macos-x86_64": "(?i)^z2rs-.*-x86_64-apple-darwin\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^z2rs-.*-aarch64-apple-darwin\\.tar\\.gz$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Reconstrucción en Rust: arranca sin ROM y arrastra tu ROM de Zelda II (NES, USA No-Intro) a la ventana. Widescreen, mods y co-op online. El binario z2-signal solo hace falta para alojar partidas."
+      },
+      "launch": {
+        "linux": "z2rs",
+        "windows": "z2rs.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "macos-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-09-22T12:41:29Z"
+      },
+      "year": 1987,
+      "developer": "Nintendo R&D4",
+      "genre": "Action RPG",
+      "wiki": "Zelda II: The Adventure of Link"
     }
   ]
 }
