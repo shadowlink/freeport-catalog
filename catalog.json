@@ -256,7 +256,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "5.0.1",
-        "published_at": "2026-09-18T22:31:49Z"
+        "published_at": "2026-08-25T17:54:43Z"
       },
       "year": 2000,
       "developer": "Nintendo",
@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.6",
-        "published_at": "2026-09-24T09:33:30Z"
+        "latest_tag": "v0.3.14",
+        "published_at": "2026-09-24T21:10:50Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1374,8 +1374,8 @@
           "linux-aarch64",
           "linux-x86_64"
         ],
-        "latest_tag": "v2.0.1",
-        "published_at": "2026-09-20T00:36:12Z"
+        "latest_tag": "v2.0.2",
+        "published_at": "2026-09-25T07:21:33Z"
       },
       "year": 2006,
       "developer": "Nintendo",
@@ -4642,8 +4642,8 @@
       },
       "cached": {
         "platforms": [],
-        "latest_tag": "v1.2.3",
-        "published_at": "2026-09-24T00:07:27Z"
+        "latest_tag": "v1.2.4",
+        "published_at": "2026-09-24T16:47:16Z"
       },
       "year": 2007,
       "developer": "tri-Crescendo",
@@ -5183,8 +5183,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.6.5",
-        "published_at": "2026-09-22T01:51:27Z"
+        "latest_tag": "v1.6.6",
+        "published_at": "2026-09-25T00:33:08Z"
       },
       "year": 1993,
       "developer": "Capcom",
@@ -5267,8 +5267,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.6",
-        "published_at": "2026-09-21T05:32:51Z"
+        "latest_tag": "v0.0.7",
+        "published_at": "2026-09-24T20:14:30Z"
       },
       "year": 2004,
       "developer": "Game Freak",
@@ -6325,8 +6325,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.1-beta",
-        "published_at": "2026-09-23T19:05:43Z"
+        "latest_tag": "v0.2.2-beta",
+        "published_at": "2026-09-25T08:50:45Z"
       },
       "year": 2001,
       "developer": "HAL Laboratory",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.11",
-        "published_at": "2026-09-22T06:44:37Z"
+        "latest_tag": "v0.6.19",
+        "published_at": "2026-09-25T04:18:21Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -7015,8 +7015,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0.1",
-        "published_at": "2026-09-23T21:27:15Z"
+        "latest_tag": "v2.0.3",
+        "published_at": "2026-09-25T02:05:30Z"
       },
       "year": 2010,
       "developer": "Access Games",
@@ -7097,8 +7097,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "1.1.0",
-        "published_at": "2026-09-17T03:55:40Z"
+        "latest_tag": "1.2.0",
+        "published_at": "2026-09-25T05:35:59Z"
       },
       "year": 2008,
       "developer": "Lionhead Studios",
@@ -7138,8 +7138,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.0",
-        "published_at": "2026-09-22T21:16:27Z"
+        "latest_tag": "v1.0.1",
+        "published_at": "2026-09-24T16:04:28Z"
       },
       "year": 2008,
       "developer": "Lionhead Studios",
@@ -8702,11 +8702,9 @@
         "windows": null
       },
       "cached": {
-        "platforms": [
-          "linux-x86_64"
-        ],
-        "latest_tag": "v0.1.0-linux",
-        "published_at": "2026-06-14T22:10:08Z"
+        "platforms": [],
+        "latest_tag": "v1.2.0",
+        "published_at": "2026-09-24T15:55:52Z"
       },
       "year": 1990,
       "developer": "Nintendo R&D1",
@@ -9719,8 +9717,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.0-alpha.1",
-        "published_at": "2026-09-23T22:38:52Z"
+        "latest_tag": "v0.6.0-alpha.4",
+        "published_at": "2026-09-24T22:43:54Z"
       },
       "year": 2010,
       "developer": "Capcom",
