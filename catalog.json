@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.14",
-        "published_at": "2026-09-24T21:10:50Z"
+        "latest_tag": "v0.3.20",
+        "published_at": "2026-09-26T09:54:18Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1518,8 +1518,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.2.1",
-        "published_at": "2026-07-07T00:15:42Z"
+        "latest_tag": "v1.2.2",
+        "published_at": "2026-09-25T21:17:14Z"
       },
       "year": 1999,
       "developer": "Victor Interactive",
@@ -6026,8 +6026,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.3.1",
-        "published_at": "2026-09-19T20:54:06Z"
+        "latest_tag": "v1.4.0",
+        "published_at": "2026-09-25T18:27:20Z"
       },
       "year": 1999,
       "developer": "Pacific Coast Power & Light",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.19",
-        "published_at": "2026-09-25T04:18:21Z"
+        "latest_tag": "v0.7.0",
+        "published_at": "2026-09-26T08:22:32Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -7015,8 +7015,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0.3",
-        "published_at": "2026-09-25T02:05:30Z"
+        "latest_tag": "v2.0.5",
+        "published_at": "2026-09-25T20:16:58Z"
       },
       "year": 2010,
       "developer": "Access Games",
@@ -7521,8 +7521,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0",
-        "published_at": "2026-09-21T11:45:33Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-09-26T03:04:05Z"
       },
       "year": 1999,
       "developer": "Quest",
@@ -8493,8 +8493,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.10.0",
-        "published_at": "2026-09-12T06:38:44Z"
+        "latest_tag": "v1.11.0",
+        "published_at": "2026-09-25T19:57:22Z"
       },
       "year": 1985,
       "developer": "Nintendo R&D4",
@@ -8750,8 +8750,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.81",
-        "published_at": "2026-09-23T23:16:56Z"
+        "latest_tag": "v0.7.84",
+        "published_at": "2026-09-25T16:12:01Z"
       },
       "year": 1999,
       "developer": "Game Freak",
@@ -9172,8 +9172,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.8.0",
-        "published_at": "2026-09-22T22:52:35Z"
+        "latest_tag": "v0.9.0",
+        "published_at": "2026-09-26T02:18:52Z"
       },
       "year": 1998,
       "developer": "Square",
