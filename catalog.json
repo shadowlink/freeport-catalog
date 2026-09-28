@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.22",
-        "published_at": "2026-09-27T00:48:34Z"
+        "latest_tag": "v0.3.23",
+        "published_at": "2026-09-28T11:44:47Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -1152,8 +1152,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "nightly_1bf3bbd",
-        "published_at": "2026-09-27T08:27:09Z"
+        "latest_tag": "nightly_6ddb17c",
+        "published_at": "2026-09-27T13:26:00Z"
       },
       "year": 2006,
       "developer": "Eden Games",
@@ -2184,8 +2184,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.9.3",
-        "published_at": "2026-09-12T21:49:18Z"
+        "latest_tag": "v0.9.5",
+        "published_at": "2026-09-28T06:56:37Z"
       },
       "year": 2004,
       "developer": "Nintendo / Capcom",
@@ -3291,8 +3291,8 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v1.6.3",
-        "published_at": "2026-09-22T23:58:34Z"
+        "latest_tag": "v1.6.5",
+        "published_at": "2026-09-27T23:26:50Z"
       },
       "year": 2003,
       "developer": "Namco",
@@ -5850,8 +5850,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.1",
-        "published_at": "2026-09-27T04:16:45Z"
+        "latest_tag": "v0.1.2",
+        "published_at": "2026-09-28T07:31:46Z"
       },
       "year": 2001,
       "developer": "Intelligent Systems",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.2",
-        "published_at": "2026-09-27T08:59:13Z"
+        "latest_tag": "v0.7.10",
+        "published_at": "2026-09-28T08:18:45Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -7013,8 +7013,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0.6",
-        "published_at": "2026-09-26T23:54:24Z"
+        "latest_tag": "v2.0.10",
+        "published_at": "2026-09-27T20:07:53Z"
       },
       "year": 2010,
       "developer": "Access Games",
@@ -7136,8 +7136,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.2",
-        "published_at": "2026-09-27T04:46:16Z"
+        "latest_tag": "v1.1.4",
+        "published_at": "2026-09-28T08:09:14Z"
       },
       "year": 2008,
       "developer": "Lionhead Studios",
@@ -7433,8 +7433,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.4",
-        "published_at": "2026-09-27T06:34:27Z"
+        "latest_tag": "v0.2.1",
+        "published_at": "2026-09-28T06:32:39Z"
       },
       "year": 2010,
       "developer": "Sonic Team",
@@ -7519,8 +7519,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.4.0",
-        "published_at": "2026-09-26T03:04:05Z"
+        "latest_tag": "v0.5.1",
+        "published_at": "2026-09-28T11:09:08Z"
       },
       "year": 1999,
       "developer": "Quest",
@@ -8748,8 +8748,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.86",
-        "published_at": "2026-09-26T19:41:55Z"
+        "latest_tag": "v0.7.88",
+        "published_at": "2026-09-27T16:45:59Z"
       },
       "year": 1999,
       "developer": "Game Freak",
@@ -8955,8 +8955,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.0",
-        "published_at": "2026-09-22T18:14:49Z"
+        "latest_tag": "v0.8.1",
+        "published_at": "2026-09-28T05:59:49Z"
       },
       "year": 1992,
       "developer": "Sega Technical Institute",
@@ -9587,11 +9587,9 @@
         "windows": "Sly1-Release.exe"
       },
       "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "decompilation",
-        "published_at": "2026-09-20T09:40:12Z"
+        "platforms": [],
+        "latest_tag": "v0.2.0-beta.1",
+        "published_at": "2026-09-28T11:49:13Z"
       },
       "year": 2002,
       "developer": "Sucker Punch Productions",
