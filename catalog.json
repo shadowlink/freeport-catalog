@@ -587,8 +587,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.23",
-        "published_at": "2026-09-28T11:44:47Z"
+        "latest_tag": "v0.3.31",
+        "published_at": "2026-09-29T09:33:23Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -2273,8 +2273,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.5.5",
-        "published_at": "2026-09-06T05:12:52Z"
+        "latest_tag": "v0.0.6.0",
+        "published_at": "2026-09-29T06:01:04Z"
       },
       "year": 2007,
       "developer": "Electronic Arts",
@@ -2360,8 +2360,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "0.1.0",
-        "published_at": "2026-08-05T02:16:24Z"
+        "latest_tag": "0.2.1",
+        "published_at": "2026-09-29T08:03:05Z"
       },
       "year": 2008,
       "developer": "Monolith Productions",
@@ -2616,8 +2616,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.26",
-        "published_at": "2026-07-02T14:10:34Z"
+        "latest_tag": "v0.2.27",
+        "published_at": "2026-09-28T19:30:34Z"
       },
       "year": 1999,
       "developer": "Konami",
@@ -2750,8 +2750,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "Version1.0.4",
-        "published_at": "2026-09-03T19:55:18Z"
+        "latest_tag": "Version1.0.5beta10",
+        "published_at": "2026-09-16T10:20:40Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -5889,8 +5889,8 @@
       },
       "cached": {
         "platforms": [],
-        "latest_tag": "0.8.5",
-        "published_at": "2026-09-23T22:07:22Z"
+        "latest_tag": "0.9",
+        "published_at": "2026-09-28T16:29:29Z"
       },
       "year": 2001,
       "developer": "Nintendo",
@@ -6026,8 +6026,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.1",
-        "published_at": "2026-09-26T18:49:31Z"
+        "latest_tag": "v1.4.2",
+        "published_at": "2026-09-29T06:48:48Z"
       },
       "year": 1999,
       "developer": "Pacific Coast Power & Light",
@@ -6281,8 +6281,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v3.8.0",
-        "published_at": "2026-09-17T12:02:57Z"
+        "latest_tag": "v3.10.0",
+        "published_at": "2026-09-29T06:24:19Z"
       },
       "year": 2000,
       "developer": "Rare",
@@ -6589,8 +6589,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.10",
-        "published_at": "2026-09-28T08:18:45Z"
+        "latest_tag": "v0.7.15",
+        "published_at": "2026-09-29T00:26:14Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
@@ -6676,8 +6676,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "1.0.1",
-        "published_at": "2026-09-17T22:42:33Z"
+        "latest_tag": "1.0.2",
+        "published_at": "2026-09-28T20:10:41Z"
       },
       "year": 2000,
       "developer": "Intelligent Systems",
@@ -6884,8 +6884,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0",
-        "published_at": "2026-09-20T21:39:24Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-09-28T14:35:30Z"
       },
       "year": 1997,
       "developer": "Rare",
@@ -6972,8 +6972,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0",
-        "published_at": "2026-09-27T02:09:04Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-09-29T05:24:33Z"
       },
       "year": 1987,
       "developer": "Nintendo R&D4",
@@ -7013,8 +7013,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v2.0.10",
-        "published_at": "2026-09-27T20:07:53Z"
+        "latest_tag": "v2.0.11",
+        "published_at": "2026-09-28T18:46:56Z"
       },
       "year": 2010,
       "developer": "Access Games",
@@ -7054,8 +7054,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.0.24",
-        "published_at": "2026-09-22T21:52:12Z"
+        "latest_tag": "v1.1.5",
+        "published_at": "2026-09-29T04:57:00Z"
       },
       "year": 2008,
       "developer": "Team Ninja",
@@ -7095,8 +7095,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "1.2.0",
-        "published_at": "2026-09-25T05:35:59Z"
+        "latest_tag": "1.3.0",
+        "published_at": "2026-09-28T21:40:57Z"
       },
       "year": 2008,
       "developer": "Lionhead Studios",
@@ -7136,8 +7136,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v1.1.4",
-        "published_at": "2026-09-28T08:09:14Z"
+        "latest_tag": "v1.3.5",
+        "published_at": "2026-09-29T08:59:54Z"
       },
       "year": 2008,
       "developer": "Lionhead Studios",
@@ -7433,8 +7433,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.1",
-        "published_at": "2026-09-28T06:32:39Z"
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-09-28T15:15:19Z"
       },
       "year": 2010,
       "developer": "Sonic Team",
@@ -8748,8 +8748,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.7.88",
-        "published_at": "2026-09-27T16:45:59Z"
+        "latest_tag": "v0.7.94",
+        "published_at": "2026-09-29T07:44:35Z"
       },
       "year": 1999,
       "developer": "Game Freak",
@@ -9709,12 +9709,9 @@
         "windows": null
       },
       "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.6.0-alpha.4",
-        "published_at": "2026-09-24T22:43:54Z"
+        "platforms": [],
+        "latest_tag": "v0.7.0-test.1",
+        "published_at": "2026-09-29T00:57:02Z"
       },
       "year": 2010,
       "developer": "Capcom",
