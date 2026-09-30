@@ -20,14 +20,16 @@ def get(url):
     return None
 cat=json.load(open('catalog.json'))
 have={(p['repo']['owner']+'/'+p['repo']['repo']).lower() for p in cat['projects']}
+SINCE=os.environ.get('SWEEP_SINCE','2026-04-01')
 QUERIES=[
- 'recomp in:name pushed:>2026-04-01','recompiled in:name pushed:>2026-04-01','"static recompilation" pushed:>2026-04-01',
- 'N64Recomp pushed:>2026-04-01','psxrecomp pushed:>2026-04-01','snesrecomp pushed:>2026-04-01','XenonRecomp pushed:>2026-04-01',
- 'RecompOne pushed:>2026-04-01','"native PC port" pushed:>2026-04-01','"PC port" decomp pushed:>2026-04-01',
- 'topic:recompilation pushed:>2026-04-01','topic:decompilation "port" pushed:>2026-04-01','"pc port" n64 pushed:>2026-04-01',
- '"pc port" playstation pushed:>2026-04-01','"pc port" gamecube pushed:>2026-04-01','"pc port" snes pushed:>2026-04-01',
- 'libultraship pushed:>2026-04-01','"bring your own rom" pushed:>2026-04-01','"decompilation" "native" port game pushed:>2026-06-01',
- 'gbarecomp OR gbcrecomp OR nesrecomp pushed:>2026-04-01','dsrecomp OR ndsrecomp OR psprecomp pushed:>2026-04-01',
+ 'ReXGlue pushed:>'+SINCE+'','XenonRecomp pushed:>'+SINCE+'','"static recompilation" in:description pushed:>'+SINCE+'','libultraship port pushed:>'+SINCE+'','gcrecomp OR wiirecomp OR ps2recomp OR dcrecomp pushed:>'+SINCE+'',
+ 'recomp in:name pushed:>'+SINCE+'','recompiled in:name pushed:>'+SINCE+'','"static recompilation" pushed:>'+SINCE+'',
+ 'N64Recomp pushed:>'+SINCE+'','psxrecomp pushed:>'+SINCE+'','snesrecomp pushed:>'+SINCE+'','XenonRecomp pushed:>'+SINCE+'',
+ 'RecompOne pushed:>'+SINCE+'','"native PC port" pushed:>'+SINCE+'','"PC port" decomp pushed:>'+SINCE+'',
+ 'topic:recompilation pushed:>'+SINCE+'','topic:decompilation "port" pushed:>'+SINCE+'','"pc port" n64 pushed:>'+SINCE+'',
+ '"pc port" playstation pushed:>'+SINCE+'','"pc port" gamecube pushed:>'+SINCE+'','"pc port" snes pushed:>'+SINCE+'',
+ 'libultraship pushed:>'+SINCE+'','"bring your own rom" pushed:>'+SINCE+'','"decompilation" "native" port game pushed:>'+SINCE+'',
+ 'gbarecomp OR gbcrecomp OR nesrecomp pushed:>'+SINCE+'','dsrecomp OR ndsrecomp OR psprecomp pushed:>'+SINCE+'',
 ]
 repos={}
 for q in QUERIES:
