@@ -6196,9 +6196,11 @@
         "windows": "TriAevumForge.exe"
       },
       "cached": {
-        "platforms": [],
-        "latest_tag": "v0.6.0-alpha.3b",
-        "published_at": "2026-09-18T16:54:15Z"
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.0-alpha.2c",
+        "published_at": "2026-09-12T16:58:08Z"
       },
       "year": 2011,
       "developer": "Grezzo / Nintendo",

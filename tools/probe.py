@@ -38,18 +38,23 @@ def gh_get(url, token):
         return json.load(r)
 
 
+def usable(r):
+    """Non-draft AND with downloadable assets: a tag without builds (CI still
+    running, notes-only release) must never become `latest_tag`, or the app
+    offers an update that then fails with "no asset matches"."""
+    return not r.get("draft") and bool(r.get("assets"))
+
+
 def pick_release(releases, channel, rolling_tag):
     if channel == "rolling":
         for r in releases:
             if r.get("tag_name") == rolling_tag:
                 return r
-        return next((r for r in releases if not r.get("draft")), None)
+        return next((r for r in releases if usable(r)), None)
     if channel == "prerelease":
-        return next((r for r in releases if not r.get("draft")), None)
-    stable = next(
-        (r for r in releases if not r.get("draft") and not r.get("prerelease")), None
-    )
-    return stable or next((r for r in releases if not r.get("draft")), None)
+        return next((r for r in releases if usable(r)), None)
+    stable = next((r for r in releases if usable(r) and not r.get("prerelease")), None)
+    return stable or next((r for r in releases if usable(r)), None)
 
 
 def probe_project(p, token):
