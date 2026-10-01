@@ -41,7 +41,7 @@ Mega Drive, Sega CD, Game Boy y Amiga quedan fuera: la emulación de esas máqui
 perfecta y una recompilación nativa no aporta nada.
 
 **Excepción:** un port de una máquina vetada puede entrar si es realmente bueno, querido
-por la comunidad y trabajado hasta el extremo (gen1recomp, Zelda 3 PC). Se declara con
+por la comunidad y trabajado hasta el extremo (gen1recomp). Se declara con
 el campo `exception` explicando el porqué; `tools/scope.py --check` lo exige en la CI.
 
 ## Niveles de calidad (`tier`)
