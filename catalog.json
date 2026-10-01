@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30",
+  "updated_at": "2026-10-01",
   "source": "probed",
   "systems": [
     {
@@ -12029,6 +12029,49 @@
       "developer": "Motion Twin / Evil Empire",
       "genre": "Acción-plataformas",
       "wiki": "Dead Cells"
+    },
+    {
+      "id": "wind-waker-recomp",
+      "name": "Wind Waker Recomp",
+      "original_game": "The Legend of Zelda: The Wind Waker",
+      "game_id": "the-legend-of-zelda-the-wind-waker",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "elliotttate",
+        "repo": "Wind-Waker-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WindWakerRecomp-.*-windows-x64\\.zip$",
+        "macos-aarch64": "(?i)^WindWakerRecomp-.*-macos-arm64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al primer arranque elige tu imagen de The Wind Waker (GameCube, USA GZLE01 rev. 0; .iso, .gcm o .rvz) y la verifica. 60/120 fps, widescreen, save states, ratón y teclado. Fork de BlueWake por el autor de DKC1/DKC3 Recomp; listo para jugar, sin compilar (a diferencia de Deep Sea)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "cached": {
+        "platforms": [
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.2",
+        "published_at": "2026-10-01T03:17:31Z"
+      },
+      "year": 2002,
+      "developer": "Nintendo EAD",
+      "genre": "Acción-aventura",
+      "wiki": "The Legend of Zelda: The Wind Waker"
     }
   ]
 }
