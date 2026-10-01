@@ -33,6 +33,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 tools/probe.py catalog.json
 
+      - name: Quality tiers → refresh quality_signals/tier
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/quality.py catalog.json
+
       - name: Commit if changed
         run: |
           if git diff --quiet -- catalog.json; then

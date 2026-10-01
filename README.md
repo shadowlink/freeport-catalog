@@ -44,6 +44,15 @@ perfecta y una recompilación nativa no aporta nada.
 por la comunidad y trabajado hasta el extremo (gen1recomp, Zelda 3 PC). Se declara con
 el campo `exception` explicando el porqué; `tools/scope.py --check` lo exige en la CI.
 
+## Niveles de calidad (`tier`)
+
+Cada proyecto lleva un `tier`: **curado** (hecho con mimo y usado por mucha gente),
+**comunidad** (funciona y tiene recorrido) o **experimental** (nuevo, de un solo autor,
+pocas descargas). Lo calcula `tools/quality.py` a diario en la CI a partir de señales
+objetivas de GitHub, sobre todo las descargas acumuladas de releases; las señales quedan
+en `quality_signals`. La app muestra por defecto curado y comunidad; experimental se
+activa en Ajustes. Un `tier` fijado a mano se protege con `tier_manual: true`.
+
 ## Varias versiones del mismo juego (`game_id`)
 
 Cuando dos proyectos portan el **mismo juego** (Zelda64Recomp y 2Ship son ambos
