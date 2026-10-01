@@ -25,6 +25,9 @@ jobs:
       - name: Check every project has a game_id
         run: python3 tools/groups.py --check catalog.json
 
+      - name: Check catalog scope (vetoed systems need an `exception`)
+        run: python3 tools/scope.py --check catalog.json
+
       - name: Probe GitHub Releases → refresh cached fields
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

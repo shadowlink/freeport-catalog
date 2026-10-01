@@ -34,6 +34,16 @@ GITHUB_TOKEN=ghp_xxx python3 tools/probe.py catalog.json
 `tools/discover.py` cruza las listas de la comunidad con repos que publican
 binarios, como ayuda para descubrir candidatos nuevos.
 
+## Alcance: qué consolas entran
+
+Freeport cubre **de la generación PS1/N64 en adelante**, más juegos de PC. NES, SNES,
+Mega Drive, Sega CD, Game Boy y Amiga quedan fuera: la emulación de esas máquinas es
+perfecta y una recompilación nativa no aporta nada.
+
+**Excepción:** un port de una máquina vetada puede entrar si es realmente bueno, querido
+por la comunidad y trabajado hasta el extremo (gen1recomp, Zelda 3 PC). Se declara con
+el campo `exception` explicando el porqué; `tools/scope.py --check` lo exige en la CI.
+
 ## Varias versiones del mismo juego (`game_id`)
 
 Cuando dos proyectos portan el **mismo juego** (Zelda64Recomp y 2Ship son ambos
