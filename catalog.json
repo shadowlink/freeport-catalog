@@ -3320,58 +3320,6 @@
       "tier": "experimental"
     },
     {
-      "id": "digimonworld-recomp",
-      "name": "Digimon World Recomp",
-      "original_game": "Digimon World",
-      "game_id": "digimon-world",
-      "system": "psx",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "Ethan4love",
-        "repo": "Digimon-world-PSX-RECOMP"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Digimon%20World%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)win-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Al arrancar, pulsa «Browse Disc» y selecciona el .cue de tu Digimon World (PS1, USA). La primera vez construye el juego desde tu disco (10-30 min, solo una vez)."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "Digimon_World_Recompiled.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.1.5",
-        "published_at": "2026-08-26T21:58:32Z"
-      },
-      "year": 1999,
-      "developer": "Bandai",
-      "genre": "RPG",
-      "wiki": "Digimon World",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-01"
-      },
-      "tier": "experimental"
-    },
-    {
       "id": "wwf-nomercy-recomp",
       "name": "No Mercy Recompiled",
       "original_game": "WWF No Mercy",
