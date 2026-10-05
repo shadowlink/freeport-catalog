@@ -162,7 +162,7 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 366172,
+        "downloads": 366176,
         "stars": 7344,
         "age_days": 1077,
         "releases": 7,
@@ -223,7 +223,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 2274790,
+        "downloads": 2274829,
         "stars": 5528,
         "age_days": 1658,
         "releases": 51,
@@ -284,7 +284,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 700971,
+        "downloads": 700978,
         "stars": 2283,
         "age_days": 1055,
         "releases": 16,
@@ -347,7 +347,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 229575,
+        "downloads": 229577,
         "stars": 2387,
         "age_days": 910,
         "releases": 3,
@@ -407,7 +407,7 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 12214,
+        "downloads": 12217,
         "stars": 2039,
         "age_days": 1171,
         "releases": 1,
@@ -464,7 +464,7 @@
       "wiki": "Super Mario 64",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1654795,
+        "downloads": 1654811,
         "stars": 1389,
         "age_days": 1071,
         "releases": 16,
@@ -519,9 +519,9 @@
       "wiki": "Driver 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 70237,
+        "downloads": 70238,
         "stars": 1371,
-        "age_days": 2161,
+        "age_days": 2162,
         "releases": 14,
         "contributors": 5,
         "ai": false,
@@ -583,7 +583,7 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 140202,
+        "downloads": 140204,
         "stars": 2013,
         "age_days": 594,
         "releases": 3,
@@ -824,8 +824,8 @@
       "wiki": "Skate 3",
       "box_art": null,
       "quality_signals": {
-        "downloads": 90504,
-        "stars": 1487,
+        "downloads": 90536,
+        "stars": 1489,
         "age_days": 122,
         "releases": 9,
         "contributors": 1,
@@ -881,7 +881,7 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 20289,
+        "downloads": 20292,
         "stars": 362,
         "age_days": 120,
         "releases": 23,
@@ -939,7 +939,7 @@
       "wiki": "The Legend of Dragoon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 22366,
+        "downloads": 22372,
         "stars": 541,
         "age_days": 1862,
         "releases": 6,
@@ -995,7 +995,7 @@
       "wiki": "Tomb Raider (videojuego de 1996)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 49669,
+        "downloads": 49672,
         "stars": 1004,
         "age_days": 2065,
         "releases": 100,
@@ -1051,7 +1051,7 @@
       "wiki": "Sonic Mania",
       "box_art": null,
       "quality_signals": {
-        "downloads": 77141,
+        "downloads": 77143,
         "stars": 806,
         "age_days": 2426,
         "releases": 3,
@@ -1106,7 +1106,7 @@
       "wiki": "Carmageddon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 8480,
+        "downloads": 8481,
         "stars": 1204,
         "age_days": 2532,
         "releases": 12,
@@ -1271,7 +1271,7 @@
       "wiki": "Diablo (videojuego)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 596143,
+        "downloads": 596152,
         "stars": 9785,
         "age_days": 2985,
         "releases": 22,
@@ -1438,7 +1438,7 @@
       "wiki": "The Legend of Zelda: Twilight Princess",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1288539,
+        "downloads": 1288619,
         "stars": 5647,
         "age_days": 309,
         "releases": 24,
@@ -1501,7 +1501,7 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 19236,
+        "downloads": 19237,
         "stars": 288,
         "age_days": 261,
         "releases": 1,
@@ -1558,7 +1558,7 @@
       "wiki": "Bomberman Hero",
       "box_art": null,
       "quality_signals": {
-        "downloads": 9330,
+        "downloads": 9333,
         "stars": 125,
         "age_days": 182,
         "releases": 5,
@@ -1621,7 +1621,7 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 8107,
+        "downloads": 8108,
         "stars": 154,
         "age_days": 180,
         "releases": 6,
@@ -1792,7 +1792,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 113985,
+        "downloads": 113989,
         "stars": 798,
         "age_days": 1118,
         "releases": 5,
@@ -1845,7 +1845,7 @@
       "wiki": "Sonic Unleashed",
       "box_art": null,
       "quality_signals": {
-        "downloads": 715161,
+        "downloads": 715167,
         "stars": 5125,
         "age_days": 735,
         "releases": 4,
@@ -1949,7 +1949,7 @@
       "wiki": "Viva Piñata: Trouble in Paradise",
       "box_art": null,
       "quality_signals": {
-        "downloads": 9191,
+        "downloads": 9192,
         "stars": 194,
         "age_days": 204,
         "releases": 5,
@@ -2055,7 +2055,7 @@
       "wiki": "Banjo-Kazooie: Nuts & Bolts",
       "box_art": null,
       "quality_signals": {
-        "downloads": 13034,
+        "downloads": 13035,
         "stars": 146,
         "age_days": 219,
         "releases": 12,
@@ -2161,7 +2161,7 @@
       "wiki": "Crash Team Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 14505,
+        "downloads": 14508,
         "stars": 380,
         "age_days": 141,
         "releases": 9,
@@ -2218,7 +2218,7 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 44691,
+        "downloads": 44695,
         "stars": 837,
         "age_days": 93,
         "releases": 9,
@@ -2332,7 +2332,7 @@
       "wiki": "Banjo-Kazooie",
       "box_art": null,
       "quality_signals": {
-        "downloads": 33351,
+        "downloads": 33352,
         "stars": 474,
         "age_days": 676,
         "releases": 5,
@@ -2444,7 +2444,7 @@
       "wiki": "The Legend of Zelda: The Minish Cap",
       "box_art": null,
       "quality_signals": {
-        "downloads": 3174,
+        "downloads": 3175,
         "stars": 446,
         "age_days": 157,
         "releases": 1,
@@ -2546,8 +2546,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.0.6.2",
-        "published_at": "2026-10-02T04:47:22Z"
+        "latest_tag": "v0.0.6.3",
+        "published_at": "2026-10-05T08:10:51Z"
       },
       "year": 2007,
       "developer": "Electronic Arts",
@@ -2555,10 +2555,10 @@
       "wiki": "The Simpsons Game",
       "box_art": null,
       "quality_signals": {
-        "downloads": 14913,
+        "downloads": 14926,
         "stars": 296,
         "age_days": 92,
-        "releases": 18,
+        "releases": 19,
         "contributors": 5,
         "ai": false,
         "emu": false,
@@ -2611,7 +2611,7 @@
       "box_art": null,
       "rolling_tag": "v0.5.0",
       "quality_signals": {
-        "downloads": 4453,
+        "downloads": 4456,
         "stars": 40,
         "age_days": 92,
         "releases": 12,
@@ -2664,7 +2664,7 @@
       "wiki": "Condemned 2: Bloodshot",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4477,
+        "downloads": 4478,
         "stars": 191,
         "age_days": 63,
         "releases": 3,
@@ -2717,7 +2717,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 7015,
+        "downloads": 7016,
         "stars": 275,
         "age_days": 646,
         "releases": 1,
@@ -2770,7 +2770,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 5000,
+        "downloads": 5001,
         "stars": 58,
         "age_days": 867,
         "releases": 1,
@@ -2823,7 +2823,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 12256,
+        "downloads": 12257,
         "stars": 144,
         "age_days": 195,
         "releases": 8,
@@ -2992,7 +2992,7 @@
       "wiki": "F-Zero X",
       "box_art": null,
       "quality_signals": {
-        "downloads": 12167,
+        "downloads": 12170,
         "stars": 274,
         "age_days": 106,
         "releases": 5,
@@ -3047,7 +3047,7 @@
       "wiki": "Diddy Kong Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 14858,
+        "downloads": 14861,
         "stars": 200,
         "age_days": 60,
         "releases": 8,
@@ -3101,7 +3101,7 @@
       "wiki": "Crash Bandicoot (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 24913,
+        "downloads": 24919,
         "stars": 244,
         "age_days": 73,
         "releases": 18,
@@ -3155,7 +3155,7 @@
       "genre": "Matamarcianos",
       "wiki": "Star Fox 64",
       "quality_signals": {
-        "downloads": 221680,
+        "downloads": 221682,
         "stars": 2079,
         "age_days": 867,
         "releases": 2,
@@ -3262,7 +3262,7 @@
       "genre": "Plataformas",
       "wiki": "Tomba!",
       "quality_signals": {
-        "downloads": 3739,
+        "downloads": 3741,
         "stars": 66,
         "age_days": 203,
         "releases": 36,
@@ -3580,7 +3580,7 @@
       "genre": "Lucha libre",
       "wiki": "WCW vs. nWo: World Tour",
       "quality_signals": {
-        "downloads": 1741,
+        "downloads": 1742,
         "stars": 38,
         "age_days": 91,
         "releases": 3,
@@ -3633,7 +3633,7 @@
       "genre": "Lucha",
       "wiki": "Soulcalibur II",
       "quality_signals": {
-        "downloads": 6830,
+        "downloads": 6835,
         "stars": 153,
         "age_days": 42,
         "releases": 13,
@@ -3686,7 +3686,7 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill (video game)",
       "quality_signals": {
-        "downloads": 15694,
+        "downloads": 15703,
         "stars": 621,
         "age_days": 213,
         "releases": 11,
@@ -3739,7 +3739,7 @@
       "genre": "Lucha",
       "wiki": "Tekken 3",
       "quality_signals": {
-        "downloads": 5677,
+        "downloads": 5679,
         "stars": 135,
         "age_days": 65,
         "releases": 3,
@@ -3960,7 +3960,7 @@
         "SDL_VIDEODRIVER": "x11"
       },
       "quality_signals": {
-        "downloads": 47892,
+        "downloads": 47896,
         "stars": 743,
         "age_days": 239,
         "releases": 20,
@@ -4178,7 +4178,7 @@
       "quality_signals": {
         "downloads": 1662,
         "stars": 22,
-        "age_days": 58,
+        "age_days": 59,
         "releases": 14,
         "contributors": 2,
         "ai": true,
@@ -4231,7 +4231,7 @@
       "genre": "Plataformas",
       "wiki": "Donkey Kong 64",
       "quality_signals": {
-        "downloads": 39984,
+        "downloads": 39988,
         "stars": 476,
         "age_days": 118,
         "releases": 4,
@@ -4669,7 +4669,7 @@
       "genre": "Acción",
       "wiki": "Rampage Through Time",
       "quality_signals": {
-        "downloads": 752,
+        "downloads": 753,
         "stars": 8,
         "age_days": 56,
         "releases": 8,
@@ -4942,7 +4942,7 @@
       "genre": "Plataformas",
       "wiki": "Tomba! 2: The Evil Swine Return",
       "quality_signals": {
-        "downloads": 931,
+        "downloads": 932,
         "stars": 13,
         "age_days": 93,
         "releases": 13,
@@ -4995,7 +4995,7 @@
       "genre": "RPG",
       "wiki": "Legend of Legaia",
       "quality_signals": {
-        "downloads": 685,
+        "downloads": 686,
         "stars": 11,
         "age_days": 78,
         "releases": 7,
@@ -5210,7 +5210,7 @@
       "genre": "Carreras",
       "wiki": "Wipeout (video game)",
       "quality_signals": {
-        "downloads": 24224,
+        "downloads": 24226,
         "stars": 965,
         "age_days": 1185,
         "releases": 13,
@@ -5263,7 +5263,7 @@
       "genre": "Carreras",
       "wiki": "Project Gotham Racing 4",
       "quality_signals": {
-        "downloads": 4034,
+        "downloads": 4039,
         "stars": 160,
         "age_days": 73,
         "releases": 5,
@@ -5527,7 +5527,7 @@
       "genre": "Ritmo",
       "wiki": "Guitar Hero: Warriors of Rock",
       "quality_signals": {
-        "downloads": 1536,
+        "downloads": 1537,
         "stars": 35,
         "age_days": 217,
         "releases": 2,
@@ -5580,7 +5580,7 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill: Downpour",
       "quality_signals": {
-        "downloads": 11318,
+        "downloads": 11324,
         "stars": 259,
         "age_days": 107,
         "releases": 10,
@@ -5740,9 +5740,9 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat 6: Fires of Liberation",
       "quality_signals": {
-        "downloads": 13530,
+        "downloads": 13537,
         "stars": 485,
-        "age_days": 187,
+        "age_days": 188,
         "releases": 3,
         "contributors": 5,
         "ai": false,
@@ -5901,7 +5901,7 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 9711,
+        "downloads": 9712,
         "stars": 310,
         "age_days": 134,
         "releases": 2,
@@ -5956,7 +5956,7 @@
       "genre": "Plataformas",
       "wiki": "Mischief Makers",
       "quality_signals": {
-        "downloads": 5723,
+        "downloads": 5724,
         "stars": 91,
         "age_days": 87,
         "releases": 19,
@@ -6274,7 +6274,7 @@
       "genre": "Simulación social",
       "wiki": "Animal Crossing (video game)",
       "quality_signals": {
-        "downloads": 30559,
+        "downloads": 30560,
         "stars": 1470,
         "age_days": 209,
         "releases": 9,
@@ -6436,7 +6436,7 @@
       "genre": "Plataformas",
       "wiki": "Jak and Daxter: The Precursor Legacy",
       "quality_signals": {
-        "downloads": 486445,
+        "downloads": 486452,
         "stars": 236,
         "age_days": 1515,
         "releases": 89,
@@ -6489,7 +6489,7 @@
       "genre": "Shooter en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 41501,
+        "downloads": 41504,
         "stars": 873,
         "age_days": 114,
         "releases": 7,
@@ -6597,7 +6597,7 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. (video game)",
       "quality_signals": {
-        "downloads": 53585,
+        "downloads": 53589,
         "stars": 463,
         "age_days": 183,
         "releases": 33,
@@ -6652,7 +6652,7 @@
       "genre": "Lucha",
       "wiki": "Street Fighter EX2",
       "quality_signals": {
-        "downloads": 1235,
+        "downloads": 1237,
         "stars": 23,
         "age_days": 36,
         "releases": 1,
@@ -6705,7 +6705,7 @@
       "genre": "Carreras",
       "wiki": "Mario Kart: Super Circuit",
       "quality_signals": {
-        "downloads": 3757,
+        "downloads": 3760,
         "stars": 65,
         "age_days": 66,
         "releases": 8,
@@ -6756,7 +6756,7 @@
       "genre": "Estrategia en tiempo real",
       "wiki": "Pikmin (video game)",
       "quality_signals": {
-        "downloads": 12732,
+        "downloads": 12734,
         "stars": 199,
         "age_days": 31,
         "releases": 18,
@@ -6919,7 +6919,7 @@
       "genre": "Carreras",
       "wiki": "Road Rash 64",
       "quality_signals": {
-        "downloads": 2951,
+        "downloads": 2955,
         "stars": 58,
         "age_days": 28,
         "releases": 9,
@@ -7128,7 +7128,7 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: Ocarina of Time 3D",
       "quality_signals": {
-        "downloads": 21447,
+        "downloads": 21452,
         "stars": 461,
         "age_days": 27,
         "releases": 8,
@@ -7183,7 +7183,7 @@
       "genre": "Fotografía sobre raíles",
       "wiki": "Pokémon Snap",
       "quality_signals": {
-        "downloads": 5219,
+        "downloads": 5225,
         "stars": 94,
         "age_days": 29,
         "releases": 13,
@@ -7243,7 +7243,7 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 16183,
+        "downloads": 16236,
         "stars": 153,
         "age_days": 33,
         "releases": 27,
@@ -7297,7 +7297,7 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. Melee",
       "quality_signals": {
-        "downloads": 24962,
+        "downloads": 24964,
         "stars": 416,
         "age_days": 21,
         "releases": 15,
@@ -7356,7 +7356,7 @@
       "genre": "Deportes",
       "wiki": "Super Mario Strikers",
       "quality_signals": {
-        "downloads": 11041,
+        "downloads": 11042,
         "stars": 291,
         "age_days": 24,
         "releases": 7,
@@ -7411,7 +7411,7 @@
       "genre": "Carreras",
       "wiki": "AeroGauge",
       "quality_signals": {
-        "downloads": 2194,
+        "downloads": 2196,
         "stars": 35,
         "age_days": 86,
         "releases": 7,
@@ -7633,7 +7633,7 @@
       "genre": "RPG",
       "wiki": "Lost Odyssey",
       "quality_signals": {
-        "downloads": 27631,
+        "downloads": 27663,
         "stars": 472,
         "age_days": 30,
         "releases": 51,
@@ -7686,7 +7686,7 @@
       "genre": "Carreras",
       "wiki": "Wave Race 64",
       "quality_signals": {
-        "downloads": 4286,
+        "downloads": 4288,
         "stars": 107,
         "age_days": 18,
         "releases": 1,
@@ -7744,7 +7744,7 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 26374,
+        "downloads": 26393,
         "stars": 428,
         "age_days": 212,
         "releases": 3,
@@ -7797,7 +7797,7 @@
       "genre": "Carreras",
       "wiki": "Beetle Adventure Racing!",
       "quality_signals": {
-        "downloads": 2568,
+        "downloads": 2569,
         "stars": 60,
         "age_days": 28,
         "releases": 6,
@@ -7852,7 +7852,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 8965,
+        "downloads": 8972,
         "stars": 194,
         "age_days": 35,
         "releases": 6,
@@ -7907,7 +7907,7 @@
       "genre": "Simulación",
       "wiki": "Pilotwings 64",
       "quality_signals": {
-        "downloads": 2733,
+        "downloads": 2735,
         "stars": 69,
         "age_days": 20,
         "releases": 2,
@@ -7960,7 +7960,7 @@
       "genre": "Survival horror",
       "wiki": "Deadly Premonition",
       "quality_signals": {
-        "downloads": 3068,
+        "downloads": 3070,
         "stars": 156,
         "age_days": 112,
         "releases": 35,
@@ -8013,7 +8013,7 @@
       "genre": "Hack and slash",
       "wiki": "Ninja Gaiden II",
       "quality_signals": {
-        "downloads": 6300,
+        "downloads": 6304,
         "stars": 138,
         "age_days": 30,
         "releases": 25,
@@ -8066,7 +8066,7 @@
       "genre": "Action RPG",
       "wiki": "Fable II",
       "quality_signals": {
-        "downloads": 13244,
+        "downloads": 13245,
         "stars": 346,
         "age_days": 35,
         "releases": 7,
@@ -8172,7 +8172,7 @@
       "genre": "Carreras",
       "wiki": "Need for Speed: Most Wanted (2005 video game)",
       "quality_signals": {
-        "downloads": 944,
+        "downloads": 950,
         "stars": 85,
         "age_days": 24,
         "releases": 2,
@@ -8392,7 +8392,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 4424,
+        "downloads": 4427,
         "stars": 210,
         "age_days": 19,
         "releases": 5,
@@ -8500,7 +8500,7 @@
       "genre": "Carreras",
       "wiki": "Sonic Free Riders",
       "quality_signals": {
-        "downloads": 2634,
+        "downloads": 2636,
         "stars": 61,
         "age_days": 13,
         "releases": 22,
@@ -8610,7 +8610,7 @@
       "genre": "RPG táctico",
       "wiki": "Ogre Battle 64: Person of Lordly Caliber",
       "quality_signals": {
-        "downloads": 985,
+        "downloads": 987,
         "stars": 69,
         "age_days": 41,
         "releases": 12,
@@ -8775,7 +8775,7 @@
       "quality_signals": {
         "downloads": 88,
         "stars": 5,
-        "age_days": 27,
+        "age_days": 28,
         "releases": 3,
         "contributors": 1,
         "ai": true,
@@ -9095,7 +9095,7 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 119,
+        "downloads": 120,
         "stars": 4,
         "age_days": 19,
         "releases": 2,
@@ -9531,7 +9531,7 @@
       "genre": "Plataformas",
       "wiki": "Crash Bandicoot 2: Cortex Strikes Back",
       "quality_signals": {
-        "downloads": 3267,
+        "downloads": 3268,
         "stars": 84,
         "age_days": 36,
         "releases": 6,
@@ -10177,7 +10177,7 @@
       "genre": "Plataformas",
       "wiki": "Sly Cooper and the Thievius Raccoonus",
       "quality_signals": {
-        "downloads": 1606,
+        "downloads": 1608,
         "stars": 189,
         "age_days": 1128,
         "releases": 1,
@@ -10335,7 +10335,7 @@
       "genre": "Action RPG",
       "wiki": "Monster Hunter Portable 3rd",
       "quality_signals": {
-        "downloads": 17535,
+        "downloads": 17541,
         "stars": 368,
         "age_days": 16,
         "releases": 12,
@@ -10869,7 +10869,7 @@
       "genre": "Lucha",
       "wiki": "Tekken 3",
       "quality_signals": {
-        "downloads": 2537,
+        "downloads": 2538,
         "stars": 40,
         "age_days": 21,
         "releases": 5,
@@ -11085,7 +11085,7 @@
       "genre": "Lucha",
       "wiki": "Dragon Ball Z: Budokai HD Collection",
       "quality_signals": {
-        "downloads": 5683,
+        "downloads": 5686,
         "stars": 128,
         "age_days": 47,
         "releases": 22,
@@ -11191,7 +11191,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 374,
+        "downloads": 376,
         "stars": 30,
         "age_days": 5,
         "releases": 5,
@@ -11244,7 +11244,7 @@
       "genre": "Plataformas",
       "wiki": "Crash of the Titans",
       "quality_signals": {
-        "downloads": 1599,
+        "downloads": 1601,
         "stars": 33,
         "age_days": 6,
         "releases": 1,
@@ -11299,7 +11299,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "Call of Duty: Modern Warfare 2",
       "quality_signals": {
-        "downloads": 382,
+        "downloads": 383,
         "stars": 25,
         "age_days": 8,
         "releases": 3,
@@ -11352,7 +11352,7 @@
       "genre": "Lucha libre",
       "wiki": "WWE SmackDown vs. Raw 2011",
       "quality_signals": {
-        "downloads": 384,
+        "downloads": 387,
         "stars": 8,
         "age_days": 7,
         "releases": 6,
@@ -11405,7 +11405,7 @@
       "genre": "Lucha libre",
       "wiki": "WWE SmackDown vs. Raw 2011",
       "quality_signals": {
-        "downloads": 1418,
+        "downloads": 1437,
         "stars": 9,
         "age_days": 6,
         "releases": 14,
@@ -11621,7 +11621,7 @@
       "genre": "Plataformas",
       "wiki": "Conker's Bad Fur Day",
       "quality_signals": {
-        "downloads": 8504,
+        "downloads": 8509,
         "stars": 226,
         "age_days": 9,
         "releases": 6,
@@ -11729,7 +11729,7 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 1185,
+        "downloads": 1187,
         "stars": 73,
         "age_days": 7,
         "releases": 3,
@@ -11790,7 +11790,7 @@
       "quality_signals": {
         "downloads": 44,
         "stars": 7,
-        "age_days": 13,
+        "age_days": 14,
         "releases": 1,
         "contributors": 1,
         "ai": false,
@@ -11843,7 +11843,7 @@
       "genre": "Juego de cartas",
       "wiki": "Yu-Gi-Oh! Forbidden Memories",
       "quality_signals": {
-        "downloads": 10674,
+        "downloads": 10678,
         "stars": 123,
         "age_days": 13,
         "releases": 9,
@@ -12165,7 +12165,7 @@
       "genre": "Acción-aventura",
       "wiki": "Grand Theft Auto: Liberty City Stories",
       "quality_signals": {
-        "downloads": 3044,
+        "downloads": 3045,
         "stars": 185,
         "age_days": 10,
         "releases": 6,
@@ -12593,7 +12593,7 @@
       "genre": "Deportes",
       "wiki": "Dead or Alive Xtreme Beach Volleyball",
       "quality_signals": {
-        "downloads": 19344,
+        "downloads": 19370,
         "stars": 77,
         "age_days": 49,
         "releases": 16,
@@ -12665,7 +12665,7 @@
       "type": "native-port",
       "repo": {
         "host": "github",
-        "owner": "OverkillLabs",
+        "owner": "OverkillLabs2",
         "repo": "DeadCells-PS5-Native"
       },
       "release_channel": "stable",
@@ -12690,18 +12690,18 @@
           "windows-x86_64"
         ],
         "latest_tag": "v0.1.0",
-        "published_at": "2026-09-27T00:13:06Z"
+        "published_at": "2026-10-03T20:14:39Z"
       },
       "year": 2018,
       "developer": "Motion Twin / Evil Empire",
       "genre": "Acción-plataformas",
       "wiki": "Dead Cells",
       "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
+        "downloads": 37,
+        "stars": 5,
+        "age_days": 1,
+        "releases": 1,
+        "contributors": 1,
         "ai": false,
         "emu": false,
         "checked": "2026-10-05"
@@ -12811,8 +12811,8 @@
       "box_art": null,
       "exception": "Excepción a la regla de generaciones: reimplementación de Pokémon Gen 1 en Lua querida por la comunidad (476k descargas), con widescreen, mods y co-op; trabajada hasta el extremo.",
       "quality_signals": {
-        "downloads": 435985,
-        "stars": 3835,
+        "downloads": 436070,
+        "stars": 3836,
         "age_days": 79,
         "releases": 100,
         "contributors": 5,
@@ -12866,7 +12866,7 @@
       "wiki": "Time Crisis (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2833,
+        "downloads": 2846,
         "stars": 122,
         "age_days": 12,
         "releases": 10,
@@ -12921,7 +12921,7 @@
       "wiki": "Rave Racer",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2833,
+        "downloads": 2846,
         "stars": 122,
         "age_days": 12,
         "releases": 10,
@@ -12976,7 +12976,7 @@
       "wiki": "Tokyo Wars",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2833,
+        "downloads": 2846,
         "stars": 122,
         "age_days": 12,
         "releases": 10,
@@ -13031,7 +13031,7 @@
       "wiki": "Dirt Dash",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2833,
+        "downloads": 2846,
         "stars": 122,
         "age_days": 12,
         "releases": 10,
@@ -13086,7 +13086,7 @@
       "wiki": "Prop Cycle",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2833,
+        "downloads": 2846,
         "stars": 122,
         "age_days": 12,
         "releases": 10,
@@ -13139,11 +13139,64 @@
       "wiki": "Bloodborne",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1505,
-        "stars": 461,
+        "downloads": 1527,
+        "stars": 476,
         "age_days": 4,
         "releases": 2,
         "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-05"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "sos-ps5-native",
+      "name": "SonsOfSparta-PS5 Native",
+      "original_game": "God of War: Sons of Sparta",
+      "game_id": "god-of-war-sons-of-sparta",
+      "system": "ps5",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "OverkillLabs2",
+        "repo": "SoS-PS5"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/7cf56ae5ff50cdc9f4d18f0b943251da.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SonsOfSparta-PS5-Native-.*-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Copia los archivos DESCIFRADOS de tu copia PS5 de God of War: Sons of Sparta (PPSA28997, v01.008.001): eboot.bin, sce_sys, sce_module y Media, en la misma carpeta que SonsOfSparta-PS5.exe (~25 GB). El código x86-64 del juego se ejecuta nativo vía AnyPS5; GPU por Vulkan 1.3. Primer arranque ~2 min preparando el juego; shaders se compilan al jugar. Probado solo en NVIDIA."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SonsOfSparta-PS5.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "sos-v0.2.2",
+        "published_at": "2026-10-04T19:35:26Z"
+      },
+      "year": 2026,
+      "developer": "Mega Cat Studios / Santa Monica Studio",
+      "genre": "Metroidvania",
+      "wiki": "God of War Sons of Sparta",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2649,
+        "stars": 102,
+        "age_days": 1,
+        "releases": 4,
+        "contributors": 2,
         "ai": false,
         "emu": false,
         "checked": "2026-10-05"
