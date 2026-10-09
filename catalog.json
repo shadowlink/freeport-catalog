@@ -168,14 +168,14 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 367716,
-        "stars": 7355,
-        "age_days": 1080,
+        "downloads": 368078,
+        "stars": 7362,
+        "age_days": 1081,
         "releases": 7,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -228,14 +228,14 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 2286432,
-        "stars": 5546,
-        "age_days": 1661,
+        "downloads": 2289606,
+        "stars": 5548,
+        "age_days": 1662,
         "releases": 52,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -289,14 +289,14 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 703562,
-        "stars": 2294,
-        "age_days": 1058,
+        "downloads": 704289,
+        "stars": 2295,
+        "age_days": 1059,
         "releases": 16,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -352,14 +352,14 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 230845,
+        "downloads": 231213,
         "stars": 2394,
         "age_days": 914,
         "releases": 3,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -412,14 +412,14 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 13038,
+        "downloads": 13248,
         "stars": 2046,
         "age_days": 1175,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -469,14 +469,14 @@
       "wiki": "Super Mario 64",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1660373,
-        "stars": 1397,
-        "age_days": 1074,
+        "downloads": 1662236,
+        "stars": 1401,
+        "age_days": 1075,
         "releases": 16,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -524,14 +524,14 @@
       "wiki": "Driver 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 70665,
-        "stars": 1392,
-        "age_days": 2165,
+        "downloads": 70783,
+        "stars": 1393,
+        "age_days": 2166,
         "releases": 14,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -588,14 +588,14 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 141335,
-        "stars": 2023,
-        "age_days": 597,
+        "downloads": 141652,
+        "stars": 2024,
+        "age_days": 598,
         "releases": 3,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -648,14 +648,14 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 20395,
+        "downloads": 20452,
         "stars": 322,
-        "age_days": 872,
+        "age_days": 873,
         "releases": 8,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -707,14 +707,14 @@
       "wiki": "Ganbare Goemon: Neo Momoyama Bakufu no Odori",
       "box_art": null,
       "quality_signals": {
-        "downloads": 22203,
+        "downloads": 22285,
         "stars": 310,
-        "age_days": 602,
+        "age_days": 603,
         "releases": 5,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -772,14 +772,14 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 13916,
+        "downloads": 13976,
         "stars": 264,
         "age_days": 538,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -829,14 +829,14 @@
       "wiki": "Skate 3",
       "box_art": null,
       "quality_signals": {
-        "downloads": 95284,
-        "stars": 1524,
-        "age_days": 125,
+        "downloads": 96919,
+        "stars": 1537,
+        "age_days": 126,
         "releases": 9,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -886,14 +886,14 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 20637,
+        "downloads": 20699,
         "stars": 360,
         "age_days": 124,
         "releases": 23,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -944,14 +944,14 @@
       "wiki": "The Legend of Dragoon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 22845,
-        "stars": 542,
-        "age_days": 1865,
+        "downloads": 20923,
+        "stars": 543,
+        "age_days": 1866,
         "releases": 6,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1000,14 +1000,14 @@
       "wiki": "Tomb Raider (videojuego de 1996)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 49878,
+        "downloads": 49951,
         "stars": 1004,
-        "age_days": 2068,
+        "age_days": 2069,
         "releases": 100,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1056,14 +1056,14 @@
       "wiki": "Sonic Mania",
       "box_art": null,
       "quality_signals": {
-        "downloads": 77336,
+        "downloads": 77421,
         "stars": 809,
-        "age_days": 2429,
+        "age_days": 2430,
         "releases": 3,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1111,14 +1111,14 @@
       "wiki": "Carmageddon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 8580,
-        "stars": 1210,
-        "age_days": 2535,
+        "downloads": 8657,
+        "stars": 1211,
+        "age_days": 2536,
         "releases": 12,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1166,14 +1166,14 @@
       "wiki": "RuneScape",
       "box_art": null,
       "quality_signals": {
-        "downloads": 3254,
+        "downloads": 3256,
         "stars": 134,
         "age_days": 1875,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -1221,14 +1221,14 @@
       "wiki": "Test Drive Unlimited",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1124,
+        "downloads": 1128,
         "stars": 127,
-        "age_days": 503,
+        "age_days": 504,
         "releases": 100,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -1276,14 +1276,14 @@
       "wiki": "Diablo (videojuego)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 598923,
-        "stars": 9797,
-        "age_days": 2988,
+        "downloads": 599424,
+        "stars": 9802,
+        "age_days": 2989,
         "releases": 22,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1331,14 +1331,14 @@
       "wiki": "Oddworld: Abe's Oddysee",
       "box_art": null,
       "quality_signals": {
-        "downloads": 24992,
+        "downloads": 25028,
         "stars": 441,
         "age_days": 3047,
         "releases": 9,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1388,14 +1388,14 @@
       "wiki": "Doom (videojuego de 1993)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 25652,
+        "downloads": 25715,
         "stars": 543,
-        "age_days": 2562,
+        "age_days": 2563,
         "releases": 27,
         "contributors": 4,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1443,14 +1443,14 @@
       "wiki": "The Legend of Zelda: Twilight Princess",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1307933,
-        "stars": 5688,
-        "age_days": 312,
+        "downloads": 1312585,
+        "stars": 5701,
+        "age_days": 313,
         "releases": 24,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1506,14 +1506,14 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 19495,
+        "downloads": 19579,
         "stars": 291,
-        "age_days": 264,
+        "age_days": 265,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1563,14 +1563,14 @@
       "wiki": "Bomberman Hero",
       "box_art": null,
       "quality_signals": {
-        "downloads": 9477,
+        "downloads": 9546,
         "stars": 124,
-        "age_days": 185,
+        "age_days": 186,
         "releases": 5,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1626,14 +1626,14 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 8338,
+        "downloads": 8450,
         "stars": 153,
-        "age_days": 183,
+        "age_days": 184,
         "releases": 6,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1681,14 +1681,14 @@
       "wiki": "Snowboard Kids 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 7091,
+        "downloads": 7171,
         "stars": 102,
-        "age_days": 262,
+        "age_days": 263,
         "releases": 4,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1736,14 +1736,14 @@
       "wiki": "Kameo: Elements of Power",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4250,
-        "stars": 53,
-        "age_days": 167,
+        "downloads": 4308,
+        "stars": 55,
+        "age_days": 168,
         "releases": 4,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -1797,14 +1797,14 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 115649,
-        "stars": 807,
+        "downloads": 116082,
+        "stars": 808,
         "age_days": 1122,
         "releases": 5,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1850,14 +1850,14 @@
       "wiki": "Sonic Unleashed",
       "box_art": null,
       "quality_signals": {
-        "downloads": 717103,
-        "stars": 5130,
-        "age_days": 738,
+        "downloads": 717633,
+        "stars": 5133,
+        "age_days": 739,
         "releases": 4,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1903,14 +1903,14 @@
       "wiki": "Dr. Mario 64",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10354,
+        "downloads": 10396,
         "stars": 150,
-        "age_days": 294,
+        "age_days": 295,
         "releases": 1,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -1954,14 +1954,14 @@
       "wiki": "Viva Piñata: Trouble in Paradise",
       "box_art": null,
       "quality_signals": {
-        "downloads": 9422,
-        "stars": 199,
+        "downloads": 9478,
+        "stars": 201,
         "age_days": 208,
         "releases": 5,
         "contributors": 4,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2007,14 +2007,14 @@
       "wiki": "Lollipop Chainsaw",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1462,
-        "stars": 36,
-        "age_days": 196,
+        "downloads": 1488,
+        "stars": 37,
+        "age_days": 197,
         "releases": 1,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2060,14 +2060,14 @@
       "wiki": "Banjo-Kazooie: Nuts & Bolts",
       "box_art": null,
       "quality_signals": {
-        "downloads": 13337,
-        "stars": 148,
-        "age_days": 222,
+        "downloads": 13434,
+        "stars": 151,
+        "age_days": 223,
         "releases": 12,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2113,14 +2113,14 @@
       "wiki": "Naughty Bear",
       "box_art": null,
       "quality_signals": {
-        "downloads": 3256,
+        "downloads": 3322,
         "stars": 54,
-        "age_days": 183,
+        "age_days": 184,
         "releases": 7,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2166,14 +2166,14 @@
       "wiki": "Crash Team Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 14879,
-        "stars": 384,
-        "age_days": 144,
+        "downloads": 14995,
+        "stars": 385,
+        "age_days": 145,
         "releases": 9,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2223,14 +2223,14 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 46133,
-        "stars": 844,
-        "age_days": 96,
+        "downloads": 46556,
+        "stars": 849,
+        "age_days": 97,
         "releases": 9,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2280,14 +2280,14 @@
       "wiki": "Diddy Kong Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 17065,
+        "downloads": 17137,
         "stars": 174,
-        "age_days": 69,
+        "age_days": 70,
         "releases": 15,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2337,14 +2337,14 @@
       "wiki": "Banjo-Kazooie",
       "box_art": null,
       "quality_signals": {
-        "downloads": 33921,
-        "stars": 481,
-        "age_days": 679,
+        "downloads": 34087,
+        "stars": 483,
+        "age_days": 680,
         "releases": 5,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2381,8 +2381,8 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.5.1",
-        "published_at": "2026-10-08T06:10:32Z"
+        "latest_tag": "v0.5.2",
+        "published_at": "2026-10-08T23:09:56Z"
       },
       "year": 1999,
       "developer": "Sony Computer Entertainment",
@@ -2390,14 +2390,14 @@
       "wiki": "Ape Escape",
       "box_art": null,
       "quality_signals": {
-        "downloads": 6360,
+        "downloads": 6609,
         "stars": 82,
-        "age_days": 122,
-        "releases": 18,
+        "age_days": 123,
+        "releases": 19,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2449,14 +2449,14 @@
       "wiki": "The Legend of Zelda: The Minish Cap",
       "box_art": null,
       "quality_signals": {
-        "downloads": 3956,
-        "stars": 451,
-        "age_days": 160,
+        "downloads": 4152,
+        "stars": 452,
+        "age_days": 161,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2505,14 +2505,14 @@
       "wiki": "Kirby's Return to Dream Land",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10453,
-        "stars": 166,
-        "age_days": 105,
+        "downloads": 10572,
+        "stars": 167,
+        "age_days": 106,
         "releases": 1,
         "contributors": 4,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2560,14 +2560,14 @@
       "wiki": "The Simpsons Game",
       "box_art": null,
       "quality_signals": {
-        "downloads": 16585,
-        "stars": 303,
-        "age_days": 95,
+        "downloads": 17267,
+        "stars": 305,
+        "age_days": 96,
         "releases": 20,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2616,14 +2616,14 @@
       "box_art": null,
       "rolling_tag": "v0.5.0",
       "quality_signals": {
-        "downloads": 4874,
+        "downloads": 4956,
         "stars": 41,
-        "age_days": 95,
+        "age_days": 96,
         "releases": 12,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2669,14 +2669,14 @@
       "wiki": "Condemned 2: Bloodshot",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4829,
-        "stars": 197,
-        "age_days": 66,
+        "downloads": 4884,
+        "stars": 199,
+        "age_days": 67,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2722,14 +2722,14 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 7094,
-        "stars": 274,
-        "age_days": 649,
+        "downloads": 7123,
+        "stars": 275,
+        "age_days": 650,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2775,14 +2775,14 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 5070,
+        "downloads": 5090,
         "stars": 58,
-        "age_days": 870,
+        "age_days": 871,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2828,14 +2828,14 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 12620,
-        "stars": 142,
-        "age_days": 198,
+        "downloads": 12738,
+        "stars": 143,
+        "age_days": 199,
         "releases": 8,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2885,14 +2885,14 @@
       "wiki": "Castlevania: Legacy of Darkness",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10228,
+        "downloads": 10285,
         "stars": 130,
-        "age_days": 256,
+        "age_days": 257,
         "releases": 31,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -2942,14 +2942,14 @@
       "wiki": "Star Wars: X-Wing Alliance",
       "box_art": null,
       "quality_signals": {
-        "downloads": 689,
-        "stars": 147,
+        "downloads": 698,
+        "stars": 148,
         "age_days": 75,
         "releases": 16,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad"
     },
@@ -2997,14 +2997,14 @@
       "wiki": "F-Zero X",
       "box_art": null,
       "quality_signals": {
-        "downloads": 12508,
+        "downloads": 12581,
         "stars": 275,
-        "age_days": 109,
+        "age_days": 110,
         "releases": 5,
         "contributors": 2,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -3052,14 +3052,14 @@
       "wiki": "Diddy Kong Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15446,
+        "downloads": 15681,
         "stars": 202,
-        "age_days": 64,
+        "age_days": 65,
         "releases": 8,
         "contributors": 4,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -3106,14 +3106,14 @@
       "wiki": "Crash Bandicoot (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 26594,
-        "stars": 243,
-        "age_days": 77,
+        "downloads": 27124,
+        "stars": 244,
+        "age_days": 78,
         "releases": 19,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -3160,14 +3160,14 @@
       "genre": "Matamarcianos",
       "wiki": "Star Fox 64",
       "quality_signals": {
-        "downloads": 222462,
+        "downloads": 222662,
         "stars": 2082,
-        "age_days": 870,
+        "age_days": 871,
         "releases": 2,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -3213,14 +3213,14 @@
       "genre": "Shooter en primera persona",
       "wiki": "Metroid Prime Hunters",
       "quality_signals": {
-        "downloads": 9682,
-        "stars": 252,
-        "age_days": 67,
+        "downloads": 9877,
+        "stars": 255,
+        "age_days": 68,
         "releases": 40,
         "contributors": 2,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3259,22 +3259,22 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.19.0-alpha",
-        "published_at": "2026-10-08T01:33:13Z"
+        "latest_tag": "v0.20.0-alpha",
+        "published_at": "2026-10-09T00:31:05Z"
       },
       "year": 1997,
       "developer": "Whoopee Camp",
       "genre": "Plataformas",
       "wiki": "Tomba!",
       "quality_signals": {
-        "downloads": 4270,
+        "downloads": 4405,
         "stars": 65,
-        "age_days": 206,
-        "releases": 41,
+        "age_days": 207,
+        "releases": 42,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -3320,14 +3320,14 @@
       "genre": "Juego de cartas",
       "wiki": "Yu-Gi-Oh! Forbidden Memories",
       "quality_signals": {
-        "downloads": 10736,
-        "stars": 126,
-        "age_days": 49,
+        "downloads": 10822,
+        "stars": 128,
+        "age_days": 50,
         "releases": 31,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -3373,14 +3373,14 @@
       "genre": "Lucha libre",
       "wiki": "WWF No Mercy",
       "quality_signals": {
-        "downloads": 1750,
-        "stars": 25,
-        "age_days": 85,
+        "downloads": 1785,
+        "stars": 26,
+        "age_days": 86,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3426,14 +3426,14 @@
       "genre": "Lucha libre",
       "wiki": "WWF WrestleMania 2000",
       "quality_signals": {
-        "downloads": 1017,
+        "downloads": 1029,
         "stars": 13,
-        "age_days": 86,
+        "age_days": 87,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3479,14 +3479,14 @@
       "genre": "Lucha libre",
       "wiki": "Virtual Pro Wrestling 64",
       "quality_signals": {
-        "downloads": 607,
+        "downloads": 613,
         "stars": 8,
-        "age_days": 87,
+        "age_days": 88,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3532,14 +3532,14 @@
       "genre": "Lucha libre",
       "wiki": "WCW/nWo Revenge",
       "quality_signals": {
-        "downloads": 1592,
+        "downloads": 1610,
         "stars": 24,
-        "age_days": 91,
+        "age_days": 92,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3585,14 +3585,14 @@
       "genre": "Lucha libre",
       "wiki": "WCW vs. nWo: World Tour",
       "quality_signals": {
-        "downloads": 1792,
+        "downloads": 1808,
         "stars": 38,
-        "age_days": 94,
+        "age_days": 95,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3630,22 +3630,22 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v1.6.6",
-        "published_at": "2026-10-03T04:58:49Z"
+        "latest_tag": "v1.6.7",
+        "published_at": "2026-10-08T21:59:32Z"
       },
       "year": 2003,
       "developer": "Namco",
       "genre": "Lucha",
       "wiki": "Soulcalibur II",
       "quality_signals": {
-        "downloads": 7349,
+        "downloads": 7616,
         "stars": 154,
-        "age_days": 45,
-        "releases": 13,
+        "age_days": 46,
+        "releases": 14,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -3691,14 +3691,14 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill (video game)",
       "quality_signals": {
-        "downloads": 15498,
-        "stars": 628,
-        "age_days": 216,
+        "downloads": 14040,
+        "stars": 634,
+        "age_days": 217,
         "releases": 11,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -3744,14 +3744,14 @@
       "genre": "Lucha",
       "wiki": "Tekken 3",
       "quality_signals": {
-        "downloads": 5989,
+        "downloads": 6075,
         "stars": 133,
-        "age_days": 68,
+        "age_days": 69,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3799,14 +3799,14 @@
       "genre": "Lucha",
       "wiki": "Street Fighter Alpha 3",
       "quality_signals": {
-        "downloads": 3823,
+        "downloads": 3864,
         "stars": 74,
-        "age_days": 60,
+        "age_days": 61,
         "releases": 9,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3854,14 +3854,14 @@
       "genre": "RPG táctico",
       "wiki": "Vandal Hearts",
       "quality_signals": {
-        "downloads": 2158,
+        "downloads": 2194,
         "stars": 47,
-        "age_days": 77,
+        "age_days": 78,
         "releases": 14,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -3907,14 +3907,14 @@
       "genre": "Estrategia",
       "wiki": "Samurai vs. Zombies Defense",
       "quality_signals": {
-        "downloads": 7937,
+        "downloads": 7946,
         "stars": 25,
         "age_days": 667,
         "releases": 3,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -3965,14 +3965,14 @@
         "SDL_VIDEODRIVER": "x11"
       },
       "quality_signals": {
-        "downloads": 49515,
-        "stars": 751,
-        "age_days": 242,
+        "downloads": 49931,
+        "stars": 754,
+        "age_days": 243,
         "releases": 21,
         "contributors": 4,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -4022,14 +4022,14 @@
       "genre": "Simulador de combate espacial",
       "wiki": "Star Wars: TIE Fighter",
       "quality_signals": {
-        "downloads": 900,
-        "stars": 326,
-        "age_days": 74,
+        "downloads": 910,
+        "stars": 327,
+        "age_days": 75,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4075,14 +4075,14 @@
       "genre": "Lucha",
       "wiki": "X-Men: Mutant Academy 2",
       "quality_signals": {
-        "downloads": 635,
+        "downloads": 641,
         "stars": 13,
-        "age_days": 46,
+        "age_days": 47,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4126,14 +4126,14 @@
       "genre": "Acción",
       "wiki": "Strider 2 (1999 video game)",
       "quality_signals": {
-        "downloads": 1334,
+        "downloads": 1368,
         "stars": 37,
-        "age_days": 45,
+        "age_days": 46,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4181,14 +4181,14 @@
       "genre": "Combate vehicular",
       "wiki": "Twisted Metal 4",
       "quality_signals": {
-        "downloads": 1819,
-        "stars": 22,
-        "age_days": 62,
+        "downloads": 1880,
+        "stars": 23,
+        "age_days": 63,
         "releases": 14,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4236,14 +4236,14 @@
       "genre": "Plataformas",
       "wiki": "Donkey Kong 64",
       "quality_signals": {
-        "downloads": 41237,
-        "stars": 484,
-        "age_days": 121,
+        "downloads": 41588,
+        "stars": 486,
+        "age_days": 122,
         "releases": 4,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -4289,14 +4289,14 @@
       "genre": "Sigilo",
       "wiki": "Tenchu: Stealth Assassins",
       "quality_signals": {
-        "downloads": 323,
+        "downloads": 328,
         "stars": 17,
-        "age_days": 46,
+        "age_days": 47,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4344,14 +4344,14 @@
       "genre": "Carreras",
       "wiki": "Rage Racer",
       "quality_signals": {
-        "downloads": 6444,
+        "downloads": 6528,
         "stars": 118,
-        "age_days": 55,
+        "age_days": 56,
         "releases": 14,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4399,14 +4399,14 @@
       "genre": "Matamarcianos",
       "wiki": "Einhänder",
       "quality_signals": {
-        "downloads": 2005,
+        "downloads": 2038,
         "stars": 90,
-        "age_days": 48,
+        "age_days": 49,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4454,14 +4454,14 @@
       "genre": "Plataformas",
       "wiki": "Klonoa: Door to Phantomile",
       "quality_signals": {
-        "downloads": 2042,
+        "downloads": 2104,
         "stars": 38,
-        "age_days": 52,
+        "age_days": 53,
         "releases": 4,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -4509,14 +4509,14 @@
       "genre": "Lucha",
       "wiki": "Marvel vs. Capcom: Clash of Super Heroes",
       "quality_signals": {
-        "downloads": 1169,
+        "downloads": 1199,
         "stars": 5,
-        "age_days": 61,
+        "age_days": 62,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4564,14 +4564,14 @@
       "genre": "Lucha",
       "wiki": "Star Wars: Masters of Teräs Käsi",
       "quality_signals": {
-        "downloads": 767,
+        "downloads": 800,
         "stars": 4,
-        "age_days": 79,
+        "age_days": 80,
         "releases": 8,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4619,14 +4619,14 @@
       "genre": "Run and gun",
       "wiki": "Metal Slug X",
       "quality_signals": {
-        "downloads": 1166,
+        "downloads": 1241,
         "stars": 4,
-        "age_days": 61,
+        "age_days": 62,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4674,16 +4674,16 @@
       "genre": "Acción",
       "wiki": "Rampage Through Time",
       "quality_signals": {
-        "downloads": 792,
+        "downloads": 851,
         "stars": 8,
-        "age_days": 59,
+        "age_days": 60,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
-      "tier": "experimental",
+      "tier": "comunidad",
       "box_art": null
     },
     {
@@ -4729,14 +4729,14 @@
       "genre": "Acción",
       "wiki": "Star Wars Episode I: Jedi Power Battles",
       "quality_signals": {
-        "downloads": 681,
+        "downloads": 751,
         "stars": 4,
-        "age_days": 60,
+        "age_days": 61,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4784,14 +4784,14 @@
       "genre": "Carreras",
       "wiki": "Bomberman Fantasy Race",
       "quality_signals": {
-        "downloads": 772,
+        "downloads": 798,
         "stars": 9,
-        "age_days": 61,
+        "age_days": 62,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4839,14 +4839,14 @@
       "genre": "Acción",
       "wiki": "Bomberman World",
       "quality_signals": {
-        "downloads": 878,
+        "downloads": 908,
         "stars": 6,
-        "age_days": 60,
+        "age_days": 61,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4894,14 +4894,14 @@
       "genre": "Acción",
       "wiki": "Bomberman Party Edition",
       "quality_signals": {
-        "downloads": 765,
+        "downloads": 791,
         "stars": 4,
-        "age_days": 77,
+        "age_days": 78,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -4939,22 +4939,22 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.0",
-        "published_at": "2026-10-05T01:10:38Z"
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-10-09T12:01:18Z"
       },
       "year": 1999,
       "developer": "Whoopee Camp",
       "genre": "Plataformas",
       "wiki": "Tomba! 2: The Evil Swine Return",
       "quality_signals": {
-        "downloads": 1105,
+        "downloads": 1140,
         "stars": 14,
-        "age_days": 96,
-        "releases": 13,
+        "age_days": 97,
+        "releases": 14,
         "contributors": 2,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5000,14 +5000,14 @@
       "genre": "RPG",
       "wiki": "Legend of Legaia",
       "quality_signals": {
-        "downloads": 720,
+        "downloads": 732,
         "stars": 11,
-        "age_days": 81,
+        "age_days": 82,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5053,14 +5053,14 @@
       "genre": "Acción/Sigilo",
       "wiki": "Syphon Filter 2",
       "quality_signals": {
-        "downloads": 1163,
-        "stars": 33,
-        "age_days": 63,
+        "downloads": 1227,
+        "stars": 34,
+        "age_days": 64,
         "releases": 5,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5108,14 +5108,14 @@
       "genre": "Beat 'em up",
       "wiki": "Jackie Chan Stuntmaster",
       "quality_signals": {
-        "downloads": 3162,
+        "downloads": 3190,
         "stars": 46,
-        "age_days": 192,
+        "age_days": 193,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5162,14 +5162,14 @@
       "genre": "Plataformas",
       "wiki": "Mega Man X6",
       "quality_signals": {
-        "downloads": 4981,
+        "downloads": 5071,
         "stars": 73,
-        "age_days": 125,
+        "age_days": 126,
         "releases": 28,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5215,14 +5215,14 @@
       "genre": "Carreras",
       "wiki": "Wipeout (video game)",
       "quality_signals": {
-        "downloads": 24414,
+        "downloads": 24457,
         "stars": 967,
-        "age_days": 1188,
+        "age_days": 1189,
         "releases": 13,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -5268,14 +5268,14 @@
       "genre": "Carreras",
       "wiki": "Project Gotham Racing 4",
       "quality_signals": {
-        "downloads": 4257,
+        "downloads": 4304,
         "stars": 163,
-        "age_days": 77,
+        "age_days": 78,
         "releases": 5,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5319,14 +5319,14 @@
       "genre": "RPG",
       "wiki": "Eternal Sonata",
       "quality_signals": {
-        "downloads": 6336,
-        "stars": 122,
+        "downloads": 6459,
+        "stars": 125,
         "age_days": 125,
         "releases": 13,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5372,14 +5372,14 @@
       "genre": "Puzzle/Plataformas",
       "wiki": "Exit (video game)",
       "quality_signals": {
-        "downloads": 613,
+        "downloads": 638,
         "stars": 12,
-        "age_days": 95,
+        "age_days": 96,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5425,14 +5425,14 @@
       "genre": "Puzzle/Plataformas",
       "wiki": "Exit (video game)",
       "quality_signals": {
-        "downloads": 613,
+        "downloads": 638,
         "stars": 12,
-        "age_days": 95,
+        "age_days": 96,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5479,14 +5479,14 @@
       "wiki": "Destroy All Humans! Path of the Furon",
       "rolling_tag": "new",
       "quality_signals": {
-        "downloads": 2066,
+        "downloads": 2100,
         "stars": 40,
-        "age_days": 197,
+        "age_days": 198,
         "releases": 5,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -5532,14 +5532,14 @@
       "genre": "Ritmo",
       "wiki": "Guitar Hero: Warriors of Rock",
       "quality_signals": {
-        "downloads": 1620,
+        "downloads": 1649,
         "stars": 38,
-        "age_days": 220,
+        "age_days": 221,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5585,14 +5585,14 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill: Downpour",
       "quality_signals": {
-        "downloads": 11741,
-        "stars": 263,
+        "downloads": 11841,
+        "stars": 266,
         "age_days": 111,
         "releases": 10,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -5638,14 +5638,14 @@
       "genre": "Lucha",
       "wiki": "UFC Undisputed 3",
       "quality_signals": {
-        "downloads": 1851,
-        "stars": 21,
-        "age_days": 38,
+        "downloads": 1920,
+        "stars": 20,
+        "age_days": 39,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -5692,14 +5692,14 @@
       "wiki": "Naughty Bear: Panic in Paradise",
       "rolling_tag": "release",
       "quality_signals": {
-        "downloads": 628,
+        "downloads": 636,
         "stars": 6,
-        "age_days": 112,
+        "age_days": 113,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5745,14 +5745,14 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat 6: Fires of Liberation",
       "quality_signals": {
-        "downloads": 14218,
-        "stars": 491,
-        "age_days": 191,
+        "downloads": 14392,
+        "stars": 496,
+        "age_days": 192,
         "releases": 3,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -5800,14 +5800,14 @@
       "genre": "Plataformas/Puzzle",
       "wiki": "Space Station Silicon Valley",
       "quality_signals": {
-        "downloads": 4355,
+        "downloads": 4383,
         "stars": 98,
-        "age_days": 247,
+        "age_days": 248,
         "releases": 6,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -5853,14 +5853,14 @@
       "genre": "Lucha libre",
       "wiki": "Virtual Pro Wrestling 2: Ōdō Keishō",
       "quality_signals": {
-        "downloads": 678,
+        "downloads": 689,
         "stars": 6,
-        "age_days": 82,
+        "age_days": 83,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -5906,16 +5906,16 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 9957,
-        "stars": 308,
-        "age_days": 137,
+        "downloads": 10004,
+        "stars": 309,
+        "age_days": 138,
         "releases": 2,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
-      "tier": "comunidad",
+      "tier": "curado",
       "box_art": null
     },
     {
@@ -5961,14 +5961,14 @@
       "genre": "Plataformas",
       "wiki": "Mischief Makers",
       "quality_signals": {
-        "downloads": 6125,
+        "downloads": 6189,
         "stars": 91,
         "age_days": 91,
         "releases": 19,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6014,14 +6014,14 @@
       "genre": "RPG",
       "wiki": "Pokémon Emerald",
       "quality_signals": {
-        "downloads": 2576,
+        "downloads": 2631,
         "stars": 29,
-        "age_days": 107,
+        "age_days": 108,
         "releases": 9,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6067,14 +6067,14 @@
       "genre": "RPG",
       "wiki": "Pokémon FireRed and LeafGreen",
       "quality_signals": {
-        "downloads": 2131,
+        "downloads": 2183,
         "stars": 18,
-        "age_days": 107,
+        "age_days": 108,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6120,14 +6120,14 @@
       "genre": "RPG",
       "wiki": "Pokémon FireRed and LeafGreen",
       "quality_signals": {
-        "downloads": 2131,
+        "downloads": 2183,
         "stars": 18,
-        "age_days": 107,
+        "age_days": 108,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6173,14 +6173,14 @@
       "genre": "RPG",
       "wiki": "Pokémon Ruby and Sapphire",
       "quality_signals": {
-        "downloads": 1570,
+        "downloads": 1605,
         "stars": 15,
-        "age_days": 107,
+        "age_days": 108,
         "releases": 4,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6226,14 +6226,14 @@
       "genre": "RPG",
       "wiki": "Pokémon Ruby and Sapphire",
       "quality_signals": {
-        "downloads": 1570,
+        "downloads": 1605,
         "stars": 15,
-        "age_days": 107,
+        "age_days": 108,
         "releases": 4,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6279,14 +6279,14 @@
       "genre": "Simulación social",
       "wiki": "Animal Crossing (video game)",
       "quality_signals": {
-        "downloads": 31033,
-        "stars": 1470,
-        "age_days": 212,
+        "downloads": 31151,
+        "stars": 1471,
+        "age_days": 213,
         "releases": 9,
         "contributors": 4,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6332,14 +6332,14 @@
       "genre": "Party",
       "wiki": "Mario Party 4",
       "quality_signals": {
-        "downloads": 9043,
+        "downloads": 9090,
         "stars": 861,
-        "age_days": 1052,
+        "age_days": 1053,
         "releases": 6,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6388,14 +6388,14 @@
       "wiki": "Fatal Frame (video game)",
       "rolling_tag": "nightly",
       "quality_signals": {
-        "downloads": 3,
-        "stars": 97,
-        "age_days": 338,
+        "downloads": 48,
+        "stars": 98,
+        "age_days": 339,
         "releases": 1,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -6441,14 +6441,14 @@
       "genre": "Plataformas",
       "wiki": "Jak and Daxter: The Precursor Legacy",
       "quality_signals": {
-        "downloads": 487993,
+        "downloads": 488483,
         "stars": 238,
-        "age_days": 1518,
+        "age_days": 1519,
         "releases": 89,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6494,14 +6494,14 @@
       "genre": "Shooter en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 42015,
-        "stars": 876,
+        "downloads": 42164,
+        "stars": 877,
         "age_days": 118,
         "releases": 7,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6547,14 +6547,14 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat X: Skies of Deception",
       "quality_signals": {
-        "downloads": 1717,
+        "downloads": 1759,
         "stars": 74,
         "age_days": 67,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6602,14 +6602,14 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. (video game)",
       "quality_signals": {
-        "downloads": 54551,
+        "downloads": 54815,
         "stars": 466,
-        "age_days": 186,
+        "age_days": 187,
         "releases": 33,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6657,14 +6657,14 @@
       "genre": "Lucha",
       "wiki": "Street Fighter EX2",
       "quality_signals": {
-        "downloads": 1341,
+        "downloads": 1383,
         "stars": 23,
         "age_days": 40,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -6710,14 +6710,14 @@
       "genre": "Carreras",
       "wiki": "Mario Kart: Super Circuit",
       "quality_signals": {
-        "downloads": 4162,
+        "downloads": 4245,
         "stars": 63,
-        "age_days": 69,
+        "age_days": 70,
         "releases": 8,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6761,14 +6761,14 @@
       "genre": "Estrategia en tiempo real",
       "wiki": "Pikmin (video game)",
       "quality_signals": {
-        "downloads": 13772,
-        "stars": 202,
+        "downloads": 13997,
+        "stars": 205,
         "age_days": 35,
         "releases": 18,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -6871,14 +6871,14 @@
       "genre": "Carreras",
       "wiki": "Crash Team Racing",
       "quality_signals": {
-        "downloads": 4638,
-        "stars": 174,
-        "age_days": 108,
+        "downloads": 4677,
+        "stars": 175,
+        "age_days": 109,
         "releases": 7,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -6924,14 +6924,14 @@
       "genre": "Carreras",
       "wiki": "Road Rash 64",
       "quality_signals": {
-        "downloads": 3574,
+        "downloads": 3720,
         "stars": 58,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 11,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -6976,14 +6976,14 @@
       "genre": "Carreras",
       "wiki": "Jet Moto (video game)",
       "quality_signals": {
-        "downloads": 31,
+        "downloads": 33,
         "stars": 0,
-        "age_days": 14,
+        "age_days": 15,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7028,14 +7028,14 @@
       "genre": "Carreras",
       "wiki": "Jet Moto 2",
       "quality_signals": {
-        "downloads": 31,
+        "downloads": 33,
         "stars": 0,
-        "age_days": 14,
+        "age_days": 15,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7080,14 +7080,14 @@
       "genre": "Carreras",
       "wiki": "Jet Moto 3",
       "quality_signals": {
-        "downloads": 31,
+        "downloads": 33,
         "stars": 0,
-        "age_days": 14,
+        "age_days": 15,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7133,14 +7133,14 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: Ocarina of Time 3D",
       "quality_signals": {
-        "downloads": 22348,
-        "stars": 464,
-        "age_days": 30,
+        "downloads": 22548,
+        "stars": 467,
+        "age_days": 31,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -7188,14 +7188,14 @@
       "genre": "Fotografía sobre raíles",
       "wiki": "Pokémon Snap",
       "quality_signals": {
-        "downloads": 5872,
+        "downloads": 5976,
         "stars": 96,
         "age_days": 33,
         "releases": 13,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7248,14 +7248,14 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 20770,
-        "stars": 158,
-        "age_days": 37,
+        "downloads": 19874,
+        "stars": 161,
+        "age_days": 38,
         "releases": 27,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -7302,14 +7302,14 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. Melee",
       "quality_signals": {
-        "downloads": 26499,
-        "stars": 424,
-        "age_days": 24,
+        "downloads": 26913,
+        "stars": 427,
+        "age_days": 25,
         "releases": 15,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -7361,14 +7361,14 @@
       "genre": "Deportes",
       "wiki": "Super Mario Strikers",
       "quality_signals": {
-        "downloads": 12508,
+        "downloads": 12938,
         "stars": 299,
         "age_days": 28,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -7416,14 +7416,14 @@
       "genre": "Carreras",
       "wiki": "AeroGauge",
       "quality_signals": {
-        "downloads": 2540,
+        "downloads": 2614,
         "stars": 37,
-        "age_days": 89,
+        "age_days": 90,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -7477,14 +7477,14 @@
       "genre": "Ritmo",
       "wiki": "Space Channel 5",
       "quality_signals": {
-        "downloads": 401,
+        "downloads": 402,
         "stars": 19,
-        "age_days": 25,
+        "age_days": 26,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7531,14 +7531,14 @@
       "genre": "Acción-aventura",
       "wiki": "Spider-Man (2000 video game)",
       "quality_signals": {
-        "downloads": 1444,
-        "stars": 11,
+        "downloads": 1485,
+        "stars": 13,
         "age_days": 41,
         "releases": 5,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7585,14 +7585,14 @@
       "genre": "Acción-aventura",
       "wiki": "Spider-Man 2: Enter Electro",
       "quality_signals": {
-        "downloads": 1444,
-        "stars": 11,
+        "downloads": 1485,
+        "stars": 13,
         "age_days": 41,
         "releases": 5,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7630,22 +7630,22 @@
         "platforms": [
           "windows-x86_64"
         ],
-        "latest_tag": "v0.8.61",
-        "published_at": "2026-10-08T08:33:11Z"
+        "latest_tag": "v0.9.0",
+        "published_at": "2026-10-08T18:31:57Z"
       },
       "year": 2007,
       "developer": "Mistwalker / feelplus",
       "genre": "RPG",
       "wiki": "Lost Odyssey",
       "quality_signals": {
-        "downloads": 32966,
-        "stars": 493,
-        "age_days": 33,
-        "releases": 57,
+        "downloads": 35116,
+        "stars": 500,
+        "age_days": 34,
+        "releases": 58,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -7691,14 +7691,14 @@
       "genre": "Carreras",
       "wiki": "Wave Race 64",
       "quality_signals": {
-        "downloads": 4559,
-        "stars": 112,
-        "age_days": 21,
+        "downloads": 4626,
+        "stars": 113,
+        "age_days": 22,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7749,14 +7749,14 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 28614,
-        "stars": 439,
-        "age_days": 215,
+        "downloads": 29300,
+        "stars": 441,
+        "age_days": 216,
         "releases": 3,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -7802,14 +7802,14 @@
       "genre": "Carreras",
       "wiki": "Beetle Adventure Racing!",
       "quality_signals": {
-        "downloads": 2687,
-        "stars": 59,
-        "age_days": 31,
+        "downloads": 2731,
+        "stars": 60,
+        "age_days": 32,
         "releases": 6,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7857,14 +7857,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 750,
-        "stars": 209,
-        "age_days": 38,
+        "downloads": 1181,
+        "stars": 214,
+        "age_days": 39,
         "releases": 7,
         "contributors": 3,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7912,14 +7912,14 @@
       "genre": "Simulación",
       "wiki": "Pilotwings 64",
       "quality_signals": {
-        "downloads": 2917,
+        "downloads": 2968,
         "stars": 70,
-        "age_days": 23,
+        "age_days": 24,
         "releases": 2,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -7965,14 +7965,14 @@
       "genre": "Survival horror",
       "wiki": "Deadly Premonition",
       "quality_signals": {
-        "downloads": 3262,
+        "downloads": 3316,
         "stars": 155,
-        "age_days": 115,
+        "age_days": 116,
         "releases": 35,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -8018,14 +8018,14 @@
       "genre": "Hack and slash",
       "wiki": "Ninja Gaiden II",
       "quality_signals": {
-        "downloads": 7288,
-        "stars": 146,
-        "age_days": 33,
+        "downloads": 7556,
+        "stars": 148,
+        "age_days": 34,
         "releases": 30,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8071,14 +8071,14 @@
       "genre": "Action RPG",
       "wiki": "Fable II",
       "quality_signals": {
-        "downloads": 14482,
-        "stars": 368,
-        "age_days": 38,
+        "downloads": 14778,
+        "stars": 374,
+        "age_days": 39,
         "releases": 8,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -8124,14 +8124,14 @@
       "genre": "Action RPG",
       "wiki": "Fable II",
       "quality_signals": {
-        "downloads": 237,
+        "downloads": 242,
         "stars": 5,
-        "age_days": 24,
+        "age_days": 25,
         "releases": 42,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8166,25 +8166,23 @@
         "windows": "NFS_Most_Wanted.exe"
       },
       "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "NFSMW-Recompiled-0.0.2",
-        "published_at": "2026-09-18T02:03:06Z"
+        "platforms": [],
+        "latest_tag": "latest",
+        "published_at": "2026-10-08T20:41:02Z"
       },
       "year": 2005,
       "developer": "EA Black Box",
       "genre": "Carreras",
       "wiki": "Need for Speed: Most Wanted (2005 video game)",
       "quality_signals": {
-        "downloads": 1257,
-        "stars": 93,
+        "downloads": 1500,
+        "stars": 97,
         "age_days": 28,
-        "releases": 2,
-        "contributors": 3,
+        "releases": 3,
+        "contributors": 5,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8232,14 +8230,14 @@
       "genre": "Acción-aventura",
       "wiki": "Dead Rising 2: Case Zero",
       "quality_signals": {
-        "downloads": 2282,
+        "downloads": 2342,
         "stars": 71,
         "age_days": 65,
         "releases": 6,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -8287,14 +8285,14 @@
       "genre": "Acción-aventura",
       "wiki": "Dead Rising 2: Case West",
       "quality_signals": {
-        "downloads": 1561,
+        "downloads": 1595,
         "stars": 49,
-        "age_days": 53,
+        "age_days": 54,
         "releases": 4,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8344,14 +8342,14 @@
       "genre": "Deportes",
       "wiki": "Tony Hawk's Project 8",
       "quality_signals": {
-        "downloads": 1005,
+        "downloads": 1049,
         "stars": 31,
-        "age_days": 51,
+        "age_days": 52,
         "releases": 4,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8397,14 +8395,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 5363,
-        "stars": 219,
-        "age_days": 22,
+        "downloads": 5536,
+        "stars": 220,
+        "age_days": 23,
         "releases": 6,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8452,12 +8450,12 @@
       "quality_signals": {
         "downloads": 15,
         "stars": 4,
-        "age_days": 36,
+        "age_days": 37,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8497,22 +8495,22 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.6.6",
-        "published_at": "2026-10-08T16:46:27Z"
+        "latest_tag": "v0.6.9",
+        "published_at": "2026-10-09T04:09:24Z"
       },
       "year": 2010,
       "developer": "Sonic Team",
       "genre": "Carreras",
       "wiki": "Sonic Free Riders",
       "quality_signals": {
-        "downloads": 3259,
+        "downloads": 3514,
         "stars": 67,
-        "age_days": 16,
-        "releases": 31,
+        "age_days": 17,
+        "releases": 34,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8558,14 +8556,14 @@
       "genre": "Estrategia",
       "wiki": "Pokémon Stadium",
       "quality_signals": {
-        "downloads": 9208,
+        "downloads": 9258,
         "stars": 121,
-        "age_days": 157,
+        "age_days": 158,
         "releases": 9,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -8615,14 +8613,14 @@
       "genre": "RPG táctico",
       "wiki": "Ogre Battle 64: Person of Lordly Caliber",
       "quality_signals": {
-        "downloads": 1169,
+        "downloads": 913,
         "stars": 70,
-        "age_days": 44,
+        "age_days": 45,
         "releases": 12,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8670,14 +8668,14 @@
       "genre": "Carreras",
       "wiki": "Wave Race 64",
       "quality_signals": {
-        "downloads": 2276,
+        "downloads": 2281,
         "stars": 77,
-        "age_days": 34,
+        "age_days": 35,
         "releases": 17,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8725,14 +8723,14 @@
       "genre": "Acción-aventura",
       "wiki": "Body Harvest",
       "quality_signals": {
-        "downloads": 232,
+        "downloads": 233,
         "stars": 17,
-        "age_days": 22,
+        "age_days": 23,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8778,14 +8776,14 @@
       "genre": "Plataformas",
       "wiki": "Rayman 2: The Great Escape",
       "quality_signals": {
-        "downloads": 97,
+        "downloads": 100,
         "stars": 6,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8833,14 +8831,14 @@
       "genre": "Action RPG",
       "wiki": "Hybrid Heaven",
       "quality_signals": {
-        "downloads": 101,
+        "downloads": 103,
         "stars": 8,
-        "age_days": 23,
+        "age_days": 24,
         "releases": 2,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8886,14 +8884,14 @@
       "genre": "Plataformas",
       "wiki": "Conker's Bad Fur Day",
       "quality_signals": {
-        "downloads": 290,
+        "downloads": 295,
         "stars": 25,
-        "age_days": 49,
+        "age_days": 50,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -8939,14 +8937,14 @@
       "genre": "Acción",
       "wiki": "Star Wars: Shadows of the Empire (video game)",
       "quality_signals": {
-        "downloads": 1745,
+        "downloads": 1777,
         "stars": 27,
-        "age_days": 66,
+        "age_days": 67,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -8992,14 +8990,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "Turok 2: Seeds of Evil",
       "quality_signals": {
-        "downloads": 10,
+        "downloads": 11,
         "stars": 1,
-        "age_days": 32,
+        "age_days": 33,
         "releases": 2,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9047,12 +9045,12 @@
       "quality_signals": {
         "downloads": 6,
         "stars": 1,
-        "age_days": 36,
+        "age_days": 37,
         "releases": 2,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9100,14 +9098,14 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 246,
+        "downloads": 395,
         "stars": 5,
         "age_days": 23,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9157,12 +9155,12 @@
       "quality_signals": {
         "downloads": 32,
         "stars": 0,
-        "age_days": 58,
+        "age_days": 59,
         "releases": 8,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9210,14 +9208,14 @@
       "genre": "Carreras",
       "wiki": "Snowboard Kids",
       "quality_signals": {
-        "downloads": 23,
+        "downloads": 24,
         "stars": 1,
-        "age_days": 22,
+        "age_days": 23,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9263,14 +9261,14 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: The Minish Cap",
       "quality_signals": {
-        "downloads": 282,
+        "downloads": 290,
         "stars": 17,
-        "age_days": 136,
+        "age_days": 137,
         "releases": 5,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9316,14 +9314,14 @@
       "genre": "Acción-plataformas",
       "wiki": "Mega Man Zero (video game)",
       "quality_signals": {
-        "downloads": 686,
+        "downloads": 706,
         "stars": 12,
-        "age_days": 85,
+        "age_days": 86,
         "releases": 6,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -9369,14 +9367,14 @@
       "genre": "Action RPG",
       "wiki": "Dragon Ball Z: Buu's Fury",
       "quality_signals": {
-        "downloads": 735,
+        "downloads": 758,
         "stars": 22,
         "age_days": 67,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -9428,14 +9426,14 @@
       "genre": "RPG",
       "wiki": "Valkyrie Profile",
       "quality_signals": {
-        "downloads": 3322,
-        "stars": 106,
-        "age_days": 38,
+        "downloads": 3361,
+        "stars": 107,
+        "age_days": 39,
         "releases": 2,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9475,22 +9473,22 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "shared-staging-20260903",
-        "published_at": "2026-09-03T17:13:05Z"
+        "latest_tag": "v0.1.0-alpha",
+        "published_at": "2026-10-08T18:47:00Z"
       },
       "year": 1997,
       "developer": "Capcom",
       "genre": "Plataformas",
       "wiki": "Mega Man X4",
       "quality_signals": {
-        "downloads": 3282,
+        "downloads": 3420,
         "stars": 85,
-        "age_days": 94,
-        "releases": 7,
+        "age_days": 95,
+        "releases": 8,
         "contributors": 2,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -9536,14 +9534,14 @@
       "genre": "Plataformas",
       "wiki": "Crash Bandicoot 2: Cortex Strikes Back",
       "quality_signals": {
-        "downloads": 3533,
+        "downloads": 3720,
         "stars": 84,
         "age_days": 40,
         "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9590,13 +9588,13 @@
       "wiki": "Gran Turismo 2",
       "quality_signals": {
         "downloads": 0,
-        "stars": 5,
-        "age_days": 7,
+        "stars": 6,
+        "age_days": 8,
         "releases": 0,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9644,14 +9642,14 @@
       "genre": "RPG",
       "wiki": "Xenogears",
       "quality_signals": {
-        "downloads": 444,
-        "stars": 53,
-        "age_days": 77,
+        "downloads": 456,
+        "stars": 54,
+        "age_days": 78,
         "releases": 13,
         "contributors": 3,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9697,14 +9695,14 @@
       "genre": "Lucha",
       "wiki": "Soul Edge",
       "quality_signals": {
-        "downloads": 379,
+        "downloads": 385,
         "stars": 26,
         "age_days": 43,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9750,14 +9748,14 @@
       "genre": "Lucha",
       "wiki": "Tekken (video game)",
       "quality_signals": {
-        "downloads": 122,
+        "downloads": 125,
         "stars": 5,
-        "age_days": 69,
+        "age_days": 70,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9805,12 +9803,12 @@
       "quality_signals": {
         "downloads": 30,
         "stars": 0,
-        "age_days": 43,
+        "age_days": 44,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9858,14 +9856,14 @@
       "genre": "Lucha",
       "wiki": "Battle Arena Toshinden",
       "quality_signals": {
-        "downloads": 213,
+        "downloads": 241,
         "stars": 11,
         "age_days": 31,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9917,14 +9915,14 @@
       "genre": "Plataformas",
       "wiki": "Wild 9",
       "quality_signals": {
-        "downloads": 104,
+        "downloads": 120,
         "stars": 5,
-        "age_days": 26,
+        "age_days": 27,
         "releases": 5,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -9972,12 +9970,12 @@
       "quality_signals": {
         "downloads": 68,
         "stars": 9,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10017,22 +10015,22 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "shared-staging-20260903",
-        "published_at": "2026-09-03T17:14:24Z"
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-10-08T19:00:59Z"
       },
       "year": 1999,
       "developer": "Japan Media Programming",
       "genre": "Puzle",
       "wiki": null,
       "quality_signals": {
-        "downloads": 68,
+        "downloads": 69,
         "stars": 6,
-        "age_days": 93,
-        "releases": 3,
+        "age_days": 94,
+        "releases": 4,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10085,7 +10083,7 @@
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10131,14 +10129,14 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat 5: The Unsung War",
       "quality_signals": {
-        "downloads": 1850,
-        "stars": 69,
-        "age_days": 22,
+        "downloads": 1910,
+        "stars": 70,
+        "age_days": 23,
         "releases": 4,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10182,14 +10180,14 @@
       "genre": "Plataformas",
       "wiki": "Sly Cooper and the Thievius Raccoonus",
       "quality_signals": {
-        "downloads": 2179,
+        "downloads": 2297,
         "stars": 219,
-        "age_days": 1131,
+        "age_days": 1132,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -10237,12 +10235,12 @@
       "quality_signals": {
         "downloads": 108,
         "stars": 8,
-        "age_days": 84,
+        "age_days": 85,
         "releases": 3,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10295,7 +10293,7 @@
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10340,14 +10338,14 @@
       "genre": "Action RPG",
       "wiki": "Monster Hunter Portable 3rd",
       "quality_signals": {
-        "downloads": 19285,
-        "stars": 387,
-        "age_days": 20,
+        "downloads": 19668,
+        "stars": 388,
+        "age_days": 21,
         "releases": 12,
         "contributors": 4,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -10394,14 +10392,14 @@
       "genre": "Survival horror",
       "wiki": "Alone in the Dark (1992 video game)",
       "quality_signals": {
-        "downloads": 1869,
+        "downloads": 1878,
         "stars": 116,
-        "age_days": 216,
+        "age_days": 217,
         "releases": 15,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "comunidad",
       "box_art": null
@@ -10447,14 +10445,14 @@
       "genre": "Action RPG",
       "wiki": "Dragon Ball Z: The Legacy of Goku",
       "quality_signals": {
-        "downloads": 73,
+        "downloads": 76,
         "stars": 6,
-        "age_days": 67,
+        "age_days": 68,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10500,14 +10498,14 @@
       "genre": "Action RPG",
       "wiki": "Dragon Ball Z: The Legacy of Goku II",
       "quality_signals": {
-        "downloads": 75,
+        "downloads": 81,
         "stars": 3,
-        "age_days": 67,
+        "age_days": 68,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10553,14 +10551,14 @@
       "genre": "Lucha",
       "wiki": "Samurai Shodown: Warriors Rage",
       "quality_signals": {
-        "downloads": 80,
+        "downloads": 84,
         "stars": 5,
-        "age_days": 30,
+        "age_days": 31,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10608,14 +10606,14 @@
       "genre": "Lucha",
       "wiki": "Bloody Roar (video game)",
       "quality_signals": {
-        "downloads": 41,
+        "downloads": 47,
         "stars": 2,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10661,14 +10659,14 @@
       "genre": "Matamarcianos",
       "wiki": null,
       "quality_signals": {
-        "downloads": 19,
+        "downloads": 22,
         "stars": 0,
-        "age_days": 32,
+        "age_days": 33,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "cover_name": "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka (Japan) (Disc 1)",
@@ -10715,14 +10713,14 @@
       "genre": "Lucha",
       "wiki": "Real Bout Fatal Fury Special: Dominated Mind",
       "quality_signals": {
-        "downloads": 8,
+        "downloads": 9,
         "stars": 0,
-        "age_days": 30,
+        "age_days": 31,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10768,14 +10766,14 @@
       "genre": "Hack and slash",
       "wiki": "Rising Zan: The Samurai Gunman",
       "quality_signals": {
-        "downloads": 21,
+        "downloads": 25,
         "stars": 0,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10821,14 +10819,14 @@
       "genre": "Matamarcianos",
       "wiki": "RayStorm",
       "quality_signals": {
-        "downloads": 22,
+        "downloads": 26,
         "stars": 0,
-        "age_days": 31,
+        "age_days": 32,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10874,14 +10872,14 @@
       "genre": "Lucha",
       "wiki": "Tekken 3",
       "quality_signals": {
-        "downloads": 2715,
+        "downloads": 2753,
         "stars": 41,
-        "age_days": 25,
+        "age_days": 26,
         "releases": 5,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10929,12 +10927,12 @@
       "quality_signals": {
         "downloads": 36,
         "stars": 3,
-        "age_days": 67,
+        "age_days": 68,
         "releases": 4,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -10982,14 +10980,14 @@
       "genre": "Plataformas",
       "wiki": "Toy Story 2: Buzz Lightyear to the Rescue",
       "quality_signals": {
-        "downloads": 82,
+        "downloads": 89,
         "stars": 6,
-        "age_days": 70,
+        "age_days": 71,
         "releases": 1,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11037,12 +11035,12 @@
       "quality_signals": {
         "downloads": 15,
         "stars": 2,
-        "age_days": 74,
+        "age_days": 75,
         "releases": 9,
         "contributors": 1,
         "ai": true,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11082,22 +11080,22 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v1.4.2.3",
-        "published_at": "2026-10-06T21:26:13Z"
+        "latest_tag": "v1.4.3",
+        "published_at": "2026-10-09T02:54:52Z"
       },
       "year": 2012,
       "developer": "Dimps",
       "genre": "Lucha",
       "wiki": "Dragon Ball Z: Budokai HD Collection",
       "quality_signals": {
-        "downloads": 6967,
-        "stars": 132,
+        "downloads": 7145,
+        "stars": 133,
         "age_days": 51,
-        "releases": 26,
+        "releases": 27,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11143,14 +11141,14 @@
       "genre": "Deportes",
       "wiki": "NBA Jam: On Fire Edition",
       "quality_signals": {
-        "downloads": 277,
+        "downloads": 283,
         "stars": 19,
-        "age_days": 20,
+        "age_days": 21,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11196,14 +11194,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 600,
-        "stars": 36,
+        "downloads": 635,
+        "stars": 38,
         "age_days": 9,
         "releases": 9,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11247,14 +11245,14 @@
       "genre": "Plataformas",
       "wiki": "Crash of the Titans",
       "quality_signals": {
-        "downloads": 2346,
+        "downloads": 2673,
         "stars": 36,
-        "age_days": 10,
+        "age_days": 11,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11294,22 +11292,22 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.0",
-        "published_at": "2026-10-06T12:32:19Z"
+        "latest_tag": "v0.3.1",
+        "published_at": "2026-10-08T19:16:45Z"
       },
       "year": 2009,
       "developer": "Infinity Ward",
       "genre": "Disparos en primera persona",
       "wiki": "Call of Duty: Modern Warfare 2",
       "quality_signals": {
-        "downloads": 599,
-        "stars": 35,
+        "downloads": 663,
+        "stars": 38,
         "age_days": 12,
-        "releases": 6,
+        "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11355,14 +11353,14 @@
       "genre": "Lucha libre",
       "wiki": "WWE SmackDown vs. Raw 2011",
       "quality_signals": {
-        "downloads": 511,
-        "stars": 9,
-        "age_days": 10,
+        "downloads": 569,
+        "stars": 11,
+        "age_days": 11,
         "releases": 6,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11408,14 +11406,14 @@
       "genre": "Lucha libre",
       "wiki": "WWE SmackDown vs. Raw 2011",
       "quality_signals": {
-        "downloads": 5538,
-        "stars": 16,
+        "downloads": 7602,
+        "stars": 25,
         "age_days": 10,
         "releases": 18,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11461,14 +11459,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "Call of Duty 3",
       "quality_signals": {
-        "downloads": 119,
+        "downloads": 121,
         "stars": 9,
-        "age_days": 12,
+        "age_days": 13,
         "releases": 4,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11514,14 +11512,14 @@
       "genre": "Deportes",
       "wiki": "3 on 3 NHL Arcade",
       "quality_signals": {
-        "downloads": 29,
+        "downloads": 36,
         "stars": 4,
-        "age_days": 9,
+        "age_days": 10,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11567,14 +11565,14 @@
       "genre": "Plataformas",
       "wiki": "Open Season (video game)",
       "quality_signals": {
-        "downloads": 1,
+        "downloads": 2,
         "stars": 0,
         "age_days": 9,
         "releases": 1,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11624,14 +11622,14 @@
       "genre": "Plataformas",
       "wiki": "Conker's Bad Fur Day",
       "quality_signals": {
-        "downloads": 9301,
-        "stars": 231,
-        "age_days": 12,
+        "downloads": 9549,
+        "stars": 232,
+        "age_days": 13,
         "releases": 6,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11686,7 +11684,7 @@
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11732,14 +11730,14 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 1410,
-        "stars": 76,
-        "age_days": 10,
+        "downloads": 1459,
+        "stars": 79,
+        "age_days": 11,
         "releases": 3,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11793,12 +11791,12 @@
       "quality_signals": {
         "downloads": 55,
         "stars": 8,
-        "age_days": 17,
+        "age_days": 18,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11846,14 +11844,14 @@
       "genre": "Juego de cartas",
       "wiki": "Yu-Gi-Oh! Forbidden Memories",
       "quality_signals": {
-        "downloads": 13402,
-        "stars": 130,
-        "age_days": 16,
+        "downloads": 14120,
+        "stars": 134,
+        "age_days": 17,
         "releases": 10,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -11900,14 +11898,14 @@
       "genre": "Lucha",
       "wiki": "Street Fighter EX",
       "quality_signals": {
-        "downloads": 1391,
+        "downloads": 1418,
         "stars": 37,
-        "age_days": 48,
+        "age_days": 49,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -11953,14 +11951,14 @@
       "genre": "Lucha",
       "wiki": "Dragon Ball GT: Final Bout",
       "quality_signals": {
-        "downloads": 358,
+        "downloads": 363,
         "stars": 26,
-        "age_days": 51,
+        "age_days": 52,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12012,12 +12010,12 @@
       "quality_signals": {
         "downloads": 9,
         "stars": 1,
-        "age_days": 12,
+        "age_days": 13,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12065,12 +12063,12 @@
       "quality_signals": {
         "downloads": 2,
         "stars": 1,
-        "age_days": 11,
+        "age_days": 12,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -12115,14 +12113,14 @@
       "genre": "Action RPG",
       "wiki": "Dark Chronicle",
       "quality_signals": {
-        "downloads": 287,
+        "downloads": 296,
         "stars": 26,
-        "age_days": 108,
+        "age_days": 109,
         "releases": 5,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12168,14 +12166,14 @@
       "genre": "Acción-aventura",
       "wiki": "Grand Theft Auto: Liberty City Stories",
       "quality_signals": {
-        "downloads": 3397,
-        "stars": 195,
-        "age_days": 13,
-        "releases": 7,
+        "downloads": 3567,
+        "stars": 197,
+        "age_days": 14,
+        "releases": 8,
         "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12221,14 +12219,14 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: The Wind Waker",
       "quality_signals": {
-        "downloads": 50,
+        "downloads": 56,
         "stars": 6,
         "age_days": 13,
         "releases": 1,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12274,14 +12272,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "Serious Sam: Next Encounter",
       "quality_signals": {
-        "downloads": 154,
-        "stars": 13,
-        "age_days": 10,
+        "downloads": 155,
+        "stars": 14,
+        "age_days": 11,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12329,14 +12327,14 @@
       "genre": "Disparos en primera persona",
       "wiki": "Medal of Honor: Frontline",
       "quality_signals": {
-        "downloads": 14,
+        "downloads": 16,
         "stars": 4,
-        "age_days": 51,
+        "age_days": 52,
         "releases": 2,
         "contributors": 1,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12374,22 +12372,22 @@
         "platforms": [
           "linux-x86_64"
         ],
-        "latest_tag": "v0.1.53",
-        "published_at": "2026-10-08T03:59:48Z"
+        "latest_tag": "v0.1.55",
+        "published_at": "2026-10-09T01:52:52Z"
       },
       "year": 2002,
       "developer": "Nintendo EAD",
       "genre": "Plataformas",
       "wiki": "Super Mario Sunshine",
       "quality_signals": {
-        "downloads": 15206,
-        "stars": 47,
-        "age_days": 11,
-        "releases": 52,
-        "contributors": 2,
+        "downloads": 21092,
+        "stars": 54,
+        "age_days": 12,
+        "releases": 54,
+        "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -12437,14 +12435,14 @@
       "genre": "Party",
       "wiki": "Wii Party",
       "quality_signals": {
-        "downloads": 128,
+        "downloads": 143,
         "stars": 7,
-        "age_days": 18,
+        "age_days": 19,
         "releases": 7,
         "contributors": 2,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12490,14 +12488,14 @@
       "genre": "Acción-aventura",
       "wiki": "Buffy the Vampire Slayer: Chaos Bleeds",
       "quality_signals": {
-        "downloads": 123,
-        "stars": 10,
-        "age_days": 12,
+        "downloads": 137,
+        "stars": 11,
+        "age_days": 13,
         "releases": 8,
         "contributors": 1,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12543,14 +12541,14 @@
       "genre": "Deportes",
       "wiki": "SSX Tricky",
       "quality_signals": {
-        "downloads": 43,
+        "downloads": 47,
         "stars": 2,
         "age_days": 9,
         "releases": 2,
         "contributors": 2,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12596,14 +12594,14 @@
       "genre": "Deportes",
       "wiki": "Dead or Alive Xtreme Beach Volleyball",
       "quality_signals": {
-        "downloads": 22075,
-        "stars": 80,
-        "age_days": 53,
+        "downloads": 23149,
+        "stars": 81,
+        "age_days": 54,
         "releases": 16,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado",
       "box_art": null
@@ -12707,7 +12705,7 @@
         "contributors": 0,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12756,13 +12754,13 @@
       "wiki": "The Legend of Zelda: The Wind Waker",
       "quality_signals": {
         "downloads": 0,
-        "stars": 505,
-        "age_days": 9,
+        "stars": 512,
+        "age_days": 10,
         "releases": 0,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental",
       "box_art": null
@@ -12804,8 +12802,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.64",
-        "published_at": "2026-10-08T15:28:11Z"
+        "latest_tag": "v0.3.68",
+        "published_at": "2026-10-09T01:43:09Z"
       },
       "year": 1996,
       "developer": "Game Freak",
@@ -12814,14 +12812,14 @@
       "box_art": null,
       "exception": "Excepción a la regla de generaciones: reimplementación de Pokémon Gen 1 en Lua querida por la comunidad (476k descargas), con widescreen, mods y co-op; trabajada hasta el extremo.",
       "quality_signals": {
-        "downloads": 423658,
-        "stars": 3856,
-        "age_days": 82,
+        "downloads": 416617,
+        "stars": 3861,
+        "age_days": 83,
         "releases": 100,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -12860,8 +12858,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.5.4",
-        "published_at": "2026-10-06T01:26:48Z"
+        "latest_tag": "0.6.0",
+        "published_at": "2026-10-09T00:04:21Z"
       },
       "year": 1995,
       "developer": "Namco",
@@ -12869,14 +12867,14 @@
       "wiki": "Time Crisis (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4300,
+        "downloads": 4582,
         "stars": 142,
-        "age_days": 15,
-        "releases": 11,
+        "age_days": 16,
+        "releases": 12,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -12915,8 +12913,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.5.4",
-        "published_at": "2026-10-06T01:26:48Z"
+        "latest_tag": "0.6.0",
+        "published_at": "2026-10-09T00:04:21Z"
       },
       "year": 1995,
       "developer": "Namco",
@@ -12924,14 +12922,14 @@
       "wiki": "Rave Racer",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4300,
+        "downloads": 4582,
         "stars": 142,
-        "age_days": 15,
-        "releases": 11,
+        "age_days": 16,
+        "releases": 12,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -12970,8 +12968,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.5.4",
-        "published_at": "2026-10-06T01:26:48Z"
+        "latest_tag": "0.6.0",
+        "published_at": "2026-10-09T00:04:21Z"
       },
       "year": 1996,
       "developer": "Namco",
@@ -12979,14 +12977,14 @@
       "wiki": "Tokyo Wars",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4300,
+        "downloads": 4582,
         "stars": 142,
-        "age_days": 15,
-        "releases": 11,
+        "age_days": 16,
+        "releases": 12,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13025,8 +13023,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.5.4",
-        "published_at": "2026-10-06T01:26:48Z"
+        "latest_tag": "0.6.0",
+        "published_at": "2026-10-09T00:04:21Z"
       },
       "year": 1995,
       "developer": "Namco",
@@ -13034,14 +13032,14 @@
       "wiki": "Dirt Dash",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4300,
+        "downloads": 4582,
         "stars": 142,
-        "age_days": 15,
-        "releases": 11,
+        "age_days": 16,
+        "releases": 12,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13080,8 +13078,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.5.4",
-        "published_at": "2026-10-06T01:26:48Z"
+        "latest_tag": "0.6.0",
+        "published_at": "2026-10-09T00:04:21Z"
       },
       "year": 1996,
       "developer": "Namco",
@@ -13089,14 +13087,14 @@
       "wiki": "Prop Cycle",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4300,
+        "downloads": 4582,
         "stars": 142,
-        "age_days": 15,
-        "releases": 11,
+        "age_days": 16,
+        "releases": 12,
         "contributors": 2,
         "ai": false,
         "emu": true,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13142,14 +13140,14 @@
       "wiki": "Bloodborne",
       "box_art": null,
       "quality_signals": {
-        "downloads": 11181,
-        "stars": 1854,
-        "age_days": 7,
-        "releases": 4,
+        "downloads": 13851,
+        "stars": 2057,
+        "age_days": 8,
+        "releases": 6,
         "contributors": 1,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "curado"
     },
@@ -13202,7 +13200,7 @@
         "contributors": 0,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13241,8 +13239,8 @@
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.18.0",
-        "published_at": "2026-10-07T15:00:00Z"
+        "latest_tag": "v0.19.0",
+        "published_at": "2026-10-09T07:29:55Z"
       },
       "year": 2002,
       "developer": "Retro Studios",
@@ -13250,14 +13248,14 @@
       "wiki": "Metroid Prime (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4053,
-        "stars": 137,
+        "downloads": 7495,
+        "stars": 259,
         "age_days": 19,
-        "releases": 21,
+        "releases": 22,
         "contributors": 5,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13302,8 +13300,8 @@
           "macos-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "3614534",
-        "published_at": "2026-10-08T12:17:58Z"
+        "latest_tag": "e3e4beb",
+        "published_at": "2026-10-09T10:40:02Z"
       },
       "year": 2004,
       "developer": "Level-5",
@@ -13311,14 +13309,14 @@
       "wiki": "Dragon Quest VIII",
       "box_art": null,
       "quality_signals": {
-        "downloads": 84,
-        "stars": 24,
-        "age_days": 15,
-        "releases": 3,
-        "contributors": 2,
+        "downloads": 323,
+        "stars": 37,
+        "age_days": 16,
+        "releases": 9,
+        "contributors": 3,
         "ai": false,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     },
@@ -13361,8 +13359,8 @@
           "macos-aarch64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.8",
-        "published_at": "2026-10-08T11:34:38Z"
+        "latest_tag": "v0.2.10",
+        "published_at": "2026-10-09T01:01:53Z"
       },
       "year": 2013,
       "developer": "Nintendo EAD",
@@ -13370,14 +13368,14 @@
       "wiki": "The Legend of Zelda: The Wind Waker HD",
       "box_art": null,
       "quality_signals": {
-        "downloads": 6752,
-        "stars": 305,
+        "downloads": 9170,
+        "stars": 337,
         "age_days": 7,
-        "releases": 10,
+        "releases": 12,
         "contributors": 5,
         "ai": true,
         "emu": false,
-        "checked": "2026-10-08"
+        "checked": "2026-10-09"
       },
       "tier": "experimental"
     }
