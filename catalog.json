@@ -58,6 +58,12 @@
       "color": "#2fa8d8"
     },
     {
+      "id": "switch",
+      "name": "Nintendo Switch",
+      "short": "NSW",
+      "color": "#e60012"
+    },
+    {
       "id": "nds",
       "name": "Nintendo DS",
       "short": "NDS",
@@ -13371,6 +13377,63 @@
         "checked": "2026-10-14"
       },
       "tier": "curado"
+    },
+    {
+      "id": "las-recomp",
+      "name": "LAS Recomp",
+      "original_game": "The Legend of Zelda: Link's Awakening",
+      "game_id": "the-legend-of-zelda-links-awakening-2019",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "peiikai",
+        "repo": "LASRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/62e42d5128071bb96fc3a269019e0504.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^LAS[._ ]?Recomp-.*-x86_64\\.AppImage$",
+        "linux-aarch64": "(?i)^LAS[._ ]?Recomp-.*-aarch64\\.AppImage$",
+        "windows-x86_64": "(?i)^LAS[._ ]?Recomp-.*-windows\\.zip$",
+        "macos-aarch64": "(?i)^LAS[._ ]?Recomp-.*-macOS\\.dmg$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar."
+      },
+      "launch": {
+        "linux": "lasrecomp",
+        "windows": "lasrecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "beta_3",
+        "published_at": "2026-10-14T04:22:09Z"
+      },
+      "year": 2019,
+      "developer": "Grezzo / Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Link's Awakening (2019 video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1370,
+        "stars": 273,
+        "age_days": 5,
+        "releases": 1,
+        "contributors": 2,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-14"
+      },
+      "tier": "experimental"
     }
   ]
 }
