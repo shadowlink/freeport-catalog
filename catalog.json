@@ -16266,6 +16266,61 @@
         "checked": "2026-10-25"
       },
       "tier": "experimental"
+    },
+    {
+      "id": "project-midas",
+      "name": "Project Midas",
+      "original_game": "GoldenEye 007",
+      "game_id": "goldeneye-007",
+      "system": "n64",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "murkantor",
+        "repo": "Project-Midas"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^ProjectMidas-v.*-linux\\.(zip|7z)$",
+        "windows-x86_64": "(?i)^ProjectMidas-v.*-windows\\.(zip|7z)$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "baserom.u.z64",
+        "subdir": "Data",
+        "notes": "Port a PC del decomp de GoldenEye 007: necesita tu cartucho GoldenEye 007 (USA) sin modificar (12 582 912 bytes, .z64/.v64/.n64); Freeport lo copia a la carpeta Data junto al ejecutable. Panorámico, ratón, mandos modernos y ajustes en el juego; cooperativo, netplay y mods en desarrollo. Hecho con ayuda de IA (Claude). Build 32 bits."
+      },
+      "launch": {
+        "linux": "ProjectMidas",
+        "windows": "ProjectMidas.exe"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.1",
+        "published_at": "2026-10-18T02:31:54Z"
+      },
+      "year": 1997,
+      "developer": "Rare",
+      "genre": "Disparos en primera persona",
+      "wiki": "GoldenEye 007 (1997 video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 11833,
+        "stars": 346,
+        "age_days": 9,
+        "releases": 3,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
     }
   ]
 }
