@@ -12929,7 +12929,10 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar."
+        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport crea la carpeta exefs+romfs y la enlaza donde LAS Recomp la busca, así que arranca directo a compilar el juego.",
+        "register": {
+          "link": "~/.local/share/lasrecomp/extracted"
+        }
       },
       "launch": {
         "linux": "lasrecomp",
