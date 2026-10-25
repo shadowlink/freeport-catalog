@@ -30,6 +30,7 @@ FOLDERS = {
     "gc": ["Nintendo - GameCube"], "wii": ["Nintendo - Wii"], "nds": ["Nintendo - Nintendo DS"],
     "ps2": ["Sony - PlayStation 2"], "psp": ["Sony - PlayStation Portable"], "3ds": ["Nintendo - Nintendo 3DS"],
     "dc": ["Sega - Dreamcast"], "xbox": ["Microsoft - Xbox"], "pc": ["DOS"], "arcade": ["MAME"], "wiiu": ["Nintendo - Wii U"],
+    "ps3": ["Sony - PlayStation 3"],
     # x360 y ps5: libretro casi no tiene cajas (12 y 20 entradas) → SteamGridDB
     # para todo el sistema, así al menos son homogéneas entre sí.
 }

@@ -100,6 +100,12 @@
       "color": "#3c9a3c"
     },
     {
+      "id": "ps3",
+      "name": "PlayStation 3",
+      "short": "PS3",
+      "color": "#5b6ee1"
+    },
+    {
       "id": "ps4",
       "name": "PlayStation 4",
       "short": "PS4",
@@ -12934,7 +12940,7 @@
         "repo": "namco22-decompile"
       },
       "release_channel": "stable",
-      "cover_url": "https://raw.githubusercontent.com/spacestate1/namco22-decompile/main/docs/images/tokyowar-title.png",
+      "cover_url": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Tokyo%20Wars%20%28World%2C%20TW2%20Ver.A%29.png",
       "logo_url": null,
       "asset_rules": {
         "linux-x86_64": "(?i)^TokyoWars(-[0-9.]+)?-x86_64\\.AppImage$",
@@ -13425,6 +13431,583 @@
         "checked": "2026-10-25"
       },
       "tier": "curado"
+    },
+    {
+      "id": "b2recomp",
+      "name": "B2recomp",
+      "original_game": "Bayonetta 2",
+      "game_id": "bayonetta-2",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "K0NL",
+        "repo": "B2recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/db76ba9f1aadf1434c1d08a590f41fde.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^B2recomp-builder-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "B2recomp.exe te pide la carpeta con tu volcado extraído de Bayonetta 2 (Switch) con la actualización 1.2 aplicada (exefs\\ y romfs\\ en archivos planos; rechaza .nsp/.xci) y COMPILA el juego en tu PC (~5 min; el paquete «builder» incluye el compilador). Después arranca desde el mismo launcher. Vulkan 1.3. Prólogo y capítulo 1 jugados; capítulos posteriores en pruebas."
+      },
+      "launch": {
+        "windows": "B2recomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.3",
+        "published_at": "2026-10-22T21:02:32Z"
+      },
+      "year": 2014,
+      "developer": "PlatinumGames",
+      "genre": "Acción",
+      "wiki": "Bayonetta 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 4025,
+        "stars": 435,
+        "age_days": 7,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "knack2-pc-port",
+      "name": "Knack II PC Port",
+      "original_game": "Knack II",
+      "game_id": "knack-ii",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Hyant4",
+        "repo": "Knack-II-pc-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/b96eb888b68dba9368dc81a02b77175a.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Knack-II-Windows-x64-V.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Knack II.exe te pide la carpeta de tu volcado de Knack II (PS4, CUSA08014 v01.01; CUSA07670 europeo experimental) con eboot.bin, game.elf, sce_sys y sce_module. Vulkan. Según el autor es jugable de principio a fin, también el cooperativo local a dos."
+      },
+      "launch": {
+        "windows": "Knack II.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "knack2-Version-0.17.1",
+        "published_at": "2026-10-25T08:12:10Z"
+      },
+      "year": 2017,
+      "developer": "SIE Japan Studio",
+      "genre": "Plataformas/Acción",
+      "wiki": "Knack II",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 244,
+        "stars": 32,
+        "age_days": 7,
+        "releases": 5,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "goldeneye-xbla-recomp",
+      "name": "GoldenEye 007 XBLA PC Recomp",
+      "original_game": "GoldenEye 007 (XBLA)",
+      "game_id": "goldeneye-007-xbla",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "CaiusCodes",
+        "repo": "GoldenEye-007-XBLA-PC-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f0971d67a49ade9bab406f7664e8129d.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^GoldenEye-007-XBLA-PC-Recomp-v.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir GoldenEye 007.exe por primera vez te pide el paquete Xbox 360/XBLA del remaster no publicado (Title ID 584108A9) e importa sus datos a la carpeta del juego; después arranca directo. DirectX 12. 4K, 16:9/21:9, 60 fps, gráficos originales o mejorados, ratón+teclado y multijugador LAN."
+      },
+      "launch": {
+        "windows": "GoldenEye 007.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.6c",
+        "published_at": "2026-10-25T02:48:52Z"
+      },
+      "year": 2008,
+      "developer": "Rare",
+      "genre": "FPS",
+      "wiki": "GoldenEye 007 (1997 video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1063,
+        "stars": 55,
+        "age_days": 17,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "code-veronica-recomp",
+      "name": "Code Veronica Recomp",
+      "original_game": "Resident Evil Code: Veronica X",
+      "game_id": "resident-evil-code-veronica-x",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "kastieloficial",
+        "repo": "RE-Code-Veronica-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Code\\.Veronica\\.Recomp\\.Release\\.v.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El launcher te pide la CARPETA del juego PS3 instalado (PARAM.SFO + USRDIR\\EBOOT.BIN), es decir, el PKG de PSN v01.00 extraído (con su extractor opcional o instalado en RPCS3), y el .rap de tu cuenta para las versiones EU (NPEB00553) y US (NPUB30467); la japonesa no lo necesita. Launcher en 13 idiomas, 60 fps, SRT y herramientas de speedrun."
+      },
+      "launch": {
+        "windows": "CodeVeronicaPort.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0",
+        "published_at": "2026-10-24T18:29:13Z"
+      },
+      "year": 2011,
+      "developer": "Capcom",
+      "genre": "Survival horror",
+      "wiki": "Resident Evil – Code: Veronica",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 386,
+        "stars": 27,
+        "age_days": 12,
+        "releases": 1,
+        "contributors": 5,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "doa3-recomp",
+      "name": "DOA3 Recomp",
+      "original_game": "Dead or Alive 3",
+      "game_id": "dead-or-alive-3",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "parkerallan",
+        "repo": "doa3-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^DOA3-v.*-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar DOA3.exe por primera vez te pide tu copia de Dead or Alive 3 (Xbox, USA) en .xiso; extrae los datos y crea la partida. Todos los modos jugables; modo online nuevo, 60 fps, 16:9 y escalado interno hasta 1440p. Esc abre el menú."
+      },
+      "launch": {
+        "windows": "DOA3.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.7",
+        "published_at": "2026-10-24T02:14:46Z"
+      },
+      "year": 2001,
+      "developer": "Team Ninja",
+      "genre": "Lucha",
+      "wiki": "Dead or Alive 3",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2210,
+        "stars": 80,
+        "age_days": 111,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "comunidad"
+    },
+    {
+      "id": "wario-land-shake-it-recomp",
+      "name": "WarioRecomp",
+      "original_game": "Wario Land: Shake It!",
+      "game_id": "wario-land-shake-it",
+      "system": "wii",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "santiagovalencia109",
+        "repo": "Wario-Land-Shake-It-Native-PC"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wario%20Land_%20Shake%20It%21%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WarioLandShakeIt-Recomp-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "WarioLauncher.exe importa tu disco de Wario Land: Shake It! (Wii, USA RWLE01) en .iso/.wbfs/.ciso/.rvz/.wia/.gcz o ya extraído (sys\\ y files\\). Build de pruebas: arranca, guarda y es jugable, pero quedan partes sin probar. Sacudir con L2/R2, inclinar con L1/R1 o el stick, o con el giroscopio del DualSense."
+      },
+      "launch": {
+        "windows": "WarioLauncher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-10-23T06:50:39Z"
+      },
+      "year": 2008,
+      "developer": "Good-Feel",
+      "genre": "Plataformas",
+      "wiki": "Wario Land: Shake It!",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 447,
+        "stars": 44,
+        "age_days": 2,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "dod3-recomp",
+      "name": "Drakengard 3 Recompiled",
+      "original_game": "Drakengard 3",
+      "game_id": "drakengard-3",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "soyjxck",
+        "repo": "dod3-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%203/Named_Boxarts/Drakengard%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^dod3-recomp-.*-win64\\.zip$",
+        "macos-aarch64": "(?i)^dod3-recomp-.*-macos-arm64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "dod3.exe abre un instalador donde añades tu disco US (BLUS31197) como carpeta o .iso DESCIFRADA (o el paquete PSN NPUB31251), el parche 1.01 en .pkg y los DLC que tengas; prepara el juego junto al exe en unos minutos. Necesita CPU con AVX2 y DirectX 12 (o Mac Apple Silicon); ~16 GB libres. Alpha."
+      },
+      "launch": {
+        "windows": "dod3.exe"
+      },
+      "cached": {
+        "platforms": [
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0-alpha",
+        "published_at": "2026-10-22T20:46:10Z"
+      },
+      "year": 2013,
+      "developer": "Access Games",
+      "genre": "Acción/RPG",
+      "wiki": "Drakengard 3",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3863,
+        "stars": 158,
+        "age_days": 22,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "metroid-dread-recomp",
+      "name": "Metroid Dread Recomp",
+      "original_game": "Metroid Dread",
+      "game_id": "metroid-dread",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "yozander2009-stack",
+        "repo": "Metroid-Dread-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/63c07e376dcf5799fc02381033f7c121.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^MetroidDread-PC-v.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA."
+      },
+      "launch": {
+        "windows": "Metroid Dread.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-10-24T16:18:21Z"
+      },
+      "year": 2021,
+      "developer": "MercurySteam / Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "Metroid Dread",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 10044,
+        "stars": 195,
+        "age_days": 40,
+        "releases": 5,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental",
+      "tier_manual": true
+    },
+    {
+      "id": "uncharted-collection-pc",
+      "name": "Uncharted Collection PC",
+      "original_game": "Uncharted: The Nathan Drake Collection",
+      "game_id": "uncharted-the-nathan-drake-collection",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "zorde23",
+        "repo": "Uncharted_Collection_PC"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6374abaaafb1a4c0832a34ffa29b15b0.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^ucndc_pc-v.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Uncharted Launcher.exe te pide la carpeta de tu volcado de PS4 (CUSA02344 v01.00 + actualización 01.02 al lado) y deja elegir Uncharted 1, 2 o 3. Vulkan. Uncharted 3 jugable de principio a fin a 60 fps/1080p; el 1 y el 2 jugables con algunos cierres. Derivado del port de God of War III (gow3_pc)."
+      },
+      "launch": {
+        "windows": "Uncharted Launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.6",
+        "published_at": "2026-10-24T23:43:05Z"
+      },
+      "year": 2015,
+      "developer": "Bluepoint Games / Naughty Dog",
+      "genre": "Acción/Aventura",
+      "wiki": "Uncharted: The Nathan Drake Collection",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2564,
+        "stars": 117,
+        "age_days": 9,
+        "releases": 5,
+        "contributors": 5,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "takedawn",
+      "name": "Takedawn",
+      "original_game": "Burnout 3: Takedown",
+      "game_id": "burnout-3-takedown",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "xenophobentx",
+        "repo": "takedawn"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Takedawn-.*-linux-x86_64\\.AppImage$",
+        "macos-aarch64": "(?i)^Takedawn-.*-macos-arm64\\.dmg$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar te pide la imagen de disco de tu Burnout 3: Takedown (Xbox, NTSC-U) en .iso/XISO, instala los datos y a jugar. Vulkan 1.3. Hasta 4x de resolución, panorámico, 60 fps también a pantalla partida, bandas sonoras propias en MP3/FLAC. Windows solo se distribuye como instalador (no incluido aquí); también hay APK Android."
+      },
+      "launch": {
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.2.1",
+        "published_at": "2026-10-22T12:05:14Z"
+      },
+      "year": 2004,
+      "developer": "Criterion Games",
+      "genre": "Carreras",
+      "wiki": "Burnout 3: Takedown",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 22543,
+        "stars": 395,
+        "age_days": 12,
+        "releases": 4,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "pgr2-recomp",
+      "name": "PGR2 Recomp",
+      "original_game": "Project Gotham Racing 2",
+      "game_id": "project-gotham-racing-2",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "hk21x",
+        "repo": "pgr2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Project%20Gotham%20Racing%202%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PGR2Launcher\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El único archivo es PGR2Launcher.exe: eliges tu disco de Project Gotham Racing 2 (Xbox, PAL o NTSC, .iso o carpeta), descarga ~1,4 GB de herramientas portátiles y COMPILA el juego en tu PC (30-90 min la primera vez; ~15 GB libres). Todo queda en una carpeta PGR2 junto al launcher. DirectX 12/11. Carrera, perfiles y System Link por LAN."
+      },
+      "launch": {
+        "windows": "PGR2Launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.3",
+        "published_at": "2026-10-25T06:47:32Z"
+      },
+      "year": 2003,
+      "developer": "Bizarre Creations",
+      "genre": "Carreras",
+      "wiki": "Project Gotham Racing 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 427,
+        "stars": 46,
+        "age_days": 7,
+        "releases": 4,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
     }
   ]
 }
