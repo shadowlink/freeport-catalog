@@ -16321,6 +16321,58 @@
         "checked": "2026-10-25"
       },
       "tier": "curado"
+    },
+    {
+      "id": "primerecomp",
+      "name": "PrimeRecomp",
+      "original_game": "Metroid Prime Remastered",
+      "game_id": "metroid-prime-remastered",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "gminustwo",
+        "repo": "primerecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ac873fa8c17dba5e45c449c688c0ed9b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PrimeRecomp-v.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Derivado de LAS Recomp. La pantalla de inicio de primerecomp.exe te pide la carpeta con exefs y romfs de tu Metroid Prime Remastered v1.0.0 (SIN actualizaciones); copia los archivos (~7 GB) y COMPILA el juego en tu PC (varios minutos; ~15 GB libres). CPU con AVX2 y Vulkan 1.3. Beta muy temprana (v0.0.1, publicada hoy): la Fragata Orpheon y parte de Tallon IV jugables, con fallos gráficos. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs (importa solo el juego base)."
+      },
+      "launch": {
+        "windows": "primerecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.0.1",
+        "published_at": "2026-10-25T18:28:16Z"
+      },
+      "year": 2023,
+      "developer": "Retro Studios / Iron Galaxy",
+      "genre": "Acción/Aventura",
+      "wiki": "Metroid Prime Remastered",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3,
+        "stars": 1,
+        "age_days": 0,
+        "releases": 1,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
     }
   ]
 }
