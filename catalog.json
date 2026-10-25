@@ -13358,7 +13358,7 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA."
+        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA. En Linux arranca con GE-Proton (elige ese runner en la ficha); con Proton-CachyOS 11 se cierra al instante por una función de Windows que ese build no implementa (SHGetFolderPathW)."
       },
       "launch": {
         "windows": "Metroid Dread.exe"
