@@ -13571,11 +13571,15 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas tu propia copia de Breath of the Wild de Switch actualizada a la versión 1.9.0, ya extraída como carpeta con exefs/ (main, main.npdm, rtld, sdk, subsdk0) y romfs/ (juego base + actualización fusionados); el programa no descifra NSP/XCI ni acepta claves. Al abrir savagewind.exe por primera vez te pide esa carpeta, comprueba la versión, copia los archivos, construye la imagen de datos y COMPILA el código del juego en tu PC (unos 6 minutos con 12 hilos, más la copia y la precompilación opcional de shaders; unos 15 minutos en total); después arranca directo. Vulkan 1.3, CPU con SSE4.2 (sin AVX2 va más lento) y unos 35 GB libres. Alpha para testers: se ha jugado la Meseta Inicial a 60 fps con sonido y guardado, pero nadie ha pasado de ahí; DLC no soportado. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs y la enlaza en ~/.local/share/savagewind/extracted, donde Savage Wind la busca.",
-        "register": {
-          "link": "~/.local/share/savagewind/extracted",
-          "file": "~/.local/share/savagewind/freeport-rom.json",
-          "key": "rom_path"
+        "notes": "Necesitas tu propia copia de Breath of the Wild de Switch actualizada a la versión 1.9.0, ya extraída como carpeta con exefs/ (main, main.npdm, rtld, sdk, subsdk0) y romfs/ (juego base + actualización fusionados); el programa no descifra NSP/XCI ni acepta claves. Al abrir savagewind.exe por primera vez te pide esa carpeta, comprueba la versión, copia los archivos, construye la imagen de datos y COMPILA el código del juego en tu PC (unos 6 minutos con 12 hilos, más la copia y la precompilación opcional de shaders; unos 15 minutos en total); después arranca directo. Vulkan 1.3, CPU con SSE4.2 (sin AVX2 va más lento) y unos 35 GB libres. Alpha para testers: se ha jugado la Meseta Inicial a 60 fps con sonido y guardado, pero nadie ha pasado de ahí; DLC no soportado. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport deja exefs+romfs en la carpeta de datos del port y construye su imagen romfs.bin (15 GB más); al arrancar, Savage Wind solo tiene que compilar el código del juego (~15 min la primera vez). Partidas y ajustes quedan en la carpeta del port.",
+        "import_dir": "data/extracted",
+        "after_import": {
+          "args": [
+            "--build-romfs"
+          ],
+          "env": {
+            "SAVAGEWIND_DATA_ROOT": "{install_dir}/data"
+          }
         }
       },
       "launch": {
@@ -13606,7 +13610,10 @@
         "emu": false,
         "checked": "2026-10-25"
       },
-      "tier": "curado"
+      "tier": "curado",
+      "launch_env": {
+        "SAVAGEWIND_DATA_ROOT": "{install_dir}/data"
+      }
     },
     {
       "id": "letsgo-recomp",
