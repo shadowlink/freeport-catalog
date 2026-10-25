@@ -1710,7 +1710,7 @@
       "type": "recompilation",
       "repo": {
         "host": "github",
-        "owner": "birabittoh",
+        "owner": "MaxDeadBear",
         "repo": "KameoRePowered"
       },
       "release_channel": "stable",
