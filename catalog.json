@@ -12691,7 +12691,11 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesita tu volcado DESCIFRADO de Bloodborne para PS4 (carpeta CUSA03173 con eboot.bin y sce_module, versión 1.09); se elige en el lanzador la primera vez. El código x86-64 del juego se ejecuta de forma nativa con un runtime propio; GPU vía Vulkan (renderer derivado de shadPS4) con FSR 3.1/4. Solo Linux, GPU Vulkan 1.3; probado sobre todo en AMD/RADV. Experimental: arranca y se juega, sin partida completa verificada."
+        "notes": "Necesita tu volcado DESCIFRADO de Bloodborne para PS4 (carpeta CUSA03173 con eboot.bin y sce_module, versión 1.09); se elige en el lanzador la primera vez. El código x86-64 del juego se ejecuta de forma nativa con un runtime propio; GPU vía Vulkan (renderer derivado de shadPS4) con FSR 3.1/4. Solo Linux, GPU Vulkan 1.3; probado sobre todo en AMD/RADV. Experimental: arranca y se juega, sin partida completa verificada. Con «Importar PKG de PS4» Freeport extrae tus PKG (juego base y parche 1.09) a la carpeta CUSA03173 y la deja configurada en el launcher.",
+        "register": {
+          "file": "~/.config/bbport-launcher/settings.json",
+          "key": "game_dir"
+        }
       },
       "launch": {
         "linux": null,
@@ -12719,7 +12723,10 @@
         "emu": false,
         "checked": "2026-10-25"
       },
-      "tier": "curado"
+      "tier": "curado",
+      "launch_env": {
+        "BB_GAME_DIR": "{rom_path}"
+      }
     },
     {
       "id": "metroid-prime-port",
