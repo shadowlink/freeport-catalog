@@ -3708,59 +3708,6 @@
       "box_art": null
     },
     {
-      "id": "tekken3-recomp",
-      "name": "Tekken 3 Recomp",
-      "original_game": "Tekken 3",
-      "game_id": "tekken-3",
-      "system": "psx",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "fabioap-cpu",
-        "repo": "Tekken3Recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tekken%203%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)windows_x64.*\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Configuración manual: copia el .cue y .bin de tu Tekken 3 (USA) a la carpeta del juego y pon la ruta del .cue en game.toml (sección [disc]). Por defecto espera «Tekken 3 (USA).cue»."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "Tekken3Recomp.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v2.1",
-        "published_at": "2026-08-27T20:30:52Z"
-      },
-      "year": 1998,
-      "developer": "Namco",
-      "genre": "Lucha",
-      "wiki": "Tekken 3",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
       "id": "sfa3-recomp",
       "name": "SF Alpha 3 Recomp",
       "original_game": "Street Fighter Alpha 3",
@@ -5599,59 +5546,6 @@
         "checked": "2026-10-25"
       },
       "tier": "curado",
-      "box_art": null
-    },
-    {
-      "id": "ufc3-recomp",
-      "name": "UFC 3 Recomp",
-      "original_game": "UFC Undisputed 3",
-      "game_id": "ufc-undisputed-3",
-      "system": "x360",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "paulogaab21",
-        "repo": "ufc3recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/c6d34619f7844c1a3cfc66708391d44a.jpg",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)win-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Necesita los archivos de tu copia del juego (Xbox 360)."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.0.2",
-        "published_at": "2026-09-02T15:17:07Z"
-      },
-      "year": 2012,
-      "developer": "Yuke's",
-      "genre": "Lucha",
-      "wiki": "UFC Undisputed 3",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
       "box_art": null
     },
     {
@@ -7980,59 +7874,6 @@
       "box_art": null
     },
     {
-      "id": "ninja-gaiden-2-recomp",
-      "name": "Ninja's Dawn",
-      "original_game": "Ninja Gaiden II",
-      "game_id": "ninja-gaiden-ii",
-      "system": "x360",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "TheSaltTrader",
-        "repo": "Ninja-s-Dawn---A-Ninja-Gaiden-2-Recompilation-Project"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/952316a1c27f03d5b6cd9d6d530d1ee2.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^ng2recomp-.*-win-amd64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "El primer arranque abre un asistente: indica tu ISO o carpeta extraída (con default.xex) de Ninja Gaiden II (Xbox 360). Unos 8 GB libres; upscaler IA opcional incluido."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "ng2.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.3.0",
-        "published_at": "2026-10-07T21:54:09Z"
-      },
-      "year": 2008,
-      "developer": "Team Ninja",
-      "genre": "Hack and slash",
-      "wiki": "Ninja Gaiden II",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
       "id": "fable2-recomp",
       "name": "Fable 2 Recomp",
       "original_game": "Fable II",
@@ -8083,59 +7924,6 @@
         "checked": "2026-10-25"
       },
       "tier": "curado",
-      "box_art": null
-    },
-    {
-      "id": "fable2-legend-never-dies",
-      "name": "A Legend Never Dies",
-      "original_game": "Fable II",
-      "game_id": "fable-ii",
-      "system": "x360",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "TheSaltTrader",
-        "repo": "A-Legend-Never-dies---Fable-2-Recompilation"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/539ef09cdaadc97ead9ad8794efde829.jpg",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^fable2recomp-.*-win-amd64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "El primer arranque abre un asistente que toma tu ISO o carpeta extraída de Fable II (Xbox 360, ~6,5 GB). Soporte 4K y texturas modificadas."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "fable2.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.5.0",
-        "published_at": "2026-10-07T22:23:23Z"
-      },
-      "year": 2008,
-      "developer": "Lionhead Studios",
-      "genre": "Action RPG",
-      "wiki": "Fable II",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
       "box_art": null
     },
     {
@@ -8731,59 +8519,6 @@
         "releases": 1,
         "contributors": 1,
         "ai": true,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
-      "id": "rayman2-n64-recomp",
-      "name": "Rayman 2: Recompiled",
-      "original_game": "Rayman 2: The Great Escape",
-      "game_id": "rayman-2-the-great-escape",
-      "system": "n64",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "danielgomesvieira2000",
-        "repo": "rayman-2-the-great-escape-recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rayman%202%20-%20The%20Great%20Escape%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^rayman-2-the-great-escape-recomp-.*-windows-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "El launcher te pide tu ROM de Rayman 2 (N64, USA) al arrancar. Alfa temprana: recompila y arranca, jugabilidad en progreso."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.2.1-alpha",
-        "published_at": "2026-09-08T14:56:55Z"
-      },
-      "year": 1999,
-      "developer": "Ubi Pictures",
-      "genre": "Plataformas",
-      "wiki": "Rayman 2: The Great Escape",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
         "emu": false,
         "checked": "2026-10-25"
       },
@@ -9654,112 +9389,6 @@
         "checked": "2026-10-25"
       },
       "tier": "comunidad",
-      "box_art": null
-    },
-    {
-      "id": "soulblade-recomp",
-      "name": "SoulBlade Recomp",
-      "original_game": "Soul Blade",
-      "game_id": "soul-blade",
-      "system": "psx",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "fabioap-cpu",
-        "repo": "SoulBlade_Recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Soul%20Blade%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^SoulBladeRecomp_Release_Windows_x64_.*\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Copia tu .cue y .bin de Soul Blade (PS1, USA) en la carpeta del juego y pon la ruta del .cue en game.toml (por defecto «Soul Blade (USA).cue»)."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.1",
-        "published_at": "2026-08-27T22:08:59Z"
-      },
-      "year": 1996,
-      "developer": "Namco",
-      "genre": "Lucha",
-      "wiki": "Soul Edge",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
-      "id": "tekken1-recomp",
-      "name": "Tekken 1 Recomp",
-      "original_game": "Tekken",
-      "game_id": "tekken",
-      "system": "psx",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "fabioap-cpu",
-        "repo": "Tekken1Recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tekken%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^Tekken1Recomp_Release_Windows_x64_.*\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Copia tu .cue y .bin de Tekken (PS1, USA) en la carpeta del juego y pon la ruta del .cue en game.toml (por defecto «Tekken 1 (USA).cue»)."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v2.1",
-        "published_at": "2026-08-28T00:12:20Z"
-      },
-      "year": 1994,
-      "developer": "Namco",
-      "genre": "Lucha",
-      "wiki": "Tekken (video game)",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
       "box_art": null
     },
     {
@@ -12652,59 +12281,6 @@
       "box_art": null
     },
     {
-      "id": "deadcells-ps5-native",
-      "name": "DeadCells-PS5 Native",
-      "original_game": "Dead Cells",
-      "game_id": "dead-cells",
-      "system": "ps5",
-      "type": "native-port",
-      "repo": {
-        "host": "github",
-        "owner": "OverkillLabs2",
-        "repo": "DeadCells-PS5-Native"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/f6fa975361cfccc02b55c49305ff2bed.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^DeadCells-PS5-Native-.*-win64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Copia los archivos DESCIFRADOS de tu copia PS5 de Dead Cells: Return to Castlevania Edition (PPSA15552) en la misma carpeta que deadcells.exe. El código x86-64 del juego se reenlaza como ejecutable Windows nativo (AnyPS5); shaders recompilados a Vulkan. Primer juego de PS5 nativo en PC."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "deadcells.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.1.0",
-        "published_at": "2026-10-03T20:14:39Z"
-      },
-      "year": 2018,
-      "developer": "Motion Twin / Evil Empire",
-      "genre": "Acción-plataformas",
-      "wiki": "Dead Cells",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
       "id": "wind-waker-recomp",
       "name": "Wind Waker Recomp",
       "original_game": "The Legend of Zelda: The Wind Waker",
@@ -13144,59 +12720,6 @@
         "checked": "2026-10-25"
       },
       "tier": "curado"
-    },
-    {
-      "id": "sos-ps5-native",
-      "name": "SonsOfSparta-PS5 Native",
-      "original_game": "God of War: Sons of Sparta",
-      "game_id": "god-of-war-sons-of-sparta",
-      "system": "ps5",
-      "type": "native-port",
-      "repo": {
-        "host": "github",
-        "owner": "OverkillLabs2",
-        "repo": "SoS-PS5"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/7cf56ae5ff50cdc9f4d18f0b943251da.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^SonsOfSparta-PS5-Native-.*-win64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Copia los archivos DESCIFRADOS de tu copia PS5 de God of War: Sons of Sparta (PPSA28997, v01.008.001): eboot.bin, sce_sys, sce_module y Media, en la misma carpeta que SonsOfSparta-PS5.exe (~25 GB). El código x86-64 del juego se ejecuta nativo vía AnyPS5; GPU por Vulkan 1.3. Primer arranque ~2 min preparando el juego; shaders se compilan al jugar. Probado solo en NVIDIA."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "SonsOfSparta-PS5.exe"
-      },
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "sos-v0.2.2",
-        "published_at": "2026-10-04T19:35:26Z"
-      },
-      "year": 2026,
-      "developer": "Mega Cat Studios / Santa Monica Studio",
-      "genre": "Metroidvania",
-      "wiki": "God of War Sons of Sparta",
-      "box_art": null,
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-25"
-      },
-      "tier": "experimental"
     },
     {
       "id": "metroid-prime-port",
