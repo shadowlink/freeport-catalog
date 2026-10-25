@@ -180,7 +180,7 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 377348,
+        "downloads": 377370,
         "stars": 7521,
         "age_days": 1097,
         "releases": 7,
@@ -240,7 +240,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 2363318,
+        "downloads": 2363454,
         "stars": 5753,
         "age_days": 1678,
         "releases": 53,
@@ -301,7 +301,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 719608,
+        "downloads": 719648,
         "stars": 2375,
         "age_days": 1075,
         "releases": 16,
@@ -364,7 +364,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 239298,
+        "downloads": 239332,
         "stars": 2447,
         "age_days": 930,
         "releases": 3,
@@ -424,7 +424,7 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 17662,
+        "downloads": 17677,
         "stars": 2081,
         "age_days": 1191,
         "releases": 1,
@@ -481,7 +481,7 @@
       "wiki": "Super Mario 64",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1696900,
+        "downloads": 1696962,
         "stars": 1483,
         "age_days": 1091,
         "releases": 16,
@@ -536,7 +536,7 @@
       "wiki": "Driver 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 74190,
+        "downloads": 74199,
         "stars": 1430,
         "age_days": 2182,
         "releases": 14,
@@ -600,8 +600,8 @@
       "box_art": null,
       "ra_supported": true,
       "quality_signals": {
-        "downloads": 148193,
-        "stars": 2087,
+        "downloads": 148207,
+        "stars": 2088,
         "age_days": 614,
         "releases": 3,
         "contributors": 5,
@@ -660,7 +660,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 21345,
+        "downloads": 21348,
         "stars": 332,
         "age_days": 889,
         "releases": 8,
@@ -719,7 +719,7 @@
       "wiki": "Ganbare Goemon: Neo Momoyama Bakufu no Odori",
       "box_art": null,
       "quality_signals": {
-        "downloads": 23397,
+        "downloads": 23403,
         "stars": 326,
         "age_days": 619,
         "releases": 5,
@@ -784,7 +784,7 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 15252,
+        "downloads": 15259,
         "stars": 277,
         "age_days": 554,
         "releases": 3,
@@ -841,8 +841,8 @@
       "wiki": "Skate 3",
       "box_art": null,
       "quality_signals": {
-        "downloads": 128250,
-        "stars": 1722,
+        "downloads": 128296,
+        "stars": 1723,
         "age_days": 142,
         "releases": 9,
         "contributors": 1,
@@ -898,7 +898,7 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 24327,
+        "downloads": 24337,
         "stars": 385,
         "age_days": 140,
         "releases": 23,
@@ -956,7 +956,7 @@
       "wiki": "The Legend of Dragoon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 25879,
+        "downloads": 25891,
         "stars": 569,
         "age_days": 1882,
         "releases": 7,
@@ -1012,7 +1012,7 @@
       "wiki": "Tomb Raider (videojuego de 1996)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 51934,
+        "downloads": 51941,
         "stars": 1024,
         "age_days": 2085,
         "releases": 100,
@@ -1068,7 +1068,7 @@
       "wiki": "Sonic Mania",
       "box_art": null,
       "quality_signals": {
-        "downloads": 78510,
+        "downloads": 78515,
         "stars": 825,
         "age_days": 2446,
         "releases": 3,
@@ -1123,7 +1123,7 @@
       "wiki": "Carmageddon",
       "box_art": null,
       "quality_signals": {
-        "downloads": 9480,
+        "downloads": 9481,
         "stars": 1232,
         "age_days": 2552,
         "releases": 12,
@@ -1288,7 +1288,7 @@
       "wiki": "Diablo (videojuego)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 615595,
+        "downloads": 615642,
         "stars": 9937,
         "age_days": 3005,
         "releases": 22,
@@ -1343,7 +1343,7 @@
       "wiki": "Oddworld: Abe's Oddysee",
       "box_art": null,
       "quality_signals": {
-        "downloads": 25685,
+        "downloads": 25690,
         "stars": 444,
         "age_days": 3063,
         "releases": 9,
@@ -1400,7 +1400,7 @@
       "wiki": "Doom (videojuego de 1993)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 26555,
+        "downloads": 26562,
         "stars": 547,
         "age_days": 2579,
         "releases": 27,
@@ -1455,8 +1455,8 @@
       "wiki": "The Legend of Zelda: Twilight Princess",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1402489,
-        "stars": 6061,
+        "downloads": 1402680,
+        "stars": 6062,
         "age_days": 329,
         "releases": 24,
         "contributors": 5,
@@ -1518,7 +1518,7 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 21243,
+        "downloads": 21248,
         "stars": 308,
         "age_days": 281,
         "releases": 1,
@@ -1575,7 +1575,7 @@
       "wiki": "Bomberman Hero",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10610,
+        "downloads": 10613,
         "stars": 126,
         "age_days": 202,
         "releases": 5,
@@ -1638,7 +1638,7 @@
       "ra_supported": true,
       "ra_beta": true,
       "quality_signals": {
-        "downloads": 9729,
+        "downloads": 9739,
         "stars": 173,
         "age_days": 200,
         "releases": 6,
@@ -1690,7 +1690,7 @@
       "wiki": "Snowboard Kids 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 8845,
+        "downloads": 8851,
         "stars": 110,
         "age_days": 279,
         "releases": 5,
@@ -1745,7 +1745,7 @@
       "wiki": "Kameo: Elements of Power",
       "box_art": null,
       "quality_signals": {
-        "downloads": 5824,
+        "downloads": 5837,
         "stars": 66,
         "age_days": 184,
         "releases": 7,
@@ -1806,7 +1806,7 @@
       },
       "box_art": null,
       "quality_signals": {
-        "downloads": 129108,
+        "downloads": 129143,
         "stars": 853,
         "age_days": 1138,
         "releases": 5,
@@ -1859,8 +1859,8 @@
       "wiki": "Sonic Unleashed",
       "box_art": null,
       "quality_signals": {
-        "downloads": 730019,
-        "stars": 5264,
+        "downloads": 730044,
+        "stars": 5265,
         "age_days": 755,
         "releases": 4,
         "contributors": 5,
@@ -1912,7 +1912,7 @@
       "wiki": "Dr. Mario 64",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10971,
+        "downloads": 10973,
         "stars": 156,
         "age_days": 311,
         "releases": 1,
@@ -1963,7 +1963,7 @@
       "wiki": "Viva Piñata: Trouble in Paradise",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10747,
+        "downloads": 10749,
         "stars": 228,
         "age_days": 224,
         "releases": 6,
@@ -2065,7 +2065,7 @@
       "wiki": "Banjo-Kazooie: Nuts & Bolts",
       "box_art": null,
       "quality_signals": {
-        "downloads": 17956,
+        "downloads": 17976,
         "stars": 178,
         "age_days": 239,
         "releases": 23,
@@ -2118,7 +2118,7 @@
       "wiki": "Naughty Bear",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4426,
+        "downloads": 4431,
         "stars": 62,
         "age_days": 200,
         "releases": 7,
@@ -2171,7 +2171,7 @@
       "wiki": "Crash Team Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 18080,
+        "downloads": 18087,
         "stars": 427,
         "age_days": 161,
         "releases": 9,
@@ -2228,7 +2228,7 @@
       "wiki": "Castlevania: Symphony of the Night",
       "box_art": null,
       "quality_signals": {
-        "downloads": 59012,
+        "downloads": 59067,
         "stars": 976,
         "age_days": 113,
         "releases": 10,
@@ -2285,7 +2285,7 @@
       "wiki": "Diddy Kong Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 20483,
+        "downloads": 20488,
         "stars": 185,
         "age_days": 86,
         "releases": 16,
@@ -2341,7 +2341,7 @@
       "wiki": "Banjo-Kazooie",
       "box_art": null,
       "quality_signals": {
-        "downloads": 38343,
+        "downloads": 38376,
         "stars": 524,
         "age_days": 696,
         "releases": 6,
@@ -2394,7 +2394,7 @@
       "wiki": "Ape Escape",
       "box_art": null,
       "quality_signals": {
-        "downloads": 8695,
+        "downloads": 8699,
         "stars": 92,
         "age_days": 139,
         "releases": 19,
@@ -2453,7 +2453,7 @@
       "wiki": "The Legend of Zelda: The Minish Cap",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10826,
+        "downloads": 10849,
         "stars": 499,
         "age_days": 177,
         "releases": 2,
@@ -2509,7 +2509,7 @@
       "wiki": "Kirby's Return to Dream Land",
       "box_art": null,
       "quality_signals": {
-        "downloads": 12567,
+        "downloads": 12569,
         "stars": 178,
         "age_days": 122,
         "releases": 1,
@@ -2564,7 +2564,7 @@
       "wiki": "The Simpsons Game",
       "box_art": null,
       "quality_signals": {
-        "downloads": 25189,
+        "downloads": 25213,
         "stars": 380,
         "age_days": 112,
         "releases": 21,
@@ -2620,7 +2620,7 @@
       "box_art": null,
       "rolling_tag": "v0.5.0",
       "quality_signals": {
-        "downloads": 7422,
+        "downloads": 7429,
         "stars": 47,
         "age_days": 112,
         "releases": 14,
@@ -2673,7 +2673,7 @@
       "wiki": "Condemned 2: Bloodshot",
       "box_art": null,
       "quality_signals": {
-        "downloads": 5975,
+        "downloads": 6003,
         "stars": 260,
         "age_days": 83,
         "releases": 10,
@@ -2726,7 +2726,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 7640,
+        "downloads": 7644,
         "stars": 281,
         "age_days": 666,
         "releases": 1,
@@ -2779,7 +2779,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 5381,
+        "downloads": 5383,
         "stars": 63,
         "age_days": 887,
         "releases": 1,
@@ -2832,7 +2832,7 @@
       "box_art": null,
       "logo_url": null,
       "quality_signals": {
-        "downloads": 15355,
+        "downloads": 15362,
         "stars": 158,
         "age_days": 215,
         "releases": 8,
@@ -2889,7 +2889,7 @@
       "wiki": "Castlevania: Legacy of Darkness",
       "box_art": null,
       "quality_signals": {
-        "downloads": 12730,
+        "downloads": 12737,
         "stars": 138,
         "age_days": 273,
         "releases": 33,
@@ -2946,7 +2946,7 @@
       "wiki": "Star Wars: X-Wing Alliance",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1110,
+        "downloads": 1114,
         "stars": 160,
         "age_days": 91,
         "releases": 16,
@@ -3001,7 +3001,7 @@
       "wiki": "F-Zero X",
       "box_art": null,
       "quality_signals": {
-        "downloads": 14419,
+        "downloads": 14424,
         "stars": 295,
         "age_days": 126,
         "releases": 6,
@@ -3056,7 +3056,7 @@
       "wiki": "Diddy Kong Racing",
       "box_art": null,
       "quality_signals": {
-        "downloads": 25329,
+        "downloads": 25371,
         "stars": 236,
         "age_days": 81,
         "releases": 14,
@@ -3110,7 +3110,7 @@
       "wiki": "Crash Bandicoot (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 49049,
+        "downloads": 49075,
         "stars": 297,
         "age_days": 94,
         "releases": 22,
@@ -3164,7 +3164,7 @@
       "genre": "Matamarcianos",
       "wiki": "Star Fox 64",
       "quality_signals": {
-        "downloads": 227657,
+        "downloads": 227664,
         "stars": 2119,
         "age_days": 887,
         "releases": 2,
@@ -3217,7 +3217,7 @@
       "genre": "Shooter en primera persona",
       "wiki": "Metroid Prime Hunters",
       "quality_signals": {
-        "downloads": 11720,
+        "downloads": 11731,
         "stars": 269,
         "age_days": 84,
         "releases": 43,
@@ -3271,7 +3271,7 @@
       "genre": "Plataformas",
       "wiki": "Tomba!",
       "quality_signals": {
-        "downloads": 6540,
+        "downloads": 6564,
         "stars": 76,
         "age_days": 223,
         "releases": 48,
@@ -3324,7 +3324,7 @@
       "genre": "Juego de cartas",
       "wiki": "Yu-Gi-Oh! Forbidden Memories",
       "quality_signals": {
-        "downloads": 12938,
+        "downloads": 12940,
         "stars": 145,
         "age_days": 66,
         "releases": 31,
@@ -3377,7 +3377,7 @@
       "genre": "Lucha libre",
       "wiki": "WWF No Mercy",
       "quality_signals": {
-        "downloads": 3080,
+        "downloads": 3083,
         "stars": 37,
         "age_days": 102,
         "releases": 3,
@@ -3430,7 +3430,7 @@
       "genre": "Lucha libre",
       "wiki": "WWF WrestleMania 2000",
       "quality_signals": {
-        "downloads": 1766,
+        "downloads": 1767,
         "stars": 18,
         "age_days": 103,
         "releases": 2,
@@ -3589,7 +3589,7 @@
       "genre": "Lucha libre",
       "wiki": "WCW vs. nWo: World Tour",
       "quality_signals": {
-        "downloads": 2524,
+        "downloads": 2525,
         "stars": 43,
         "age_days": 111,
         "releases": 4,
@@ -3642,7 +3642,7 @@
       "genre": "Lucha",
       "wiki": "Soulcalibur II",
       "quality_signals": {
-        "downloads": 12798,
+        "downloads": 12811,
         "stars": 177,
         "age_days": 62,
         "releases": 18,
@@ -3695,7 +3695,7 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill (video game)",
       "quality_signals": {
-        "downloads": 29393,
+        "downloads": 29457,
         "stars": 763,
         "age_days": 233,
         "releases": 13,
@@ -3803,7 +3803,7 @@
       "genre": "Lucha",
       "wiki": "Street Fighter Alpha 3",
       "quality_signals": {
-        "downloads": 4965,
+        "downloads": 4970,
         "stars": 80,
         "age_days": 77,
         "releases": 9,
@@ -3858,7 +3858,7 @@
       "genre": "RPG táctico",
       "wiki": "Vandal Hearts",
       "quality_signals": {
-        "downloads": 2882,
+        "downloads": 2887,
         "stars": 53,
         "age_days": 94,
         "releases": 14,
@@ -3969,7 +3969,7 @@
         "SDL_VIDEODRIVER": "x11"
       },
       "quality_signals": {
-        "downloads": 56120,
+        "downloads": 56145,
         "stars": 843,
         "age_days": 259,
         "releases": 21,
@@ -4026,7 +4026,7 @@
       "genre": "Simulador de combate espacial",
       "wiki": "Star Wars: TIE Fighter",
       "quality_signals": {
-        "downloads": 1501,
+        "downloads": 1506,
         "stars": 341,
         "age_days": 91,
         "releases": 7,
@@ -4130,7 +4130,7 @@
       "genre": "Acción",
       "wiki": "Strider 2 (1999 video game)",
       "quality_signals": {
-        "downloads": 1815,
+        "downloads": 1819,
         "stars": 39,
         "age_days": 62,
         "releases": 2,
@@ -4185,7 +4185,7 @@
       "genre": "Combate vehicular",
       "wiki": "Twisted Metal 4",
       "quality_signals": {
-        "downloads": 2949,
+        "downloads": 2953,
         "stars": 30,
         "age_days": 79,
         "releases": 15,
@@ -4240,7 +4240,7 @@
       "genre": "Plataformas",
       "wiki": "Donkey Kong 64",
       "quality_signals": {
-        "downloads": 48252,
+        "downloads": 48277,
         "stars": 543,
         "age_days": 138,
         "releases": 4,
@@ -4348,7 +4348,7 @@
       "genre": "Carreras",
       "wiki": "Rage Racer",
       "quality_signals": {
-        "downloads": 8311,
+        "downloads": 8326,
         "stars": 132,
         "age_days": 72,
         "releases": 17,
@@ -4403,7 +4403,7 @@
       "genre": "Matamarcianos",
       "wiki": "Einhänder",
       "quality_signals": {
-        "downloads": 2608,
+        "downloads": 2611,
         "stars": 92,
         "age_days": 65,
         "releases": 2,
@@ -4458,7 +4458,7 @@
       "genre": "Plataformas",
       "wiki": "Klonoa: Door to Phantomile",
       "quality_signals": {
-        "downloads": 2761,
+        "downloads": 2765,
         "stars": 40,
         "age_days": 69,
         "releases": 4,
@@ -4513,7 +4513,7 @@
       "genre": "Lucha",
       "wiki": "Marvel vs. Capcom: Clash of Super Heroes",
       "quality_signals": {
-        "downloads": 1897,
+        "downloads": 1901,
         "stars": 10,
         "age_days": 78,
         "releases": 8,
@@ -4568,7 +4568,7 @@
       "genre": "Lucha",
       "wiki": "Star Wars: Masters of Teräs Käsi",
       "quality_signals": {
-        "downloads": 1145,
+        "downloads": 1149,
         "stars": 6,
         "age_days": 96,
         "releases": 8,
@@ -4623,7 +4623,7 @@
       "genre": "Run and gun",
       "wiki": "Metal Slug X",
       "quality_signals": {
-        "downloads": 1987,
+        "downloads": 1993,
         "stars": 6,
         "age_days": 78,
         "releases": 8,
@@ -4733,7 +4733,7 @@
       "genre": "Acción",
       "wiki": "Star Wars Episode I: Jedi Power Battles",
       "quality_signals": {
-        "downloads": 1129,
+        "downloads": 1134,
         "stars": 10,
         "age_days": 77,
         "releases": 3,
@@ -4788,7 +4788,7 @@
       "genre": "Carreras",
       "wiki": "Bomberman Fantasy Race",
       "quality_signals": {
-        "downloads": 1136,
+        "downloads": 1140,
         "stars": 13,
         "age_days": 78,
         "releases": 3,
@@ -4843,7 +4843,7 @@
       "genre": "Acción",
       "wiki": "Bomberman World",
       "quality_signals": {
-        "downloads": 1332,
+        "downloads": 1336,
         "stars": 8,
         "age_days": 77,
         "releases": 8,
@@ -4898,7 +4898,7 @@
       "genre": "Acción",
       "wiki": "Bomberman Party Edition",
       "quality_signals": {
-        "downloads": 1200,
+        "downloads": 1204,
         "stars": 8,
         "age_days": 94,
         "releases": 8,
@@ -4951,7 +4951,7 @@
       "genre": "Plataformas",
       "wiki": "Tomba! 2: The Evil Swine Return",
       "quality_signals": {
-        "downloads": 2202,
+        "downloads": 2213,
         "stars": 20,
         "age_days": 113,
         "releases": 16,
@@ -5004,7 +5004,7 @@
       "genre": "RPG",
       "wiki": "Legend of Legaia",
       "quality_signals": {
-        "downloads": 1011,
+        "downloads": 1012,
         "stars": 18,
         "age_days": 98,
         "releases": 7,
@@ -5057,9 +5057,9 @@
       "genre": "Acción/Sigilo",
       "wiki": "Syphon Filter 2",
       "quality_signals": {
-        "downloads": 1683,
+        "downloads": 1687,
         "stars": 44,
-        "age_days": 79,
+        "age_days": 80,
         "releases": 5,
         "contributors": 1,
         "ai": true,
@@ -5112,7 +5112,7 @@
       "genre": "Beat 'em up",
       "wiki": "Jackie Chan Stuntmaster",
       "quality_signals": {
-        "downloads": 4461,
+        "downloads": 4465,
         "stars": 63,
         "age_days": 209,
         "releases": 3,
@@ -5166,7 +5166,7 @@
       "genre": "Plataformas",
       "wiki": "Mega Man X6",
       "quality_signals": {
-        "downloads": 6235,
+        "downloads": 6237,
         "stars": 77,
         "age_days": 142,
         "releases": 28,
@@ -5219,7 +5219,7 @@
       "genre": "Carreras",
       "wiki": "Wipeout (video game)",
       "quality_signals": {
-        "downloads": 25014,
+        "downloads": 25017,
         "stars": 985,
         "age_days": 1205,
         "releases": 13,
@@ -5272,7 +5272,7 @@
       "genre": "Carreras",
       "wiki": "Project Gotham Racing 4",
       "quality_signals": {
-        "downloads": 6515,
+        "downloads": 6523,
         "stars": 211,
         "age_days": 93,
         "releases": 6,
@@ -5323,7 +5323,7 @@
       "genre": "RPG",
       "wiki": "Eternal Sonata",
       "quality_signals": {
-        "downloads": 10065,
+        "downloads": 10087,
         "stars": 163,
         "age_days": 141,
         "releases": 17,
@@ -5376,9 +5376,9 @@
       "genre": "Puzzle/Plataformas",
       "wiki": "Exit (video game)",
       "quality_signals": {
-        "downloads": 973,
+        "downloads": 976,
         "stars": 14,
-        "age_days": 111,
+        "age_days": 112,
         "releases": 1,
         "contributors": 5,
         "ai": false,
@@ -5429,9 +5429,9 @@
       "genre": "Puzzle/Plataformas",
       "wiki": "Exit (video game)",
       "quality_signals": {
-        "downloads": 973,
+        "downloads": 976,
         "stars": 14,
-        "age_days": 111,
+        "age_days": 112,
         "releases": 1,
         "contributors": 5,
         "ai": false,
@@ -5483,7 +5483,7 @@
       "wiki": "Destroy All Humans! Path of the Furon",
       "rolling_tag": "new",
       "quality_signals": {
-        "downloads": 2620,
+        "downloads": 2621,
         "stars": 46,
         "age_days": 214,
         "releases": 5,
@@ -5536,7 +5536,7 @@
       "genre": "Ritmo",
       "wiki": "Guitar Hero: Warriors of Rock",
       "quality_signals": {
-        "downloads": 2629,
+        "downloads": 2632,
         "stars": 44,
         "age_days": 237,
         "releases": 2,
@@ -5589,7 +5589,7 @@
       "genre": "Survival horror",
       "wiki": "Silent Hill: Downpour",
       "quality_signals": {
-        "downloads": 14999,
+        "downloads": 15012,
         "stars": 334,
         "age_days": 127,
         "releases": 10,
@@ -5696,7 +5696,7 @@
       "wiki": "Naughty Bear: Panic in Paradise",
       "rolling_tag": "release",
       "quality_signals": {
-        "downloads": 810,
+        "downloads": 811,
         "stars": 7,
         "age_days": 129,
         "releases": 2,
@@ -5749,7 +5749,7 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat 6: Fires of Liberation",
       "quality_signals": {
-        "downloads": 18102,
+        "downloads": 18113,
         "stars": 557,
         "age_days": 208,
         "releases": 3,
@@ -5804,7 +5804,7 @@
       "genre": "Plataformas/Puzzle",
       "wiki": "Space Station Silicon Valley",
       "quality_signals": {
-        "downloads": 4902,
+        "downloads": 4908,
         "stars": 106,
         "age_days": 264,
         "releases": 6,
@@ -5857,7 +5857,7 @@
       "genre": "Lucha libre",
       "wiki": "Virtual Pro Wrestling 2: Ōdō Keishō",
       "quality_signals": {
-        "downloads": 1122,
+        "downloads": 1124,
         "stars": 9,
         "age_days": 99,
         "releases": 2,
@@ -5910,7 +5910,7 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 10597,
+        "downloads": 10602,
         "stars": 304,
         "age_days": 154,
         "releases": 2,
@@ -5965,7 +5965,7 @@
       "genre": "Plataformas",
       "wiki": "Mischief Makers",
       "quality_signals": {
-        "downloads": 6986,
+        "downloads": 6991,
         "stars": 97,
         "age_days": 107,
         "releases": 19,
@@ -6018,7 +6018,7 @@
       "genre": "RPG",
       "wiki": "Pokémon Emerald",
       "quality_signals": {
-        "downloads": 4673,
+        "downloads": 4679,
         "stars": 41,
         "age_days": 124,
         "releases": 10,
@@ -6071,7 +6071,7 @@
       "genre": "RPG",
       "wiki": "Pokémon FireRed and LeafGreen",
       "quality_signals": {
-        "downloads": 4208,
+        "downloads": 4216,
         "stars": 31,
         "age_days": 124,
         "releases": 5,
@@ -6124,7 +6124,7 @@
       "genre": "RPG",
       "wiki": "Pokémon FireRed and LeafGreen",
       "quality_signals": {
-        "downloads": 4208,
+        "downloads": 4216,
         "stars": 31,
         "age_days": 124,
         "releases": 5,
@@ -6177,7 +6177,7 @@
       "genre": "RPG",
       "wiki": "Pokémon Ruby and Sapphire",
       "quality_signals": {
-        "downloads": 2891,
+        "downloads": 2905,
         "stars": 23,
         "age_days": 124,
         "releases": 6,
@@ -6230,7 +6230,7 @@
       "genre": "RPG",
       "wiki": "Pokémon Ruby and Sapphire",
       "quality_signals": {
-        "downloads": 2891,
+        "downloads": 2905,
         "stars": 23,
         "age_days": 124,
         "releases": 6,
@@ -6283,7 +6283,7 @@
       "genre": "Simulación social",
       "wiki": "Animal Crossing (video game)",
       "quality_signals": {
-        "downloads": 33477,
+        "downloads": 33483,
         "stars": 1517,
         "age_days": 229,
         "releases": 9,
@@ -6336,7 +6336,7 @@
       "genre": "Party",
       "wiki": "Mario Party 4",
       "quality_signals": {
-        "downloads": 10057,
+        "downloads": 10062,
         "stars": 880,
         "age_days": 1069,
         "releases": 6,
@@ -6392,7 +6392,7 @@
       "wiki": "Fatal Frame (video game)",
       "rolling_tag": "nightly",
       "quality_signals": {
-        "downloads": 424,
+        "downloads": 428,
         "stars": 134,
         "age_days": 355,
         "releases": 1,
@@ -6445,7 +6445,7 @@
       "genre": "Plataformas",
       "wiki": "Jak and Daxter: The Precursor Legacy",
       "quality_signals": {
-        "downloads": 504370,
+        "downloads": 504410,
         "stars": 246,
         "age_days": 1535,
         "releases": 90,
@@ -6498,7 +6498,7 @@
       "genre": "Shooter en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 45164,
+        "downloads": 45168,
         "stars": 908,
         "age_days": 134,
         "releases": 7,
@@ -6606,7 +6606,7 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. (video game)",
       "quality_signals": {
-        "downloads": 66147,
+        "downloads": 66167,
         "stars": 515,
         "age_days": 203,
         "releases": 33,
@@ -6661,8 +6661,8 @@
       "genre": "Lucha",
       "wiki": "Street Fighter EX2",
       "quality_signals": {
-        "downloads": 2090,
-        "stars": 26,
+        "downloads": 2096,
+        "stars": 27,
         "age_days": 56,
         "releases": 1,
         "contributors": 1,
@@ -6714,7 +6714,7 @@
       "genre": "Carreras",
       "wiki": "Mario Kart: Super Circuit",
       "quality_signals": {
-        "downloads": 7339,
+        "downloads": 7353,
         "stars": 72,
         "age_days": 86,
         "releases": 12,
@@ -6765,7 +6765,7 @@
       "genre": "Estrategia en tiempo real",
       "wiki": "Pikmin (video game)",
       "quality_signals": {
-        "downloads": 23481,
+        "downloads": 23531,
         "stars": 276,
         "age_days": 51,
         "releases": 28,
@@ -6873,7 +6873,7 @@
       "genre": "Carreras",
       "wiki": "Crash Team Racing",
       "quality_signals": {
-        "downloads": 6064,
+        "downloads": 6066,
         "stars": 211,
         "age_days": 125,
         "releases": 8,
@@ -6926,7 +6926,7 @@
       "genre": "Carreras",
       "wiki": "Road Rash 64",
       "quality_signals": {
-        "downloads": 6801,
+        "downloads": 6806,
         "stars": 77,
         "age_days": 48,
         "releases": 14,
@@ -7135,7 +7135,7 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: Ocarina of Time 3D",
       "quality_signals": {
-        "downloads": 37052,
+        "downloads": 37117,
         "stars": 563,
         "age_days": 47,
         "releases": 13,
@@ -7190,7 +7190,7 @@
       "genre": "Fotografía sobre raíles",
       "wiki": "Pokémon Snap",
       "quality_signals": {
-        "downloads": 9691,
+        "downloads": 9742,
         "stars": 122,
         "age_days": 49,
         "releases": 17,
@@ -7250,7 +7250,7 @@
       "wiki": "Perfect Dark",
       "box_art": null,
       "quality_signals": {
-        "downloads": 41127,
+        "downloads": 41186,
         "stars": 196,
         "age_days": 54,
         "releases": 29,
@@ -7304,7 +7304,7 @@
       "genre": "Lucha",
       "wiki": "Super Smash Bros. Melee",
       "quality_signals": {
-        "downloads": 45151,
+        "downloads": 45184,
         "stars": 551,
         "age_days": 41,
         "releases": 20,
@@ -7363,7 +7363,7 @@
       "genre": "Deportes",
       "wiki": "Super Mario Strikers",
       "quality_signals": {
-        "downloads": 20520,
+        "downloads": 20536,
         "stars": 357,
         "age_days": 44,
         "releases": 6,
@@ -7418,7 +7418,7 @@
       "genre": "Carreras",
       "wiki": "AeroGauge",
       "quality_signals": {
-        "downloads": 3511,
+        "downloads": 3516,
         "stars": 41,
         "age_days": 106,
         "releases": 7,
@@ -7640,8 +7640,8 @@
       "genre": "RPG",
       "wiki": "Lost Odyssey",
       "quality_signals": {
-        "downloads": 93591,
-        "stars": 803,
+        "downloads": 93754,
+        "stars": 804,
         "age_days": 50,
         "releases": 70,
         "contributors": 5,
@@ -7693,7 +7693,7 @@
       "genre": "Carreras",
       "wiki": "Wave Race 64",
       "quality_signals": {
-        "downloads": 5973,
+        "downloads": 5981,
         "stars": 129,
         "age_days": 38,
         "releases": 1,
@@ -7751,7 +7751,7 @@
       "genre": "RPG",
       "wiki": "Paper Mario (video game)",
       "quality_signals": {
-        "downloads": 42878,
+        "downloads": 42901,
         "stars": 517,
         "age_days": 232,
         "releases": 4,
@@ -7804,7 +7804,7 @@
       "genre": "Carreras",
       "wiki": "Beetle Adventure Racing!",
       "quality_signals": {
-        "downloads": 3382,
+        "downloads": 3383,
         "stars": 67,
         "age_days": 48,
         "releases": 6,
@@ -7859,7 +7859,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "GoldenEye 007 (1997 video game)",
       "quality_signals": {
-        "downloads": 7938,
+        "downloads": 7948,
         "stars": 290,
         "age_days": 55,
         "releases": 7,
@@ -7914,7 +7914,7 @@
       "genre": "Simulación",
       "wiki": "Pilotwings 64",
       "quality_signals": {
-        "downloads": 3722,
+        "downloads": 3728,
         "stars": 81,
         "age_days": 40,
         "releases": 2,
@@ -7967,7 +7967,7 @@
       "genre": "Survival horror",
       "wiki": "Deadly Premonition",
       "quality_signals": {
-        "downloads": 4178,
+        "downloads": 4180,
         "stars": 179,
         "age_days": 132,
         "releases": 35,
@@ -8073,7 +8073,7 @@
       "genre": "Action RPG",
       "wiki": "Fable II",
       "quality_signals": {
-        "downloads": 23291,
+        "downloads": 23308,
         "stars": 533,
         "age_days": 55,
         "releases": 9,
@@ -8177,7 +8177,7 @@
       "genre": "Carreras",
       "wiki": "Need for Speed: Most Wanted (2005 video game)",
       "quality_signals": {
-        "downloads": 235,
+        "downloads": 253,
         "stars": 172,
         "age_days": 44,
         "releases": 1,
@@ -8232,7 +8232,7 @@
       "genre": "Acción-aventura",
       "wiki": "Dead Rising 2: Case Zero",
       "quality_signals": {
-        "downloads": 4053,
+        "downloads": 4060,
         "stars": 102,
         "age_days": 81,
         "releases": 7,
@@ -8287,7 +8287,7 @@
       "genre": "Acción-aventura",
       "wiki": "Dead Rising 2: Case West",
       "quality_signals": {
-        "downloads": 3328,
+        "downloads": 3335,
         "stars": 97,
         "age_days": 70,
         "releases": 5,
@@ -8344,7 +8344,7 @@
       "genre": "Deportes",
       "wiki": "Tony Hawk's Project 8",
       "quality_signals": {
-        "downloads": 1893,
+        "downloads": 1898,
         "stars": 49,
         "age_days": 68,
         "releases": 4,
@@ -8397,7 +8397,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 11184,
+        "downloads": 11197,
         "stars": 339,
         "age_days": 39,
         "releases": 8,
@@ -8505,7 +8505,7 @@
       "genre": "Carreras",
       "wiki": "Sonic Free Riders",
       "quality_signals": {
-        "downloads": 11328,
+        "downloads": 11346,
         "stars": 98,
         "age_days": 33,
         "releases": 81,
@@ -8558,7 +8558,7 @@
       "genre": "Estrategia",
       "wiki": "Pokémon Stadium",
       "quality_signals": {
-        "downloads": 10463,
+        "downloads": 10466,
         "stars": 121,
         "age_days": 174,
         "releases": 9,
@@ -8615,7 +8615,7 @@
       "genre": "RPG táctico",
       "wiki": "Ogre Battle 64: Person of Lordly Caliber",
       "quality_signals": {
-        "downloads": 2170,
+        "downloads": 2173,
         "stars": 79,
         "age_days": 61,
         "releases": 14,
@@ -8835,7 +8835,7 @@
       "quality_signals": {
         "downloads": 177,
         "stars": 13,
-        "age_days": 39,
+        "age_days": 40,
         "releases": 2,
         "contributors": 1,
         "ai": true,
@@ -8886,7 +8886,7 @@
       "genre": "Plataformas",
       "wiki": "Conker's Bad Fur Day",
       "quality_signals": {
-        "downloads": 396,
+        "downloads": 397,
         "stars": 36,
         "age_days": 66,
         "releases": 1,
@@ -8939,7 +8939,7 @@
       "genre": "Acción",
       "wiki": "Star Wars: Shadows of the Empire (video game)",
       "quality_signals": {
-        "downloads": 3678,
+        "downloads": 3691,
         "stars": 43,
         "age_days": 83,
         "releases": 4,
@@ -9100,7 +9100,7 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 2228,
+        "downloads": 2232,
         "stars": 16,
         "age_days": 39,
         "releases": 2,
@@ -9157,7 +9157,7 @@
       "quality_signals": {
         "downloads": 101,
         "stars": 1,
-        "age_days": 74,
+        "age_days": 75,
         "releases": 8,
         "contributors": 1,
         "ai": false,
@@ -9263,7 +9263,7 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: The Minish Cap",
       "quality_signals": {
-        "downloads": 661,
+        "downloads": 663,
         "stars": 25,
         "age_days": 153,
         "releases": 6,
@@ -9316,7 +9316,7 @@
       "genre": "Acción-plataformas",
       "wiki": "Mega Man Zero (video game)",
       "quality_signals": {
-        "downloads": 1375,
+        "downloads": 1379,
         "stars": 21,
         "age_days": 102,
         "releases": 7,
@@ -9369,7 +9369,7 @@
       "genre": "Action RPG",
       "wiki": "Dragon Ball Z: Buu's Fury",
       "quality_signals": {
-        "downloads": 1457,
+        "downloads": 1459,
         "stars": 34,
         "age_days": 83,
         "releases": 4,
@@ -9428,7 +9428,7 @@
       "genre": "RPG",
       "wiki": "Valkyrie Profile",
       "quality_signals": {
-        "downloads": 4249,
+        "downloads": 4255,
         "stars": 118,
         "age_days": 55,
         "releases": 2,
@@ -9483,7 +9483,7 @@
       "genre": "Plataformas",
       "wiki": "Mega Man X4",
       "quality_signals": {
-        "downloads": 7863,
+        "downloads": 7887,
         "stars": 108,
         "age_days": 111,
         "releases": 61,
@@ -9536,7 +9536,7 @@
       "genre": "Plataformas",
       "wiki": "Crash Bandicoot 2: Cortex Strikes Back",
       "quality_signals": {
-        "downloads": 5534,
+        "downloads": 5541,
         "stars": 91,
         "age_days": 56,
         "releases": 7,
@@ -9644,7 +9644,7 @@
       "genre": "RPG",
       "wiki": "Xenogears",
       "quality_signals": {
-        "downloads": 953,
+        "downloads": 958,
         "stars": 65,
         "age_days": 94,
         "releases": 20,
@@ -9858,7 +9858,7 @@
       "genre": "Lucha",
       "wiki": "Battle Arena Toshinden",
       "quality_signals": {
-        "downloads": 559,
+        "downloads": 561,
         "stars": 15,
         "age_days": 47,
         "releases": 3,
@@ -9917,7 +9917,7 @@
       "genre": "Plataformas",
       "wiki": "Wild 9",
       "quality_signals": {
-        "downloads": 494,
+        "downloads": 499,
         "stars": 10,
         "age_days": 43,
         "releases": 8,
@@ -10025,7 +10025,7 @@
       "genre": "Puzle",
       "wiki": null,
       "quality_signals": {
-        "downloads": 199,
+        "downloads": 201,
         "stars": 7,
         "age_days": 110,
         "releases": 4,
@@ -10131,7 +10131,7 @@
       "genre": "Combate aéreo",
       "wiki": "Ace Combat 5: The Unsung War",
       "quality_signals": {
-        "downloads": 3344,
+        "downloads": 3348,
         "stars": 108,
         "age_days": 39,
         "releases": 5,
@@ -10182,8 +10182,8 @@
       "genre": "Plataformas",
       "wiki": "Sly Cooper and the Thievius Raccoonus",
       "quality_signals": {
-        "downloads": 543,
-        "stars": 315,
+        "downloads": 557,
+        "stars": 317,
         "age_days": 1148,
         "releases": 1,
         "contributors": 1,
@@ -10286,7 +10286,7 @@
       "genre": "Party",
       "wiki": "Mario Party 6",
       "quality_signals": {
-        "downloads": 1176,
+        "downloads": 1181,
         "stars": 16,
         "age_days": 99,
         "releases": 5,
@@ -10341,9 +10341,9 @@
       "genre": "Action RPG",
       "wiki": "Monster Hunter Portable 3rd",
       "quality_signals": {
-        "downloads": 36174,
+        "downloads": 36241,
         "stars": 522,
-        "age_days": 36,
+        "age_days": 37,
         "releases": 13,
         "contributors": 4,
         "ai": false,
@@ -10395,7 +10395,7 @@
       "genre": "Survival horror",
       "wiki": "Alone in the Dark (1992 video game)",
       "quality_signals": {
-        "downloads": 2157,
+        "downloads": 2162,
         "stars": 127,
         "age_days": 233,
         "releases": 15,
@@ -10554,7 +10554,7 @@
       "genre": "Lucha",
       "wiki": "Samurai Shodown: Warriors Rage",
       "quality_signals": {
-        "downloads": 160,
+        "downloads": 162,
         "stars": 6,
         "age_days": 47,
         "releases": 1,
@@ -10609,7 +10609,7 @@
       "genre": "Lucha",
       "wiki": "Bloody Roar (video game)",
       "quality_signals": {
-        "downloads": 151,
+        "downloads": 153,
         "stars": 2,
         "age_days": 48,
         "releases": 1,
@@ -10662,7 +10662,7 @@
       "genre": "Matamarcianos",
       "wiki": null,
       "quality_signals": {
-        "downloads": 72,
+        "downloads": 73,
         "stars": 1,
         "age_days": 49,
         "releases": 1,
@@ -10769,7 +10769,7 @@
       "genre": "Hack and slash",
       "wiki": "Rising Zan: The Samurai Gunman",
       "quality_signals": {
-        "downloads": 72,
+        "downloads": 73,
         "stars": 0,
         "age_days": 48,
         "releases": 1,
@@ -10822,7 +10822,7 @@
       "genre": "Matamarcianos",
       "wiki": "RayStorm",
       "quality_signals": {
-        "downloads": 72,
+        "downloads": 73,
         "stars": 0,
         "age_days": 48,
         "releases": 1,
@@ -10875,7 +10875,7 @@
       "genre": "Lucha",
       "wiki": "Tekken 3",
       "quality_signals": {
-        "downloads": 3797,
+        "downloads": 3801,
         "stars": 67,
         "age_days": 41,
         "releases": 5,
@@ -10980,7 +10980,7 @@
       "genre": "Plataformas",
       "wiki": "Toy Story 2: Buzz Lightyear to the Rescue",
       "quality_signals": {
-        "downloads": 358,
+        "downloads": 362,
         "stars": 10,
         "age_days": 87,
         "releases": 4,
@@ -11088,7 +11088,7 @@
       "genre": "Lucha",
       "wiki": "Dragon Ball Z: Budokai HD Collection",
       "quality_signals": {
-        "downloads": 19964,
+        "downloads": 19991,
         "stars": 209,
         "age_days": 67,
         "releases": 48,
@@ -11141,7 +11141,7 @@
       "genre": "Deportes",
       "wiki": "NBA Jam: On Fire Edition",
       "quality_signals": {
-        "downloads": 1103,
+        "downloads": 1106,
         "stars": 29,
         "age_days": 37,
         "releases": 1,
@@ -11194,7 +11194,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "The Darkness (video game)",
       "quality_signals": {
-        "downloads": 1594,
+        "downloads": 1597,
         "stars": 103,
         "age_days": 25,
         "releases": 11,
@@ -11245,7 +11245,7 @@
       "genre": "Plataformas",
       "wiki": "Crash of the Titans",
       "quality_signals": {
-        "downloads": 14288,
+        "downloads": 14339,
         "stars": 63,
         "age_days": 27,
         "releases": 2,
@@ -11300,7 +11300,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "Call of Duty: Modern Warfare 2",
       "quality_signals": {
-        "downloads": 3849,
+        "downloads": 3866,
         "stars": 132,
         "age_days": 28,
         "releases": 17,
@@ -11406,7 +11406,7 @@
       "genre": "Lucha libre",
       "wiki": "WWE SmackDown vs. Raw 2011",
       "quality_signals": {
-        "downloads": 64124,
+        "downloads": 64251,
         "stars": 129,
         "age_days": 26,
         "releases": 25,
@@ -11459,7 +11459,7 @@
       "genre": "Disparos en primera persona",
       "wiki": "Call of Duty 3",
       "quality_signals": {
-        "downloads": 551,
+        "downloads": 552,
         "stars": 28,
         "age_days": 29,
         "releases": 4,
@@ -11512,7 +11512,7 @@
       "genre": "Deportes",
       "wiki": "3 on 3 NHL Arcade",
       "quality_signals": {
-        "downloads": 153,
+        "downloads": 155,
         "stars": 10,
         "age_days": 26,
         "releases": 2,
@@ -11622,7 +11622,7 @@
       "genre": "Plataformas",
       "wiki": "Conker's Bad Fur Day",
       "quality_signals": {
-        "downloads": 15302,
+        "downloads": 15311,
         "stars": 307,
         "age_days": 29,
         "releases": 7,
@@ -11728,7 +11728,7 @@
       "genre": "Plataformas",
       "wiki": "Banjo-Tooie",
       "quality_signals": {
-        "downloads": 2611,
+        "downloads": 2618,
         "stars": 98,
         "age_days": 27,
         "releases": 8,
@@ -11842,7 +11842,7 @@
       "genre": "Juego de cartas",
       "wiki": "Yu-Gi-Oh! Forbidden Memories",
       "quality_signals": {
-        "downloads": 35728,
+        "downloads": 35789,
         "stars": 243,
         "age_days": 33,
         "releases": 12,
@@ -11894,8 +11894,8 @@
       "genre": "Lucha",
       "wiki": "Street Fighter EX",
       "quality_signals": {
-        "downloads": 2132,
-        "stars": 40,
+        "downloads": 2135,
+        "stars": 41,
         "age_days": 65,
         "releases": 3,
         "contributors": 1,
@@ -11947,7 +11947,7 @@
       "genre": "Lucha",
       "wiki": "Dragon Ball GT: Final Bout",
       "quality_signals": {
-        "downloads": 551,
+        "downloads": 552,
         "stars": 31,
         "age_days": 68,
         "releases": 4,
@@ -12004,7 +12004,7 @@
       "genre": "Carreras",
       "wiki": "R4: Ridge Racer Type 4",
       "quality_signals": {
-        "downloads": 157,
+        "downloads": 158,
         "stars": 5,
         "age_days": 29,
         "releases": 2,
@@ -12057,7 +12057,7 @@
       "genre": "Survival horror",
       "wiki": "Resident Evil 1.5",
       "quality_signals": {
-        "downloads": 29,
+        "downloads": 31,
         "stars": 5,
         "age_days": 28,
         "releases": 2,
@@ -12110,7 +12110,7 @@
       "wiki": "Dark Chronicle",
       "quality_signals": {
         "downloads": 572,
-        "stars": 36,
+        "stars": 35,
         "age_days": 125,
         "releases": 6,
         "contributors": 1,
@@ -12162,7 +12162,7 @@
       "genre": "Acción-aventura",
       "wiki": "Grand Theft Auto: Liberty City Stories",
       "quality_signals": {
-        "downloads": 6795,
+        "downloads": 6800,
         "stars": 259,
         "age_days": 30,
         "releases": 8,
@@ -12215,7 +12215,7 @@
       "genre": "Acción-aventura",
       "wiki": "The Legend of Zelda: The Wind Waker",
       "quality_signals": {
-        "downloads": 109,
+        "downloads": 110,
         "stars": 8,
         "age_days": 29,
         "releases": 1,
@@ -12374,8 +12374,8 @@
       "genre": "Plataformas",
       "wiki": "Super Mario Sunshine",
       "quality_signals": {
-        "downloads": 141356,
-        "stars": 378,
+        "downloads": 141582,
+        "stars": 379,
         "age_days": 28,
         "releases": 80,
         "contributors": 5,
@@ -12429,7 +12429,7 @@
       "genre": "Party",
       "wiki": "Wii Party",
       "quality_signals": {
-        "downloads": 541,
+        "downloads": 544,
         "stars": 21,
         "age_days": 35,
         "releases": 19,
@@ -12482,8 +12482,8 @@
       "genre": "Acción-aventura",
       "wiki": "Buffy the Vampire Slayer: Chaos Bleeds",
       "quality_signals": {
-        "downloads": 940,
-        "stars": 42,
+        "downloads": 944,
+        "stars": 43,
         "age_days": 29,
         "releases": 8,
         "contributors": 1,
@@ -12535,7 +12535,7 @@
       "genre": "Deportes",
       "wiki": "SSX Tricky",
       "quality_signals": {
-        "downloads": 128,
+        "downloads": 129,
         "stars": 6,
         "age_days": 25,
         "releases": 2,
@@ -12588,7 +12588,7 @@
       "genre": "Deportes",
       "wiki": "Dead or Alive Xtreme Beach Volleyball",
       "quality_signals": {
-        "downloads": 99713,
+        "downloads": 99840,
         "stars": 217,
         "age_days": 70,
         "releases": 17,
@@ -12748,7 +12748,7 @@
       "wiki": "The Legend of Zelda: The Wind Waker",
       "quality_signals": {
         "downloads": 0,
-        "stars": 577,
+        "stars": 578,
         "age_days": 26,
         "releases": 0,
         "contributors": 2,
@@ -12806,8 +12806,8 @@
       "box_art": null,
       "exception": "Excepción a la regla de generaciones: reimplementación de Pokémon Gen 1 en Lua querida por la comunidad (476k descargas), con widescreen, mods y co-op; trabajada hasta el extremo.",
       "quality_signals": {
-        "downloads": 364337,
-        "stars": 4033,
+        "downloads": 364621,
+        "stars": 4035,
         "age_days": 99,
         "releases": 100,
         "contributors": 5,
@@ -12861,7 +12861,7 @@
       "wiki": "Time Crisis (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15179,
+        "downloads": 15257,
         "stars": 253,
         "age_days": 32,
         "releases": 17,
@@ -12916,7 +12916,7 @@
       "wiki": "Rave Racer",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15179,
+        "downloads": 15257,
         "stars": 253,
         "age_days": 32,
         "releases": 17,
@@ -12971,7 +12971,7 @@
       "wiki": "Tokyo Wars",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15179,
+        "downloads": 15257,
         "stars": 253,
         "age_days": 32,
         "releases": 17,
@@ -13026,7 +13026,7 @@
       "wiki": "Dirt Dash",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15179,
+        "downloads": 15257,
         "stars": 253,
         "age_days": 32,
         "releases": 17,
@@ -13081,7 +13081,7 @@
       "wiki": "Prop Cycle",
       "box_art": null,
       "quality_signals": {
-        "downloads": 15179,
+        "downloads": 15257,
         "stars": 253,
         "age_days": 32,
         "releases": 17,
@@ -13134,8 +13134,8 @@
       "wiki": "Bloodborne",
       "box_art": null,
       "quality_signals": {
-        "downloads": 50391,
-        "stars": 3603,
+        "downloads": 50449,
+        "stars": 3604,
         "age_days": 24,
         "releases": 12,
         "contributors": 1,
@@ -13242,8 +13242,8 @@
       "wiki": "Metroid Prime (video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 42489,
-        "stars": 518,
+        "downloads": 42603,
+        "stars": 521,
         "age_days": 35,
         "releases": 39,
         "contributors": 5,
@@ -13303,7 +13303,7 @@
       "wiki": "Dragon Quest VIII",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1630,
+        "downloads": 1635,
         "stars": 83,
         "age_days": 32,
         "releases": 15,
@@ -13362,8 +13362,8 @@
       "wiki": "The Legend of Zelda: The Wind Waker HD",
       "box_art": null,
       "quality_signals": {
-        "downloads": 61936,
-        "stars": 1045,
+        "downloads": 62095,
+        "stars": 1046,
         "age_days": 23,
         "releases": 20,
         "contributors": 5,
@@ -13421,10 +13421,10 @@
       "wiki": "The Legend of Zelda: Link's Awakening (2019 video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 24048,
-        "stars": 1773,
+        "downloads": 24174,
+        "stars": 1776,
         "age_days": 16,
-        "releases": 6,
+        "releases": 7,
         "contributors": 5,
         "ai": true,
         "emu": false,
@@ -13473,10 +13473,10 @@
       "wiki": "Bayonetta 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 4025,
+        "downloads": 9408,
         "stars": 435,
         "age_days": 7,
-        "releases": 5,
+        "releases": 24,
         "contributors": 1,
         "ai": false,
         "emu": true,
@@ -13525,10 +13525,10 @@
       "wiki": "Knack II",
       "box_art": null,
       "quality_signals": {
-        "downloads": 244,
-        "stars": 32,
+        "downloads": 300,
+        "stars": 34,
         "age_days": 7,
-        "releases": 5,
+        "releases": 9,
         "contributors": 4,
         "ai": false,
         "emu": false,
@@ -13577,10 +13577,10 @@
       "wiki": "GoldenEye 007 (1997 video game)",
       "box_art": null,
       "quality_signals": {
-        "downloads": 1063,
+        "downloads": 2007,
         "stars": 55,
         "age_days": 17,
-        "releases": 5,
+        "releases": 15,
         "contributors": 1,
         "ai": false,
         "emu": false,
@@ -13629,8 +13629,8 @@
       "wiki": "Resident Evil – Code: Veronica",
       "box_art": null,
       "quality_signals": {
-        "downloads": 386,
-        "stars": 27,
+        "downloads": 410,
+        "stars": 28,
         "age_days": 12,
         "releases": 1,
         "contributors": 5,
@@ -13681,10 +13681,10 @@
       "wiki": "Dead or Alive 3",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2210,
+        "downloads": 2378,
         "stars": 80,
         "age_days": 111,
-        "releases": 5,
+        "releases": 7,
         "contributors": 1,
         "ai": false,
         "emu": false,
@@ -13733,8 +13733,8 @@
       "wiki": "Wario Land: Shake It!",
       "box_art": null,
       "quality_signals": {
-        "downloads": 447,
-        "stars": 44,
+        "downloads": 455,
+        "stars": 47,
         "age_days": 2,
         "releases": 1,
         "contributors": 1,
@@ -13787,10 +13787,10 @@
       "wiki": "Drakengard 3",
       "box_art": null,
       "quality_signals": {
-        "downloads": 3863,
-        "stars": 158,
+        "downloads": 3919,
+        "stars": 160,
         "age_days": 22,
-        "releases": 5,
+        "releases": 9,
         "contributors": 1,
         "ai": false,
         "emu": false,
@@ -13839,8 +13839,8 @@
       "wiki": "Metroid Dread",
       "box_art": null,
       "quality_signals": {
-        "downloads": 10044,
-        "stars": 195,
+        "downloads": 10114,
+        "stars": 196,
         "age_days": 40,
         "releases": 5,
         "contributors": 1,
@@ -13892,10 +13892,10 @@
       "wiki": "Uncharted: The Nathan Drake Collection",
       "box_art": null,
       "quality_signals": {
-        "downloads": 2564,
+        "downloads": 2866,
         "stars": 117,
         "age_days": 9,
-        "releases": 5,
+        "releases": 7,
         "contributors": 5,
         "ai": true,
         "emu": false,
@@ -13946,7 +13946,7 @@
       "wiki": "Burnout 3: Takedown",
       "box_art": null,
       "quality_signals": {
-        "downloads": 22543,
+        "downloads": 22604,
         "stars": 395,
         "age_days": 12,
         "releases": 4,
@@ -13998,11 +13998,2668 @@
       "wiki": "Project Gotham Racing 2",
       "box_art": null,
       "quality_signals": {
-        "downloads": 427,
+        "downloads": 437,
         "stars": 46,
         "age_days": 7,
         "releases": 4,
         "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "savage-wind-recomp",
+      "name": "Savage Wind Recomp",
+      "original_game": "The Legend of Zelda: Breath of the Wild",
+      "game_id": "the-legend-of-zelda-breath-of-the-wild",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Revivedx",
+        "repo": "SavageWindRecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/121b81f7d167ca2c24fdab4f044048f8.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SavageWind\\-.*\\-windows\\.zip$",
+        "linux-aarch64": "(?i)^Savage_Wind\\-.*\\-aarch64\\.AppImage$",
+        "linux-x86_64": "(?i)^Savage_Wind\\-.*\\-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propia copia de Breath of the Wild de Switch actualizada a la versión 1.9.0, ya extraída como carpeta con exefs/ (main, main.npdm, rtld, sdk, subsdk0) y romfs/ (juego base + actualización fusionados); el programa no descifra NSP/XCI ni acepta claves. Al abrir savagewind.exe por primera vez te pide esa carpeta, comprueba la versión, copia los archivos, construye la imagen de datos y COMPILA el código del juego en tu PC (unos 6 minutos con 12 hilos, más la copia y la precompilación opcional de shaders; unos 15 minutos en total); después arranca directo. Vulkan 1.3, CPU con SSE4.2 (sin AVX2 va más lento) y unos 35 GB libres. Alpha para testers: se ha jugado la Meseta Inicial a 60 fps con sonido y guardado, pero nadie ha pasado de ahí; DLC no soportado."
+      },
+      "launch": {
+        "windows": "savagewind.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0-alpha.3",
+        "published_at": "2026-10-24T22:46:05Z"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Breath of the Wild",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 17207,
+        "stars": 1299,
+        "age_days": 8,
+        "releases": 3,
+        "contributors": 2,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "letsgo-recomp",
+      "name": "Let's Go Recomp",
+      "original_game": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+      "game_id": "pokemon-lets-go-pikachu-and-lets-go-eevee",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "raulzrrs",
+        "repo": "letsgo-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/dd5d73748b467c95482471229779aab9.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^LetsGoRecomp\\-.*\\-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado de Pokémon: Let's Go, Eevee! o Let's Go, Pikachu! (Switch, cualquier región) EXTRAÍDO en carpetas exefs y romfs (los .xci/.nsp hay que extraerlos antes); recomendada la versión 1.0.0, las 1.0.1/1.0.2 se aceptan pero con menos opciones. Al abrir LetsGoRecomp.exe, en la página Game pulsas «Select game folder...» y eliges esa carpeta; el programa copia los datos y COMPILA el juego para tu PC una sola vez (unos 22 minutos con 20 hilos, más con menos; 5,2 GB de RAM y ~6 GB de disco). Requiere Vulkan 1.3 y CPU con SSE4.2 (AVX2 recomendado). Solo Windows. Work in progress: el autor avisa de que aún no se ha jugado de principio a fin; sin online ni segundo jugador."
+      },
+      "launch": {
+        "windows": "LetsGoRecomp.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.7.3",
+        "published_at": "2026-10-24T22:05:26Z"
+      },
+      "year": 2018,
+      "developer": "Game Freak",
+      "genre": "RPG",
+      "wiki": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 31518,
+        "stars": 182,
+        "age_days": 9,
+        "releases": 18,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "smm2recomp",
+      "name": "SMM2 Recomp",
+      "original_game": "Super Mario Maker 2",
+      "game_id": "super-mario-maker-2",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "smm2recomp",
+        "repo": "smm2recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/1a3377beff1ae18422f3a8dfe9ef7231.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-aarch64": "(?i)^SMM2Recomp\\-linux\\-aarch64\\.tar\\.gz$",
+        "linux-x86_64": "(?i)^SMM2Recomp\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^SMM2Recomp\\-macos\\-arm64\\.zip$",
+        "windows-x86_64": "(?i)^SMM2Recomp\\-windows\\-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir smm2recomp.exe aparece una pantalla de configuración que te pide tu copia de Super Mario Maker 2 (NSP o XCI) más la actualización 3.0.3 (NSP), o carpetas exefs+romfs ya extraídas, además de tus prod.keys y la carpeta de firmware (.nca) de tu Switch para las fuentes (si ya las tiene un emulador las rellena solo); opcionalmente el Super Mario Maker de Wii U para los mods de SMM1. La primera vez COMPILA el código del juego en tu PC con el compilador incluido (de unos minutos a media hora) y después arranca directo. Requiere Vulkan 1.3 y CPU x86-64-v2. Estado: desarrollo temprano; título, menús, cursos, Course World (servidor propio) y 100 Mario Challenge jugables."
+      },
+      "launch": {
+        "windows": "smm2recomp.exe",
+        "linux": "smm2recomp"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.5",
+        "published_at": "2026-10-25T09:36:03Z"
+      },
+      "year": 2019,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Maker 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3017,
+        "stars": 168,
+        "age_days": 6,
+        "releases": 19,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "botw-native-wiiu",
+      "name": "BotW Recompiled for Windows (BotW-Native)",
+      "original_game": "The Legend of Zelda: Breath of the Wild",
+      "game_id": "the-legend-of-zelda-breath-of-the-wild",
+      "system": "wiiu",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ryderclanky",
+        "repo": "BotW-Native"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Breath%20of%20the%20Wild%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BotW\\-Native\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Breath of the Wild de Wii U (USA) con la actualización v208 (1.5.0), como carpeta de juego ya extraída y desencriptada con code/ (U-King.rpx), content/ y meta/. Al abrir BotW-Native-Setup.exe el asistente te pide esa carpeta y COMPILA el juego en tu PC a partir de tu U-King.rpx (recompilación a C++ y build con MinGW; tarda bastante y cada trabajo de compilación usa ~0,5 GB de RAM; ~16 GB recomendados). Vulkan 1.1 obligatorio (solo backend en Windows). Estado: trabajo en curso, no es el juego completo: funciona intro, título, cargar partida, combate, mapa, Hateno; el audio y varios efectos/controles están incompletos y el mundo abierto completo no se ha verificado."
+      },
+      "launch": {
+        "windows": "BotW-Native-Setup.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-10-25T01:12:35Z"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Breath of the Wild",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 547,
+        "stars": 160,
+        "age_days": 1,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "nsmbu-recomp",
+      "name": "NSMBU Recomp",
+      "original_game": "New Super Mario Bros. U",
+      "game_id": "new-super-mario-bros-u",
+      "system": "wiiu",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nsmbu-recomp",
+        "repo": "nsmbu-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/New%20Super%20Mario%20Bros.%20U%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CRu%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-aarch64": "(?i)^NSMBU\\-.*\\-linux\\-aarch64\\.AppImage$",
+        "linux-x86_64": "(?i)^NSMBU\\-.*\\-linux\\-x86_64\\.AppImage$",
+        "macos-aarch64": "(?i)^NSMBU\\-.*\\-macos\\-arm64\\.zip$",
+        "windows-x86_64": "(?i)^NSMBU\\-.*\\-windows\\-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir NSMBU.exe por primera vez se abre un instalador que te pide tu copia de New Super Mario Bros. U (USA o Europa, v1.3.0 recomendada; también vale el disco base o el pack NSMBU+NSLU): imagen .wux/.wud (necesita la clave del disco y la common key de Wii U, 32 hex cada una), archivo .wua de Cemu (sin claves) o carpeta extraída con code/content/meta. Japón no está soportado. El instalador extrae los datos, traduce el código a C y lo COMPILA en tu PC (unos minutos); después cada arranque abre el juego directamente. Vulkan. Jugable; los mods necesitan la actualización 1.3.0."
+      },
+      "launch": {
+        "windows": "NSMBU.exe",
+        "linux": "nsmbu-launcher"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.2",
+        "published_at": "2026-10-24T22:17:42Z"
+      },
+      "year": 2012,
+      "developer": "Nintendo EAD",
+      "genre": "Plataformas",
+      "wiki": "New Super Mario Bros. U",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 5316,
+        "stars": 57,
+        "age_days": 16,
+        "releases": 10,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "ttt2-ultimate-linux",
+      "name": "Tekken Tag 2 Ultimate Edition",
+      "original_game": "Tekken Tag Tournament 2",
+      "game_id": "tekken-tag-tournament-2",
+      "system": "wiiu",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Petexy",
+        "repo": "Tekken-Tag-2-Ultimate-Edition"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Tekken%20Tag%20Tournament%202%20-%20Wii%20U%20Edition%20%28USA%29%20%28En%2CFr%2CEs%29%20%28Rev%201%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Ultimate_Launcher\\-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Linux (x86-64 con AVX2/FMA, Vulkan 1.3). Necesitas Tekken Tag Tournament 2 Wii U Edition en su versión europea (WUP-P-AKNP, título 000500001010F800) con la actualización v16, como archivo .wua (Cemu puede crearlo) o como carpeta con code/, content/ y meta/ más la actualización; el launcher rechaza cualquier otro Tekken.rpx. Al abrir el AppImage (Ultimate Launcher), 'Install…' te pide el .wua y una carpeta, y COMPILA el programa del juego en tu PC con el compilador del sistema (necesita Clang o GCC 15+, SDL 3.2+, shaderc, Vulkan, OpenSSL 3, zstd y zlib instalados; unos minutos) y copia los 16 GB del juego; después Play. Jugable de arranque a modo arcade a 120 fps interpolados; sin GamePad, online ni teclado por software."
+      },
+      "launch": {
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-10-24T22:56:42Z"
+      },
+      "year": 2012,
+      "developer": "Namco Bandai Games",
+      "genre": "Lucha",
+      "wiki": "Tekken Tag Tournament 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 332,
+        "stars": 36,
+        "age_days": 20,
+        "releases": 3,
+        "contributors": 2,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental",
+      "cover_name": "Tekken Tag Tournament 2 - Wii U Edition (USA) (En,Fr,Es) (Rev 1)"
+    },
+    {
+      "id": "pinyon-shift",
+      "name": "Pinyon Shift",
+      "original_game": "Forza Horizon",
+      "game_id": "forza-horizon",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "arcanite24",
+        "repo": "pinyon-shift"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c43043335d711ee1590cfcba87ed0009.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^PinyonShift\\-Launcher\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^PinyonShift\\-Launcher\\-macos\\-arm64\\.zip$",
+        "windows-x86_64": "(?i)^PinyonShift\\-Launcher\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso de tu disco USA de Forza Horizon (Xbox 360, serie MS-2505, title ID 4D5309C9); también vale una carpeta extraída sin modificar. Al abrir PinyonShiftLauncher.exe arrastras la ISO (o «Choose ISO»), confirmas que es tuya y pulsas «Verify and build»: el launcher descarga las herramientas y COMPILA el juego en tu PC (20–60 minutos la primera vez, ~30 GB libres; puede pedir reiniciar Windows). Requiere Vulkan 1.3 (solo NVIDIA probado; AMD/Intel sin cualificar). Build nativa de Linux/Steam Deck sin Proton y macOS Apple Silicon. Estado: «playable preview», el autor avisa de bugs de render y ralentizaciones."
+      },
+      "launch": {
+        "windows": "PinyonShiftLauncher.exe",
+        "linux": "PinyonShiftLauncher"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.1",
+        "published_at": "2026-10-21T21:59:26Z"
+      },
+      "year": 2012,
+      "developer": "Playground Games",
+      "genre": "Carreras",
+      "wiki": "Forza Horizon",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 56291,
+        "stars": 893,
+        "age_days": 60,
+        "releases": 18,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "speedbreaker",
+      "name": "SpeedBreaker",
+      "original_game": "Need for Speed: Most Wanted",
+      "game_id": "need-for-speed-most-wanted",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "SpeedBreakerProject",
+        "repo": "speedbreaker"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
+      "logo_url": null,
+      "asset_rules": {
+        "macos-aarch64": "(?i)^SpeedBreaker\\-macos\\.dmg$",
+        "linux-aarch64": "(?i)^SpeedBreaker\\-steamos\\-arm64\\.tar\\.xz$",
+        "linux-x86_64": "(?i)^SpeedBreaker\\-steamos\\-x86_64\\.tar\\.xz$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al arrancar, el instalador guiado busca la imagen de tu disco Xbox 360 de Need for Speed: Most Wanted (2005), versión USA/NTSC-U (.iso completa, XISO recortada o carpeta extraída) en Descargas, Inicio, Documentos o Games (o la eliges a mano), la verifica archivo a archivo y la instala (unos minutos, ~7,2 GB); después puedes borrar la imagen. No necesita actualización de título; PAL/JP y Games on Demand no están soportados. No compila nada en tu PC. En Linux lanza siempre speedbreaker.sh (el binario de lib/ no arranca solo). Requiere CPU con AVX2 y GPU Vulkan 1.2. Juego completo jugable hasta 60 fps, con pantalla dividida y 4K."
+      },
+      "launch": {
+        "linux": "speedbreaker.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.1.9",
+        "published_at": "2026-10-24T19:05:54Z"
+      },
+      "year": 2005,
+      "developer": "EA Black Box",
+      "genre": "Carreras",
+      "wiki": "Need for Speed: Most Wanted (2005 video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 7419,
+        "stars": 479,
+        "age_days": 19,
+        "releases": 11,
+        "contributors": 0,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "crackdown-recompiled",
+      "name": "Crackdown Recompiled",
+      "original_game": "Crackdown",
+      "game_id": "crackdown",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "saulob",
+        "repo": "crackdown-xbox360-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/0d866018f63b5c0f9b822175e2c5d72c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Crackdown\\-.*\\-windows\\-x64\\.zip$",
+        "linux-x86_64": "(?i)^CrackdownRecompiled\\-.*\\-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir crackdown.exe se abre el launcher TRG: en la pestaña Play usa «Install from disc image...» con la .iso de tu Crackdown de Xbox 360 (disco retail 2007, Title ID 4D5307DC, sin title update; también vale una carpeta con los archivos extraídos). Verifica Default.xex y los 196 archivos (~6,1 GB) y los copia a la carpeta game junto al programa; después pulsa PLAY. Windows: DirectX 12 y VC++ 2015-2022 x64. Linux/Steam Deck: AppImage nativo con Vulkan, marcado como experimental por el autor. Juego completo jugable con logros offline, hasta 4x de resolución, ultrawide y teclado/ratón; aviso: a veces la música de fondo se corta."
+      },
+      "launch": {
+        "windows": "crackdown.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.1",
+        "published_at": "2026-10-23T23:11:54Z"
+      },
+      "year": 2007,
+      "developer": "Realtime Worlds",
+      "genre": "Acción/Aventura",
+      "wiki": "Crackdown (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2773,
+        "stars": 59,
+        "age_days": 13,
+        "releases": 7,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "geometry-wars-2-recompiled",
+      "name": "Geometry Wars: Retro Evolved 2 - PC Port",
+      "original_game": "Geometry Wars: Retro Evolved 2",
+      "game_id": "geometry-wars-retro-evolved-2",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "saulob",
+        "repo": "geometry-wars-retro-evolved-2-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/fee75b05309b665fb5a6ec3b56dda5e1.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^GeometryWarsRetroEvolved2\\-.*\\-windows\\-x64\\.zip$",
+        "linux-x86_64": "(?i)^GeometryWarsRetroEvolved2Recompiled\\-.*\\-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir geometry_wars_retro_evolved_2.exe se abre el launcher TRG: en la pestaña Play pulsa «Install from package...» y elige tu paquete XBLA de Geometry Wars: Retro Evolved 2 (archivo STFS LIVE sin extensión con nombre hexadecimal largo; Title ID 584108FF, versión 0.0.1.2; en un disco de Xbox 360 está en Content\\0000000000000000\\584108FF\\000D0000\\). Comprueba el Title ID y el hash de default.xex y rechaza cualquier otra versión; copia los datos a la carpeta game junto al exe. No compila nada. DirectX 12 en Windows (HDR nativo); Vulkan en Linux (AppImage experimental, con informes de ir a ~30 FPS en algunos equipos). Jugable completo con logros y marcadores offline."
+      },
+      "launch": {
+        "windows": "geometry_wars_retro_evolved_2.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.0",
+        "published_at": "2026-10-24T03:04:11Z"
+      },
+      "year": 2008,
+      "developer": "Bizarre Creations",
+      "genre": "Shooter",
+      "wiki": "Geometry Wars: Retro Evolved 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1815,
+        "stars": 53,
+        "age_days": 14,
+        "releases": 11,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "crashott-pc",
+      "name": "CrashRecomp",
+      "original_game": "Crash of the Titans",
+      "game_id": "crash-of-the-titans",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "VitoMiguelF",
+        "repo": "crashott-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/4cde7bfdc2fa8ba457b88daba87f73bf.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^CrashRecomp\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Crash of the Titans de Xbox 360 extraída como CARPETA (no .iso) con default.xex, default.rcf, english.rcf, sound1.rcf, sound2.rcf y shaders/; solo se admite el default.xex retail conocido (comprueba el SHA-256). Al abrir CrashSetup.exe te pide esa carpeta y dónde instalar, y COMPILA el juego en tu PC con el toolchain que trae (unos 3 minutos en 8 núcleos); crea CrashLauncher.exe (launcher) y CrashOTTDE.exe (juego) en la carpeta de instalación, con accesos directos opcionales. Vulkan 1.3 obligatorio (DX12 eliminado); DLSS solo en RTX, FSR 3.1 en el resto. Historia, menús y guardado completos; Linux/Proton en pruebas. En Freeport: cuando CrashSetup.exe pregunte dónde instalar, elige la propia carpeta del juego de Freeport para que el lanzamiento siga funcionando."
+      },
+      "launch": {
+        "windows": "CrashSetup.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.04",
+        "published_at": "2026-10-24T07:07:42Z"
+      },
+      "year": 2007,
+      "developer": "Radical Entertainment",
+      "genre": "Plataformas",
+      "wiki": "Crash of the Titans",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3283,
+        "stars": 70,
+        "age_days": 2,
+        "releases": 5,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "mindover-recomp",
+      "name": "Mind over Recomp",
+      "original_game": "Crash: Mind over Mutant",
+      "game_id": "crash-mind-over-mutant",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Maxilure",
+        "repo": "MindOver-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f570bd23dab3563703638856f9d0952d.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MindOverRecomp\\-.*\\-linux\\-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^MindOverRecomp\\-.*\\-windows\\-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso de tu disco USA de Crash: Mind over Mutant (Xbox 360). Al abrir el launcher «Mind over Recomp», en la pestaña Setup instalas las herramientas que lista, eliges la .iso y pulsas «Set up everything»: descarga ~550 MB y COMPILA el juego en tu PC (necesita internet la primera vez, ~25 GB libres y 16 GB de RAM recomendados; en Windows descomprímelo en una ruta corta NTFS, no OneDrive). Requiere Vulkan (solo NVIDIA probado; el modo emulado necesita fragment shader interlock, en algunas AMD hay que pasar al renderer nativo con F9). Alpha: arranca y se juega pero no se ha completado; el autor avisa de bugs y cuelgues."
+      },
+      "launch": {
+        "windows": "Mind over Recomp.exe",
+        "linux": "Mind over Recomp"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-alpha",
+        "published_at": "2026-10-07T13:20:52Z"
+      },
+      "year": 2008,
+      "developer": "Radical Entertainment",
+      "genre": "Plataformas/Acción",
+      "wiki": "Crash: Mind over Mutant",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 995,
+        "stars": 34,
+        "age_days": 24,
+        "releases": 1,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "gow2-recomp",
+      "name": "gow2-recomp",
+      "original_game": "Gears of War 2",
+      "game_id": "gears-of-war-2",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "santiquiroz",
+        "repo": "gears-of-war-2-pc-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^gow2\\-recomp\\-.*\\-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia retail de Xbox 360 de Gears of War 2 (ID 4D53082D) extraída a una carpeta con default.xex y la carpeta GearGame (por ejemplo con xdvdfs unpack desde tu .iso). Al abrir gow2.exe por primera vez te pide esa carpeta con un diálogo y la recuerda en gow2_game_path.txt junto al exe. No compila el juego en tu PC, pero la primera vez (y tras cada actualización gráfica) compila los shaders: puede quedarse unos minutos en la pantalla de título como 'no responde'. Requiere Windows 10/11 x64 y GPU DirectX 12. Estado: Acto 1 jugable con teclado/ratón o mando; los actos 2-5 no se han jugado de principio a fin."
+      },
+      "launch": {
+        "windows": "gow2.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.4",
+        "published_at": "2026-10-24T17:47:33Z"
+      },
+      "year": 2008,
+      "developer": "Epic Games",
+      "genre": "Shooter",
+      "wiki": "Gears of War 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1675,
+        "stars": 66,
+        "age_days": 11,
+        "releases": 20,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "wwe-allstars-recomp",
+      "name": "WWE All Stars Recomp",
+      "original_game": "WWE All Stars",
+      "game_id": "wwe-all-stars",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "shaneomac1337",
+        "repo": "WWE-AllStars-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/a7f084b6c07ea2d68ea4a7243d836c7b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WWEAllStarsRecomp\\-.*\\-win\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir WWEAllStarsLauncher.exe por primera vez te pide la .iso de tu WWE All Stars de Xbox 360 (versión USA/Europa) y además el Title Update 2 (archivo tu00000005_00000000 de Content\\0000000000000000\\54510866\\000B0000 de tu consola, o un TU_* de la carpeta Cache; también vale carpeta o zip/7z/rar); opcionalmente los DLC comprados. Copia y verifica todo y precompila los shaders una sola vez (unos minutos, ~8 GB de disco); luego Play. Renderizador nativo Vulkan (driver al día). Exhibición, Path of Champions, Fantasy Warfare, Create a Superstar, 4 jugadores locales y partidas online Player Match jugables; no Ranked ni tienda; probado solo en GPU AMD y Windows 11, Steam Deck vía Proton."
+      },
+      "launch": {
+        "windows": "WWEAllStarsLauncher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.6.1",
+        "published_at": "2026-10-25T11:16:30Z"
+      },
+      "year": 2011,
+      "developer": "THQ San Diego",
+      "genre": "Lucha",
+      "wiki": "WWE All Stars",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2644,
+        "stars": 43,
+        "age_days": 14,
+        "releases": 8,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "svr2007-native",
+      "name": "WWE SmackDown vs. Raw 2007 native PC",
+      "original_game": "WWE SmackDown vs. Raw 2007",
+      "game_id": "wwe-smackdown-vs-raw-2007",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nefariousjosiah",
+        "repo": "WWE-SVR2007-RECOMP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/9bcc55f2146b211f2cc87e59ec6b39c2.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SVR2007\\-NATIVE\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso de tu disco de Xbox 360 de WWE SmackDown vs. Raw 2007, edición USA/Europa (Title ID 545107E0, media ID 31981C72, unos 7,8 GB). El README dice copiar la .iso junto a svr2007.exe (cualquier nombre); si no hay ninguna, al arrancar aparece una ventana que te pide la imagen y la recuerda. Lee los datos directamente de la .iso, sin extraer ni compilar. Direct3D 12 o Vulkan (svr2007_vulkan.exe). Jugable completo a 60 fps hasta 4K/8K; el autor lo considera versión 1.0 aún en desarrollo."
+      },
+      "launch": {
+        "windows": "svr2007.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.2.1",
+        "published_at": "2026-10-24T13:46:01Z"
+      },
+      "year": 2006,
+      "developer": "Yuke's",
+      "genre": "Lucha",
+      "wiki": "WWE SmackDown vs. Raw 2007",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 594,
+        "stars": 16,
+        "age_days": 4,
+        "releases": 7,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "svr2008-native",
+      "name": "WWE SmackDown vs. Raw 2008 native",
+      "original_game": "WWE SmackDown vs. Raw 2008",
+      "game_id": "wwe-smackdown-vs-raw-2008",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nefariousjosiah",
+        "repo": "WWE-SVR2008-RECOMP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/d3f16ca317a488ca49df8934ab40269c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SVR2008\\-NATIVE\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la imagen .iso de tu disco de Xbox 360 de SmackDown vs. Raw 2008, versión USA/Europa (título 5451080B, media ID 5E35F037, unos 7,8 GB). Copia la .iso junto a svr2008.exe, o si no hay ninguna el juego te la pide en un diálogo la primera vez y la recuerda; no compila nada, el exe ya trae el juego recompilado. Direct3D 12 (svr2008.exe) o Vulkan (svr2008_vulkan.exe); en Linux/Steam Deck va por Proton. Versión 1.0 completa: 60 fps, hasta 8K, idiomas inglés/español/alemán/italiano, actualizaciones desde el menú (F1)."
+      },
+      "launch": {
+        "windows": "svr2008.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.2.1",
+        "published_at": "2026-10-24T13:46:08Z"
+      },
+      "year": 2007,
+      "developer": "Yuke's",
+      "genre": "Lucha libre",
+      "wiki": "WWE SmackDown vs. Raw 2008",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1887,
+        "stars": 34,
+        "age_days": 19,
+        "releases": 23,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "svr2009-native",
+      "name": "WWE SmackDown vs. Raw 2009 — native PC",
+      "original_game": "WWE SmackDown vs. Raw 2009",
+      "game_id": "wwe-smackdown-vs-raw-2009",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nefariousjosiah",
+        "repo": "WWE-SVR2009-RECOMP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/57fac2df8f52ea159ba6ee22e8a62388.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SVR2009\\-NATIVE\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso de tu disco de WWE SmackDown vs. Raw 2009 (Xbox 360, edición USA/Europa, title ID 54510826, media ID 7AFA4596, ~7,3 GB). El README dice copiar la .iso junto a svr2009.exe; si no la encuentra, al arrancar abre un diálogo para elegirla y la recuerda. No compila nada: el zip ya trae el juego recompilado. Direct3D 12 en Windows (svr2009_vulkan.exe para Vulkan; bajo Proton el primero lanza el segundo). Linux/Steam Deck solo vía Proton, sin build nativa. Completo y jugable a 60 fps; menú de ajustes con F1."
+      },
+      "launch": {
+        "windows": "svr2009.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.1.1",
+        "published_at": "2026-10-24T13:46:15Z"
+      },
+      "year": 2008,
+      "developer": "Yuke's",
+      "genre": "Lucha",
+      "wiki": "WWE SmackDown vs. Raw 2009",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1696,
+        "stars": 30,
+        "age_days": 17,
+        "releases": 26,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "svr2010-native",
+      "name": "WWE SVR2010 Recomp",
+      "original_game": "WWE SmackDown vs. Raw 2010",
+      "game_id": "wwe-smackdown-vs-raw-2010",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nefariousjosiah",
+        "repo": "WWE-SVR2010-RECOMP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2abbb67d13de26bdb4b9487c072ce63f.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SVR2010\\-NATIVE\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Copia la .iso de tu disco Xbox 360 de WWE SmackDown vs. Raw 2010 (USA/Europa, ID 54510844, media ID 518DE415, ~7,3 GB) en la carpeta junto a svr2010.exe; si no hay ninguna, al arrancar te la pide con un diálogo y la recuerda. No compila nada: el ejecutable ya trae el código del juego recompilado y los shaders convertidos. Direct3D 12 (svr2010.exe) o Vulkan (svr2010_vulkan.exe) en Windows 10/11; en Linux/Steam Deck va por Proton Experimental. Juego completo jugable a 60 fps hasta 8K; el autor no lista problemas conocidos."
+      },
+      "launch": {
+        "windows": "svr2010.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.1.3",
+        "published_at": "2026-10-24T16:56:27Z"
+      },
+      "year": 2009,
+      "developer": "Yuke's",
+      "genre": "Lucha",
+      "wiki": "WWE SmackDown vs. Raw 2010",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2020,
+        "stars": 35,
+        "age_days": 16,
+        "releases": 24,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "naruto-broken-bond-pc",
+      "name": "Naruto: The Broken Bond — PC Port",
+      "original_game": "Naruto: The Broken Bond",
+      "game_id": "naruto-the-broken-bond",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Auremana666",
+        "repo": "Naruto-The-Broken-Bond-PC-Port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6c3730422813674723203ea794e7d6e4.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Naruto\\-The\\-Broken\\-Bond\\-PC\\-Port\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso de tu Naruto: The Broken Bond de Xbox 360. Copia el archivo ISO en la carpeta assets (o junto a «Naruto The Broken Bond PC.exe») y abre el exe; F1 (o Back+Start) abre el menú PC Options. No lo instales en Program Files: guarda las partidas (hdd) y los ajustes (naruto.toml) junto al exe. Renderizador nativo Direct3D 12 (hasta 240 fps, resoluciones hasta 5K, FOV, ultrawide, ratón). Jugable completo; en portátiles con gráficos integrados el autor avisa de que el rendimiento es limitado (usar 720p, AA off, 30-60 fps)."
+      },
+      "launch": {
+        "windows": "Naruto The Broken Bond PC.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.0",
+        "published_at": "2026-10-23T18:28:11Z"
+      },
+      "year": 2008,
+      "developer": "Ubisoft Montreal",
+      "genre": "Acción/Aventura",
+      "wiki": "Naruto: The Broken Bond",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 997,
+        "stars": 37,
+        "age_days": 5,
+        "releases": 3,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "doax2-recomp",
+      "name": "DOAX2 Recomp",
+      "original_game": "Dead or Alive Xtreme 2",
+      "game_id": "dead-or-alive-xtreme-2",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "hibikifukui22",
+        "repo": "Dead-or-Alive-Xtreme-2-Recompilation"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c1625916d047b11efde983e3e5500563.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^DOAX2\\-Recomp\\-.*\\-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu disco de Xbox 360 de Dead or Alive Xtreme 2, solo la versión retail (Title ID 544307D2, media ID 21B9628E, default.xex v3; no se soportan title updates). Extrae el disco con extract-xiso (o similar) dentro de la carpeta «extracted game files here» del paquete, de forma que default.xex quede directamente en ella (unos 6,2 GB). Luego abre «DOAX2 Recomp Launcher.exe», elige 30 o 60 FPS y pulsa PLAY. No compila nada. DirectX 12; las gráficas integradas de Intel no están soportadas y hace falta una GPU tipo RTX 2060 Super para 1080p60. Jugable completo."
+      },
+      "launch": {
+        "windows": "DOAX2 Recomp Launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.4",
+        "published_at": "2026-10-24T01:08:20Z"
+      },
+      "year": 2006,
+      "developer": "Team Ninja",
+      "genre": "Deportes",
+      "wiki": "Dead or Alive Xtreme 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 396,
+        "stars": 41,
+        "age_days": 3,
+        "releases": 4,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "pirates-awe-recomp",
+      "name": "PiratesAtWorldsEndRecomp",
+      "original_game": "Pirates of the Caribbean: At World's End",
+      "game_id": "pirates-of-the-caribbean-at-worlds-end",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ElGuslml",
+        "repo": "PiratesAtWorldsEndRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/7b0ce725ac346fd37481725e7621dda1.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PiratesAtWorldsEndRecomp\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso del disco USA de Pirates of the Caribbean: At World's End para Xbox 360. Al abrir 'PiratesAtWorldsEnd Launcher.exe' por primera vez te pide la ISO, la comprueba e instala los archivos del juego (una sola vez); después eliges ajustes y pulsas PLAY. No compila: el exe ya trae el código recompilado. Vulkan (DLAA solo en RTX), Windows 10/11 y VC++ Redistributable. Lanzamiento temprano: los primeros niveles jugados sin problemas, los posteriores sin probar; teclado y ratón experimentales."
+      },
+      "launch": {
+        "windows": "PiratesAtWorldsEnd Launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-10-23T05:09:24Z"
+      },
+      "year": 2007,
+      "developer": "Eurocom",
+      "genre": "Acción/Aventura",
+      "wiki": "Pirates of the Caribbean: At World's End (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 108,
+        "stars": 12,
+        "age_days": 13,
+        "releases": 2,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "wwe2k14-recomp",
+      "name": "WWE 2K14: Native PC Recompilation",
+      "original_game": "WWE 2K14",
+      "game_id": "wwe-2k14",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Jarrodfeng",
+        "repo": "wwe2k14-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/44adaadb095f40b587f4b409ac55799b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^wwe2k14\\-recomp\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado de WWE 2K14 (Xbox 360, title ID 545408B2, mismo disco en USA y Europa, versión base sin title update): o bien la .iso (completa o recortada) elegida con «Disc image...» en el launcher, o bien la carpeta extraída con default.xex y las carpetas pac, movies y sound; el launcher verifica el hash de default.xex. No compila: el zip ya trae wwe2k14.exe recompilado. Requiere GPU con Vulkan y drivers recientes; DLAA/DLSS opcional en RTX. Jugable completo según el README (menús, combates, Royal Rumble, modos, creación, partidas); asistente de primer arranque."
+      },
+      "launch": {
+        "windows": "wwe2k14_launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.5",
+        "published_at": "2026-10-25T05:02:12Z"
+      },
+      "year": 2013,
+      "developer": "Yuke's",
+      "genre": "Lucha",
+      "wiki": "WWE 2K14",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 934,
+        "stars": 11,
+        "age_days": 8,
+        "releases": 18,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "black-xberecomp",
+      "name": "Black - XBE Recomp",
+      "original_game": "Black",
+      "game_id": "black",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "TGP482",
+        "repo": "BLACK-XBERecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Black%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BLACK\\-XBERecomp\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Copia la .iso (o los archivos extraídos del disco) de tu Black de Xbox original, versión USA o Europa, en la carpeta assets junto a BLACK.exe. La primera vez que lo abres COMPILA el código del juego para tu PC con el clang incluido (solo ocurre una vez; el README no dice cuánto tarda, compilar desde fuente son 30-90 min en PCs flojos) y después arranca directo. Requiere Windows 10 64 bits, CPU con SSE4.2/POPCNT y GPU Direct3D 12; ~3 GB de disco. Juego completo con teclado y ratón, HDR, MSAA/SMAA, FOV y fps desbloqueados."
+      },
+      "launch": {
+        "windows": "BLACK.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "V2",
+        "published_at": "2026-10-18T21:00:29Z"
+      },
+      "year": 2006,
+      "developer": "Criterion Games",
+      "genre": "FPS",
+      "wiki": "Black (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 22536,
+        "stars": 738,
+        "age_days": 21,
+        "releases": 2,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "scda-xberecomp",
+      "name": "Splinter Cell: Double Agent - XBE Recomp",
+      "original_game": "Tom Clancy's Splinter Cell: Double Agent",
+      "game_id": "tom-clancys-splinter-cell-double-agent",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "TGP482",
+        "repo": "SCDA-XBERecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Tom%20Clancy%27s%20-%20Splinter%20Cell%20-%20Double%20Agent%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SCDA\\-XBERecomp\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Splinter Cell: Double Agent de la Xbox original: copia la .iso (o los archivos extraídos: default.xbe, sc4_adv.xbe y las carpetas Default, Media y adv) en la carpeta assets junto a SCDA.exe. Al abrir SCDA.exe por primera vez COMPILA el código del juego para tu PC con el clang/lld que trae el zip (una sola vez; el README habla de 30-90 min en equipos flojos para la build completa) y después arranca directo; F10 abre el overlay de ajustes. Direct3D 12 y CPU con SSE4.2/POPCNT; ~6 GB de disco. Jugable completo con FOV, HDR, MSAA/SMAA, SM3, teclado y ratón, co-op online/LAN/pantalla partida y versus."
+      },
+      "launch": {
+        "windows": "SCDA.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "V2",
+        "published_at": "2026-10-18T21:17:20Z"
+      },
+      "year": 2006,
+      "developer": "Ubisoft Shanghai",
+      "genre": "Sigilo/Acción",
+      "wiki": "Tom Clancy's Splinter Cell: Double Agent",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3142,
+        "stars": 349,
+        "age_days": 28,
+        "releases": 2,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "007frwl-xberecomp",
+      "name": "007: From Russia with Love - XBE Recomp",
+      "original_game": "James Bond 007: From Russia with Love",
+      "game_id": "james-bond-007-from-russia-with-love",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "TGP482",
+        "repo": "007FRWL-XBERecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/007%20-%20From%20Russia%20with%20Love%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^007FRWL\\-XBERecomp\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Copia tu copia de 007: From Russia with Love de la Xbox original (versión USA o Europa) en la carpeta «assets» junto al exe: vale la .iso tal cual o los datos extraídos (default.xbe con sus carpetas). Al abrir 007FRWL.exe por primera vez COMPILA el código del juego para tu PC con el clang que trae el zip (solo una vez; el README no da tiempos para la release, pero compilar desde fuentes tarda 30-90 min en equipos flojos). Después arranca directo; ajustes con F10 o en el menú de opciones. Direct3D 12, CPU con SSE4.2/POPCNT, unos 5 GB de disco. Jugable completo con teclado/ratón, HDR, MSAA/SMAA y más."
+      },
+      "launch": {
+        "windows": "007FRWL.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "V1",
+        "published_at": "2026-10-24T10:03:48Z"
+      },
+      "year": 2005,
+      "developer": "EA Redwood Shores",
+      "genre": "Shooter",
+      "wiki": "From Russia with Love (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1042,
+        "stars": 72,
+        "age_days": 25,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental",
+      "cover_name": "007 - From Russia with Love (USA)"
+    },
+    {
+      "id": "ngbrecomp",
+      "name": "Ninja Gaiden Black Recompiled",
+      "original_game": "Ninja Gaiden Black",
+      "game_id": "ninja-gaiden-black",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "gamboozino",
+        "repo": "ngbrecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Ninja%20Gaiden%20Black%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^NinjaGaidenBlack\\-windows\\-x64\\.zip$",
+        "linux-x86_64": "(?i)^NinjaGaidenBlack\\-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Ninja Gaiden Black de Xbox original, versión USA (NTSC-U, título 5443000D): una imagen .iso (dump Redump completo, o el .7z/.zip que lo contiene) o una carpeta extraída con default.xbe. Al abrir NinjaGaidenBlack.exe (o el AppImage) por primera vez te pide el disco e instala el juego una sola vez (unos 6 GB); no compila nada. Vulkan 1.3; Linux con glibc 2.35+. Jugable completo a 60 fps, incluido el Ninja Gaiden arcade del bar de Han; la build de Windows solo se ha probado bajo Proton y en una VM."
+      },
+      "launch": {
+        "windows": "NinjaGaidenBlack.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.30",
+        "published_at": "2026-10-24T20:59:06Z"
+      },
+      "year": 2005,
+      "developer": "Team Ninja",
+      "genre": "Acción",
+      "wiki": "Ninja Gaiden Black",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 6102,
+        "stars": 157,
+        "age_days": 9,
+        "releases": 31,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "defjam-ffny-recomp",
+      "name": "Def Jam: Fight for NY — Recompiled",
+      "original_game": "Def Jam: Fight for NY",
+      "game_id": "def-jam-fight-for-ny",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "vyanhursky",
+        "repo": "DefJamFFNY-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^DefJamSetup\\-.*\\-linux\\-x64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^DefJamSetup\\-.*\\-macos\\-arm64\\.dmg$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado USA de Def Jam: Fight for NY de la Xbox original (.iso/.xiso o carpeta extraída, que debe coincidir con el manifiesto del proyecto); las copias de PS2 y GameCube no sirven. El programa es un instalador/setup: eliges el volcado, la carpeta de instalación y la de datos, y el setup verifica y COMPILA el juego en tu máquina (en Linux usa tu compilador o un contenedor podman de ~1 GB; en Steam Deck unos 5 minutos sin texturas HD, ~15 con ellas; ~12 GB de margen; en Windows instala las Build Tools de Microsoft si faltan). Direct3D 11 en Windows, Vulkan en Linux/Steam Deck (necesita SDL3 3.2+, loader Vulkan y shaderc; SteamOS 3.8 los trae). Port maduro: toda la funcionalidad del juego operativa según el autor; widescreen en beta."
+      },
+      "launch": {
+        "linux": "DefJamSetup.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.11.0",
+        "published_at": "2026-10-24T14:25:12Z"
+      },
+      "year": 2004,
+      "developer": "AKI Corporation / EA Canada",
+      "genre": "Lucha",
+      "wiki": "Def Jam: Fight for NY",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 11620,
+        "stars": 165,
+        "age_days": 20,
+        "releases": 31,
+        "contributors": 2,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "two-towers-recomp",
+      "name": "The Two Towers Recompiled",
+      "original_game": "The Lord of the Rings: The Two Towers",
+      "game_id": "the-lord-of-the-rings-the-two-towers",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Gumpolas",
+        "repo": "TooTawersRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Lord%20of%20the%20Rings%2C%20The%20-%20The%20Two%20Towers%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TwoTowers\\-Recompiled\\-v.*\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-x86_64": "(?i)^TwoTowers\\-Recompiled\\-v.*\\-macos\\-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^TwoTowers\\-Recompiled\\-v.*\\-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir por primera vez te pide la .iso de tu The Lord of the Rings: The Two Towers de Xbox original (USA), o puedes copiar el juego extraído en la carpeta game_files junto al ejecutable; después arranca directo y no compila nada en tu PC. Direct3D 11 por defecto, Vulkan (DXVK incluido en la carpeta dxvk) u OpenGL en Linux/macOS. Juego completo jugable con 33 idiomas, widescreen y hasta 12x de resolución; el autor avisa de trabajo en curso: cooperativo y Versus en alfa, fps desbloqueados experimentales y bugs visuales en sombras."
+      },
+      "launch": {
+        "windows": "The Two Towers Recompiled.exe",
+        "linux": "TwoTowers.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.9.7",
+        "published_at": "2026-10-24T05:55:58Z"
+      },
+      "year": 2002,
+      "developer": "Stormfront Studios",
+      "genre": "Acción/Aventura",
+      "wiki": "The Lord of the Rings: The Two Towers (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2945,
+        "stars": 75,
+        "age_days": 18,
+        "releases": 16,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "darkwatch-recomp",
+      "name": "Arizona Vamp Recomp",
+      "original_game": "Darkwatch",
+      "game_id": "darkwatch",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Clergyman0013",
+        "repo": "arizona-vamp-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Darkwatch%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^ArizonaVampRecomp\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia de Darkwatch de la Xbox original: copia la .iso (o default.xbe con las carpetas del juego) en la carpeta assets junto a Darkwatch.exe (~3 GB libres). Al abrir Darkwatch.exe por primera vez COMPILA el código del juego para tu PC con el Clang/LLD incluido, tras una ventana de progreso (tarda un buen rato, solo una vez); después arranca directo. Direct3D 12 y XAudio2; F1 abre el menú de ajustes PC. Estado beta: arranca, menús, campaña con sonido y HUD a 60+ fps; los testers han llegado al jefe del primer capítulo y no se ha hecho una partida completa. Añade co-op a pantalla partida y el capítulo War Train que la Xbox dejó fuera."
+      },
+      "launch": {
+        "windows": "Darkwatch.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.5",
+        "published_at": "2026-10-25T03:07:52Z"
+      },
+      "year": 2005,
+      "developer": "High Moon Studios",
+      "genre": "FPS",
+      "wiki": "Darkwatch",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 836,
+        "stars": 25,
+        "age_days": 4,
+        "releases": 10,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "pgr1-recomp",
+      "name": "Project Gotham Racing - XBE Recomp",
+      "original_game": "Project Gotham Racing",
+      "game_id": "project-gotham-racing",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "hk21x",
+        "repo": "pgr1-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Project%20Gotham%20Racing%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PGR1Launcher\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu copia PAL (Europa, versión 5, título 4D530003) de Project Gotham Racing de Xbox original, como .iso o como carpeta con los archivos del disco; otras regiones no están comprobadas. Pon PGR1Launcher.exe en una carpeta propia y ábrelo: eliges el disco, aceptas las licencias de Microsoft, pulsas Build y el launcher descarga unas 1,4 GB de herramientas y COMPILA el juego en tu PC (entre 30 y 90 minutos la primera vez; se puede parar y reanudar); después Play. Direct3D 12 u 11; unos 15 GB libres. Arranca, menús, guardado y carreras a 60 fps; system link y pantalla partida sin probar."
+      },
+      "launch": {
+        "windows": "PGR1Launcher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.1",
+        "published_at": "2026-10-25T06:43:37Z"
+      },
+      "year": 2001,
+      "developer": "Bizarre Creations",
+      "genre": "Carreras",
+      "wiki": "Project Gotham Racing (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 311,
+        "stars": 35,
+        "age_days": 2,
+        "releases": 2,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "doa3-re",
+      "name": "DOA3 Native PC Port",
+      "original_game": "Dead or Alive 3",
+      "game_id": "dead-or-alive-3",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "NoRain211",
+        "repo": "doa3-re"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^DOA3\\-.*\\-Alpha\\-Linux\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^DOA3\\-.*\\-Alpha\\-macOS\\.tar\\.gz$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio disco de Dead or Alive 3 de la Xbox original: la edición Japón 3.1 (la principal, más probada) o la USA 3.0, como .iso o carpeta extraída. En Windows descomprimes el zip en una ruta corta y arrastras la ISO sobre Launcher.cmd (o la eliges en la página BUILD GAME); el programa COMPILA el juego en tu PC y necesita Python 3.12+, CMake 3.20+ y las herramientas C++ de Visual Studio (si faltan, instala las Build Tools 2022, varios GB). En Linux/macOS: ./build_game.sh con tu ISO y luego ./launcher.sh o ./run_game.sh. Direct3D 11 en Windows, SDL_GPU (Vulkan/Metal) en Linux y macOS. Estado: jugable en pruebas tempranas (intro, menús, Story, Time Attack, Watch y Sparring con audio)."
+      },
+      "launch": {
+        "linux": "launcher.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64"
+        ],
+        "latest_tag": "v0.3",
+        "published_at": "2026-10-24T13:20:34Z"
+      },
+      "year": 2001,
+      "developer": "Team Ninja",
+      "genre": "Lucha",
+      "wiki": "Dead or Alive 3",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 270,
+        "stars": 16,
+        "age_days": 18,
+        "releases": 3,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "bluewake",
+      "name": "BlueWake",
+      "original_game": "The Legend of Zelda: The Wind Waker",
+      "game_id": "the-legend-of-zelda-the-wind-waker",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "chrissotraidis",
+        "repo": "bluewake"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BlueWake\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir BlueWake.exe por primera vez te pide la imagen de disco (.iso o .gcm) de tu The Legend of Zelda: The Wind Waker de GameCube, versión USA GZLE01 revisión 0 (un .rvz de Dolphin hay que convertirlo antes a ISO); después arranca directo y no compila nada en tu PC. Requiere CPU con AVX2 y GPU Direct3D 12 (DX11 de respaldo en GPUs viejas). 30 fps nativos con Smooth Motion opcional (F10). Probado: inicio, Outset, navegación, Windfall y menús; las mazmorras tardías están poco probadas y la versión de escritorio sigue siendo experimental. Saves en %APPDATA%\\BlueWake."
+      },
+      "launch": {
+        "windows": "BlueWake.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.0",
+        "published_at": "2026-10-25T01:44:43Z"
+      },
+      "year": 2002,
+      "developer": "Nintendo EAD",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: The Wind Waker",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 23128,
+        "stars": 483,
+        "age_days": 27,
+        "releases": 7,
+        "contributors": 5,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "skies-of-arcadia-legends-recomp",
+      "name": "Skies of Arcadia Legends: Recompiled",
+      "original_game": "Skies of Arcadia Legends",
+      "game_id": "skies-of-arcadia-legends",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ogdanimal",
+        "repo": "SkiesOfArcadiaLegends-Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Skies%20of%20Arcadia%20Legends%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SkiesOfArcadiaLegends\\-.*\\-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir «Skies of Arcadia Legends.exe» el launcher te pide con «Select Disc» la imagen de tu Skies of Arcadia Legends de GameCube (USA GEAE8P, Europa GEAP8P o Japón GEAJ8P, versión original) en RVZ, ISO, GCM, GCZ, WIA o CISO; la comprueba, la importa en unos segundos y la parchea una sola vez. Luego Start Game. Vulkan (cae a OpenGL si no hay). Windows 10 1703+. Beta v0.83 según el autor; añade widescreen, 60 fps, estados de guardado, velocidad de batalla, música de Dreamcast opcional y texturas HD. Datos en %LOCALAPPDATA%\\Skies of Arcadia Legends (o portable.txt junto al exe)."
+      },
+      "launch": {
+        "windows": "Skies of Arcadia Legends.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "perftest1",
+        "published_at": "2026-10-23T20:24:54Z"
+      },
+      "year": 2002,
+      "developer": "Overworks",
+      "genre": "RPG",
+      "wiki": "Skies of Arcadia",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 4269,
+        "stars": 122,
+        "age_days": 13,
+        "releases": 11,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "melee-unlocked",
+      "name": "Melee Unlocked",
+      "original_game": "Super Smash Bros. Melee",
+      "game_id": "super-smash-bros-melee",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Hero88go",
+        "repo": "melee-unlocked"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MeleeUnlocked\\-.*\\-linux\\-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^MeleeUnlocked\\-.*\\-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas la .iso NTSC 1.02 de Super Smash Bros. Melee (GameCube). Abre MeleeUnlockedLauncher.exe y arrastra la ISO a la ventana en la pestaña Build: la verifica, precompila los pipelines gráficos para tu GPU (15-30 s) y recuerda la ruta sin copiar el archivo; luego pulsa PLAY. Alternativa sin launcher: ponla como melee.iso junto a MeleeUnlocked.bat o arrástrala sobre el .bat. No compila el juego. Direct3D 12 (D3D11 de respaldo sin DLSS). Beta: dos motores (Source Port desde la decompilación y Static Recomp), FPS desbloqueados, DLSS/DLAA y netplay Slippi (necesita el Slippi Launcher con cuenta para online)."
+      },
+      "launch": {
+        "windows": "MeleeUnlockedLauncher.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.56",
+        "published_at": "2026-10-25T04:15:29Z"
+      },
+      "year": 2001,
+      "developer": "HAL Laboratory",
+      "genre": "Lucha",
+      "wiki": "Super Smash Bros. Melee",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 19619,
+        "stars": 131,
+        "age_days": 43,
+        "releases": 100,
+        "contributors": 3,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "sky-recomp",
+      "name": "Sky Recomp",
+      "original_game": "The Legend of Zelda: Skyward Sword HD",
+      "game_id": "the-legend-of-zelda-skyward-sword-hd",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Apolinario-coder",
+        "repo": "SkyRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/3c2033624959422ce2b7306217be6f84.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Sky\\.Recomp\\-.*\\-linux\\-x86_64\\.AppImage$",
+        "macos-aarch64": "(?i)^SkyRecomp\\-.*\\-macOS\\.dmg$",
+        "windows-x86_64": "(?i)^SkyRecomp\\-.*\\-Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados."
+      },
+      "launch": {
+        "windows": "skyrecomp.exe",
+        "linux": "skyrecomp"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.0.0",
+        "published_at": "2026-10-25T04:58:42Z"
+      },
+      "year": 2021,
+      "developer": "Nintendo EPD / Tantalus Media",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Skyward Sword HD",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 13896,
+        "stars": 420,
+        "age_days": 8,
+        "releases": 7,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "new-super-paper-bros",
+      "name": "New Super Paper Bros.",
+      "original_game": "Super Paper Mario",
+      "game_id": "super-paper-mario",
+      "system": "wii",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "josiahg2502-glitch",
+        "repo": "NewSuperPaperBros"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Paper%20Mario%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^NewSuperPaperBros\\-linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^NewSuperPaperBros\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado de Super Paper Mario para Wii, disco USA (R8PE01, revisión 0) o europeo (R8PP01), en .iso, .ciso o .wbfs. Al abrir «New Super Paper Bros.exe», en la página Play eliges la imagen de disco: los archivos se copian una vez a la carpeta Disc y la imagen ya no hace falta; después pulsas PLAY. No compila nada. Requiere DirectX 12 o Vulkan (en Linux, glibc 2.35+ y drivers Vulkan). Completo y jugable; importa partidas de Wii/Dolphin; el soporte de Linux es nuevo según el autor."
+      },
+      "launch": {
+        "windows": "New Super Paper Bros.exe",
+        "linux": "New Super Paper Bros"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.4",
+        "published_at": "2026-10-25T10:49:31Z"
+      },
+      "year": 2007,
+      "developer": "Intelligent Systems",
+      "genre": "Plataformas/RPG",
+      "wiki": "Super Paper Mario",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2047,
+        "stars": 130,
+        "age_days": 8,
+        "releases": 5,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "brawl-recompiled",
+      "name": "Brawl Recompiled",
+      "original_game": "Super Smash Bros. Brawl",
+      "game_id": "super-smash-bros-brawl",
+      "system": "wii",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "josiahg2502-glitch",
+        "repo": "BrawlRecompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Super%20Smash%20Bros.%20Brawl%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^BrawlRecompiled\\-.*\\-Linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^BrawlRecompiled\\-.*\\-Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Abre el lanzador Brawl Recompiled.exe: instala el juego desde la imagen de disco de tu Super Smash Bros. Brawl de Wii (USA, RSBE01; .iso, .ciso o .wbfs), con ajustes de pantalla, mando y mods e importación de partidas de Wii/Dolphin; no compila nada en tu PC. Gráficos vía Direct3D 12 (Aurora/Dawn, WebGPU). Trabajo en curso: funcionan arranque, partidas guardadas, menús, combates VS, demos, el inicio del modo Clásico y la apertura del Emisario Subespacial; los mods de SD (Project+, P+Ex, REX, Brawl Minus, Legacy XP) cargan desde una SD virtual en UserData\\SD."
+      },
+      "launch": {
+        "windows": "Brawl Recompiled.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-10-24T03:39:14Z"
+      },
+      "year": 2008,
+      "developer": "Sora Ltd.",
+      "genre": "Lucha",
+      "wiki": "Super Smash Bros. Brawl",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2103,
+        "stars": 88,
+        "age_days": 2,
+        "releases": 3,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "recharged",
+      "name": "Recharged",
+      "original_game": "Mario Strikers Charged",
+      "game_id": "mario-strikers-charged",
+      "system": "wii",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "previouslevelgames",
+        "repo": "recharged"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Mario%20Strikers%20Charged%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^recharged\\-.*\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^recharged\\-.*\\-macos\\-arm64\\.tar\\.gz$",
+        "macos-x86_64": "(?i)^recharged\\-.*\\-macos\\-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^recharged\\-.*\\-windows\\-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir recharged.exe se abre el launcher: añade la carpeta donde guardas tu imagen de Mario Strikers Charged de Wii (.iso, .rvz o .wbfs; USA R4QE01 rev 1 o Europa «Mario Strikers Charged Football» R4QP01 rev 1-2; Japón/Corea no soportados) o elige el archivo; la comprueba y lee el disco directamente sin copiarlo. Luego Play. Linux necesita Vulkan. Juego completo jugable (Domination, Striker Cup, Strikers 101, Hall of Fame), hasta 4 jugadores con mandos o Wiimotes reales, 4x AA y altas tasas de fotogramas; el online llegará en 1.1."
+      },
+      "launch": {
+        "windows": "recharged.exe",
+        "linux": "recharged"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "macos-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.15",
+        "published_at": "2026-10-24T22:07:49Z"
+      },
+      "year": 2007,
+      "developer": "Next Level Games",
+      "genre": "Deportes",
+      "wiki": "Mario Strikers Charged",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 5522,
+        "stars": 101,
+        "age_days": 22,
+        "releases": 18,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "killzone-recomp",
+      "name": "Killzone for Windows",
+      "original_game": "Killzone",
+      "game_id": "killzone",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "drakolordx7",
+        "repo": "KillzoneRecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Killzone%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Killzone\\-PC\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir killzone.exe aparece un launcher donde eliges la .iso de tu disco de Killzone de PS2, versión USA (SCUS-97402); otras regiones no sirven. Elige ajustes y pulsa Play; no compila nada. Direct3D 11, Direct3D 12 o Vulkan; CPU con SSE4.1 (usa AVX/AVX2 si los tiene). Alfa (v0.1.5-alpha, prerelease): ratón y teclado, 120+ fps, upscaling y ultrapanorámico, pero espera fallos. (Canal prerelease: solo hay tags -alpha. El zip trae Killzone/killzone.exe (único exe) con README.txt de controles. Aunque es recompilación estática (PS2Recomp), enlaza como librerías el renderizador GS, microVU, IPU y SP)"
+      },
+      "launch": {
+        "windows": "killzone.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.5-alpha",
+        "published_at": "2026-10-25T08:20:36Z"
+      },
+      "year": 2004,
+      "developer": "Guerrilla Games",
+      "genre": "FPS",
+      "wiki": "Killzone (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 855,
+        "stars": 121,
+        "age_days": 24,
+        "releases": 6,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "gow-psp-recomp",
+      "name": "God of War PSP native PC ports",
+      "original_game": "God of War: Chains of Olympus",
+      "game_id": "god-of-war-chains-of-olympus",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "DrummingBird1",
+        "repo": "gow-psp-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/God%20of%20War%20-%20Chains%20of%20Olympus%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^GoW_PSP_Launcher\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tus propias imágenes de disco PSP (.chd o .iso) de la versión USA de God of War: Chains of Olympus (UCUS98653) y/o Ghost of Sparta (UCUS98737); el launcher las detecta por ID de disco, no por nombre. Al abrir GoWLauncher.exe eliges la carpeta con las imágenes, pulsas Build y descarga una sola vez unas 246 MB de herramientas portables y COMPILA cada juego en tu PC (unos 4 minutos el primero y menos de 3 el segundo con 20 hilos); todo queda en GoW_PSP_data junto al exe. Después eliges preset gráfico y Play. Renderizado por SDL3 GPU (Direct3D 12 / Vulkan), hasta 4K, HDR y 120+ fps. Preview: todos los niveles cargan y se guarda, pero ningún juego tiene aún una partida completa de principio a fin. Juegos incluidos: God of War: Chains of Olympus, God of War: Ghost of Sparta."
+      },
+      "launch": {
+        "windows": "GoWLauncher.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-10-23T20:36:38Z"
+      },
+      "year": 2008,
+      "developer": "Ready at Dawn",
+      "genre": "Acción/Aventura",
+      "wiki": "God of War: Chains of Olympus",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1807,
+        "stars": 102,
+        "age_days": 8,
+        "releases": 6,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "mhforever",
+      "name": "MHForever",
+      "original_game": "Monster Hunter Freedom Unite",
+      "game_id": "monster-hunter-freedom-unite",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Mango77x",
+        "repo": "MHForever"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MHForever\\-.*\\-linux\\-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^MHForever\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propia .iso (imagen plana, sin comprimir) del UMD de Monster Hunter Freedom Unite para PSP, SOLO la edición europea ULES01213 v1.01 (USA y Japón, planeadas). Al abrir MHForever.exe añades la .iso en el launcher, que comprueba tu copia y prepara lo que necesita (puede guardar una copia de la imagen); después pulsas Play. No compila el juego: el zip ya trae mhfu.exe recompilado. El README no indica requisitos de GPU; en Linux el launcher necesita WebKitGTK 4.1 y GTK 3. Partidas en formato PSP (compatibles con PPSSPP) fuera de la carpeta del programa. Jugable de principio a fin en un jugador según el autor, con asperezas; sin online aún."
+      },
+      "launch": {
+        "windows": "MHForever.exe",
+        "linux": "MHForever"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "0.4.1",
+        "published_at": "2026-10-23T08:53:03Z"
+      },
+      "year": 2008,
+      "developer": "Capcom",
+      "genre": "Acción/RPG",
+      "wiki": "Monster Hunter Freedom Unite",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 378,
+        "stars": 38,
+        "age_days": 5,
+        "releases": 8,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "the-3rd-birthday-recomp",
+      "name": "The 3rd Birthday Recomp",
+      "original_game": "The 3rd Birthday",
+      "game_id": "the-3rd-birthday",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "BasedYuki",
+        "repo": "the-3rd-birthday-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/3rd%20Birthday%2C%20The%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^The3rdBirthday\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Abre el lanzador The 3rd Birthday.exe y elige la .iso de tu The 3rd Birthday de PSP, versión USA ULUS10567 (solo .iso plano: .cso/.chd, EUR y JP no valen; también la detecta si está junto al exe). Pulsa Prepare game y COMPILA el juego en tu PC con el kit incluido (3-10 minutos, solo la primera vez y cuando una actualización lo pida), luego Play. Requiere GPU con Vulkan y drivers al día; solo se ha probado en un PC (Windows 11, RTX 3050). Las 111 escenas cargan a velocidad completa con vídeo, voces y guardado, pero pocos lo han jugado entero: espera bugs. Extrae en una carpeta escribible (no Program Files); el antivirus puede bloquear game.dll."
+      },
+      "launch": {
+        "windows": "The 3rd Birthday.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.2",
+        "published_at": "2026-10-24T09:05:53Z"
+      },
+      "year": 2010,
+      "developer": "HexaDrive / Square Enix",
+      "genre": "Shooter",
+      "wiki": "The 3rd Birthday",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 95,
+        "stars": 12,
+        "age_days": 28,
+        "releases": 3,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "alien-resurrection-recomp",
+      "name": "Alien Resurrection: Recompiled",
+      "original_game": "Alien Resurrection",
+      "game_id": "alien-resurrection",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "DiegoDeDios",
+        "repo": "AlienReRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Alien%20Resurrection%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^AlienResurrection\\-.*\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^AlienResurrection\\-.*\\-macos\\.zip$",
+        "windows-x86_64": "(?i)^AlienResurrection\\-.*\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir AlienResurrection.exe el launcher te pide con «Select disc image» la imagen de tu Alien Resurrection de PlayStation (solo versión USA, SLUS-00633) como .cue con sus pistas .bin (vale elegir el .cue, un .bin o la carpeta); la lee directamente de donde la tengas, sin copiarla. Luego Start game. Windows: GPU con Vulkan o Direct3D 12; Linux: Vulkan y glibc 2.35+. Resolución hasta 8x, widescreen, geometría precisa estilo PGXP, 60 fps, ratón y teclado, guardado rápido. El autor avisa de que no se han jugado todos los niveles en el port y de que la build de Windows solo se ha probado bajo Wine/VM."
+      },
+      "launch": {
+        "windows": "AlienResurrection.exe",
+        "linux": "AlienResurrection"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.8",
+        "published_at": "2026-10-25T02:22:33Z"
+      },
+      "year": 2000,
+      "developer": "Argonaut Games",
+      "genre": "FPS",
+      "wiki": "Alien Resurrection (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 1070,
+        "stars": 30,
+        "age_days": 8,
+        "releases": 9,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "rush2-recompiled",
+      "name": "Rush 2 Recompiled",
+      "original_game": "Rush 2: Extreme Racing USA",
+      "game_id": "rush-2-extreme-racing-usa",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "bryantmh",
+        "repo": "rush2recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rush%202%20-%20Extreme%20Racing%20USA%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Rush2Recompiled\\-.*\\-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^Rush2Recompiled\\-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir Rush2Recompiled.exe por primera vez te pide la ROM de Rush 2: Extreme Racing USA (N64, solo la versión USA, .z64/.n64/.v64, 12 MB; SHA-1 01b0a31b…); guarda su propia copia y después arranca directo. Si dejas la ROM en la misma carpeta que el exe la detecta sola. No compila nada. DirectX 12 o Vulkan (Windows) / Vulkan (Linux, AppImage, glibc 2.38+). Jugable completo; opcionalmente añade en la pestaña Games las ROMs USA de San Francisco Rush 2049, San Francisco Rush y California Speed (experimental) para sumar sus pistas, coches y modos. Online multijugador experimental."
+      },
+      "launch": {
+        "windows": "Rush2Recompiled.exe",
+        "linux": null
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.34",
+        "published_at": "2026-10-25T02:19:07Z"
+      },
+      "year": 1998,
+      "developer": "Atari Games",
+      "genre": "Carreras",
+      "wiki": "Rush 2: Extreme Racing USA",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3617,
+        "stars": 58,
+        "age_days": 21,
+        "releases": 35,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "banjo-tooie-scurvy-dog",
+      "name": "Banjo-Tooie: Scurvy Dog Port",
+      "original_game": "Banjo-Tooie",
+      "game_id": "banjo-tooie",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "some-scurvy-dog",
+        "repo": "banjo-tooie-scurvy-dog-port"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BanjoTooieScurvyDogPort\\-Alpha.*\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propia ROM de Banjo-Tooie de N64, versión NTSC-U 1.0. Extrae el zip entero en una carpeta y abre BanjoTooieScurvyDogPort.exe: la primera vez te pide la ROM en un diálogo; no compila nada. Renderizador RT64 (el mismo de Zelda 64 Recomp) con interpolación de frames. Es una alpha (4.4) en desarrollo: el autor avisa de que el diseño no es definitivo y de problemas conocidos en sombras de mochila y pendientes; solo Windows x64."
+      },
+      "launch": {
+        "windows": "BanjoTooieScurvyDogPort.exe"
+      },
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-alpha.4.4",
+        "published_at": "2026-10-25T04:17:43Z"
+      },
+      "year": 2000,
+      "developer": "Rare",
+      "genre": "Plataformas",
+      "wiki": "Banjo-Tooie",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2618,
+        "stars": 98,
+        "age_days": 27,
+        "releases": 8,
+        "contributors": 3,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "vf1-recomp",
+      "name": "Virtua Fighter Recomp",
+      "original_game": "Virtua Fighter",
+      "game_id": "virtua-fighter",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mr-finster",
+        "repo": "vf1-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Virtua%20Fighter.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^VirtuaFighterRecomp\\-deck\\.tar\\.gz$",
+        "linux-aarch64": "(?i)^VirtuaFighterRecomp\\-linux\\-arm64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^VirtuaFighterRecomp\\-mac\\.zip$",
+        "windows-x86_64": "(?i)^VirtuaFighterRecomp\\-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado de la arcade Virtua Fighter (Sega Model 1) como set vf.zip de MAME (opcionalmente también model1io.zip). Al abrir VirtuaFighter.exe te pide el vf.zip la primera vez y guarda una copia (en Linux/Steam Deck ponlo en la carpeta VirtuaFighter/roms); el código V60 se recompila a nativo en cada arranque de forma inmediata, sin compilación larga. El 3D puede dibujarse en GPU (Direct3D 12 o Vulkan; Metal en Mac) con comprobación automática y vuelta a CPU si falla, así que no hay requisito duro de GPU. Completo y jugable: dos jugadores, menú, trucos, personajes secretos; sin online. Build nativa de Linux/Steam Deck (no usar Proton) y macOS."
+      },
+      "launch": {
+        "windows": "VirtuaFighter.exe",
+        "linux": "vf"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.4.2",
+        "published_at": "2026-10-25T03:43:34Z"
+      },
+      "year": 1993,
+      "developer": "Sega AM2",
+      "genre": "Lucha",
+      "wiki": "Virtua Fighter (video game)",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 5661,
+        "stars": 61,
+        "age_days": 15,
+        "releases": 15,
+        "contributors": 1,
+        "ai": true,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "vf2-recomp",
+      "name": "Virtua Fighter 2 Recomp",
+      "original_game": "Virtua Fighter 2",
+      "game_id": "virtua-fighter-2",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mr-finster",
+        "repo": "vf2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Virtua%20Fighter%202%20%28Version%202.1%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^VirtuaFighter2Recomp\\-deck\\.tar\\.gz$",
+        "linux-aarch64": "(?i)^VirtuaFighter2Recomp\\-linux\\-arm64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^VirtuaFighter2Recomp\\-mac\\.zip$",
+        "windows-x86_64": "(?i)^VirtuaFighter2Recomp\\-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir VirtuaFighter2.exe te pide tu vf2.zip (el set de MAME de Virtua Fighter 2, versión 2.1) y guarda una copia, así que solo lo haces una vez; en Linux/Steam Deck ponlo en la carpeta roms junto al programa (o usa --roms/VF2_ROMS). Recompila el programa i960 a código nativo cada vez que arranca (en el momento, no es una compilación larga); el resto de la placa Model 2 (TGP, render de polígonos, sonido 68000/SCSP) corre con código de MAME integrado en el ejecutable. 3D opcional en GPU vía Direct3D 12/Vulkan (Metal en Mac). Completo y jugable: dos jugadores, hasta 6x, widescreen, smooth motion y personajes secretos (Dural, MUE, KOJAC); sin online."
+      },
+      "launch": {
+        "windows": "VirtuaFighter2.exe",
+        "linux": "VirtuaFighter2.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.15",
+        "published_at": "2026-10-25T03:43:23Z"
+      },
+      "year": 1994,
+      "developer": "Sega AM2",
+      "genre": "Lucha",
+      "wiki": "Virtua Fighter 2",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 5773,
+        "stars": 67,
+        "age_days": 15,
+        "releases": 15,
+        "contributors": 1,
+        "ai": true,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "vf3-recomp",
+      "name": "Virtua Fighter 3 Recomp",
+      "original_game": "Virtua Fighter 3",
+      "game_id": "virtua-fighter-3",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mr-finster",
+        "repo": "vf3-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6cdd6db6a4be3ad8ff3512a4fa63eacc.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^VirtuaFighter3Recomp\\-deck\\.tar\\.gz$",
+        "linux-aarch64": "(?i)^VirtuaFighter3Recomp\\-linux\\-arm64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^VirtuaFighter3Recomp\\-mac\\.zip$",
+        "windows-x86_64": "(?i)^VirtuaFighter3Recomp\\-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu propio volcado de Virtua Fighter 3 como set de MAME vf3.zip (Revision D). En Windows y Mac, al abrir VirtuaFighter3.exe te pide el vf3.zip con un selector de archivos y guarda una copia (solo la primera vez). En Linux/Steam Deck hay que poner vf3.zip en la carpeta roms junto al programa y lanzar VirtuaFighter3.sh (nativo, sin Proton); también vale --roms <carpeta> o la variable VF3_ROMS. Recompila el programa PowerPC a código nativo cada vez que arranca (instantáneo, no es una compilación larga). 3D por GPU con Vulkan (o Direct3D 12 / Metal), con respaldo por CPU. Alpha según el autor pero completo: los 12 luchadores, modo arcade, ajustes del mueble, 2 jugadores y netplay rollback experimental; vf3tb (Team Battle) no soportado."
+      },
+      "launch": {
+        "windows": "VirtuaFighter3.exe",
+        "linux": "VirtuaFighter3.sh"
+      },
+      "cached": {
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.10-alpha",
+        "published_at": "2026-10-25T08:40:35Z"
+      },
+      "year": 1996,
+      "developer": "Sega AM2",
+      "genre": "Lucha",
+      "wiki": "Virtua Fighter 3",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 3464,
+        "stars": 43,
+        "age_days": 6,
+        "releases": 9,
+        "contributors": 1,
+        "ai": true,
+        "emu": true,
+        "checked": "2026-10-25"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "cps2recomp",
+      "name": "CPS-2 Recomp",
+      "original_game": "Capcom CPS-2 arcade collection",
+      "game_id": "capcom-cps-2-arcade-collection",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tmcleroy",
+        "repo": "cps2recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6b55f00da01b1282c17d91c7760d2df9.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^CPS2Recomp\\-linux\\-x86_64\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^CPS2Recomp\\-macOS\\.zip$",
+        "windows-x86_64": "(?i)^CPS2Recomp\\-windows\\-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Abre cps2recomp-launcher.exe; en la pestaña Games pulsa «Choose folder…» y elige la carpeta con tus ROM sets de arcade en formato MAME (zips con el nombre del set y su key file para CPS-2: sfa.zip, sfa2u.zip, sgemf.zip, msh.zip, xmvsf.zip, spf2t.zip, vsavj.zip, vsav2.zip, vhunt2.zip, avspu.zip, dino.zip, o carpetas con sus archivos). Solo vale la revisión/región exacta de cada set (p. ej. sfa2u USA 960430, vsavj Japón 970519); comprueba cada archivo por checksum y los deja donde están. No compila nada. Cada juego trae modo entrenamiento y menú ingame (Esc/F1). Beta: los de lucha se juegan de principio a fin, los beat 'em up solo probados en las primeras fases. Juegos incluidos: Street Fighter Alpha, Street Fighter Alpha 2, Super Gem Fighter Mini Mix (Pocket Fighter), Marvel Super Heroes, X-Men vs. Street Fighter, Super Puzzle Fighter II Turbo, Vampire Savior: The Lord of Vampire, Vampire Savior 2: The Lord of Vampire, Vampire Savior Definitive, Vampire Hunter 2: Darkstalkers' Revenge, Alien vs. Predator, Cadillacs and Dinosaurs."
+      },
+      "launch": {
+        "windows": "cps2recomp-launcher.exe",
+        "linux": "cps2recomp-launcher"
+      },
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0-beta.5",
+        "published_at": "2026-10-22T16:53:45Z"
+      },
+      "year": 1996,
+      "developer": "Capcom",
+      "genre": "Lucha",
+      "wiki": "CP System II",
+      "box_art": null,
+      "quality_signals": {
+        "downloads": 2731,
+        "stars": 77,
+        "age_days": 11,
+        "releases": 6,
+        "contributors": 2,
         "ai": false,
         "emu": false,
         "checked": "2026-10-25"
