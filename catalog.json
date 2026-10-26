@@ -12313,12 +12313,9 @@
         "windows": null
       },
       "cached": {
-        "platforms": [
-          "macos-aarch64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.4.0",
-        "published_at": "2026-10-02T20:13:01Z"
+        "platforms": [],
+        "latest_tag": null,
+        "published_at": null
       },
       "year": 2002,
       "developer": "Nintendo EAD",

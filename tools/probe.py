@@ -65,9 +65,15 @@ def probe_project(p, token):
     except urllib.error.HTTPError as e:
         print(f"  ! {slug}: HTTP {e.code}")
         return None
-    if not isinstance(releases, list) or not releases:
-        print(f"  ! {slug}: sin releases")
+    if not isinstance(releases, list):
+        print(f"  ! {slug}: respuesta inesperada")
         return None
+    if not releases:
+        # The author removed every release (DMCA, takedown, rewrite…): forget
+        # what we cached, or the app keeps offering an update that can't be
+        # downloaded. Installed copies stay in the library untouched.
+        print(f"  ! {slug}: sin releases (se vacía la caché)")
+        return {"platforms": [], "latest_tag": None, "published_at": None}
     rel = pick_release(releases, p.get("release_channel", "stable"), p.get("rolling_tag"))
     if not rel:
         print(f"  ! {slug}: sin release adecuada")
