@@ -16568,6 +16568,62 @@
         "checked": "2026-10-26"
       },
       "tier": "experimental"
+    },
+    {
+      "id": "mhgu-recomp",
+      "name": "MHGU Recomp",
+      "original_game": "Monster Hunter Generations Ultimate",
+      "game_id": "monster-hunter-generations-ultimate",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "morerokk",
+        "repo": "MHGURecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2bb27718e033ba00f2a35039532e2672.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^ArchLinux-MHGURecomp\\..*\\.zip$",
+        "windows-x86_64": "(?i)^Windows-MHGURecomp\\..*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo (código ARM de 32 bits recompilado a C; NVN y servicios de Switch reimplementados sobre Vulkan). Necesita las carpetas exefs/ y romfs/ de tu Monster Hunter Generations Ultimate EXACTAMENTE en la versión 1.4.0 (exefs de la actualización y romfs del juego base con la actualización fusionada; Title ID 0100770008DD8000) dentro de la carpeta data/ junto al ejecutable. Con «Importar NSP/XCI/NSZ» Freeport las deja ahí si importas base + actualización 1.4.0; desde Ryujinx también sirve «Extraer» con los parches aplicados. Si faltan o son de otra versión, el juego lo avisa al arrancar. El autor lo da por completamente jugable (decenas de cacerías sin fallos), con multijugador por LAN/VLAN o internet (abrir el puerto 39500; elegir «Local Wireless» en el juego). Añade resolución y MSAA/FXAA, cualquier formato de pantalla de 16:10 a ultrapanorámico, límite de 30 a 240 fps, cualquier mando SDL, teclado y ratón experimental, saltar cinemáticas, HP escalado por jugadores, misiones de aldea en multijugador, mods (incluidos los de Forge) en mods/ y trucos formato Atmosphère/Ryujinx en cheats/. Incluye una partida donante con el contenido descargable gratuito (misiones de evento, packs, felynes) que se copia a tu partida en el segundo arranque (BonusContent en el .ini). Partidas en ~/.local/share/MHGURecomp/save (Linux) o %APPDATA%\\MHGURecomp\\save (Windows): copia ahí tu save_0 si vienes de Ryujinx. CPU con AVX2 y GPU Vulkan 1.2. El paquete de Linux está compilado para Arch (SDL3, ffmpeg 8, shaderc del sistema); en otras distros usa el de Windows con Proton.",
+        "import_dir": "data"
+      },
+      "launch": {
+        "linux": "mhgurecomp",
+        "windows": "mhgurecomp.exe"
+      },
+      "year": 2018,
+      "developer": "Capcom",
+      "genre": "Acción/RPG",
+      "wiki": "Monster Hunter Generations Ultimate",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "0.9.11",
+        "published_at": "2026-10-25T23:26:09Z"
+      },
+      "quality_signals": {
+        "downloads": 2824,
+        "stars": 171,
+        "age_days": 4,
+        "releases": 12,
+        "contributors": 4,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-10-26"
+      }
     }
   ]
 }
