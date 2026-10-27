@@ -72,3 +72,10 @@ python3 tools/groups.py --check catalog.json  # falla si algún proyecto no lo t
 
 Edita `catalog.json` (añade un objeto a `projects`, con su `game_id`) y abre un PR.
 La CI rellenará su `cached` en la siguiente ejecución.
+
+Campos de `rom` para ports de Switch que importan el volcado desde Freeport (NSP/XCI/NSZ):
+
+- `import_dir`: carpeta, relativa a la del port, donde deben quedar `exefs/` y `romfs/` (MHGU: `data`, UltraTears: `game`).
+- `build_id` y `game_version`: los primeros bytes (hex) del build id de `exefs/main` de la versión exacta que el port
+  exige, y su nombre. Tras importar, Freeport comprueba el `main` extraído y, si no coincide (solo el juego base, otra
+  actualización), rechaza la importación diciendo qué falta. Se lee con `xxd -s 0x40 -l 8 exefs/main`.

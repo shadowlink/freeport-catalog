@@ -13346,7 +13346,9 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA. En Linux arranca con GE-Proton (elige ese runner en la ficha); con Proton-CachyOS 11 se cierra al instante por una función de Windows que ese build no implementa (SHGetFolderPathW)."
+        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA. En Linux arranca con GE-Proton (elige ese runner en la ficha); con Proton-CachyOS 11 se cierra al instante por una función de Windows que ese build no implementa (SHGetFolderPathW).",
+        "build_id": "646761F643AFEBB3",
+        "game_version": "2.1.0"
       },
       "launch": {
         "windows": "Metroid Dread.exe"
@@ -13679,7 +13681,9 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Al abrir smm2recomp.exe aparece una pantalla de configuración que te pide tu copia de Super Mario Maker 2 (NSP o XCI) más la actualización 3.0.3 (NSP), o carpetas exefs+romfs ya extraídas, además de tus prod.keys y la carpeta de firmware (.nca) de tu Switch para las fuentes (si ya las tiene un emulador las rellena solo); opcionalmente el Super Mario Maker de Wii U para los mods de SMM1. La primera vez COMPILA el código del juego en tu PC con el compilador incluido (de unos minutos a media hora) y después arranca directo. Requiere Vulkan 1.3 y CPU x86-64-v2. Estado: desarrollo temprano; título, menús, cursos, Course World (servidor propio) y 100 Mario Challenge jugables."
+        "notes": "Al abrir smm2recomp.exe aparece una pantalla de configuración que te pide tu copia de Super Mario Maker 2 (NSP o XCI) más la actualización 3.0.3 (NSP), o carpetas exefs+romfs ya extraídas, además de tus prod.keys y la carpeta de firmware (.nca) de tu Switch para las fuentes (si ya las tiene un emulador las rellena solo); opcionalmente el Super Mario Maker de Wii U para los mods de SMM1. La primera vez COMPILA el código del juego en tu PC con el compilador incluido (de unos minutos a media hora) y después arranca directo. Requiere Vulkan 1.3 y CPU x86-64-v2. Estado: desarrollo temprano; título, menús, cursos, Course World (servidor propio) y 100 Mario Challenge jugables.",
+        "build_id": "C2DC405AC414C37C",
+        "game_version": "3.0.3"
       },
       "launch": {
         "windows": "smm2recomp.exe",
@@ -16384,7 +16388,9 @@
         "expected_filename": null,
         "subdir": null,
         "notes": "No hay un ejecutable del juego para descargar: el paquete es un «builder». Necesitas tu propia copia de Tears of the Kingdom actualizada EXACTAMENTE a la 1.4.3, ya extraída como carpetas exefs/ y romfs/ (unos 304.000 archivos, 16 GB; no descifra NSP/XCI ni lee claves). Con «Importar NSP/XCI/NSZ» Freeport las deja en la carpeta game/ del builder (importa base + actualización 1.4.3). Después hay que ejecutar setup.bat una vez: comprueba la versión, empaqueta romfs.bin, traduce el código a C, lo COMPILA, convierte shaders y texturas (unos 35 minutos con 8 núcleos en Windows) y deja UltraTears.exe listo; hasta entonces Jugar avisa de que falta el ejecutable. Windows 10/11 con AVX2, Vulkan 1.3 con VK_EXT_shader_object, 16 GB de RAM y ~32 GB libres además del volcado (que puedes borrar tras compilar). En Linux: el builder también corre bajo Proton (probado con GE-Proton 11-7, ~80 min: python deps\\python\\python.exe tools\\setup.py desde la carpeta del builder con el prefijo del port; Proton-CachyOS 11 se cierra al instante por SHGetFolderPathW) y el juego arranca y renderiza con GE-Proton en una RTX 4060; el autor lo prueba en Steam Deck vía Proton. Beta temprana: pantalla de título, prólogo y Gran Isla del Cielo a los 30 fps del juego, con tirones mientras compila shaders; sin menú de ajustes aún.",
-        "import_dir": "game"
+        "import_dir": "game",
+        "build_id": "277178B7DBA1B6D4",
+        "game_version": "1.4.3"
       },
       "launch": {
         "windows": "UltraTears.exe"
@@ -16488,7 +16494,9 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Alternativa a SMM2 Recomp (basada en LAS Recomp y Sky Recomp). MushroomMakerRecomp.exe es un lanzador .NET (Framework 4.8) que te pide la carpeta de tu Super Mario Maker 2 ya extraída con la actualización 3.0.3 APLICADA (exefs+romfs fusionados; no desempaqueta NSP/XCI ni aplica updates; puedes señalar una carpeta padre y busca dentro). «Check files» verifica los hashes del ejecutable y «Prepare game» traduce el código a C y lo COMPILA con el compilador y Python incluidos (de minutos a media hora); después «Play». Con «Importar NSP/XCI/NSZ» Freeport deja esa carpeta lista (importa base + actualización 3.0.3). Vulkan 1.3; 4K, FSR 1/NIS, SMAA y generación de frames a 120 fps opcional; Course World mediante el servicio público MariOver (necesita internet). Partidas y código generado en %LOCALAPPDATA%\\MushroomMakerRecomp. Solo Windows; sin licencia declarada. Experimental: fallos y cuelgues posibles."
+        "notes": "Alternativa a SMM2 Recomp (basada en LAS Recomp y Sky Recomp). MushroomMakerRecomp.exe es un lanzador .NET (Framework 4.8) que te pide la carpeta de tu Super Mario Maker 2 ya extraída con la actualización 3.0.3 APLICADA (exefs+romfs fusionados; no desempaqueta NSP/XCI ni aplica updates; puedes señalar una carpeta padre y busca dentro). «Check files» verifica los hashes del ejecutable y «Prepare game» traduce el código a C y lo COMPILA con el compilador y Python incluidos (de minutos a media hora); después «Play». Con «Importar NSP/XCI/NSZ» Freeport deja esa carpeta lista (importa base + actualización 3.0.3). Vulkan 1.3; 4K, FSR 1/NIS, SMAA y generación de frames a 120 fps opcional; Course World mediante el servicio público MariOver (necesita internet). Partidas y código generado en %LOCALAPPDATA%\\MushroomMakerRecomp. Solo Windows; sin licencia declarada. Experimental: fallos y cuelgues posibles.",
+        "build_id": "C2DC405AC414C37C",
+        "game_version": "3.0.3"
       },
       "launch": {
         "windows": "MushroomMakerRecomp.exe"
@@ -16594,7 +16602,9 @@
         "expected_filename": null,
         "subdir": null,
         "notes": "Port nativo (código ARM de 32 bits recompilado a C; NVN y servicios de Switch reimplementados sobre Vulkan). Necesita las carpetas exefs/ y romfs/ de tu Monster Hunter Generations Ultimate EXACTAMENTE en la versión 1.4.0 (exefs de la actualización y romfs del juego base con la actualización fusionada; Title ID 0100770008DD8000) dentro de la carpeta data/ junto al ejecutable. Con «Importar NSP/XCI/NSZ» Freeport las deja ahí si importas base + actualización 1.4.0; desde Ryujinx también sirve «Extraer» con los parches aplicados. Si faltan o son de otra versión, el juego lo avisa al arrancar. El autor lo da por completamente jugable (decenas de cacerías sin fallos), con multijugador por LAN/VLAN o internet (abrir el puerto 39500; elegir «Local Wireless» en el juego). Añade resolución y MSAA/FXAA, cualquier formato de pantalla de 16:10 a ultrapanorámico, límite de 30 a 240 fps, cualquier mando SDL, teclado y ratón experimental, saltar cinemáticas, HP escalado por jugadores, misiones de aldea en multijugador, mods (incluidos los de Forge) en mods/ y trucos formato Atmosphère/Ryujinx en cheats/. Incluye una partida donante con el contenido descargable gratuito (misiones de evento, packs, felynes) que se copia a tu partida en el segundo arranque (BonusContent en el .ini). Partidas en ~/.local/share/MHGURecomp/save (Linux) o %APPDATA%\\MHGURecomp\\save (Windows): copia ahí tu save_0 si vienes de Ryujinx. CPU con AVX2 y GPU Vulkan 1.2. El paquete de Linux está compilado para Arch (SDL3, ffmpeg 8, shaderc del sistema); en otras distros usa el de Windows con Proton.",
-        "import_dir": "data"
+        "import_dir": "data",
+        "build_id": "FB08F1D20FD1204F",
+        "game_version": "1.4.0"
       },
       "launch": {
         "linux": "mhgurecomp",
