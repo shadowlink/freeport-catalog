@@ -16628,6 +16628,231 @@
         "emu": true,
         "checked": "2026-10-29"
       }
+    },
+    {
+      "id": "msr2ds",
+      "name": "Samus Returns 2DS (msr2ds)",
+      "original_game": "Metroid: Samus Returns",
+      "game_id": "metroid-samus-returns",
+      "system": "3ds",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "gminustwo",
+        "repo": "msr2ds"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Metroid%20-%20Samus%20Returns%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^msr2ds-.*-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^msr2ds-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Metroid: Samus Returns en una sola pantalla 16:9 al estilo de Metroid Dread: energía, misiles, Aeion y haces arriba a la izquierda, mapa y contadores de ADN/Metroides a la derecha; Start abre la pantalla inferior original (mapa, inventario). Al abrirlo, el lanzador pide tu volcado DESCIFRADO de Metroid: Samus Returns (USA, .3ds o .cci) y lo recuerda; luego Play. OJO: no es una recompilación sino un fork del emulador Azahar 2126.2 convertido en reproductor de un solo juego (como DekUI con Majora's Mask 3D); el código del juego corre en el JIT del emulador (la versión recompilada a C++ solo puede compilarla uno mismo desde su volcado). Panorámico hasta 4K interno (arranca en 4K: bájalo en la pestaña Display si va lento; en Steam Deck ~4x/960p), 30/60/120/144 fps, vsync, packs de texturas de Citra/Azahar (el pack HD no se incluye), modo Fusion y galerías amiibo desbloqueables, trucos. Gatillo izquierdo = morfosfera, derecho = cambiar de haz. Linux: AppImage con glibc 2.38+ y X11/XWayland; Windows: SamusReturns.exe. GPU con Vulkan."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SamusReturns.exe"
+      },
+      "year": 2017,
+      "developer": "MercurySteam / Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "Metroid: Samus Returns",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0",
+        "published_at": "2026-10-29T23:24:20Z"
+      },
+      "quality_signals": {
+        "downloads": 203,
+        "stars": 28,
+        "age_days": 0,
+        "releases": 1,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-30"
+      }
+    },
+    {
+      "id": "recasted",
+      "name": "ReCasted",
+      "original_game": "Ratchet & Clank (2016)",
+      "game_id": "ratchet-and-clank-2016",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "gitlab",
+        "owner": "AndyALRLabs",
+        "repo": "ReCasted"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/00f2fbba92807a274d1a5a1b584df457.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^recasted-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^recasted-windows-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "import_dir": "game/{title_id}",
+        "notes": "Runtime HLE mínimo que ejecuta el binario x86-64 de Ratchet & Clank (PS4) como proceso nativo: las llamadas a Orbis OS y la GPU GNM se traducen a POSIX/Win32 y Vulkan 1.3, sin emular el sistema completo. Necesita tu volcado de Ratchet & Clank CUSA01073 actualizado a la v1.09 (carpeta con eboot.bin, sce_sys, sce_module…). Con «Importar PKG» Freeport lo deja en game/CUSA01073, que run.sh usa solo; a mano: ./run.sh /ruta/CUSA01073 (Windows: arrastra la carpeta sobre run.bat). La primera vez prepara gamecore.so y content.bin con rc_prepare.py (hace falta Python 3.8+); no modifica tus archivos. Por defecto 1080p a 30 fps: para 60 fps copia patches/patches_1080p_60fps.bin sobre patches.bin o lanza con RC_60FPS=1 (RC_RES=1440p para 1440p); idioma con RC_LANGUAGE (3 = español). Probado a 60 fps estables en RTX 3070, 30 fps en Steam Deck y jugable en Iris Xe. Muy reciente (v0.1.x): campaña completa en verificación."
+      },
+      "launch": {
+        "linux": "run.sh",
+        "windows": "run.bat"
+      },
+      "year": 2016,
+      "developer": "Insomniac Games",
+      "genre": "Plataformas/Acción",
+      "wiki": "Ratchet & Clank (2016 video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-10-30T05:56:31.847Z"
+      },
+      "quality_signals": {
+        "downloads": 0,
+        "stars": 1,
+        "age_days": 0,
+        "releases": 2,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-30"
+      }
+    },
+    {
+      "id": "the-order-1886-pc",
+      "name": "The Order: 1886 PC",
+      "original_game": "The Order: 1886",
+      "game_id": "the-order-1886",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "JulioCacko",
+        "repo": "The-Order-1886_pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f1fcc354fa9c5cd9397b28822f9b2fb2.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^order1886-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^order1886-go-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Runtime de compatibilidad PS4: el ejecutable x86-64 original corre en tu CPU, los servicios de PS4 están reimplementados y el núcleo de vídeo derivado de shadPS4 traduce GPU y shaders a Vulkan. Necesita tu copia extraída de The Order: 1886 con la actualización 1.02 (CUSA00076 probado; CUSA00035/00070/00100/00670/00785 aceptados como experimentales): la carpeta con eboot.bin, archivemap.bin, _data, sce_sys y sce_module. Con «Importar PKG» Freeport la crea y lanza «Play The Order 1886 --game-dir <carpeta>», que la recuerda; el lanzador con pestañas (The Order 1886 en la carpeta del port: gráficos, rendimiento, controles, partidas, logros; en Linux necesita GTK 3 y WebKitGTK 4.1) sirve para cambiar ajustes. Primer arranque: prepara el juego y compila shaders (tarda). 30/60/90 fps o libre, 16:9, FSR 1/3.1 o DLAA, resolución nativa hasta 4K sin reescalado (v0.2.5), ratón y teclado, importación de partidas de PS4 (Apollo). Vista previa en desarrollo: ~53 fps en RTX 3070 a 60 fps, progresión completa y QTE de los capítulos 6/9 aún sin validar; en Linux el paquete arranca (glibc 2.39+) pero el autor no ha probado jugar con un driver de GPU real. Ajustes, caché y partidas en user/order1886 dentro del port."
+      },
+      "launch": {
+        "linux": "Play The Order 1886",
+        "windows": "Play The Order 1886.exe"
+      },
+      "launch_args": [
+        "--game-dir",
+        "{rom_path}"
+      ],
+      "year": 2015,
+      "developer": "Ready at Dawn",
+      "genre": "Acción/Aventura (TPS)",
+      "wiki": "The Order: 1886",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.5",
+        "published_at": "2026-10-30T00:49:01Z"
+      },
+      "quality_signals": {
+        "downloads": 3959,
+        "stars": 158,
+        "age_days": 14,
+        "releases": 19,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-30"
+      }
+    },
+    {
+      "id": "metroid-prime-2-port",
+      "name": "Echoes Unbound (Metroid Prime 2 Port)",
+      "original_game": "Metroid Prime 2: Echoes",
+      "game_id": "metroid-prime-2-echoes",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Odrannnn",
+        "repo": "MetroidPrime2Port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metroid%20Prime%202%20-%20Echoes%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MetroidPrime2-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)-windows-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo del decomp de Metroid Prime 2: Echoes (PrimeDecomp) sobre Aurora (SDL3 + WebGPU), del mismo autor que Metroid Prime Port. Al arrancar sin disco pide tu imagen (.iso, .gcm, .rvz, .wia, .gcz, .ciso o .wbfs) de Metroid Prime 2: Echoes USA (G2ME01) o PAL (G2MP01), o del Metroid Prime Trilogy de Wii (R3ME01/R3MP01), y la recuerda; también MP2_DISC o la ruta como argumento. F1 (o Start+Back) abre el menú con todo: panorámico con HUD adaptado, escala de render, fps altos con interpolación, FOV, MSAA, ratón y doble stick, giroscopio, saltar cinemáticas, atajo de los portales luz/oscuridad, save states y reanudación rápida, importar/exportar tarjetas de memoria (Dolphin/PrimeHack), mods y pack HD, modo foto, Discord. Ajustes y tarjetas en user/ junto al ejecutable (AppImage: junto al .AppImage). La AppImage no incluye librerías: FreeType, libpng y driver Vulkan del sistema. Pre-release de pocos días."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2004,
+      "developer": "Retro Studios",
+      "genre": "Acción/Aventura (FPS)",
+      "wiki": "Metroid Prime 2: Echoes",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.4",
+        "published_at": "2026-10-29T23:28:43Z"
+      },
+      "quality_signals": {
+        "downloads": 2552,
+        "stars": 132,
+        "age_days": 8,
+        "releases": 5,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-10-30"
+      }
     }
   ]
 }

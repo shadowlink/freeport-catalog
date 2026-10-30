@@ -45,8 +45,34 @@ def gh(url, token, raw=False):
         return None
 
 
+def signals_gitlab(slug):
+    """Same signals from gitlab.com (no download counts there: tier stays experimental)."""
+    import urllib.parse
+    pid = urllib.parse.quote(slug, safe="")
+    api = f"https://gitlab.com/api/v4/projects/{pid}"
+    info = gh(api, None) or {}
+    rels = gh(f"{api}/releases?per_page=100", None) or []
+    cons = gh(f"{api}/repository/contributors", None) or []
+    md = gh(f"https://gitlab.com/{slug}/-/raw/{info.get('default_branch', 'main')}/README.md", None, raw=True) or ""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    created = info.get("created_at")
+    age = (now - datetime.datetime.fromisoformat(created.replace("Z", "+00:00"))).days if created else 0
+    return {
+        "downloads": 0,
+        "stars": info.get("star_count", 0),
+        "age_days": age,
+        "releases": len(rels) if isinstance(rels, list) else 0,
+        "contributors": len(cons) if isinstance(cons, list) else 0,
+        "ai": bool(AI_RE.search(md) or AI_RE.search(info.get("description") or "")),
+        "emu": bool(EMU_RE.search(md)),
+        "checked": now.strftime("%Y-%m-%d"),
+    }
+
+
 def signals(p, token):
     r = p["repo"]
+    if r["host"] == "gitlab":
+        return signals_gitlab(f"{r['owner']}/{r['repo']}")
     if r["host"] != "github":
         return None
     slug = f"{r['owner']}/{r['repo']}"

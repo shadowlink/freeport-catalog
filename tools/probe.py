@@ -20,6 +20,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 
 API = "https://api.github.com"
 
@@ -57,11 +58,34 @@ def pick_release(releases, channel, rolling_tag):
     return stable or next((r for r in releases if usable(r)), None)
 
 
+def gitlab_releases(slug):
+    """GitLab releases mapped to the GitHub shape probe/pick_release expect."""
+    pid = urllib.parse.quote(slug, safe="")
+    req = urllib.request.Request(f"https://gitlab.com/api/v4/projects/{pid}/releases?per_page=10",
+                                 headers={"User-Agent": "decompdeck-probe"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = json.load(r)
+    out = []
+    for v in raw:
+        links = (v.get("assets") or {}).get("links") or []
+        out.append({
+            "tag_name": v.get("tag_name"),
+            "published_at": v.get("released_at"),
+            "prerelease": bool(v.get("upcoming_release")),
+            "draft": False,
+            "assets": [{"name": l.get("name"), "browser_download_url": l.get("direct_asset_url") or l.get("url")} for l in links],
+        })
+    return out
+
+
 def probe_project(p, token):
     repo = p["repo"]
     slug = f"{repo['owner']}/{repo['repo']}"
     try:
-        releases = gh_get(f"{API}/repos/{slug}/releases?per_page=10", token)
+        if repo.get("host") == "gitlab":
+            releases = gitlab_releases(slug)
+        else:
+            releases = gh_get(f"{API}/repos/{slug}/releases?per_page=10", token)
     except urllib.error.HTTPError as e:
         print(f"  ! {slug}: HTTP {e.code}")
         return None
@@ -105,7 +129,7 @@ def main():
     for p in catalog.get("projects", []):
         # Self-hosted (direct-download) projects have no GitHub releases to
         # probe; their cached fields are curated by hand.
-        if p.get("direct") or p.get("repo", {}).get("host", "github") != "github":
+        if p.get("direct") or p.get("repo", {}).get("host", "github") not in ("github", "gitlab"):
             continue
         cached = probe_project(p, token)
         if cached is not None:
