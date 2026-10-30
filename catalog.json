@@ -16853,6 +16853,58 @@
         "emu": false,
         "checked": "2026-10-30"
       }
+    },
+    {
+      "id": "totk-recomp",
+      "name": "TotK Recomp",
+      "original_game": "The Legend of Zelda: Tears of the Kingdom",
+      "game_id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "valentderah",
+        "repo": "totk-pc-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^TotK-Setup-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática a x86-64 nativo con renderer Vulkan (sobre LAS Recomp, MacNativeGames y Savage Wind). Lo que se descarga es un instalador: abre TotK-Setup.exe desde la carpeta del port, elige tu NSP/XCI del juego base, el NSP de la actualización 1.2.1 o 1.4.3 (NSZ aún no), tu prod.keys, el idioma y una carpeta de destino (usa una subcarpeta dentro de la del port, p. ej. game, para que Freeport encuentre totk.exe), y pulsa Start: extrae, traduce y compila el juego y prepara los shaders (30 minutos o más; 36 GB libres durante el proceso, 20 GB después). Hasta entonces Jugar avisa de que falta totk.exe. Para actualizar, el nuevo setup sobre la misma carpeta conserva partidas y ajustes; las partidas pasan entre 1.2.1 y 1.4.3. 60 fps por defecto y hasta 144 (experimental), resoluciones personalizadas, supersampling y FSR 1, menú de ajustes (F1) y overlay (F10), teclado/ratón/mando con giroscopio; shaders preparados en la instalación (sin tirones). Windows 10+, AVX2, Vulkan 1.3 con VK_EXT_external_memory_host, 4 GB de VRAM, 16 GB de RAM. Beta: cierres y fallos visuales esperables; Linux y Steam Deck previstos. Alternativa a UltraTears."
+      },
+      "launch": {
+        "windows": "totk.exe"
+      },
+      "year": 2023,
+      "developer": "Nintendo EPD",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Tears of the Kingdom",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-10-29T15:05:00Z"
+      },
+      "quality_signals": {
+        "downloads": 6917,
+        "stars": 809,
+        "age_days": 0,
+        "releases": 1,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-10-30"
+      }
     }
   ]
 }
