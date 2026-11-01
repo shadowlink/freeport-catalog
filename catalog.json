@@ -260,7 +260,7 @@
       "type": "native-port",
       "repo": {
         "host": "github",
-        "owner": "HarbourMasters",
+        "owner": "2ship2harkinian",
         "repo": "2ship2harkinian"
       },
       "release_channel": "stable",
@@ -1032,7 +1032,7 @@
       "type": "native-port",
       "repo": {
         "host": "github",
-        "owner": "Rubberduckycooly",
+        "owner": "RSDKModding",
         "repo": "Sonic-Mania-Decompilation"
       },
       "release_channel": "stable",
@@ -4972,8 +4972,8 @@
       "type": "recompilation",
       "repo": {
         "host": "github",
-        "owner": "Alexbeav",
-        "repo": "syphon-filter-2-recompiled"
+        "owner": "alexbeavs-ps1-ports",
+        "repo": "syphon-filter-2-recomp"
       },
       "release_channel": "prerelease",
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Syphon%20Filter%202%20%28USA%29%20%28Disc%201%29.png",
@@ -5773,7 +5773,7 @@
       "repo": {
         "host": "github",
         "owner": "SMCGames",
-        "repo": "Paper-Mario-ReCut"
+        "repo": "Paper-Mario-ReCut-Deprecated"
       },
       "release_channel": "prerelease",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
@@ -6630,7 +6630,7 @@
       "repo": {
         "host": "github",
         "owner": "SSunnKing",
-        "repo": "Open-Nectar---Pikmin-Decompilation-Linux-Port"
+        "repo": "Open-Nectar---Pikmin-Native-PC-Mobile-Port"
       },
       "release_channel": "prerelease",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pikmin%20%28USA%29.png",
@@ -7395,7 +7395,7 @@
       "repo": {
         "host": "github",
         "owner": "GTTeancum",
-        "repo": "OpenSpideyPS1"
+        "repo": "SpideyPS1recomp"
       },
       "release_channel": "rolling",
       "rolling_tag": "sm1-v1.0",
@@ -7449,7 +7449,7 @@
       "repo": {
         "host": "github",
         "owner": "GTTeancum",
-        "repo": "OpenSpideyPS1"
+        "repo": "SpideyPS1recomp"
       },
       "release_channel": "rolling",
       "rolling_tag": "sm2-v1.0",
@@ -9284,57 +9284,6 @@
       "box_art": null
     },
     {
-      "id": "opengt-ps1",
-      "name": "OpenGTPS1",
-      "original_game": "Gran Turismo 2",
-      "game_id": "gran-turismo-2",
-      "system": "psx",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "GTTeancum",
-        "repo": "OpenGTPS1"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Gran%20Turismo%202%20%28USA%29%20%28Simulation%20Mode%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^OpenGTPS1-.*-win-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Necesita tus dos discos USA de Gran Turismo 2 (Simulación SCUS-94488 rev. 2 y Arcade SCUS-94455) en BIN/CUE, CCD/IMG o similar; el asistente los busca en carpetas cercanas. Experimental."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [],
-        "latest_tag": null,
-        "published_at": null
-      },
-      "year": 1999,
-      "developer": "Polyphony Digital",
-      "genre": "Carreras",
-      "wiki": "Gran Turismo 2",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-10-31"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
       "id": "xenogears-recomp",
       "name": "Xenogears Recomp",
       "original_game": "Xenogears",
@@ -10790,7 +10739,7 @@
       "repo": {
         "host": "github",
         "owner": "invinceble55-wq",
-        "repo": "Estacado"
+        "repo": "Estacado-The-Darkness-Recomp"
       },
       "release_channel": "prerelease",
       "cover_url": "https://cdn2.steamgriddb.com/grid/0838b43cd426373043e340b9f79985bd.png",
@@ -11055,7 +11004,7 @@
       "repo": {
         "host": "github",
         "owner": "zenit2893-cmyk",
-        "repo": "project-1944"
+        "repo": "Call-of-Duty-3-PC-Editon"
       },
       "release_channel": "stable",
       "cover_url": "https://cdn2.steamgriddb.com/grid/ebb4cd828b62543f83b337e48b333eb8.jpg",
@@ -11310,57 +11259,6 @@
         "releases": 2,
         "contributors": 1,
         "ai": false,
-        "emu": false,
-        "checked": "2026-10-31"
-      },
-      "tier": "experimental",
-      "box_art": null
-    },
-    {
-      "id": "banjo-tooie-recompiled-ssd",
-      "name": "Banjo-Tooie Recompiled (alpha)",
-      "original_game": "Banjo-Tooie",
-      "game_id": "banjo-tooie",
-      "system": "n64",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "some-scurvy-dog",
-        "repo": "BanjoTooieRecompiled"
-      },
-      "release_channel": "prerelease",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Tooie%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^BanjoTooieRecompiled-Alpha.*-Windows-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "En la página Play del launcher, «Choose ROM…» con tu ROM NTSC-U 1.0 de Banjo-Tooie. Alfa Windows; segunda versión."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "TooieRecompiled.exe"
-      },
-      "cached": {
-        "platforms": [],
-        "latest_tag": "v0.1.0-alpha.4.5",
-        "published_at": "2026-10-27T15:34:53Z"
-      },
-      "year": 2000,
-      "developer": "Rare",
-      "genre": "Plataformas",
-      "wiki": "Banjo-Tooie",
-      "quality_signals": {
-        "downloads": 3211,
-        "stars": 100,
-        "age_days": 33,
-        "releases": 9,
-        "contributors": 3,
-        "ai": true,
         "emu": false,
         "checked": "2026-10-31"
       },
@@ -12181,7 +12079,7 @@
       "repo": {
         "host": "github",
         "owner": "NoRain211",
-        "repo": "doaxbv-re"
+        "repo": "doaxvb-re"
       },
       "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%20Xtreme%20Beach%20Volleyball%20%28USA%29.png",
@@ -13123,7 +13021,7 @@
       "repo": {
         "host": "github",
         "owner": "kastieloficial",
-        "repo": "RE-Code-Veronica-Recomp"
+        "repo": "RE-Code-Veronica-PS3-HD-Recomp-PC"
       },
       "release_channel": "stable",
       "cover_url": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
