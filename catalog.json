@@ -12862,13 +12862,23 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport crea la carpeta exefs+romfs y la enlaza donde LAS Recomp la busca, así que arranca directo a compilar el juego. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
+        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport crea la carpeta exefs+romfs y la enlaza donde LAS Recomp la busca, así que arranca directo a compilar el juego. Con «Importar NSP/XCI/NSZ» (Freeport ≥ 0.2.88, build de Linux) Freeport extrae tu volcado y ejecuta el propio asistente del port en modo automático: copia los archivos a extracted/, crea romfs.bin y compila el código del juego (varios minutos); al terminar borra la copia temporal y Jugar arranca directo. Con la build de Windows el volcado queda en la carpeta dump/ del port para elegirlo en «Set up game files».",
         "register": {
           "link": "~/.local/share/lasrecomp/extracted",
           "file": "~/.local/share/lasrecomp/freeport-rom.json",
           "key": "rom_path"
         },
-        "import_dir": "extracted"
+        "import_dir": "dump",
+        "after_import": {
+          "args": [],
+          "env": {
+            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}",
+            "LARECOMP_DATA_ROOT": "{install_dir}"
+          },
+          "expect_output": "-> READY",
+          "remove_source": true,
+          "rom_path_after": "extracted"
+        }
       },
       "launch": {
         "linux": "lasrecomp",
@@ -15367,8 +15377,18 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
-        "import_dir": "extracted"
+        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados. Con «Importar NSP/XCI/NSZ» (Freeport ≥ 0.2.88, build de Linux) Freeport extrae tu volcado y ejecuta el propio asistente del port en modo automático: copia los archivos a extracted/, crea romfs.bin y compila el código del juego (varios minutos); al terminar borra la copia temporal y Jugar arranca directo. Con la build de Windows el volcado queda en la carpeta dump/ del port para elegirlo en «Set up game files».",
+        "import_dir": "dump",
+        "after_import": {
+          "args": [],
+          "env": {
+            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}",
+            "LARECOMP_DATA_ROOT": "{install_dir}"
+          },
+          "expect_output": "-> READY",
+          "remove_source": true,
+          "rom_path_after": "extracted"
+        }
       },
       "launch": {
         "windows": "skyrecomp.exe",
@@ -16312,8 +16332,18 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Derivado de LAS Recomp. La pantalla de inicio de primerecomp.exe te pide la carpeta con exefs y romfs de tu Metroid Prime Remastered v1.0.0 (SIN actualizaciones); copia los archivos (~7 GB) y COMPILA el juego en tu PC (varios minutos; ~15 GB libres). CPU con AVX2 y Vulkan 1.3. Beta muy temprana (v0.0.1, publicada hoy): la Fragata Orpheon y parte de Tallon IV jugables, con fallos gráficos. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs (importa solo el juego base). Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
-        "import_dir": "extracted"
+        "notes": "Derivado de LAS Recomp. La pantalla de inicio de primerecomp.exe te pide la carpeta con exefs y romfs de tu Metroid Prime Remastered v1.0.0 (SIN actualizaciones); copia los archivos (~7 GB) y COMPILA el juego en tu PC (varios minutos; ~15 GB libres). CPU con AVX2 y Vulkan 1.3. Beta muy temprana (v0.0.1, publicada hoy): la Fragata Orpheon y parte de Tallon IV jugables, con fallos gráficos. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs (importa solo el juego base). Con «Importar NSP/XCI/NSZ» (Freeport ≥ 0.2.88, build de Linux) Freeport extrae tu volcado y ejecuta el propio asistente del port en modo automático: copia los archivos a extracted/, crea romfs.bin y compila el código del juego (varios minutos); al terminar borra la copia temporal y Jugar arranca directo. Con la build de Windows el volcado queda en la carpeta dump/ del port para elegirlo en «Set up game files».",
+        "import_dir": "dump",
+        "after_import": {
+          "args": [],
+          "env": {
+            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}",
+            "LARECOMP_DATA_ROOT": "{install_dir}"
+          },
+          "expect_output": "-> READY",
+          "remove_source": true,
+          "rom_path_after": "extracted"
+        }
       },
       "launch": {
         "windows": "primerecomp.exe",
