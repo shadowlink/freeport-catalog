@@ -12820,12 +12820,13 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport crea la carpeta exefs+romfs y la enlaza donde LAS Recomp la busca, así que arranca directo a compilar el juego.",
+        "notes": "La pantalla de inicio te pide la carpeta con los archivos extraídos de tu Link's Awakening v1.0.0 (Switch) y RECOMPILA el juego en tu PC con el compilador incluido (Zig, ~190 MB). Requiere CPU con AVX2 y GPU Vulkan 1.3. Beta hecha casi por completo con IA (Claude Code): fallos gráficos conocidos y algún cierre. Randomizer integrado (items, entradas, salas de mazmorra) y relación de aspecto libre. Linux: AppImage anunciado, aún sin publicar. Con «Importar NSP/XCI/NSZ» (requiere nstool y tus prod.keys) Freeport crea la carpeta exefs+romfs y la enlaza donde LAS Recomp la busca, así que arranca directo a compilar el juego. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
         "register": {
           "link": "~/.local/share/lasrecomp/extracted",
           "file": "~/.local/share/lasrecomp/freeport-rom.json",
           "key": "rom_path"
-        }
+        },
+        "import_dir": "extracted"
       },
       "launch": {
         "linux": "lasrecomp",
@@ -12856,7 +12857,10 @@
         "emu": false,
         "checked": "2026-11-01"
       },
-      "tier": "curado"
+      "tier": "curado",
+      "launch_env": {
+        "LARECOMP_DATA_ROOT": "{install_dir}"
+      }
     },
     {
       "id": "b2recomp",
@@ -13243,9 +13247,23 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA. En Linux arranca con GE-Proton (elige ese runner en la ficha); con Proton-CachyOS 11 se cierra al instante por una función de Windows que ese build no implementa (SHGetFolderPathW).",
+        "notes": "Al abrir Metroid Dread.exe por primera vez te pide la carpeta de tu volcado de Metroid Dread 2.1.0 con ExeFS (main, main.npdm…) y RomFS con la actualización fusionada; verifica los archivos y COMPILA el juego con el GCC incluido. Previo 0.x: el autor avisa de cierres y problemas de configuración; hecho en gran parte con IA. En Linux arranca con GE-Proton (elige ese runner en la ficha); con Proton-CachyOS 11 se cierra al instante por una función de Windows que ese build no implementa (SHGetFolderPathW). Con «Importar NSP/XCI/NSZ» (base + actualización 2.1.0) Freeport extrae el volcado y ejecuta el recompilador incluido (recompiler/dread_setup.py bajo el runner del juego), que copia los datos a «Metroid Dread_data» y compila el código: después Jugar arranca directamente.",
         "build_id": "646761F643AFEBB3",
-        "game_version": "2.1.0"
+        "game_version": "2.1.0",
+        "after_import": {
+          "exe": "recompiler/python/python.exe",
+          "args": [
+            "-I",
+            "-u",
+            "recompiler/dread_setup.py",
+            "--out",
+            "{install_dir}",
+            "--name",
+            "Metroid Dread",
+            "--base",
+            "{rom_path}"
+          ]
+        }
       },
       "launch": {
         "windows": "Metroid Dread.exe"
@@ -13525,7 +13543,8 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas tu propio volcado de Pokémon: Let's Go, Eevee! o Let's Go, Pikachu! (Switch, cualquier región) EXTRAÍDO en carpetas exefs y romfs (los .xci/.nsp hay que extraerlos antes); recomendada la versión 1.0.0, las 1.0.1/1.0.2 se aceptan pero con menos opciones. Al abrir LetsGoRecomp.exe, en la página Game pulsas «Select game folder...» y eliges esa carpeta; el programa copia los datos y COMPILA el juego para tu PC una sola vez (unos 22 minutos con 20 hilos, más con menos; 5,2 GB de RAM y ~6 GB de disco). Requiere Vulkan 1.3 y CPU con SSE4.2 (AVX2 recomendado). Solo Windows. Work in progress: el autor avisa de que aún no se ha jugado de principio a fin; sin online ni segundo jugador."
+        "notes": "Necesitas tu propio volcado de Pokémon: Let's Go, Eevee! o Let's Go, Pikachu! (Switch, cualquier región) EXTRAÍDO en carpetas exefs y romfs (los .xci/.nsp hay que extraerlos antes); recomendada la versión 1.0.0, las 1.0.1/1.0.2 se aceptan pero con menos opciones. Al abrir LetsGoRecomp.exe, en la página Game pulsas «Select game folder...» y eliges esa carpeta; el programa copia los datos y COMPILA el juego para tu PC una sola vez (unos 22 minutos con 20 hilos, más con menos; 5,2 GB de RAM y ~6 GB de disco). Requiere Vulkan 1.3 y CPU con SSE4.2 (AVX2 recomendado). Solo Windows. Work in progress: el autor avisa de que aún no se ha jugado de principio a fin; sin online ni segundo jugador. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
+        "import_dir": "extracted"
       },
       "launch": {
         "windows": "LetsGoRecomp.exe"
@@ -15291,7 +15310,8 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados."
+        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
+        "import_dir": "extracted"
       },
       "launch": {
         "windows": "skyrecomp.exe",
@@ -15321,7 +15341,10 @@
         "emu": false,
         "checked": "2026-11-01"
       },
-      "tier": "curado"
+      "tier": "curado",
+      "launch_env": {
+        "LARECOMP_DATA_ROOT": "{install_dir}"
+      }
     },
     {
       "id": "new-super-paper-bros",
@@ -16231,7 +16254,8 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Derivado de LAS Recomp. La pantalla de inicio de primerecomp.exe te pide la carpeta con exefs y romfs de tu Metroid Prime Remastered v1.0.0 (SIN actualizaciones); copia los archivos (~7 GB) y COMPILA el juego en tu PC (varios minutos; ~15 GB libres). CPU con AVX2 y Vulkan 1.3. Beta muy temprana (v0.0.1, publicada hoy): la Fragata Orpheon y parte de Tallon IV jugables, con fallos gráficos. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs (importa solo el juego base)."
+        "notes": "Derivado de LAS Recomp. La pantalla de inicio de primerecomp.exe te pide la carpeta con exefs y romfs de tu Metroid Prime Remastered v1.0.0 (SIN actualizaciones); copia los archivos (~7 GB) y COMPILA el juego en tu PC (varios minutos; ~15 GB libres). CPU con AVX2 y Vulkan 1.3. Beta muy temprana (v0.0.1, publicada hoy): la Fragata Orpheon y parte de Tallon IV jugables, con fallos gráficos. Con «Importar NSP/XCI/NSZ» Freeport crea la carpeta exefs+romfs (importa solo el juego base). Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
+        "import_dir": "extracted"
       },
       "launch": {
         "windows": "primerecomp.exe"
@@ -16390,9 +16414,18 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Alternativa a SMM2 Recomp (basada en LAS Recomp y Sky Recomp). MushroomMakerRecomp.exe es un lanzador .NET (Framework 4.8) que te pide la carpeta de tu Super Mario Maker 2 ya extraída con la actualización 3.0.3 APLICADA (exefs+romfs fusionados; no desempaqueta NSP/XCI ni aplica updates; puedes señalar una carpeta padre y busca dentro). «Check files» verifica los hashes del ejecutable y «Prepare game» traduce el código a C y lo COMPILA con el compilador y Python incluidos (de minutos a media hora); después «Play». Con «Importar NSP/XCI/NSZ» Freeport deja esa carpeta lista (importa base + actualización 3.0.3). Vulkan 1.3; 4K, FSR 1/NIS, SMAA y generación de frames a 120 fps opcional; Course World mediante el servicio público MariOver (necesita internet). Partidas y código generado en %LOCALAPPDATA%\\MushroomMakerRecomp. Solo Windows; sin licencia declarada. Experimental: fallos y cuelgues posibles.",
+        "notes": "Alternativa a SMM2 Recomp (basada en LAS Recomp y Sky Recomp). MushroomMakerRecomp.exe es un lanzador .NET (Framework 4.8) que te pide la carpeta de tu Super Mario Maker 2 ya extraída con la actualización 3.0.3 APLICADA (exefs+romfs fusionados; no desempaqueta NSP/XCI ni aplica updates; puedes señalar una carpeta padre y busca dentro). «Check files» verifica los hashes del ejecutable y «Prepare game» traduce el código a C y lo COMPILA con el compilador y Python incluidos (de minutos a media hora); después «Play». Con «Importar NSP/XCI/NSZ» Freeport deja esa carpeta lista (importa base + actualización 3.0.3). Vulkan 1.3; 4K, FSR 1/NIS, SMAA y generación de frames a 120 fps opcional; Course World mediante el servicio público MariOver (necesita internet). Partidas y código generado en %LOCALAPPDATA%\\MushroomMakerRecomp. Solo Windows; sin licencia declarada. Experimental: fallos y cuelgues posibles. Tras importar, Freeport ejecuta «setup.py prepare» con el Python incluido (bajo el runner del juego) para traducir y compilar; el lanzador abre ya con la carpeta puesta.",
         "build_id": "C2DC405AC414C37C",
-        "game_version": "3.0.3"
+        "game_version": "3.0.3",
+        "after_import": {
+          "exe": "portable/python/python.exe",
+          "args": [
+            "setup.py",
+            "prepare",
+            "--dump",
+            "{rom_path}"
+          ]
+        }
       },
       "launch": {
         "windows": "MushroomMakerRecomp.exe"
@@ -16778,7 +16811,27 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Recompilación estática a x86-64 nativo con renderer Vulkan (sobre LAS Recomp, MacNativeGames y Savage Wind). Lo que se descarga es un instalador: abre TotK-Setup.exe desde la carpeta del port, elige tu NSP/XCI del juego base, el NSP de la actualización 1.2.1 o 1.4.3 (NSZ aún no), tu prod.keys, el idioma y una carpeta de destino (usa una subcarpeta dentro de la del port, p. ej. game, para que Freeport encuentre totk.exe), y pulsa Start: extrae, traduce y compila el juego y prepara los shaders (30 minutos o más; 36 GB libres durante el proceso, 20 GB después). Hasta entonces Jugar avisa de que falta totk.exe. Para actualizar, el nuevo setup sobre la misma carpeta conserva partidas y ajustes; las partidas pasan entre 1.2.1 y 1.4.3. 60 fps por defecto y hasta 144 (experimental), resoluciones personalizadas, supersampling y FSR 1, menú de ajustes (F1) y overlay (F10), teclado/ratón/mando con giroscopio; shaders preparados en la instalación (sin tirones). Windows 10+, AVX2, Vulkan 1.3 con VK_EXT_external_memory_host, 4 GB de VRAM, 16 GB de RAM. Beta: cierres y fallos visuales esperables; Linux y Steam Deck previstos. Alternativa a UltraTears."
+        "notes": "Recompilación estática a x86-64 nativo con renderer Vulkan (sobre LAS Recomp, MacNativeGames y Savage Wind). Lo que se descarga es un instalador: abre TotK-Setup.exe desde la carpeta del port, elige tu NSP/XCI del juego base, el NSP de la actualización 1.2.1 o 1.4.3 (NSZ aún no), tu prod.keys, el idioma y una carpeta de destino (usa una subcarpeta dentro de la del port, p. ej. game, para que Freeport encuentre totk.exe), y pulsa Start: extrae, traduce y compila el juego y prepara los shaders (30 minutos o más; 36 GB libres durante el proceso, 20 GB después). Hasta entonces Jugar avisa de que falta totk.exe. Para actualizar, el nuevo setup sobre la misma carpeta conserva partidas y ajustes; las partidas pasan entre 1.2.1 y 1.4.3. 60 fps por defecto y hasta 144 (experimental), resoluciones personalizadas, supersampling y FSR 1, menú de ajustes (F1) y overlay (F10), teclado/ratón/mando con giroscopio; shaders preparados en la instalación (sin tirones). Windows 10+, AVX2, Vulkan 1.3 con VK_EXT_external_memory_host, 4 GB de VRAM, 16 GB de RAM. Beta: cierres y fallos visuales esperables; Linux y Steam Deck previstos. Alternativa a UltraTears. Desde Freeport ≥ 0.2.82, «Importar NSP/XCI/NSZ» no extrae nada: elige el juego base y la actualización y Freeport ejecuta el instalador del port por línea de comandos (python -m installer, bajo el runner del juego; usa GE-Proton, Proton-CachyOS aborta) con tu prod.keys, instalando en la subcarpeta game/; al terminar, Jugar lanza totk.exe.",
+        "setup_cmd": {
+          "windows": {
+            "exe": "python/python.exe",
+            "args": [
+              "-m",
+              "installer",
+              "--base",
+              "{base}",
+              "--update",
+              "{update}",
+              "--keys",
+              "{keys}",
+              "--lang",
+              "{lang}",
+              "--dest",
+              "{dest}"
+            ],
+            "dest": "game"
+          }
+        }
       },
       "launch": {
         "windows": "totk.exe"
@@ -16831,7 +16884,29 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Recompilación estática a x86-64 nativo con renderer Vulkan, bifurcada de TotK Recomp (mismo instalador). Lo que se descarga es un instalador, no el juego: en Windows abre XCX-Setup.exe desde la carpeta del port; en Linux ejecuta el AppImage XCX-Setup (Freeport lo deja en la carpeta del port; dale permiso de ejecución si hace falta). Elige tu NSP/XCI del juego base, el NSP de la actualización 2.0.0 (obligatoria; un XCI que ya incluya la actualización vale como base), el DLC opcional (Paquete de apoyo a la exploración), tu prod.keys, el idioma y una carpeta de destino: usa una subcarpeta dentro de la del port, p. ej. game, para que Freeport encuentre xcx.exe (Windows) o xcx (Linux). Pulsa Start: extrae, traduce y compila el juego y prepara los shaders (30 minutos o más; 36 GB libres durante el proceso, 20 GB después; en Linux la carpeta temporal .setup-temp queda dentro del destino). Hasta entonces Jugar avisa de que falta el ejecutable. Para actualizar, el nuevo setup sobre la misma carpeta conserva partidas y ajustes. Nueva partida, escenas y juego con sonido, texto y menú a 60 fps por defecto (de 30 a 360; más de 60 experimental), 4K y resoluciones personalizadas, menú de ajustes (F1) y overlay (F10), teclado/ratón/mando; cargan partidas copiadas de Switch o de un emulador. Windows 10+ o Linux (glibc 2.34, kernel 6.7; el autor aún no lo ha jugado en Linux ni Steam Deck), AVX2, Vulkan 1.3 con VK_EXT_external_memory_host (RADV, NVIDIA). Muy reciente (publicado el 31 de octubre de 2026, varias versiones al día): cierres y fallos visuales esperables. Código escrito en su mayoría con agentes de IA bajo dirección del mantenedor."
+        "notes": "Recompilación estática a x86-64 nativo con renderer Vulkan, bifurcada de TotK Recomp (mismo instalador). Lo que se descarga es un instalador, no el juego: en Windows abre XCX-Setup.exe desde la carpeta del port; en Linux ejecuta el AppImage XCX-Setup (Freeport lo deja en la carpeta del port; dale permiso de ejecución si hace falta). Elige tu NSP/XCI del juego base, el NSP de la actualización 2.0.0 (obligatoria; un XCI que ya incluya la actualización vale como base), el DLC opcional (Paquete de apoyo a la exploración), tu prod.keys, el idioma y una carpeta de destino: usa una subcarpeta dentro de la del port, p. ej. game, para que Freeport encuentre xcx.exe (Windows) o xcx (Linux). Pulsa Start: extrae, traduce y compila el juego y prepara los shaders (30 minutos o más; 36 GB libres durante el proceso, 20 GB después; en Linux la carpeta temporal .setup-temp queda dentro del destino). Hasta entonces Jugar avisa de que falta el ejecutable. Para actualizar, el nuevo setup sobre la misma carpeta conserva partidas y ajustes. Nueva partida, escenas y juego con sonido, texto y menú a 60 fps por defecto (de 30 a 360; más de 60 experimental), 4K y resoluciones personalizadas, menú de ajustes (F1) y overlay (F10), teclado/ratón/mando; cargan partidas copiadas de Switch o de un emulador. Windows 10+ o Linux (glibc 2.34, kernel 6.7; el autor aún no lo ha jugado en Linux ni Steam Deck), AVX2, Vulkan 1.3 con VK_EXT_external_memory_host (RADV, NVIDIA). Muy reciente (publicado el 31 de octubre de 2026, varias versiones al día): cierres y fallos visuales esperables. Código escrito en su mayoría con agentes de IA bajo dirección del mantenedor. Desde Freeport ≥ 0.2.82, con el paquete de Windows «Importar NSP/XCI/NSZ» ejecuta el instalador por línea de comandos (base, actualización 2.0.0 y DLC opcionales, tu prod.keys, destino game/) bajo el runner del juego (GE-Proton); con el AppImage de Linux hay que ejecutar el setup a mano.",
+        "setup_cmd": {
+          "windows": {
+            "exe": "python/python.exe",
+            "args": [
+              "-m",
+              "installer",
+              "--base",
+              "{base}",
+              "--update",
+              "{update}",
+              "--dlc",
+              "{dlc}",
+              "--keys",
+              "{keys}",
+              "--lang",
+              "{lang}",
+              "--dest",
+              "{dest}"
+            ],
+            "dest": "game"
+          }
+        }
       },
       "launch": {
         "linux": "xcx",
@@ -22534,7 +22609,21 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Basado en nxrecomp (del mismo autor). Descomprime en una ruta corta y abre mpr_launcher.exe: en «Set up game files...» elige tu volcado de Metroid Prime Remastered v1.0.0 (.nsp/.xci/.nsz/.xcz, sin actualizaciones) y tu prod.keys (y title.keys si el juego es de otra consola); el setup extrae y prepara el juego (~5 minutos con 16 núcleos, ~14 GB libres) y después compila shaders unos minutos por driver. Aquí no hace falta «Importar NSP» de Freeport: el port lee el NSP directamente. Solo Windows 10 1903+/11, GPU Vulkan 1.3; solo probado en una RTX 3080 (AMD/Intel sin probar). Ratón y teclado, cualquier resolución y aspecto, altos refrescos, cámara de Morph Ball con ratón. Sin partida completa documentada."
+        "notes": "Basado en nxrecomp (del mismo autor). Descomprime en una ruta corta y abre mpr_launcher.exe: en «Set up game files...» elige tu volcado de Metroid Prime Remastered v1.0.0 (.nsp/.xci/.nsz/.xcz, sin actualizaciones) y tu prod.keys (y title.keys si el juego es de otra consola); el setup extrae y prepara el juego (~5 minutos con 16 núcleos, ~14 GB libres) y después compila shaders unos minutos por driver. Aquí no hace falta «Importar NSP» de Freeport: el port lee el NSP directamente. Solo Windows 10 1903+/11, GPU Vulkan 1.3; solo probado en una RTX 3080 (AMD/Intel sin probar). Ratón y teclado, cualquier resolución y aspecto, altos refrescos, cámara de Morph Ball con ratón. Sin partida completa documentada. Desde Freeport ≥ 0.2.82, «Importar NSP/XCI/NSZ» ejecuta mpr_setup_cli.exe (bajo el runner del juego) con tu volcado 1.0.0 y tu prod.keys, instalando en la subcarpeta game/; después Jugar abre el lanzador con esa carpeta, prepara los shaders y arranca solo.",
+        "setup_cmd": {
+          "windows": {
+            "exe": "mpr_setup_cli.exe",
+            "args": [
+              "--input",
+              "{base}",
+              "--keys",
+              "{keys}",
+              "--out",
+              "{dest}"
+            ],
+            "dest": "game"
+          }
+        }
       },
       "launch": {
         "linux": null,
@@ -22562,7 +22651,13 @@
         "ai": false,
         "emu": false,
         "checked": "2026-11-01"
-      }
+      },
+      "launch_args": [
+        "--game",
+        "{rom_path}",
+        "--auto-prepare",
+        "--auto-play"
+      ]
     },
     {
       "id": "ds-kart-recompiled",
@@ -23555,7 +23650,8 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas tu volcado de Pokémon Espada o Escudo (Switch) EXTRAÍDO en carpetas exefs y romfs con el update 1.3.2 aplicado (los .xci/.nsp hay que extraerlos antes; el repo no da claves ni instrucciones). Al abrir SwShRecomp.exe, en la página Game pulsa «Select game folder...» y elige esa carpeta: copia los datos y COMPILA el juego para tu PC una sola vez (unos 40 minutos con 20 hilos, más con menos); después Play. En el primer arranque prepara además todos los shaders en segundo plano (~6 min). Solo Windows 10/11; CPU con AVX2/FMA/BMI2, GPU Vulkan 1.3, ~5 GB de RAM y ~18 GB de disco. Work in progress: probado solo Espada 1.3.2 en un PC con RTX 3080 (Escudo se reconoce pero no está probado); no jugado de principio a fin; 30 o 60 fps, SMAA, mods romfs; el Pase de expansión se configura a mano; sin online. Construido sobre Let's Go Recomp / LAS Recomp."
+        "notes": "Necesitas tu volcado de Pokémon Espada o Escudo (Switch) EXTRAÍDO en carpetas exefs y romfs con el update 1.3.2 aplicado (los .xci/.nsp hay que extraerlos antes; el repo no da claves ni instrucciones). Al abrir SwShRecomp.exe, en la página Game pulsa «Select game folder...» y elige esa carpeta: copia los datos y COMPILA el juego para tu PC una sola vez (unos 40 minutos con 20 hilos, más con menos); después Play. En el primer arranque prepara además todos los shaders en segundo plano (~6 min). Solo Windows 10/11; CPU con AVX2/FMA/BMI2, GPU Vulkan 1.3, ~5 GB de RAM y ~18 GB de disco. Work in progress: probado solo Espada 1.3.2 en un PC con RTX 3080 (Escudo se reconoce pero no está probado); no jugado de principio a fin; 30 o 60 fps, SMAA, mods romfs; el Pase de expansión se configura a mano; sin online. Construido sobre Let's Go Recomp / LAS Recomp. Con «Importar NSP/XCI/NSZ» Freeport deja exefs/ y romfs/ en la carpeta extracted/ del port, que es donde el lanzador los busca: al abrirlo detecta los archivos y compila el juego sin preguntar por ninguna carpeta.",
+        "import_dir": "extracted"
       },
       "launch": {
         "windows": "SwShRecomp.exe"
