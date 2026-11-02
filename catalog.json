@@ -16389,24 +16389,26 @@
         "owner": "kuraeow",
         "repo": "ultratears"
       },
-      "release_channel": "prerelease",
+      "release_channel": "stable",
       "cover_url": "https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^UltraTears-builder-.*-windows-x86_64\\.zip$"
+        "linux-x86_64": "(?i)^UltraTears\\.AppImage$",
+        "windows-x86_64": "(?i)^UltraTears-(builder-)?[0-9.]+-windows-x86_64\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "No hay un ejecutable del juego para descargar: el paquete es un «builder». Necesitas tu propia copia de Tears of the Kingdom actualizada EXACTAMENTE a la 1.4.3, ya extraída como carpetas exefs/ y romfs/ (unos 304.000 archivos, 16 GB; no descifra NSP/XCI ni lee claves). Con «Importar NSP/XCI/NSZ» Freeport las deja en la carpeta game/ del builder (importa base + actualización 1.4.3). Después hay que ejecutar setup.bat una vez: comprueba la versión, empaqueta romfs.bin, traduce el código a C, lo COMPILA, convierte shaders y texturas (unos 35 minutos con 8 núcleos en Windows) y deja UltraTears.exe listo; hasta entonces Jugar avisa de que falta el ejecutable. Windows 10/11 con AVX2, Vulkan 1.3 con VK_EXT_shader_object, 16 GB de RAM y ~32 GB libres además del volcado (que puedes borrar tras compilar). En Linux: el builder también corre bajo Proton (probado con GE-Proton 11-7, ~80 min: python deps\\python\\python.exe tools\\setup.py desde la carpeta del builder con el prefijo del port; Proton-CachyOS 11 se cierra al instante por SHGetFolderPathW) y el juego arranca y renderiza con GE-Proton en una RTX 4060; el autor lo prueba en Steam Deck vía Proton. Beta temprana: pantalla de título, prólogo y Gran Isla del Cielo a los 30 fps del juego, con tirones mientras compila shaders; sin menú de ajustes aún.",
+        "notes": "Recompilación de Tears of the Kingdom que se construye en tu PC a partir de tu propio volcado de la versión 1.4.3 EXACTA (carpetas exefs/ y romfs/, unos 16 GB; no descifra NSP/XCI ni lee claves). Desde la 0.2.0 trae un lanzador con ventana y versión nativa para Linux (AppImage; glibc 2.34, kernel 6.7): al Jugar se abre el lanzador de UltraTears, eliges la carpeta con exefs y romfs (con «Importar NSP/XCI/NSZ» Freeport la deja en la carpeta game/ del port, base + actualización 1.4.3), la carpeta donde instalar el juego y pulsas «Prepare the game»: comprueba la versión, traduce y compila el juego y prepara shaders y texturas (unos 30-40 minutos, ~40 GB libres; descarga también sus herramientas, unos 3 GB). Luego «Play». El lanzador busca actualizaciones solo y recompila únicamente lo que cambia; las partidas (userdata) se conservan. Si venías de la 0.1.0 de Windows, el volcado y las partidas se mantienen al actualizar, pero el juego nativo hay que prepararlo una vez. En Windows: «UltraTears Launcher.exe» sustituye a setup.bat. 60 fps (hasta 240 en beta), cualquier resolución, FSR 1, shaders compilados por adelantado. Requisitos: Vulkan 1.3, 16 GB de RAM, 4 GB de VRAM. Problemas conocidos: en Steam Deck faltan suelos en las Profundidades; algo de tela rota; el ratón aún no mueve la cámara.",
         "import_dir": "game",
         "build_id": "277178B7DBA1B6D4",
         "game_version": "1.4.3"
       },
       "launch": {
-        "windows": "UltraTears.exe"
+        "linux": "UltraTears.AppImage",
+        "windows": "UltraTears Launcher.exe"
       },
       "year": 2023,
       "developer": "Nintendo EPD",
@@ -16414,7 +16416,10 @@
       "wiki": "The Legend of Zelda: Tears of the Kingdom",
       "box_art": null,
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
         "latest_tag": "v0.2.0",
         "published_at": "2026-11-01T20:53:37Z"
       },
@@ -21674,7 +21679,7 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Colección: un zip con el lanzador Athelas.exe, el parche ROTK Fix para la versión de PC de The Return of the King y los ports nativos (XboxXBE-Recomp) de The Return of the King, The Two Towers y The Fellowship of the Ring de Xbox original. Abre Athelas.exe y señálale tus juegos: para cada juego de Xbox, tu ISO o carpeta extraída de la edición USA (otras regiones avisan y no arrancan aún); para el de PC, la instalación con rotk.exe. Los ports de Xbox necesitan GPU DirectX 12; el de PC va por DXVK (Vulkan 1.4 recomendado). Hasta 240 fps, widescreen/ultrapanorámico, cooperativo a dos mandos, logros propios, packs de texturas, 11 idiomas. Solo Windows; en Linux/Steam Deck vía Proton (Two Towers confirmado en Deck). Se elige el zip x64 (hay otro arm64). Hecho con IA (Claude) según el autor."
+        "notes": "Colección: un zip con el lanzador Athelas.exe, el parche ROTK Fix para la versión de PC de The Return of the King y los ports nativos (XboxXBE-Recomp) de The Return of the King, The Two Towers, The Fellowship of the Ring y The Third Age (desde la 1.7.3) de Xbox original. Se actualiza desde el propio lanzador (botón Update), conservando ajustes, partidas y logros. Abre Athelas.exe y señálale tus juegos: para cada juego de Xbox, tu ISO o carpeta extraída de la edición USA (otras regiones avisan y no arrancan aún); para el de PC, la instalación con rotk.exe. Los ports de Xbox necesitan GPU DirectX 12; el de PC va por DXVK (Vulkan 1.4 recomendado). Hasta 240 fps, widescreen/ultrapanorámico, cooperativo a dos mandos, logros propios, packs de texturas, 11 idiomas. Solo Windows; en Linux/Steam Deck vía Proton (Two Towers confirmado en Deck). Se elige el zip x64 (hay otro arm64). Hecho con IA (Claude) según el autor."
       },
       "launch": {
         "windows": "Athelas.exe"
@@ -26169,6 +26174,94 @@
         "ai": false,
         "emu": false,
         "checked": "2026-11-02"
+      }
+    },
+    {
+      "id": "power-moon-recomp",
+      "name": "Power Moon Recomp",
+      "original_game": "Super Mario Odyssey",
+      "game_id": "super-mario-odyssey",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "gitlab",
+        "owner": "zzzarathustra-dev",
+        "repo": "power-moon-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Power.Moon.Recomp-.*-linux-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^Power.Moon.Recomp-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de Super Mario Odyssey por recompilación estática (basado en LAS Recomp), con Vulkan. Necesitas tu propia copia en la versión 1.0.0 SIN actualizaciones, extraída como carpetas exefs/ y romfs/ (build id 3ca12dfaaf9c82da). En el primer arranque el propio port pide esa carpeta, copia lo que necesita (unos 6 GB) y compila el código del juego en tu PC (unos minutos, una vez); luego arranca directo. Jugable de principio a fin a 60 fps (la lógica va atada a 60), resolución nativa hasta 4K o más, FSR 1, SMAA, mandos y teclado reasignables (menú F1/Esc), mods de RomFS en mods/ (no los de código). Por ahora solo hay descarga de Windows (en Linux va por el runner Wine/Proton); la AppImage nativa de Linux está anunciada y Freeport la cogerá en cuanto salga (sus datos irán a ~/.local/share/power-moon-recomp). CPU con AVX2, Vulkan 1.3, 8 GB de RAM (16 recomendados), ~7 GB libres. La 0.1.2 arregla el cierre al arrancar en CPUs sin AVX-512. Hecho con ayuda de IA (Claude) según el autor."
+      },
+      "launch": {
+        "windows": "PowerMoonRecomp.exe"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Odyssey",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.2",
+        "published_at": "2026-11-02T11:55:44.101Z"
+      }
+    },
+    {
+      "id": "conker-recomped-reloaded",
+      "name": "Conker: Recomped & Reloaded",
+      "original_game": "Conker: Live & Reloaded",
+      "game_id": "conker-live-and-reloaded",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Mabec-games",
+        "repo": "Conker-Recomped-and-Reloaded"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Conker%20-%20Live%20and%20Reloaded%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^ConkerRecompedReloaded-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^ConkerRecompedReloaded-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Lanzador y versión modificada de Live & Recompiled (giacomozama y TGP482), nativo en Linux (AppImage, glibc 2.34) y Windows. En el primer arranque eliges tu imagen del disco USA de Conker: Live & Reloaded; el lanzador la extrae y compila el juego en tu PC en unos minutos con el compilador incluido, sin conexión. Todo se guarda junto a la AppImage o al .exe. Todos los ajustes están en el lanzador, que también se maneja con mando: widescreen a cualquier proporción, de 30 a 240 fps (o lógica a 30 con fotogramas intermedios, que evita fallos como el del tejado en Barn Boys), MSAA/SMAA, mejoras de pelaje e iluminación desactivables, cinemáticas saltables con LT, idioma de menús y subtítulos (español incluido; voces en inglés), pantalla partida a 4 y juego online con códigos de sala (UDP 3074). Mod opcional de descensura. Al actualizar, el lanzador ofrece recompilar el juego si cambió el código; ajustes y partidas se conservan."
+      },
+      "launch": {
+        "linux": "ConkerRecompedReloaded-x86_64.AppImage",
+        "windows": "ConkerLauncher.exe"
+      },
+      "year": 2005,
+      "developer": "Rare",
+      "genre": "Plataformas",
+      "wiki": "Conker: Live & Reloaded",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2",
+        "published_at": "2026-11-02T13:37:31Z"
       }
     }
   ]
