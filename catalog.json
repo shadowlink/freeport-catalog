@@ -26114,6 +26114,48 @@
         "latest_tag": "installer-v0.1.3",
         "published_at": "2026-11-02T05:12:52Z"
       }
+    },
+    {
+      "id": "tomodachilife-recomp",
+      "name": "Tomodachi Life PC",
+      "original_game": "Tomodachi Life: Living the Dream",
+      "game_id": "tomodachi-life-living-the-dream",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "josiahg2502-glitch",
+        "repo": "TomodachiLife-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/e4efc746696d9f37472de81cbad04179.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Tomodachi-Life-PC\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Tomodachi Life: Living the Dream (Switch) a un programa nativo de Windows; se juega de principio a fin. Al pulsar Jugar se abre su lanzador (TomodachiLauncher.exe): busca solo tu juego base (NSP/NSZ/XCI, 010051F0207B2000), la actualización 1.0.4 opcional y tu prod.keys en Descargas y en las carpetas de los emuladores; también acepta una carpeta ya extraída con exefs/ y romfs/ («OR A DUMP FOLDER», sin claves). Pulsa INSTALL: descarga Python, LLVM, FFmpeg y su runtime (con comprobación SHA-256), traduce y compila el juego (unos 25 minutos) y prepara los shaders (unos 13); después PLAY. Necesita unos 15 GB libres y OpenGL 4.5. Ajustes en el propio lanzador y en el juego con F1 (pantalla completa, hasta 4K, panorámico, 60 fps); importa partidas de tu Switch. Solo Windows: en Linux se abre con la capa de compatibilidad (GE-Proton) y no está probado. Partidas en build/userdata: jugar la 1.0.4 convierte la partida y la 1.0.0 ya no la lee."
+      },
+      "launch": {
+        "windows": "TomodachiLauncher.exe"
+      },
+      "year": 2026,
+      "developer": "Nintendo",
+      "genre": "Simulación",
+      "wiki": "Tomodachi Life: Living the Dream",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.0",
+        "published_at": "2026-11-02T01:14:57Z"
+      }
     }
   ]
 }
