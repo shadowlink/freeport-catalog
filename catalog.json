@@ -26263,6 +26263,100 @@
         "latest_tag": "v1.2",
         "published_at": "2026-11-02T13:37:31Z"
       }
+    },
+    {
+      "id": "mp4-recomp",
+      "name": "Metroid Prime 4 Recomp",
+      "original_game": "Metroid Prime 4: Beyond",
+      "game_id": "metroid-prime-4-beyond",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "linuxopt",
+        "repo": "mp4-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/a59a415362cdf470a098d7ee3dfc46bc.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Metroid_Prime_4_Recomp-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Build nativa de Linux (AppImage) de Metroid Prime 4: Beyond (versión de Switch 1, program 010019A01E2F2000) sobre el runtime SwitchRecomp de MZ Labs: el código se recompila en tu PC con el GCC incluido y la GPU de Switch se traduce a OpenGL 4.6. En el primer arranque pide tu carpeta con exefs y romfs (con la actualización que corresponde aplicada; main build ID 8275FBE1…); verifica los 445 archivos del RomFS (26,9 GB) contra su manifiesto, los copia a ~/.local/share/MetroidPrime4Recomp (MP4_RECOMP_HOME para otra carpeta) y compila (unos minutos; ~30 GB libres). Luego Play. Probado por el autor a 60 fps estables en una RX 9070 XT con Mesa; en NVIDIA debería funcionar pero no está probado. Necesita glibc 2.38, SDL2 y, para los vídeos, openh264 o FFmpeg. Partidas en Metroid Prime 4 Beyond_data/save/user/ (se pueden traer de JKSV/Checkpoint). Problemas conocidos: tirones de compilación de shaders la primera vez en cada zona, medio segundo de pausa al cargar partida, el FOV no hace nada aún. Proyecto muy nuevo (repositorio creado el 3-nov-2026, cuenta con un solo proyecto); trae el código fuente, pero es experimental."
+      },
+      "launch": {},
+      "year": 2025,
+      "developer": "Retro Studios",
+      "genre": "Acción/Aventura",
+      "wiki": "Metroid Prime 4: Beyond",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64"
+        ],
+        "latest_tag": "v2026.11.02",
+        "published_at": "2026-11-03T03:21:59Z"
+      }
+    },
+    {
+      "id": "fe3h-recomp",
+      "name": "FE3H Recomp",
+      "original_game": "Fire Emblem: Three Houses",
+      "game_id": "fire-emblem-three-houses",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "gitlab",
+        "owner": "onerag90",
+        "repo": "fe3h-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/849460026d42c840faab34d4d3b9fc33.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^FE3H-Recomp-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Fire Emblem: Three Houses derivada de LAS Recomp, con Vulkan. Necesitas tu copia con la actualización 1.2.0 aplicada (exefs y romfs; el setup rechaza la actualización sola sin el juego base) y, si quieres, tus DLC (Pase de expansión, Cindered Shadows) en extracted/dlc/<id de contenido>/romfs. En fe3hrecomp.exe: Settings > Game Files, eliges la carpeta y «Set up game files»: copia los archivos y compila el código del juego en tu PC (unos minutos, una vez). Con «Importar NSP/XCI/NSZ» Freeport extrae base + actualización a la carpeta dump/ del port y lanza el propio asistente del port en modo automático (LARECOMP_LAUNCHER_EXTRACT) bajo tu Wine/Proton; si no terminara, elige dump/ a mano en Set up game files. Todo (partidas, ajustes, cachés) se guarda en la carpeta del programa. Solo Windows por ahora; bajo Proton funciona (el autor lo prueba en Steam Deck). Opciones de resolución interna hasta 200 % y nitidez; problemas conocidos: a algunos efectos de batalla les falta una capa. Al actualizar no hace falta repetir el setup, solo se retraducen los shaders.",
+        "import_dir": "dump",
+        "game_version": "1.2.0",
+        "after_import": {
+          "exe": "fe3hrecomp.exe",
+          "args": [],
+          "env": {
+            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}"
+          },
+          "expect_output": "-> READY",
+          "remove_source": false,
+          "rom_path_after": "extracted"
+        }
+      },
+      "launch": {
+        "windows": "fe3hrecomp.exe"
+      },
+      "year": 2019,
+      "developer": "Intelligent Systems",
+      "genre": "Rol táctico",
+      "wiki": "Fire Emblem: Three Houses",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.6",
+        "published_at": "2026-11-02T14:42:18.313Z"
+      }
     }
   ]
 }
