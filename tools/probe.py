@@ -58,6 +58,29 @@ def pick_release(releases, channel, rolling_tag):
     return stable or next((r for r in releases if usable(r)), None)
 
 
+def pick_release_for(releases, channel, rolling_tag, rules):
+    """The channel's pick among releases that carry a file some asset rule
+    matches (a newest Android-only or notes-only release is skipped); the
+    plain pick when none does. Same as the app's github::pick_release_for."""
+    if channel == "rolling" and rolling_tag:
+        return pick_release(releases, channel, rolling_tag)
+    def matches(r):
+        names = [a.get("name") or "" for a in r.get("assets", [])]
+        return any(re.search(rx, n) for rx in rules for n in names)
+    matching = [r for r in releases if matches(r)]
+    return pick_release(matching, channel, rolling_tag) or pick_release(releases, channel, rolling_tag)
+
+
+UPLOAD_RE = re.compile(r"\]\((/uploads/[0-9a-f]{16,64}/([^)\s]+))\)")
+
+
+def gitlab_project_id(slug):
+    pid = urllib.parse.quote(slug, safe="")
+    req = urllib.request.Request(f"https://gitlab.com/api/v4/projects/{pid}", headers={"User-Agent": "decompdeck-probe"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r).get("id")
+
+
 def gitlab_releases(slug):
     """GitLab releases mapped to the GitHub shape probe/pick_release expect."""
     pid = urllib.parse.quote(slug, safe="")
@@ -66,14 +89,24 @@ def gitlab_releases(slug):
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = json.load(r)
     out = []
+    project_id = None
     for v in raw:
         links = (v.get("assets") or {}).get("links") or []
+        assets = [{"name": l.get("name"), "browser_download_url": l.get("direct_asset_url") or l.get("url")} for l in links]
+        # Files uploaded into the notes only (Power Moon Recomp): as the app does.
+        if not assets and "](/uploads/" in (v.get("description") or ""):
+            if project_id is None:
+                project_id = gitlab_project_id(slug)
+            for m in UPLOAD_RE.finditer(v.get("description") or ""):
+                name = urllib.parse.unquote(m.group(2))
+                if all(a["name"] != name for a in assets):
+                    assets.append({"name": name, "browser_download_url": f"https://gitlab.com/-/project/{project_id}{m.group(1)}"})
         out.append({
             "tag_name": v.get("tag_name"),
             "published_at": v.get("released_at"),
             "prerelease": bool(v.get("upcoming_release")),
             "draft": False,
-            "assets": [{"name": l.get("name"), "browser_download_url": l.get("direct_asset_url") or l.get("url")} for l in links],
+            "assets": assets,
         })
     return out
 
@@ -98,7 +131,8 @@ def probe_project(p, token):
         # downloaded. Installed copies stay in the library untouched.
         print(f"  ! {slug}: sin releases (se vacía la caché)")
         return {"platforms": [], "latest_tag": None, "published_at": None}
-    rel = pick_release(releases, p.get("release_channel", "stable"), p.get("rolling_tag"))
+    rel = pick_release_for(releases, p.get("release_channel", "stable"), p.get("rolling_tag"),
+                           list(p.get("asset_rules", {}).values()))
     if not rel:
         print(f"  ! {slug}: sin release adecuada")
         return None
