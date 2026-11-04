@@ -1664,8 +1664,9 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%202%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)linux-x64-release\\.tar\\.gz$",
-        "linux-aarch64": "(?i)linux-arm64-release\\.tar\\.gz$"
+        "linux-x86_64": "(?i)^SnowboardKids2Recompiled-Linux-X64(-Release)?\\.tar\\.gz$",
+        "linux-aarch64": "(?i)^SnowboardKids2Recompiled-Linux-ARM64(-Release)?\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^SnowboardKids2Recompiled-Windows(-Release)?\\.zip$"
       },
       "rom": {
         "required": true,
@@ -1679,7 +1680,11 @@
         "windows": "SnowboardKids2Recompiled.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
         "latest_tag": "v2.0.2",
         "published_at": "2026-10-17T21:17:34Z"
       },
@@ -1988,11 +1993,11 @@
         "owner": "MaxDeadBear",
         "repo": "Re-Cherry"
       },
-      "release_channel": "stable",
+      "release_channel": "prerelease",
       "cover_url": "https://cdn2.steamgriddb.com/grid/7e601e63a48cb33f754d5bd684631118.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)windows-x64\\.exe$"
+        "windows-x86_64": "(?i)^re-cherry.*\\.zip$"
       },
       "rom": {
         "required": true,
@@ -2002,11 +2007,12 @@
         "notes": "Necesita los archivos de tu copia de Lollipop Chainsaw."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "re_cherry.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "beta",
         "published_at": "2026-10-18T08:01:16Z"
       },
@@ -6157,7 +6163,7 @@
     },
     {
       "id": "acgc-pc",
-      "name": "ACGC PC Port",
+      "name": "Nookery (ACGC PC Port)",
       "original_game": "Animal Crossing",
       "game_id": "animal-crossing",
       "system": "gc",
@@ -6167,25 +6173,30 @@
         "owner": "flyngmt",
         "repo": "ACGC-PC-Port"
       },
-      "release_channel": "prerelease",
+      "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)ACGC-PC-Port.*\\.zip$"
+        "linux-x86_64": "(?i)^Nookery-v.*-linux-x86_64\\.AppImage$",
+        "linux-aarch64": "(?i)^Nookery-v.*-linux-arm64\\.AppImage$",
+        "windows-x86_64": "(?i)^Nookery-v.*-windows-x86_64\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "copy",
         "expected_filename": null,
         "subdir": "rom",
-        "notes": "Selecciona tu imagen de disco de Animal Crossing (GameCube; ISO, GCM o CISO); se copia a la subcarpeta rom/ y el juego lee los assets directamente de ella."
+        "notes": "Selecciona tu imagen de disco de Animal Crossing (GameCube; ISO, GCM o CISO); se copia a la subcarpeta rom/ y el juego lee los assets directamente de ella. Desde la 1.0.0 el port se llama Nookery y tiene versión nativa para Linux (AppImage)."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "Nookery.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-aarch64",
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.0.0",
         "published_at": "2026-11-02T19:31:17Z"
       },
@@ -6651,25 +6662,28 @@
         "owner": "SSunnKing",
         "repo": "Open-Nectar---Pikmin-Native-PC-Mobile-Port"
       },
-      "release_channel": "prerelease",
+      "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pikmin%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)nectar-portable.*\\.tar\\.gz$"
+        "linux-x86_64": "(?i)^Open_Nectar-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^nectar-windows\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "El launcher te pedirá tu ISO/GCM de Pikmin USA Rev. 1 (GPIE01); extrae los assets y arranca. Port nativo experimental del decomp projectPiki — la mayor parte del juego es jugable."
+        "notes": "El launcher te pedirá tu ISO/GCM de Pikmin USA Rev. 1 (GPIE01); extrae los assets y arranca. Port nativo experimental del decomp projectPiki — la mayor parte del juego es jugable. Desde la 1.1 hay AppImage nativa para Linux."
       },
       "launch": {
-        "linux": "nectar-launcher",
-        "windows": null
+        "windows": "nectar-launcher.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
         "latest_tag": "1.1.1",
         "published_at": "2026-10-29T15:26:56Z"
       },
@@ -6763,7 +6777,7 @@
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/CTR%20-%20Crash%20Team%20Racing%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)win\\.x64\\.zip$"
+        "windows-x86_64": "(?i)(win\\.x64|x64\\.win)\\.zip$"
       },
       "rom": {
         "required": true,
@@ -6773,11 +6787,12 @@
         "notes": "Setup manual: crea una carpeta assets/ junto al ejecutable y extrae de tu disco NTSC-U de CTR estos archivos: BIGFILE.BIG, SOUNDS/KART.HWL, TEST.STR y XA/ENG.XNF. Sourceport avanzado de Rinnegatamante (decomp CTR-tools, SDL3 estático)."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "Crash Team Racing - High Octane.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v.1.5",
         "published_at": "2026-10-12T22:52:04Z"
       },
@@ -6865,26 +6880,26 @@
         "owner": "GTTeancum",
         "repo": "Jet-Moto-Anthology"
       },
-      "release_channel": "rolling",
-      "rolling_tag": "jetmoto-v1.2.0",
+      "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)JetMoto-win-x64\\.zip$"
+        "windows-x86_64": "(?i)^JetMoto-Anthology-.*-Windows-x64\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto (PS1, SCUS-94309); se genera desde tu copia (RecompOne, OpenBIOS incluida)."
+        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto (PS1, SCUS-94309); se genera desde tu copia (RecompOne, OpenBIOS incluida). El autor ahora publica las tres entregas juntas en un solo paquete, «Jet Moto Anthology» (JetMoto.exe): sirve la misma descarga para Jet Moto 1, 2 y 3."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "JetMoto.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.0",
         "published_at": "2026-09-29T18:29:06Z"
       },
@@ -6917,26 +6932,26 @@
         "owner": "GTTeancum",
         "repo": "Jet-Moto-Anthology"
       },
-      "release_channel": "rolling",
-      "rolling_tag": "jetmoto2-v1.2.0",
+      "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%202%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)JetMoto2-win-x64\\.zip$"
+        "windows-x86_64": "(?i)^JetMoto-Anthology-.*-Windows-x64\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto 2 (PS1, SCUS-94167); se genera desde tu copia (RecompOne, OpenBIOS incluida)."
+        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto 2 (PS1, SCUS-94167); se genera desde tu copia (RecompOne, OpenBIOS incluida). El autor ahora publica las tres entregas juntas en un solo paquete, «Jet Moto Anthology» (JetMoto.exe): sirve la misma descarga para Jet Moto 1, 2 y 3."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "JetMoto.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.0",
         "published_at": "2026-09-29T18:29:06Z"
       },
@@ -6969,26 +6984,26 @@
         "owner": "GTTeancum",
         "repo": "Jet-Moto-Anthology"
       },
-      "release_channel": "rolling",
-      "rolling_tag": "jetmoto3-v1.1.0",
+      "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Jet%20Moto%203%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)JetMoto3-win-x64\\.zip$"
+        "windows-x86_64": "(?i)^JetMoto-Anthology-.*-Windows-x64\\.zip$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto 3 (PS1, SCUS-94555); se genera desde tu copia (RecompOne, OpenBIOS incluida)."
+        "notes": "Asistente al arrancar: selecciona la imagen de disco de tu Jet Moto 3 (PS1, SCUS-94555); se genera desde tu copia (RecompOne, OpenBIOS incluida). El autor ahora publica las tres entregas juntas en un solo paquete, «Jet Moto Anthology» (JetMoto.exe): sirve la misma descarga para Jet Moto 1, 2 y 3."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "JetMoto.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.0",
         "published_at": "2026-09-29T18:29:06Z"
       },
@@ -7967,7 +7982,7 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^win-amd64-release\\.zip$"
+        "windows-x86_64": "(?i)^NFSMW-Recomp-.*-Windows-x64\\.zip$"
       },
       "rom": {
         "required": true,
@@ -7977,11 +7992,12 @@
         "notes": "Copia tu ISO (o carpeta con default.xex) de Need for Speed: Most Wanted (Xbox 360) en la carpeta del juego y arranca el lanzador NFS_Most_Wanted.exe: elige ISO, resolución y API; la primera vez extrae el disco a game_root_cache. Documentación en español."
       },
       "launch": {
-        "linux": null,
-        "windows": "NFS_Most_Wanted.exe"
+        "windows": "NFSMW Recomp.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.0.2",
         "published_at": "2026-10-28T22:20:44Z"
       },
@@ -10831,25 +10847,24 @@
         "owner": "OAleex",
         "repo": "MojoRecomp"
       },
-      "release_channel": "prerelease",
+      "release_channel": "stable",
       "cover_url": "https://cdn2.steamgriddb.com/grid/4cde7bfdc2fa8ba457b88daba87f73bf.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^MojoRecomp-Launcher-.*-windows-x64-portable\\.zip$"
+        "windows-x86_64": "(?i)^MojoRecomp-Launcher-.*-windows-x64\\.exe$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Launcher portable con asistente: indica tu ISO de Crash of the Titans (Xbox 360) y descarga el runtime. Solo Windows; preview."
+        "notes": "Launcher portable con asistente: indica tu ISO de Crash of the Titans (Xbox 360) y descarga el runtime. Solo Windows; preview. Desde la 1.1.0 el launcher es un único .exe portable."
       },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
+      "launch": {},
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v1.1.0",
         "published_at": "2026-10-06T13:13:56Z"
       },
@@ -11432,8 +11447,7 @@
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Street%20Fighter%20EX%20Plus%20Alpha%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^(EXPlusAlpha-Recomp-Windows-x64|alphaBuildClean)\\.zip$",
-        "linux-x86_64": "(?i)^EXPlusAlpha-Recomp-Linux-x64\\.zip$"
+        "windows-x86_64": "(?i)^(EXPlusAlpha-Recomp-Windows-x64|alphaBuildClean|exPlusAlpha-[0-9-]+)\\.zip$"
       },
       "rom": {
         "required": true,
@@ -11443,11 +11457,12 @@
         "notes": "Necesita tu imagen USA de Street Fighter EX Plus Alpha (SLUS-00548) en la carpeta disc-a/ y tu BIOS SCPH-1001 (LLE). Alfa."
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "windows": "exPlusAlpha.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v0.2.4-alpha",
         "published_at": "2026-10-21T23:25:24Z"
       },
@@ -12237,7 +12252,7 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Al primer arranque elige tu imagen de The Wind Waker (GameCube, USA GZLE01 rev. 0; .iso, .gcm o .rvz) y la verifica. 60/120 fps, widescreen, save states, ratón y teclado. Fork de BlueWake por el autor de DKC1/DKC3 Recomp; listo para jugar, sin compilar (a diferencia de Deep Sea)."
+        "notes": "RETIRADO: el autor quitó las descargas y el repositorio es ahora su fork personal de BlueWake para iPhone/iPad. Si ya lo tienes instalado sigue funcionando, pero no recibirá actualizaciones; usa «BlueWake» del catálogo (tiene versión nativa para Linux) o «Wind Waker HD Recomp». Al primer arranque elige tu imagen de The Wind Waker (GameCube, USA GZLE01 rev. 0; .iso, .gcm o .rvz) y la verifica. 60/120 fps, widescreen, save states, ratón y teclado. Fork de BlueWake por el autor de DKC1/DKC3 Recomp; listo para jugar, sin compilar (a diferencia de Deep Sea)."
       },
       "launch": {
         "linux": null,
@@ -13088,7 +13103,7 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^Code\\.Veronica\\.Recomp\\.Release\\.v.*\\.zip$"
+        "windows-x86_64": "(?i)^(CodeVeronica-PC-v.*|Code\\.Veronica\\.Recomp\\.Release\\.v.*)\\.zip$"
       },
       "rom": {
         "required": true,
@@ -13098,12 +13113,14 @@
         "notes": "El launcher te pide la CARPETA del juego PS3 instalado (PARAM.SFO + USRDIR\\EBOOT.BIN), es decir, el PKG de PSN v01.00 extraído (con su extractor opcional o instalado en RPCS3), y el .rap de tu cuenta para las versiones EU (NPEB00553) y US (NPUB30467); la japonesa no lo necesita. Launcher en 13 idiomas, 60 fps, SRT y herramientas de speedrun."
       },
       "launch": {
-        "windows": "CodeVeronicaPort.exe"
+        "windows": "Code Veronica.exe"
       },
       "cached": {
-        "platforms": [],
-        "latest_tag": "v1.5.1",
-        "published_at": "2026-11-04T03:14:37Z"
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.5.2",
+        "published_at": "2026-11-04T16:23:44Z"
       },
       "year": 2011,
       "developer": "Capcom",
@@ -13190,7 +13207,7 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/Wario%20Land_%20Shake%20It%21%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^WarioLandShakeIt-Recomp-.*\\.zip$"
+        "windows-x86_64": "(?i)^(WarioRecomp-[0-9.]+|WarioLandShakeIt-Recomp-.*)\\.zip$"
       },
       "rom": {
         "required": true,
@@ -13203,7 +13220,9 @@
         "windows": "WarioLauncher.exe"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "v0.3.1",
         "published_at": "2026-11-03T04:54:02Z"
       },
@@ -15154,8 +15173,8 @@
       "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Dead%20or%20Alive%203%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)^DOA3\\-.*\\-Alpha\\-Linux\\.tar\\.gz$",
-        "macos-aarch64": "(?i)^DOA3\\-.*\\-Alpha\\-macOS\\.tar\\.gz$"
+        "linux-x86_64": "(?i)^DOA3-.*-Linux\\.tar\\.gz$",
+        "macos-aarch64": "(?i)^DOA3-.*-macOS\\.tar\\.gz$"
       },
       "rom": {
         "required": true,
@@ -15168,7 +15187,10 @@
         "linux": "launcher.sh"
       },
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-x86_64",
+          "macos-aarch64"
+        ],
         "latest_tag": "v0.6.1",
         "published_at": "2026-11-03T02:53:11Z"
       },
@@ -18061,7 +18083,7 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/6b6f65bb40f08afc05857611df91dfef.png",
       "logo_url": null,
       "asset_rules": {
-        "windows-x86_64": "(?i)^bof3x-v[0-9.]+(-[a-z0-9.]+)?-win\\.zip$"
+        "windows-x86_64": "(?i)^bof3x-(v[0-9.]+(-[a-z0-9.]+)?|latest)-win\\.zip$"
       },
       "rom": {
         "required": true,
@@ -18080,7 +18102,9 @@
       "box_art": null,
       "tier": "experimental",
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "windows-x86_64"
+        ],
         "latest_tag": "latest",
         "published_at": "2026-10-15T23:55:40Z"
       },
@@ -23378,9 +23402,11 @@
       "box_art": null,
       "tier": "experimental",
       "cached": {
-        "platforms": [],
-        "latest_tag": "android-v3.4.6",
-        "published_at": "2026-10-27T13:18:46Z"
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.5.6",
+        "published_at": "2026-10-25T21:33:54Z"
       },
       "quality_signals": {
         "downloads": 8287,
@@ -26215,10 +26241,11 @@
       "tier": "experimental",
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.1.2",
-        "published_at": "2026-11-02T11:55:44.101Z"
+        "latest_tag": "v0.2.1",
+        "published_at": "2026-11-04T16:59:35.000Z"
       },
       "quality_signals": {
         "downloads": 0,
