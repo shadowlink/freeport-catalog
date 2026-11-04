@@ -11910,21 +11910,22 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Sunshine%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)^SMS-Launcher-.*\\.AppImage$"
+        "linux-x86_64": "(?i)^SMS-Launcher\\.AppImage$",
+        "windows-x86_64": "(?i)^SMS-Launcher-[0-9.]+-win-portable\\.exe$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Launcher del port nativo de Super Mario Sunshine: te guía, descarga las herramientas que necesita y construye el juego desde tu imagen de disco. En Windows solo hay instalador (no incluido aquí)."
+        "notes": "Launcher del port nativo de Super Mario Sunshine (decompilación). Te guía en tres pasos: descarga sus herramientas de compilación (~1,3 GB en Linux), eliges tu imagen del disco USA GMSE01 revisión 0 (.iso, NKit .iso, .gcm o .ciso de Dolphin; RVZ/WIA/GCZ no, conviértelas antes con Dolphin) y construye el juego en tu PC. Por defecto 64 bits, texturas HD (1 GB de descarga, 3 GB instalado) y las 21 cinemáticas mejoradas a 3× (~5,7 GB más), resolución 4×, 60 fps (30 o 120 opcionales). Ajustes de gráficos con presets y preset Steam Deck, FSR 1/NIS, MSAA/FXAA, cámara libre y con ratón, saltar cinemáticas, controles reasignables, copias de partidas e importación de partidas de Dolphin, estados guardados, mods, modo Super Mario Eclipse y multijugador. El launcher se actualiza solo (en Linux sobre la propia AppImage). En Windows Freeport usa la versión portable, que guarda todo en SMS-Launcher-Portable junto al .exe."
       },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
+      "launch": {},
       "cached": {
-        "platforms": [],
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
         "latest_tag": "v0.1.68",
         "published_at": "2026-10-28T00:31:17Z"
       },
