@@ -26485,7 +26485,8 @@
         "ai": false,
         "emu": false,
         "checked": "2026-11-09"
-      }
+      },
+      "tier_manual": true
     },
     {
       "id": "nx2navi",
@@ -26535,7 +26536,2297 @@
         "ai": false,
         "emu": false,
         "checked": "2026-11-09"
-      }
+      },
+      "tier_manual": true
+    },
+    {
+      "id": "mkw-recomp",
+      "name": "Mario Kart World Recomp",
+      "original_game": "Mario Kart World",
+      "game_id": "mario-kart-world-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "adriadam10",
+        "repo": "mkw-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c2526ac91cf2dba8f8b1b58935c7597c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^mkw-recomp-[0-9.]+-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^mkw-recomp-[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Mario Kart World (versión 1.0.0) con versión nativa para Linux. Al Jugar te pide tu volcado (.nup o romfs/exefs) y lo construye en tu PC. Arranca, pasa los menús y se puede correr; proyecto de pocos días, aún sin 60 fps estables en todas las pistas."
+      },
+      "launch": {
+        "windows": "mkw.exe"
+      },
+      "year": 2025,
+      "developer": "Nintendo",
+      "genre": "Carreras",
+      "wiki": "Mario Kart World",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.2",
+        "published_at": "2026-11-09T20:16:06Z"
+      },
+      "quality_signals": {
+        "downloads": 367,
+        "stars": 81,
+        "age_days": 0,
+        "releases": 3,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "hwaoi-recomp",
+      "name": "HWAoI Recomp",
+      "original_game": "Hyrule Warriors: Age of Imprisonment",
+      "game_id": "hyrule-warriors-age-of-imprisonment-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Alano6678",
+        "repo": "hwaoi-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/982c3862cb923009235057d94c31c7cb.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^HWAoI-Compiler-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). HWAoI-Compiler.exe construye el juego a partir de tu .nup. Alfa: los modos distintos de 60 fps aceleran el juego y las resoluciones altas son inestables."
+      },
+      "launch": {
+        "windows": "HWAoI-Compiler.exe"
+      },
+      "year": 2025,
+      "developer": "Omega Force",
+      "genre": "Acción",
+      "wiki": "Hyrule Warriors: Age of Imprisonment",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-alpha.5",
+        "published_at": "2026-11-09T12:12:21Z"
+      },
+      "quality_signals": {
+        "downloads": 399,
+        "stars": 25,
+        "age_days": 4,
+        "releases": 2,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "dkb-pc-recomp",
+      "name": "DKB PC Recomp",
+      "original_game": "Donkey Kong Bananza",
+      "game_id": "donkey-kong-bananza-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Lucas-blip-png",
+        "repo": "dkb-pc-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^DKB-Setup-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^DKB-Setup-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Lo que se descarga es el instalador (DKB-Setup): construye el juego a partir de tu volcado. Se juega desde la pantalla de título hasta el primer nivel; muy temprano, puede colgarse. Renderer Vulkan."
+      },
+      "launch": {
+        "windows": "DKB-Setup.exe"
+      },
+      "year": 2025,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Donkey Kong Bananza",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-11-09T01:24:21Z"
+      },
+      "quality_signals": {
+        "downloads": 8834,
+        "stars": 597,
+        "age_days": 8,
+        "releases": 2,
+        "contributors": 5,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "recompia",
+      "name": "Recompia",
+      "original_game": "Pokémon Pokopia",
+      "game_id": "pok-mon-pokopia-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Dittobyte",
+        "repo": "Recompia"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/508a5546c79a5098d121e81010e9bfd0.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^PokopiaRecomp-[0-9.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^PokopiaRecomp-[0-9.]+-win64\\.zip$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación de Pokémon Pokopia con versión para Linux. El lanzador te pide tu volcado y construye el juego (trae sus propias herramientas). Multijugador, mods y mejoras."
+      },
+      "launch": {
+        "windows": "PokopiaLauncher.exe"
+      },
+      "year": 2026,
+      "developer": "Game Freak",
+      "genre": "Simulación",
+      "wiki": "Pokémon Pokopia",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.0",
+        "published_at": "2026-11-09T16:55:15Z"
+      },
+      "quality_signals": {
+        "downloads": 24421,
+        "stars": 422,
+        "age_days": 6,
+        "releases": 22,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "xc2-recomp",
+      "name": "XC2 Recomp",
+      "original_game": "Xenoblade Chronicles 2",
+      "game_id": "xenoblade-chronicles-2",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "AksharDP",
+        "repo": "xc2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^XC2-Setup-[0-9.]+-linux\\.AppImage$",
+        "windows-x86_64": "(?i)^XC2-Setup-[0-9.]+-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática con renderer Vulkan (misma familia que XCX/TotK Recomp). Lo descargado es el instalador: construye el juego desde tus NSP (base + actualización); con «Importar NSP/XCI/NSZ» los tienes a mano en la carpeta del port."
+      },
+      "launch": {
+        "windows": "XC2-Setup.exe"
+      },
+      "year": 2017,
+      "developer": "Monolith Soft",
+      "genre": "RPG",
+      "wiki": "Xenoblade Chronicles 2",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.12",
+        "published_at": "2026-11-09T00:44:45Z"
+      },
+      "quality_signals": {
+        "downloads": 6140,
+        "stars": 266,
+        "age_days": 7,
+        "releases": 13,
+        "contributors": 3,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "b3-express",
+      "name": "B3-Express",
+      "original_game": "Bayonetta 3",
+      "game_id": "bayonetta-3",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "LuvAbyss",
+        "repo": "B3-Express"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ebd84dd9a85f413a34e9d8a21cc6ccc7.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^B3-Express-[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Bayonetta 3 v1.2.0 vía ScarletNX, solo Windows (no probado en Wine). El lanzador B3-Express pide tu volcado y prepara el juego. Opciones de detalle y panorámico de Witch Time."
+      },
+      "launch": {
+        "windows": "B3-Express.exe"
+      },
+      "year": 2022,
+      "developer": "PlatinumGames",
+      "genre": "Acción",
+      "wiki": "Bayonetta 3",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "0.2.5",
+        "published_at": "2026-11-09T12:14:56Z"
+      },
+      "quality_signals": {
+        "downloads": 1933,
+        "stars": 116,
+        "age_days": 7,
+        "releases": 9,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "astralchain-pc",
+      "name": "AstralChain-PC",
+      "original_game": "Astral Chain",
+      "game_id": "astral-chain",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Puddz",
+        "repo": "AstralChain-PC"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/e9571c97ad8514c0aa6bb199bda1427b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^AstralChain-PC-[0-9][0-9.-]*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Necesita tu volcado y tus claves; el lanzador construye el juego (familia LASRecomp). FPS dinámicos."
+      },
+      "launch": {
+        "windows": "Astral Chain Launcher.exe"
+      },
+      "year": 2019,
+      "developer": "PlatinumGames",
+      "genre": "Acción",
+      "wiki": "Astral Chain",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "2026-11-09.3",
+        "published_at": "2026-11-09T18:11:34Z"
+      },
+      "quality_signals": {
+        "downloads": 49,
+        "stars": 107,
+        "age_days": 20,
+        "releases": 1,
+        "contributors": 2,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "racing-8-dx",
+      "name": "Racing 8 DX Recomp",
+      "original_game": "Mario Kart 8 Deluxe",
+      "game_id": "mario-kart-8-deluxe",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "galarianpikachu2021-hue",
+        "repo": "Racing-8-DX-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/9cd6d894098e748716960bfcf9dbe115.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^KartRecomp-Launcher-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^KartRecomp-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Con versión nativa para Linux. La página Setup del lanzador pide tu juego base, la actualización, claves y firmware. FSR 3.1 con generación de fotogramas, DLSS experimental, hasta 4K, HDR10."
+      },
+      "launch": {
+        "windows": "kartrecomp.exe"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Carreras",
+      "wiki": "Mario Kart 8 Deluxe",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.2",
+        "published_at": "2026-11-08T07:28:14Z"
+      },
+      "quality_signals": {
+        "downloads": 3793,
+        "stars": 63,
+        "age_days": 16,
+        "releases": 4,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "opensmash-ultimate",
+      "name": "OpenSmash Ultimate",
+      "original_game": "Super Smash Bros. Ultimate",
+      "game_id": "super-smash-bros-ultimate",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "OpenSmash-Ultimate",
+        "repo": "OpenSmash-Ultimate"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2ef85f2ae5e56041ded26f67e18136be.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^OpenSmash\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows, alfa (no probado en Wine). Une WindowSmash y ssbu-recomp; pide tu volcado al abrirlo."
+      },
+      "launch": {
+        "windows": "OpenSmash.exe"
+      },
+      "year": 2018,
+      "developer": "Bandai Namco / Sora",
+      "genre": "Lucha",
+      "wiki": "Super Smash Bros. Ultimate",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0-alpha.3",
+        "published_at": "2026-11-04T21:23:30Z"
+      },
+      "quality_signals": {
+        "downloads": 8543,
+        "stars": 116,
+        "age_days": 19,
+        "releases": 3,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "demons-souls-recomp",
+      "name": "Demon's Souls Recomp",
+      "original_game": "Demon's Souls",
+      "game_id": "demon-s-souls",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "timboat",
+        "repo": "demons-souls-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%203/Named_Boxarts/Demon%27s%20Souls%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^DemonsSoulsRecomp-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Necesitas tu imagen de Demon's Souls USA (BLUS-30443): .iso, .zip de Redump o carpeta. El lanzador la prepara."
+      },
+      "launch": {
+        "windows": "DemonsSoulsLauncher.exe"
+      },
+      "year": 2009,
+      "developer": "FromSoftware",
+      "genre": "RPG de acción",
+      "wiki": "Demon's Souls",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2026.11.08",
+        "published_at": "2026-11-08T18:30:32Z"
+      },
+      "quality_signals": {
+        "downloads": 3836,
+        "stars": 208,
+        "age_days": 9,
+        "releases": 4,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "ratchet-tod-recomp",
+      "name": "Tools of Destruction Recomp",
+      "original_game": "Ratchet & Clank Future: Tools of Destruction",
+      "game_id": "ratchet-clank-future-tools-of-destruction",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Re-TeRo17",
+        "repo": "ratchet-tod-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/3572ce83951ecf504ac2261564424f6e.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^tod-recomp-[0-9.]+-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Antes de jugar ejecuta tod_setup.exe en la carpeta del port para señalar tu copia del juego. 4K, 60 fps, ultrapanorámico, DualSense."
+      },
+      "launch": {
+        "windows": "tod.exe"
+      },
+      "year": 2007,
+      "developer": "Insomniac Games",
+      "genre": "Plataformas",
+      "wiki": "Ratchet & Clank Future: Tools of Destruction",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-11-08T23:36:00Z"
+      },
+      "quality_signals": {
+        "downloads": 3730,
+        "stars": 140,
+        "age_days": 7,
+        "releases": 4,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "13-sentinels-pc",
+      "name": "13 Sentinels PC",
+      "original_game": "13 Sentinels: Aegis Rim",
+      "game_id": "13-sentinels-aegis-rim",
+      "system": "ps4",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "saulob",
+        "repo": "13-sentinels-aegis-rim-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/79b796e240e8fe4baf0061fc155bd741.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^13SentinelsAegisRimPC-v[0-9.]+-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^13SentinelsAegisRimPC-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instala directamente desde tu PKG de PS4. Windows; en Linux experimental (AppImage). Primera versión."
+      },
+      "launch": {
+        "windows": "13_sentinels_aegis_rim.exe"
+      },
+      "year": 2019,
+      "developer": "Vanillaware",
+      "genre": "Aventura",
+      "wiki": "13 Sentinels: Aegis Rim",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-11-09T00:35:23Z"
+      },
+      "quality_signals": {
+        "downloads": 333,
+        "stars": 59,
+        "age_days": 2,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "knack-pc",
+      "name": "Knack PC",
+      "original_game": "Knack",
+      "game_id": "knack",
+      "system": "ps4",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "AbdelmoumenDeghbouche",
+        "repo": "knack_pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/27f5f9280a2fd1bbfad2e9dcfdf79519.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^knack-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^knack-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El código x86-64 del propio juego corre en el PC con un runtime de PS4 y el núcleo de vídeo de shadPS4. Necesitas tu volcado de PS4. Los primeros capítulos se juegan de principio a fin."
+      },
+      "launch": {
+        "windows": "Knack.exe"
+      },
+      "year": 2013,
+      "developer": "SIE Japan Studio",
+      "genre": "Plataformas",
+      "wiki": "Knack",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.12",
+        "published_at": "2026-11-06T03:49:02Z"
+      },
+      "quality_signals": {
+        "downloads": 2976,
+        "stars": 44,
+        "age_days": 18,
+        "releases": 13,
+        "contributors": 5,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "resogun-recomp",
+      "name": "Resogun Recomp",
+      "original_game": "Resogun",
+      "game_id": "resogun",
+      "system": "ps4",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "rcostanza",
+        "repo": "resogun-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/caa1450e9e14a9f396b238fec035ef09.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^resogun-pc-v[0-9.]+-[0-9-]+-linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^resogun-pc-v[0-9.]+-[0-9-]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas tu volcado de Resogun (PS4). En Windows, la primera vez ejecuta resogun-setup.exe en la carpeta del port para preparar los datos."
+      },
+      "launch": {
+        "windows": "resogun.exe"
+      },
+      "year": 2013,
+      "developer": "Housemarque",
+      "genre": "Shoot 'em up",
+      "wiki": "Resogun",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5",
+        "published_at": "2026-11-09T14:23:16Z"
+      },
+      "quality_signals": {
+        "downloads": 384,
+        "stars": 28,
+        "age_days": 1,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "basara4-native",
+      "name": "Sengoku Basara 4 Native",
+      "original_game": "Sengoku Basara 4 Sumeragi",
+      "game_id": "sengoku-basara-4-sumeragi",
+      "system": "ps4",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "razzconnect",
+        "repo": "basara4-native-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/70f62cd9cf9adf378994b594ced54998.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^basara4-windows-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Necesitas tu volcado de PS4 (CUSA01159)."
+      },
+      "launch": {
+        "windows": "Sengoku Basara 4.exe"
+      },
+      "year": 2015,
+      "developer": "Capcom",
+      "genre": "Acción",
+      "wiki": "Sengoku Basara 4 Sumeragi",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.7",
+        "published_at": "2026-11-07T06:37:50Z"
+      },
+      "quality_signals": {
+        "downloads": 6926,
+        "stars": 69,
+        "age_days": 17,
+        "releases": 8,
+        "contributors": 2,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "ng2recomp",
+      "name": "NG2 Recomp",
+      "original_game": "Ninja Gaiden II",
+      "game_id": "ninja-gaiden-ii",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "gamboozino",
+        "repo": "ng2recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/952316a1c27f03d5b6cd9d6d530d1ee2.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^NinjaGaiden2-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^NinjaGaiden2-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Del autor de NGB Recomp. Nativo en Linux. Al abrirlo pide tu copia (versión World, título 544307D5) y la instala. Vulkan propio, 60 fps, hasta 8x de resolución, panorámico, ratón y teclado, mods."
+      },
+      "launch": {
+        "windows": "ng2.exe"
+      },
+      "year": 2008,
+      "developer": "Team Ninja",
+      "genre": "Acción",
+      "wiki": "Ninja Gaiden II",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.62",
+        "published_at": "2026-11-09T14:01:08Z"
+      },
+      "quality_signals": {
+        "downloads": 7131,
+        "stars": 193,
+        "age_days": 10,
+        "releases": 18,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "gtav-recomp",
+      "name": "GTA V Recomp",
+      "original_game": "Grand Theft Auto V",
+      "game_id": "grand-theft-auto-v",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "andrewnakas",
+        "repo": "gtav-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/af0a25e27510f77d97634a6bbe653b13.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^gtav-recomp-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^gtav-recomp-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación ReXGlue de GTA V de Xbox 360 (TU27), con versión para Linux. Necesitas tu copia del juego con su actualización."
+      },
+      "launch": {
+        "windows": "gtav_launcher.exe"
+      },
+      "year": 2013,
+      "developer": "Rockstar North",
+      "genre": "Acción/Aventura",
+      "wiki": "Grand Theft Auto V",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-11-02T16:40:53Z"
+      },
+      "quality_signals": {
+        "downloads": 3827,
+        "stars": 206,
+        "age_days": 7,
+        "releases": 8,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "pdz-recomp",
+      "name": "Perfect Dark Zero Recomp",
+      "original_game": "Perfect Dark Zero",
+      "game_id": "perfect-dark-zero",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nikolaygorb",
+        "repo": "PerfectDarkZeroRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6757c5d828a29b814e9992332f70b2b7.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^PDZrecomp-lin64\\.zip$",
+        "windows-x86_64": "(?i)^PDZrecomp-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Versión PAL (título 4D5307D3). Extrae tu disco con extract-xiso. Jugable entero en Windows y Linux, logros y partidas incluidos."
+      },
+      "launch": {
+        "linux": "perfectdarkzerorecomp",
+        "windows": "perfectdarkzerorecomp.exe"
+      },
+      "year": 2005,
+      "developer": "Rare",
+      "genre": "Shooter",
+      "wiki": "Perfect Dark Zero",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "2.0",
+        "published_at": "2026-11-05T19:19:27Z"
+      },
+      "quality_signals": {
+        "downloads": 3439,
+        "stars": 85,
+        "age_days": 68,
+        "releases": 11,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "comunidad"
+    },
+    {
+      "id": "wet-recomp",
+      "name": "Wet Recomp",
+      "original_game": "Wet",
+      "game_id": "wet",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nikolaygorb",
+        "repo": "WetRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/fc60d6b831c51fa39e7fefd8b7479064.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^wet-recomp-lin64\\.zip$",
+        "windows-x86_64": "(?i)^wet-recomp-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Título 425307DB. Extrae tu disco con extract-xiso. Nativo en Linux."
+      },
+      "launch": {
+        "linux": "wetrecomp",
+        "windows": "wetrecomp.exe"
+      },
+      "year": 2009,
+      "developer": "Artificial Mind and Movement",
+      "genre": "Acción",
+      "wiki": "Wet",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.6",
+        "published_at": "2026-11-05T22:36:07Z"
+      },
+      "quality_signals": {
+        "downloads": 1998,
+        "stars": 63,
+        "age_days": 71,
+        "releases": 7,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "comunidad"
+    },
+    {
+      "id": "pd-remaster-recomp",
+      "name": "Perfect Dark Remaster Recomp",
+      "original_game": "Perfect Dark (XBLA)",
+      "game_id": "perfect-dark-xbla",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nikolaygorb",
+        "repo": "PerfectDarkRemasterRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^PerfectDarkRemaster-lin64\\.zip$",
+        "windows-x86_64": "(?i)^PerfectDarkRemaster-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Remaster de Xbox Live Arcade (título 584109C2). Necesitas su default.xex. Nativo en Linux."
+      },
+      "launch": {
+        "linux": "perfectdarkremasterrecomp",
+        "windows": "perfectdarkremasterrecomp.exe"
+      },
+      "year": 2010,
+      "developer": "4J Studios / Rare",
+      "genre": "Shooter",
+      "wiki": "Perfect Dark (XBLA)",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.6",
+        "published_at": "2026-11-05T21:23:57Z"
+      },
+      "quality_signals": {
+        "downloads": 1882,
+        "stars": 57,
+        "age_days": 65,
+        "releases": 7,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "comunidad"
+    },
+    {
+      "id": "goldeneye-reloaded-recomp",
+      "name": "GoldenEye Reloaded Recomp",
+      "original_game": "GoldenEye 007: Reloaded",
+      "game_id": "goldeneye-007-reloaded",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "nikolaygorb",
+        "repo": "GoldenEye007ReloadedRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/d2a3705b4550183211b94bf86b710bb5.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^GER-lin64\\.zip$",
+        "windows-x86_64": "(?i)^GER-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Título 415608AF. Extrae tu disco con extract-xiso. Nativo en Linux."
+      },
+      "launch": {
+        "linux": "goldeneye007reloadedrecomp",
+        "windows": "goldeneye007reloadedrecomp.exe"
+      },
+      "year": 2011,
+      "developer": "Eurocom",
+      "genre": "Shooter",
+      "wiki": "GoldenEye 007: Reloaded",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.5",
+        "published_at": "2026-11-05T19:19:23Z"
+      },
+      "quality_signals": {
+        "downloads": 2583,
+        "stars": 42,
+        "age_days": 25,
+        "releases": 6,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "el-chavo-kart",
+      "name": "El Chavo Kart Recompiled",
+      "original_game": "El Chavo Kart",
+      "game_id": "el-chavo-kart",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "saulob",
+        "repo": "el-chavo-kart-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/59237c1ba2878b0e72108a3d8dec1cb0.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^ElChavoKart-v[0-9.]+-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^ElChavoKart-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Chaves Kart con multijugador en línea. Windows; Linux experimental (AppImage)."
+      },
+      "launch": {
+        "windows": "el_chavo_kart.exe"
+      },
+      "year": 2014,
+      "developer": "Televisa",
+      "genre": "Carreras",
+      "wiki": "El Chavo Kart",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-11-07T02:43:26Z"
+      },
+      "quality_signals": {
+        "downloads": 508,
+        "stars": 36,
+        "age_days": 8,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "rerevved",
+      "name": "ReRevved",
+      "original_game": "Civilization Revolution",
+      "game_id": "civilization-revolution",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ReRevvedRecomp",
+        "repo": "rerevved"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ad1f87bcca443a728dce2cedb2f7ce6b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^rerevved-v[0-9.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^rerevved-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrirlo elige tu ISO (o carpeta extraída) y la actualización 1.3. Nativo en Linux (Vulkan)."
+      },
+      "launch": {
+        "windows": "rerevved.exe"
+      },
+      "year": 2008,
+      "developer": "Firaxis Games",
+      "genre": "Estrategia",
+      "wiki": "Civilization Revolution",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.7.0",
+        "published_at": "2026-11-03T16:36:28Z"
+      },
+      "quality_signals": {
+        "downloads": 650,
+        "stars": 28,
+        "age_days": 16,
+        "releases": 6,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "project-avalanche",
+      "name": "Project Avalanche",
+      "original_game": "SSX (2012)",
+      "game_id": "ssx-2012",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "MnkyArts",
+        "repo": "ProjectAvalanche"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/4f43d7bebba69c5ff517f4eeb08d37e1.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^ProjectAvalanche-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^ProjectAvalanche-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Reimplementación en Rust/Bevy (no recompilación) que lee los datos de tu ISO de SSX de Xbox 360. Nativo en Linux."
+      },
+      "launch": {
+        "windows": "Project Avalanche.exe"
+      },
+      "year": 2012,
+      "developer": "EA Canada",
+      "genre": "Deportes",
+      "wiki": "SSX (2012)",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-11-08T16:57:10Z"
+      },
+      "quality_signals": {
+        "downloads": 243,
+        "stars": 25,
+        "age_days": 20,
+        "releases": 1,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "sst-rematch",
+      "name": "Sega Superstars Tennis ReMatch",
+      "original_game": "Sega Superstars Tennis",
+      "game_id": "sega-superstars-tennis",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "m1ndcrap",
+        "repo": "Sega-Superstars-Tennis-ReMatch"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/cc4e7c9bb2d268a78876927c0343ac5c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^sst_rematch_linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^sst_rematch_windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación ReXGlue con versión para Linux. Necesitas tu copia de Xbox 360."
+      },
+      "launch": {
+        "windows": "sst_rematch.exe"
+      },
+      "year": 2008,
+      "developer": "Sumo Digital",
+      "genre": "Deportes",
+      "wiki": "Sega Superstars Tennis",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.1",
+        "published_at": "2026-10-24T16:39:28Z"
+      },
+      "quality_signals": {
+        "downloads": 3106,
+        "stars": 21,
+        "age_days": 245,
+        "releases": 7,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "wwe12-pc",
+      "name": "WWE '12 PC",
+      "original_game": "WWE '12",
+      "game_id": "wwe-12",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "iMrBurn",
+        "repo": "wwe12-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/02d4dfeefcfd17c7de0422dc60cde600.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WWE12-PC-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Pon tu imagen de Xbox 360 donde indica el lanzador. Vulkan, DX12 y DX11; editor de mods."
+      },
+      "launch": {
+        "windows": "WWE12 Launcher.exe"
+      },
+      "year": 2011,
+      "developer": "Yuke's",
+      "genre": "Lucha libre",
+      "wiki": "WWE '12",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.0",
+        "published_at": "2026-11-07T15:11:20Z"
+      },
+      "quality_signals": {
+        "downloads": 3480,
+        "stars": 69,
+        "age_days": 29,
+        "releases": 2,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "wwe2k15-pc",
+      "name": "WWE 2K15 PC",
+      "original_game": "WWE 2K15",
+      "game_id": "wwe-2k15",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "iMrBurn",
+        "repo": "wwe2k15-pc"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6c6094f256f51e83fe02bce6091163e7.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WWE2K15-PC-v.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows, beta (no probado en Wine). Copia tus archivos a la carpeta game (game/default.xex) o elige el .iso en SETTINGS > BROWSE."
+      },
+      "launch": {
+        "windows": "WWE 2K15 Launcher.exe"
+      },
+      "year": 2014,
+      "developer": "Yuke's",
+      "genre": "Lucha libre",
+      "wiki": "WWE 2K15",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.4-beta",
+        "published_at": "2026-11-05T17:59:09Z"
+      },
+      "quality_signals": {
+        "downloads": 2103,
+        "stars": 24,
+        "age_days": 27,
+        "releases": 15,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "black-2006-recomp",
+      "name": "BLACK Recomp",
+      "original_game": "Black",
+      "game_id": "black",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "portingpete",
+        "repo": "Black-2006-Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Black%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BLACK-.*-starter\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Alfa para Windows; el autor documenta que funciona en Linux con Wine/Proton. El lanzador pide tus archivos del juego de Xbox original."
+      },
+      "launch": {
+        "windows": "BLACK Launcher.exe"
+      },
+      "year": 2006,
+      "developer": "Criterion Games",
+      "genre": "Shooter",
+      "wiki": "Black",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-alpha.5",
+        "published_at": "2026-10-22T14:54:57Z"
+      },
+      "quality_signals": {
+        "downloads": 5811,
+        "stars": 239,
+        "age_days": 35,
+        "releases": 3,
+        "contributors": 5,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "jsrf-recomp",
+      "name": "JSRF Recomp",
+      "original_game": "Jet Set Radio Future",
+      "game_id": "jet-set-radio-future",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Miggas",
+        "repo": "JSRF-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Jet%20Set%20Radio%20Future%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^jsrf_launcher-linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^jsrf_launcher-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Nativo en Linux y Steam Deck. Lo que se descarga es el lanzador: pide tu copia del juego (cualquier versión) y descarga y construye el resto."
+      },
+      "launch": {
+        "windows": "jsrf_launcher.exe"
+      },
+      "year": 2002,
+      "developer": "Smilebit",
+      "genre": "Acción",
+      "wiki": "Jet Set Radio Future",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "launcher-v2s",
+        "published_at": "2026-11-08T16:05:55Z"
+      },
+      "quality_signals": {
+        "downloads": 818,
+        "stars": 64,
+        "age_days": 26,
+        "releases": 10,
+        "contributors": 3,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "redline-recompiled",
+      "name": "Redline Recompiled",
+      "original_game": "Forza Motorsport",
+      "game_id": "forza-motorsport",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "DivxPlays",
+        "repo": "redline-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Forza%20Motorsport%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^RedlineRecompiled-[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Necesitas Forza Motorsport (USA) (Rev 1) como .iso o carpeta con Forza.xbe y media. Hasta 144 fps, 4x, DLSS/FSR. Versión temprana, hecha con ayuda de IA."
+      },
+      "launch": {
+        "windows": "RedlineLauncher.exe"
+      },
+      "year": 2005,
+      "developer": "Turn 10 Studios",
+      "genre": "Carreras",
+      "wiki": "Forza Motorsport",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-11-06T06:16:16Z"
+      },
+      "quality_signals": {
+        "downloads": 641,
+        "stars": 53,
+        "age_days": 3,
+        "releases": 1,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "fci-recomp",
+      "name": "Far Cry Instincts Recomp",
+      "original_game": "Far Cry Instincts",
+      "game_id": "far-cry-instincts",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "bassobr",
+        "repo": "Far-Cry-Instincts-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Far%20Cry%20Instincts%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^FarCryInstincts-Recomp-v[0-9.]+-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (Direct3D 11; no probado en Wine). Necesitas tu copia de Xbox original."
+      },
+      "launch": {
+        "windows": "FarCryInstincts.exe"
+      },
+      "year": 2005,
+      "developer": "Ubisoft Montreal",
+      "genre": "Shooter",
+      "wiki": "Far Cry Instincts",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.7",
+        "published_at": "2026-11-07T15:08:10Z"
+      },
+      "quality_signals": {
+        "downloads": 518,
+        "stars": 43,
+        "age_days": 3,
+        "releases": 8,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "thps2x-recompiled",
+      "name": "THPS2X Recompiled",
+      "original_game": "Tony Hawk's Pro Skater 2X",
+      "game_id": "tony-hawk-s-pro-skater-2x",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "almost-drowned-rat",
+        "repo": "THPS2X-Recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Tony%20Hawk%27s%20Pro%20Skater%202x%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^THPS2X-Recompiled-v[0-9.]+-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (Vulkan; no probado en Wine). Necesitas el disco USA."
+      },
+      "launch": {
+        "windows": "THPS 2X Recomp.exe"
+      },
+      "year": 2001,
+      "developer": "Treyarch",
+      "genre": "Deportes",
+      "wiki": "Tony Hawk's Pro Skater 2X",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-11-07T18:26:35Z"
+      },
+      "quality_signals": {
+        "downloads": 289,
+        "stars": 34,
+        "age_days": 13,
+        "releases": 10,
+        "contributors": 1,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "rac1-native",
+      "name": "Ratchet & Clank 1 Native",
+      "original_game": "Ratchet & Clank",
+      "game_id": "ratchet-clank",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "RAC-Native",
+        "repo": "rac1-native-game"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/da5a21d5b7479ac98965612f25b95a76.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^rac1-launcher-linux-x64$",
+        "windows-x86_64": "(?i)^rac1-launcher\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Nativo en Linux. El lanzador busca tu imagen de disco (también acepta la Platinum PAL 2.00), descarga el port y lo prepara."
+      },
+      "launch": {
+        "linux": "rac1-launcher-linux-x64",
+        "windows": "rac1-launcher.exe"
+      },
+      "year": 2002,
+      "developer": "Insomniac Games",
+      "genre": "Plataformas",
+      "wiki": "Ratchet & Clank",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.7.0",
+        "published_at": "2026-11-04T21:10:20Z"
+      },
+      "quality_signals": {
+        "downloads": 1738,
+        "stars": 97,
+        "age_days": 30,
+        "releases": 8,
+        "contributors": 5,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "shadow-of-rome-recompiled",
+      "name": "Shadow of Rome Recompiled",
+      "original_game": "Shadow of Rome",
+      "game_id": "shadow-of-rome",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Korvonordico",
+        "repo": "shadow-of-rome-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Shadow%20of%20Rome%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^ShadowOfRome-[0-9.]+-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Vía PS2Recomp con el GS de PCSX2: hasta 4x, 60 fps, 16:9 y 21:9. Aún no se ha jugado hasta el final."
+      },
+      "launch": {
+        "windows": "ShadowOfRome.exe"
+      },
+      "year": 2005,
+      "developer": "Capcom",
+      "genre": "Acción",
+      "wiki": "Shadow of Rome",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.9",
+        "published_at": "2026-11-06T19:29:58Z"
+      },
+      "quality_signals": {
+        "downloads": 430,
+        "stars": 29,
+        "age_days": 10,
+        "releases": 3,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "saint-seiya-recomp",
+      "name": "Saint Seiya Recomp",
+      "original_game": "Saint Seiya: The Hades",
+      "game_id": "saint-seiya-the-hades",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "matpdev",
+        "repo": "SaintSeiyaRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Saint%20Seiya%20-%20The%20Hades%20%28Europe%29%20%28En%2CJa%2CFr%2CEs%2CIt%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SaintSeiyaDecomp-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^SaintSeiyaDecomp-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Nativo en Linux (Vulkan, 16:9, 60 Hz). Necesitas el disco europeo (SLES-54162) o el japonés."
+      },
+      "launch": {
+        "windows": "sstheh.exe"
+      },
+      "year": 2006,
+      "developer": "Dimps",
+      "genre": "Lucha",
+      "wiki": "Saint Seiya: The Hades",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.3",
+        "published_at": "2026-11-09T12:38:20Z"
+      },
+      "quality_signals": {
+        "downloads": 121,
+        "stars": 24,
+        "age_days": 26,
+        "releases": 7,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "tmb-recomp",
+      "name": "TMB Recomp",
+      "original_game": "Twisted Metal: Black",
+      "game_id": "twisted-metal-black",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "TheBozos",
+        "repo": "TMB_Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Twisted%20Metal%20-%20Black%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^TMB_Recomp-[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesitas el disco USA (SCUS-97101). Paquete para Windows (no probado en Wine)."
+      },
+      "launch": {
+        "windows": "TMB Launcher.exe"
+      },
+      "year": 2001,
+      "developer": "Incognito Entertainment",
+      "genre": "Combate de coches",
+      "wiki": "Twisted Metal: Black",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.0",
+        "published_at": "2026-11-09T16:56:48Z"
+      },
+      "quality_signals": {
+        "downloads": 1634,
+        "stars": 35,
+        "age_days": 17,
+        "releases": 8,
+        "contributors": 2,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "recvx-enhanced",
+      "name": "RE CVX Enhanced Port",
+      "original_game": "Resident Evil Code: Veronica X",
+      "game_id": "resident-evil-code-veronica-x",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "aikatore",
+        "repo": "recvx-enhanced-port"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Resident%20Evil%20-%20Code%20-%20Veronica%20X%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^recvx-enhanced-port-[0-9.]+-linux-i686\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^recvx-enhanced-port-[0-9.]+-windows-x86\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port de la versión PS2 (NTSC-U, SLUS-20184) con cooperativo en línea y opciones de render mejoradas. Nativo en Linux (32 bits: necesita las bibliotecas i686)."
+      },
+      "launch": {
+        "windows": "recvx.exe"
+      },
+      "year": 2001,
+      "developer": "Capcom",
+      "genre": "Survival horror",
+      "wiki": "Resident Evil Code: Veronica X",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.7.6",
+        "published_at": "2026-11-09T15:48:05Z"
+      },
+      "quality_signals": {
+        "downloads": 25406,
+        "stars": 255,
+        "age_days": 27,
+        "releases": 26,
+        "contributors": 2,
+        "ai": true,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "curado"
+    },
+    {
+      "id": "re3-revisited",
+      "name": "Project RE:Visited RE3",
+      "original_game": "Resident Evil 3: Nemesis",
+      "game_id": "resident-evil-3-nemesis",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "BrazilianHobbyist",
+        "repo": "Project-RE-Visited-RE3"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Resident%20Evil%203%20-%20Nemesis%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Project_RE_Visited_Resident_Evil_3_v[0-9.]+_Win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Necesitas SLUS-00923. Experimental: el propio autor avisa de que hay fallos."
+      },
+      "launch": {
+        "windows": "Resident_Evil_3_Launcher.exe"
+      },
+      "year": 1999,
+      "developer": "Capcom",
+      "genre": "Survival horror",
+      "wiki": "Resident Evil 3: Nemesis",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.2.2",
+        "published_at": "2026-11-02T18:15:41Z"
+      },
+      "quality_signals": {
+        "downloads": 2459,
+        "stars": 94,
+        "age_days": 27,
+        "releases": 9,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "vagrant-story-recomp",
+      "name": "Vagrant Story Recompiled",
+      "original_game": "Vagrant Story",
+      "game_id": "vagrant-story",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "riotashley81-jpg",
+        "repo": "vagrantstory_recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Vagrant%20Story%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^VagrantStoryRecompiled-[0-9.]+-win-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows (no probado en Wine). Señala tu volcado USA (SLUS-01040, .cue + .bin)."
+      },
+      "launch": {
+        "windows": "VagrantStory_Recompiled.exe"
+      },
+      "year": 2000,
+      "developer": "Square",
+      "genre": "RPG",
+      "wiki": "Vagrant Story",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.11",
+        "published_at": "2026-10-25T10:58:30Z"
+      },
+      "quality_signals": {
+        "downloads": 2728,
+        "stars": 23,
+        "age_days": 27,
+        "releases": 9,
+        "contributors": 1,
+        "ai": false,
+        "emu": true,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "paper-cut",
+      "name": "Paper Cut",
+      "original_game": "Paper Mario: The Thousand-Year Door",
+      "game_id": "paper-mario-the-thousand-year-door",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "LLCOOLT",
+        "repo": "paper-cut"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Paper%20Mario_%20The%20Thousand-Year%20Door%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^papercut-[0-9.]+-linux-x64\\.AppImage$",
+        "windows-x86_64": "(?i)^papercut-[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de la versión de GameCube, con versión para Linux. Un solo paquete sirve para las versiones US, EU y JP: te pide tu ISO."
+      },
+      "launch": {
+        "windows": "Paper Cut.exe"
+      },
+      "year": 2004,
+      "developer": "Intelligent Systems",
+      "genre": "RPG",
+      "wiki": "Paper Mario: The Thousand-Year Door",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.1",
+        "published_at": "2026-11-07T00:34:09Z"
+      },
+      "quality_signals": {
+        "downloads": 4808,
+        "stars": 126,
+        "age_days": 21,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "colosseum-launcher",
+      "name": "Colosseum Launcher",
+      "original_game": "Pokémon Colosseum",
+      "game_id": "pok-mon-colosseum",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "chasem-dev",
+        "repo": "colosseum-launcher"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pokemon%20Colosseum%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Colosseum-Launcher\\.AppImage$",
+        "windows-x86_64": "(?i)^Colosseum-Launcher-[0-9.]+-win-portable\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Del autor de SMS Launcher. El lanzador te guía: pide tu ISO, descarga las herramientas (~500 MB) y construye el port. Nativo en Linux."
+      },
+      "launch": {},
+      "year": 2003,
+      "developer": "Genius Sonority",
+      "genre": "RPG",
+      "wiki": "Pokémon Colosseum",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-11-08T04:57:26Z"
+      },
+      "quality_signals": {
+        "downloads": 5044,
+        "stars": 94,
+        "age_days": 4,
+        "releases": 12,
+        "contributors": 2,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "splatpc",
+      "name": "SplatPC",
+      "original_game": "Splatoon",
+      "game_id": "splatoon",
+      "system": "wiiu",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "PC-PORTERS",
+        "repo": "SplatPC-Splatoon-Native-PC-Port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii%20U/Named_Boxarts/Splatoon%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SplatPC-Builder-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^SplatPC-Builder\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Versión muy temprana. El constructor (nativo en Linux) recompila el juego a partir de tu copia de Wii U."
+      },
+      "launch": {},
+      "year": 2015,
+      "developer": "Nintendo EAD",
+      "genre": "Shooter",
+      "wiki": "Splatoon",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.2",
+        "published_at": "2026-11-04T14:42:05Z"
+      },
+      "quality_signals": {
+        "downloads": 565,
+        "stars": 60,
+        "age_days": 22,
+        "releases": 4,
+        "contributors": 4,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
+    },
+    {
+      "id": "iss2000-recomp",
+      "name": "ISS 2000 Widescreen",
+      "original_game": "International Superstar Soccer 2000",
+      "game_id": "international-superstar-soccer-2000",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Mabec-games",
+        "repo": "iss2000-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/International%20Superstar%20Soccer%202000%20%28USA%29%20%28En%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Mabecs_ISS2000_Widescreen-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^Mabecs_ISS2000_Widescreen-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Panorámico de verdad. Necesitas la ROM USA Rev 1 o una de las europeas. Nativo en Linux."
+      },
+      "launch": {
+        "windows": "ISS2000Recompiled.exe"
+      },
+      "year": 2000,
+      "developer": "Konami",
+      "genre": "Deportes",
+      "wiki": "International Superstar Soccer 2000",
+      "box_art": null,
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.4",
+        "published_at": "2026-10-28T20:58:36Z"
+      },
+      "quality_signals": {
+        "downloads": 740,
+        "stars": 24,
+        "age_days": 23,
+        "releases": 5,
+        "contributors": 1,
+        "ai": false,
+        "emu": false,
+        "checked": "2026-11-09"
+      },
+      "tier": "experimental"
     }
   ]
 }
