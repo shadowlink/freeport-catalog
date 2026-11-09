@@ -64,6 +64,12 @@
       "color": "#e60012"
     },
     {
+      "id": "switch2",
+      "name": "Nintendo Switch 2",
+      "short": "NS2",
+      "color": "#e60012"
+    },
+    {
       "id": "nds",
       "name": "Nintendo DS",
       "short": "NDS",
@@ -26434,7 +26440,7 @@
       "name": "Hookshot",
       "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
       "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
-      "system": "switch",
+      "system": "switch2",
       "type": "recompilation",
       "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
       "logo_url": null,
@@ -26443,7 +26449,7 @@
       "genre": "Acción/Aventura",
       "wiki": "The Legend of Zelda: Ocarina of Time",
       "box_art": null,
-      "tier": "experimental",
+      "tier": "comunidad",
       "repo": {
         "host": "github",
         "owner": "NotRexed",
@@ -26459,7 +26465,7 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Recompilación estática del remake de Ocarina of Time para Nintendo Switch 2, con versión nativa para Linux (AppImage). Se construye en tu PC a partir de tu propia copia de la versión EXACTA: program 0400486024DEC000, actualización v131072, build e0f3ccfa, como archivo .nup o como carpetas romfs y exefs. Freeport no importa .nup: al Jugar se abre Hookshot Builder, eliges el .nup (o romfs y exefs) con «Browse», la carpeta de destino (por defecto ~/Games/Hookshot) y el idioma, y pulsas «Build» (10-45 minutos, unos 60 GB libres; descarga sus propias herramientas). Al terminar, «Play»; el juego queda también en el menú de aplicaciones como «Hookshot», y su lanzador tiene «Update». El primer arranque prepara shaders (varios minutos, y otra vez tras cada actualización). Requisitos: CPU con AVX2, glibc 2.35, 16 GB de RAM (usa ~10 GB), Vulkan 1.3 con mesh shaders (RTX 20 o superior, RX 6000 o superior, Intel Arc; sin mesh shaders no funciona), 8 GB de VRAM recomendados. NVIDIA es lo más probado. Experimental: tirones la primera vez en cada zona, árboles flotantes y algunos cuelgues fuera de Kokiri. En Windows: HookshotBuilder.exe."
+        "notes": "Recompilación estática del remake de Ocarina of Time para Nintendo Switch 2, con versión nativa para Linux (AppImage). Se construye en tu PC a partir de tu propia copia de la versión EXACTA: program 0400486024DEC000, actualización v131072, build e0f3ccfa, como archivo .nup o como carpetas romfs y exefs. Al Jugar se abre Hookshot Builder, eliges el .nup (o romfs y exefs) con «Browse», la carpeta de destino (por defecto ~/Games/Hookshot) y el idioma, y pulsas «Build» (10-45 minutos, unos 60 GB libres; descarga sus propias herramientas). Al terminar, «Play»; el juego queda también en el menú de aplicaciones como «Hookshot», y su lanzador tiene «Update». El primer arranque prepara shaders (varios minutos, y otra vez tras cada actualización). Requisitos: CPU con AVX2, glibc 2.35, 16 GB de RAM (usa ~10 GB), Vulkan 1.3 con mesh shaders (RTX 20 o superior, RX 6000 o superior, Intel Arc; sin mesh shaders no funciona), 8 GB de VRAM recomendados. NVIDIA es lo más probado. Experimental: tirones la primera vez en cada zona, árboles flotantes y algunos cuelgues fuera de Kokiri. En Windows: HookshotBuilder.exe."
       },
       "launch": {},
       "cached": {
@@ -26476,7 +26482,7 @@
       "name": "NX2navi",
       "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
       "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
-      "system": "switch",
+      "system": "switch2",
       "type": "recompilation",
       "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
       "logo_url": null,
@@ -26485,7 +26491,7 @@
       "genre": "Acción/Aventura",
       "wiki": "The Legend of Zelda: Ocarina of Time",
       "box_art": null,
-      "tier": "experimental",
+      "tier": "comunidad",
       "repo": {
         "host": "github",
         "owner": "tangerineturtle1",
