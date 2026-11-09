@@ -26428,6 +26428,88 @@
         "emu": false,
         "checked": "2026-11-08"
       }
+    },
+    {
+      "id": "hookshot",
+      "name": "Hookshot",
+      "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+      "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
+      "system": "switch",
+      "type": "recompilation",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
+      "logo_url": null,
+      "year": 2026,
+      "developer": "Nintendo",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Ocarina of Time",
+      "box_art": null,
+      "tier": "experimental",
+      "repo": {
+        "host": "github",
+        "owner": "NotRexed",
+        "repo": "Hookshot"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Hookshot-v[0-9.]+-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^HookshotBuilder\\.exe$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática del remake de Ocarina of Time para Nintendo Switch 2, con versión nativa para Linux (AppImage). Se construye en tu PC a partir de tu propia copia de la versión EXACTA: program 0400486024DEC000, actualización v131072, build e0f3ccfa, como archivo .nup o como carpetas romfs y exefs. Freeport no importa .nup: al Jugar se abre Hookshot Builder, eliges el .nup (o romfs y exefs) con «Browse», la carpeta de destino (por defecto ~/Games/Hookshot) y el idioma, y pulsas «Build» (10-45 minutos, unos 60 GB libres; descarga sus propias herramientas). Al terminar, «Play»; el juego queda también en el menú de aplicaciones como «Hookshot», y su lanzador tiene «Update». El primer arranque prepara shaders (varios minutos, y otra vez tras cada actualización). Requisitos: CPU con AVX2, glibc 2.35, 16 GB de RAM (usa ~10 GB), Vulkan 1.3 con mesh shaders (RTX 20 o superior, RX 6000 o superior, Intel Arc; sin mesh shaders no funciona), 8 GB de VRAM recomendados. NVIDIA es lo más probado. Experimental: tirones la primera vez en cada zona, árboles flotantes y algunos cuelgues fuera de Kokiri. En Windows: HookshotBuilder.exe."
+      },
+      "launch": {},
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2.0.6",
+        "published_at": "2026-11-09T05:01:01Z"
+      }
+    },
+    {
+      "id": "nx2navi",
+      "name": "NX2navi",
+      "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+      "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
+      "system": "switch",
+      "type": "recompilation",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
+      "logo_url": null,
+      "year": 2026,
+      "developer": "Nintendo",
+      "genre": "Acción/Aventura",
+      "wiki": "The Legend of Zelda: Ocarina of Time",
+      "box_art": null,
+      "tier": "experimental",
+      "repo": {
+        "host": "github",
+        "owner": "tangerineturtle1",
+        "repo": "NX2navi"
+      },
+      "release_channel": "stable",
+      "asset_rules": {
+        "windows-x86_64": "(?i)^NX2navi-Setup-[0-9.]+\\.exe$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Otra recompilación del remake de Ocarina of Time para Nintendo Switch 2 (versión del juego 1.1.1), solo para Windows; en Linux tienes Hookshot, nativo. Necesita tu volcado .nup: el setup lo busca junto a él, así que copia el .nup a la carpeta del port (Abrir carpeta) antes de Jugar. El lanzador descarga sus herramientas, construye el juego (10-25 minutos, una vez; ~30 GB libres) y prepara los shaders; luego se actualiza solo. Extras: DLSS/FSR 3.1 con generación de fotogramas, HDR, ultrapanorámico, menú de ajustes con F1. Requisitos: 16 GB de RAM, Vulkan 1.3 con VK_EXT_mesh_shader y VK_EXT_external_memory_host. Bajo Wine/Proton no está probado. Experimental: algún cuelgue raro en las partículas."
+      },
+      "launch": {},
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.0",
+        "published_at": "2026-11-08T03:20:19Z"
+      }
     }
   ]
 }
