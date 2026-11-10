@@ -26592,7 +26592,8 @@
         "emu": true,
         "checked": "2026-11-10"
       },
-      "tier": "experimental"
+      "tier": "comunidad",
+      "tier_manual": true
     },
     {
       "id": "hwaoi-recomp",
