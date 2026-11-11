@@ -213,7 +213,7 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Ocarina%20of%20Time%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)linux",
+        "linux-x86_64": "(?i)(linux|\\.appimage$)",
         "windows-x86_64": "(?i)win",
         "macos-x86_64": "(?i)mac"
       },
@@ -230,6 +230,7 @@
       },
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "macos-x86_64",
           "windows-x86_64"
         ],
@@ -874,7 +875,7 @@
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Castlevania%20-%20Symphony%20of%20the%20Night%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)nocturnerecomp-v.*linux-x64\\.tar\\.gz",
+        "linux-x86_64": "(?i)nocturnerecomp-v.*linux-(x64|amd64)\\.tar\\.gz$",
         "linux-aarch64": "(?i)nocturnerecomp-v.*linux-arm64\\.tar\\.gz",
         "windows-x86_64": "(?i)nocturnerecomp-v.*win"
       },
@@ -892,6 +893,7 @@
       "cached": {
         "platforms": [
           "linux-aarch64",
+          "linux-x86_64",
           "windows-x86_64"
         ],
         "latest_tag": "v1.5.2",
@@ -2331,7 +2333,7 @@
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)linux",
+        "linux-x86_64": "(?i)(linux|\\.appimage$)",
         "windows-x86_64": "(?i)win",
         "macos-x86_64": "(?i)mac"
       },
@@ -2348,6 +2350,7 @@
       },
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "macos-x86_64",
           "windows-x86_64"
         ],
@@ -14963,25 +14966,26 @@
       "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)^DefJamSetup\\-.*\\-linux\\-x64\\.tar\\.gz$",
-        "macos-aarch64": "(?i)^DefJamSetup\\-.*\\-macos\\-arm64\\.dmg$"
+        "linux-x86_64": "(?i)^DefJamRecompiled-.*-linux-x86_64\\.AppImage$",
+        "macos-aarch64": "(?i)^DefJamRecompiled-.*-macos-arm64\\.zip$",
+        "windows-x86_64": "(?i)^DefJamRecompiled-.*-windows-x64\\.exe$"
       },
       "rom": {
         "required": true,
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Necesitas tu propio volcado USA de Def Jam: Fight for NY de la Xbox original (.iso/.xiso o carpeta extraída, que debe coincidir con el manifiesto del proyecto); las copias de PS2 y GameCube no sirven. El programa es un instalador/setup: eliges el volcado, la carpeta de instalación y la de datos, y el setup verifica y COMPILA el juego en tu máquina (en Linux usa tu compilador o un contenedor podman de ~1 GB; en Steam Deck unos 5 minutos sin texturas HD, ~15 con ellas; ~12 GB de margen; en Windows instala las Build Tools de Microsoft si faltan). Direct3D 11 en Windows, Vulkan en Linux/Steam Deck (necesita SDL3 3.2+, loader Vulkan y shaderc; SteamOS 3.8 los trae). Port maduro: toda la funcionalidad del juego operativa según el autor; widescreen en beta."
+        "notes": "Necesitas tu propio volcado USA de Def Jam: Fight for NY de la Xbox original (.iso/.xiso o carpeta extraída, que debe coincidir con el manifiesto del proyecto); las copias de PS2 y GameCube no sirven. El programa (DefJam Recompiled: AppImage en Linux, .exe en Windows) es también el instalador: eliges el volcado, la carpeta de instalación y la de datos, y el setup verifica y COMPILA el juego en tu máquina (en Linux usa tu compilador o un contenedor podman de ~1 GB; en Steam Deck unos 5 minutos sin texturas HD, ~15 con ellas; ~12 GB de margen; en Windows instala las Build Tools de Microsoft si faltan). Direct3D 11 en Windows, Vulkan en Linux/Steam Deck (necesita SDL3 3.2+, loader Vulkan y shaderc; SteamOS 3.8 los trae). Port maduro: toda la funcionalidad del juego operativa según el autor; widescreen en beta."
       },
-      "launch": {
-        "linux": "DefJamSetup.sh"
-      },
+      "launch": {},
       "cached": {
         "platforms": [
-          "macos-aarch64"
+          "linux-x86_64",
+          "macos-aarch64",
+          "windows-x86_64"
         ],
-        "latest_tag": "v1.0.1",
-        "published_at": "2026-11-06T22:04:41Z"
+        "latest_tag": "v1.1.1",
+        "published_at": "2026-11-08T21:16:13Z"
       },
       "year": 2004,
       "developer": "AKI Corporation / EA Canada",
@@ -16643,7 +16647,7 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/2bb27718e033ba00f2a35039532e2672.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)^ArchLinux-MHGURecomp\\..*\\.zip$",
+        "linux-x86_64": "(?i)^(Arch)?Linux-MHGURecomp\\..*\\.(zip|tar\\.gz)$",
         "windows-x86_64": "(?i)^Windows-MHGURecomp\\..*\\.zip$"
       },
       "rom": {
@@ -16668,10 +16672,11 @@
       "tier": "curado",
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "0.16.0",
-        "published_at": "2026-11-09T23:46:34Z"
+        "latest_tag": "0.16.1",
+        "published_at": "2026-11-11T09:06:21Z"
       },
       "quality_signals": {
         "downloads": 44220,
@@ -16925,7 +16930,7 @@
       "cover_url": "https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png",
       "logo_url": null,
       "asset_rules": {
-        "linux-x86_64": "(?i)^TotK-Setup-x86_64\\.AppImage$",
+        "linux-x86_64": "(?i)^TotK-Setup-x86_64(-[0-9.]+-linux)?\\.AppImage$",
         "windows-x86_64": "(?i)^TotK-Setup-.*-windows\\.zip$"
       },
       "rom": {
@@ -16988,10 +16993,11 @@
       "tier": "curado",
       "cached": {
         "platforms": [
+          "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.3.13",
-        "published_at": "2026-11-07T18:18:41Z"
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-11-10T16:56:16Z"
       },
       "quality_signals": {
         "downloads": 229755,
