@@ -741,7 +741,7 @@
       "year": 2000,
       "developer": "Rare",
       "genre": "Acción-aventura",
-      "wiki": "Star Fox Adventures",
+      "wiki": null,
       "mods": {
         "source": "thunderstore",
         "community": "dinosaur-planet-recompiled"
