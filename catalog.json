@@ -33942,6 +33942,3018 @@
         "title": "https://images.launchbox-app.com/1614c008-17e1-4f02-8172-a5f28f958191.png",
         "fanart": "https://images.launchbox-app.com/7dd4822f-fc32-4846-ae16-ea1e2a7177b6.png"
       }
+    },
+    {
+      "id": "outrunners-port",
+      "name": "OutRunners Port",
+      "original_game": "OutRunners",
+      "game_id": "outrunners",
+      "system": "arcade",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "cheviman",
+        "repo": "outrunners-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/MAME/Named_Boxarts/OutRunners%20%28World%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^outrunners-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^outrunners-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo del arcade OutRunners (Sega, 1992) basado en una decompilación en C verificada contra MAME. Necesita el set de ROMs de MAME «orunners» (World) como orunners.zip: se deja junto al juego o se arrastra a su ventana cuando lo pide, y la primera vez extrae los assets. Incluye modo Arcade, 2 jugadores, red local para hasta 4 equipos, & Knuckles, soporte de volante y pantalla panorámica. Windows y Linux x64."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 1992,
+      "developer": "Sega",
+      "genre": "Carreras",
+      "wiki": "OutRunners",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.3.1",
+        "published_at": "2026-11-13T20:55:40Z"
+      },
+      "lb": {
+        "id": 26854,
+        "players": 2,
+        "rating": 4.2,
+        "overview": "OutRunners is a driving game that allows you to go on a world tour of various stages. Follow the selected drive course by choosing one out of the 8 different type cars whose characteristics such as perspectives, power, transmission, steering wheel manoeuvrability, etc. are different. Appealing to young couples who drive in a stylish manner, players who skilfully make turns at the corners, and so on, amid the beautiful sceneries throughout the world, this game is sure to enhance the activation of the locations.",
+        "logo": "https://images.launchbox-app.com/r2_14d2cbb1-e832-4ad1-a9b5-4176d0382f89.png",
+        "snap": "https://images.launchbox-app.com/2da0c7c7-1680-483b-ae35-f272d2311221.jpg",
+        "title": "https://images.launchbox-app.com/7f31ac20-944a-4a9c-b72d-f04aa0af9238.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_52d4d053-79e2-4909-a252-a234ecacb3ed.jpg"
+      }
+    },
+    {
+      "id": "super-mario-64-recomp-n64hub",
+      "name": "Super Mario 64: Recompiled",
+      "original_game": "Super Mario 64",
+      "game_id": "super-mario-64",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "super-mario-64-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Mario%2064%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SuperMario64Recompiled-.*-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^SuperMario64Recompiled-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita la ROM USA de Super Mario 64 (.z64 big-endian, SHA-1 9bef1128717f958171a4afac3ed78ee2bb4e86ce), que se elige con Load ROM en el lanzador del port. Recompilación estática con N64Recomp + RT64: alta resolución, widescreen, interpolación a la tasa de la pantalla y mejoras opcionales (todas con valor Original). Windows y Linux x64 (glibc 2.35+, Vulkan). Jugable; código generado con IA según el README."
+      },
+      "launch": {
+        "linux": "SuperMario64Recompiled",
+        "windows": "SuperMario64Recompiled.exe"
+      },
+      "year": 1996,
+      "developer": "Nintendo EAD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario 64",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.11",
+        "published_at": "2026-11-13T11:50:43Z"
+      },
+      "lb": {
+        "id": 216,
+        "players": 1,
+        "rating": 4.7,
+        "overview": "Mario is invited to Peach's castle, but when he arrives Peach is nowhere to be seen. He soon learns from Toad that Bowser has once again kidnapped her. The Koopa King has also put a spell on her castle, imprisoning her subjects. So it is up to Mario to break the spell and rescue Peach.\n\nSuper Mario 64 is the first Mario game done entirely with 3D graphics. The core gameplay is similar to previous platform installments, focusing on jumping, avoiding obstacles and defeating enemies. Levels can be explored without time limits. Stars must be collected in order to unlock new areas, eventually gaining access to various parts of Bowser's castle. Defeating Bowser on each floor procures keys necessary to unlock big doors and enter other floors, which contain more areas.\n\nMario has more moves at his disposal in this installment. Besides running and jumping, he can now walk, crouch, crawl, climb, and punch enemies. Double and triple jumps, long jumps, wall jumps and backflips can be executed as well. Swimming underwater now depletes Mario's oxygen level. Items must be picked up and carried in some instances in order to solve puzzles.\n\nPower-ups include the Wing Cap, which allows Mario to fly;",
+        "logo": "https://images.launchbox-app.com/a865a58b-faf7-42e6-b0f5-be8e3837b3b0.png",
+        "snap": "https://images.launchbox-app.com/68a9621e-10b1-41bd-848b-503d73f67ea0.png",
+        "title": "https://images.launchbox-app.com/d0eaeb5b-7c3a-4c5c-93bd-0efe15474d09.png",
+        "fanart": "https://images.launchbox-app.com/45f9a5b5-aa7f-4fca-a7de-c598ae4dd352.jpg"
+      }
+    },
+    {
+      "id": "resistance-fall-of-man-recomp",
+      "name": "Resistance: Fall of Man Recomp",
+      "original_game": "Resistance: Fall of Man",
+      "game_id": "resistance-fall-of-man",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "miroslavdanutalexandru-alt",
+        "repo": "Resistance-Fall-of-Man-Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/a675cdaaaea6d970edf507f9716e5227.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^ResistancePort-[\\d.]+-beta(-Windows-x64)?\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el volcado USA de Resistance: Fall of Man (BCUS98107, v1.00): la carpeta que contiene PS3_GAME, como la de RPCS3, o la ISO; otras regiones o versiones parcheadas no se admiten. Es un instalador/builder: hay que ejecutar Setup.exe a mano desde la carpeta del port; descifra el programa, lo traduce a C/C++ y lo compila (20-60 min, unos 25 GB libres, requiere conexión; instala herramientas con un aviso de administrador). Después se juega con Launcher.exe. Solo Windows 10/11 con CPU AVX2 y GPU DirectX 12; DLSS/FSR/XeSS, 60 fps+, ultrawide. Versión beta."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Launcher.exe"
+      },
+      "year": 2006,
+      "developer": "Insomniac Games",
+      "genre": "Disparos en primera persona",
+      "wiki": "Resistance: Fall of Man",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.3-beta",
+        "published_at": "2026-11-12T01:29:12Z"
+      },
+      "lb": {
+        "id": 97,
+        "players": 40,
+        "coop": true,
+        "rating": 4.0,
+        "overview": "Only you can save mankind. Through brute force, a species of unknown origin known only as the Chimera have conquered Asia and most of Europe in mere decades during the early 20th century. Recognizing the potential for humanity's total annihilation, the United States supports the British Resistance in a European counterattack. The story follows Hale, a US Ranger, as he struggles for survival and desperately seeks a means to eliminate the Chimeran blight. \n\nGameplay elements and enemies that create a sense of unease and set an atmosphere that frightens the player through bleak, dark and foreboding undertones. Engage in some of the largest turbulent battles ever witnessed on a console gaming system. An immersive world delivers photo-realistic characters, environments and lighting effects that capture the power of the PlayStation 3. Play co-op via split screen or compete against up to 40 players via online or LAN play.",
+        "logo": "https://images.launchbox-app.com/53d559d4-35a5-4d25-a813-3dd5248af655.png",
+        "snap": "https://images.launchbox-app.com/d41effa9-6d3b-430f-b555-4d46b764dc55.jpg",
+        "fanart": "https://images.launchbox-app.com/3146c5b7-3b97-46b4-a12d-9c1c7e28285a.jpg"
+      }
+    },
+    {
+      "id": "super-mario-advance-2-recomp",
+      "name": "Super Mario Advance 2 Recomp",
+      "original_game": "Super Mario Advance 2: Super Mario World",
+      "game_id": "super-mario-advance-2-super-mario-world",
+      "system": "gba",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mstan",
+        "repo": "SuperMarioAdvance2Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SuperMarioAdvance2Recomp-windows-x64-v[\\d.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita la ROM de Super Mario Advance 2: Super Mario World (USA/Australia) y la BIOS oficial de GBA; el lanzador pide ambas en el primer arranque y las recuerda. Recompilación estática (gbarecomp) con widescreen adaptativo opcional (hasta 9:5), filtro HQ2x opcional, estados de guardado (Shift+F1-F9 guarda, F1-F9 carga) y soporte de mando. Solo Windows x64. Versión experimental: arranca y recorre la intro y el attract, con aristas por pulir."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SuperMarioWorldRecomp.exe"
+      },
+      "year": 2001,
+      "developer": "Nintendo R&D2",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Advance 2: Super Mario World",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.0.6",
+        "published_at": "2026-11-14T06:07:06Z"
+      },
+      "lb": {
+        "id": 2348,
+        "players": 1,
+        "rating": 4.4,
+        "overview": "One of Mario's greatest adventures is in your hands!\n\nBowser and his crew of cruel Koopalings have taken over Dinosaur Island, but luckily, Mario and Luigi are up for some Koopa-kicking. As they ride Yoshi, search for P-Switches, find secret paths, blast fireballs, and soar skyward with the Cape, they'll need to use every trick in the plumber handbook. Dino Rhinos, Chargin' Chucks, and a host of unforgettable enemies await in one of the Mario Bros. biggest and most challenging adventures ever!\n\n-All 96 levels in the palm of your hand! Ride Yoshi from the spooky Forest of Illusion to the super-tough Star Road - everything from the Super NES classic is here, powered up with all-new features for the Game Boy Advance.\n-Luigi's ready, so pick a Bro and go! Now you can play as Mario or his brother, Luigi, who can jump and fly higher than his famous sibling. Which Bro is the best for each stage?\n-Get linked! Using a single Game Pak, link up four players and play the timeless Mario Bros. arcade game. You can even connect with Super Mario Advance Game Paks for Multi-Pak madness!",
+        "logo": "https://images.launchbox-app.com/6afa4480-e300-4bdc-8fae-4382bc5d0a98.png",
+        "snap": "https://images.launchbox-app.com/r2_10ff8820-a020-47b4-857d-9fcfdd9ac73f.png",
+        "title": "https://images.launchbox-app.com/r2_d869c73d-10d2-4adc-87d3-14621387b2aa.png",
+        "fanart": "https://images.launchbox-app.com/r2_e4d44cab-9ef0-4dbe-b7e9-638cd1c86905.jpg"
+      }
+    },
+    {
+      "id": "tmnt-turtles-in-time-reshelled-recompiled",
+      "name": "TMNT: Turtles in Time Re-Shelled Recompiled",
+      "original_game": "Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled",
+      "game_id": "teenage-mutant-ninja-turtles-turtles-in-time-re-shelled",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "saulob",
+        "repo": "tmnt-turtles-in-time-reshelled-recompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/d44626b18a7717c4a5fac9a340287a60.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TurtlesInTimeReshelledRecompiled-.*-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^TurtlesInTimeReshelled-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el paquete XBLA de Xbox 360 de Turtles in Time Re-Shelled (Title ID 584109D2, tipo 000D0000, STFS LIVE, unos 270 MB; default.xex y TMNT_r.xex exactos según el README). En el lanzador TRG, página Play, «Install from package...» copia los ficheros a una carpeta game junto al programa. Recompilación con ReXGlue: render 1x-4x, MSAA/FXAA, multijugador online para 4 con servicio propio, trucos y logros offline; el ROM SNES opcional añade música y mecánicas clásicas. Windows x64 (DirectX 12) y AppImage Linux/Steam Deck experimental (Vulkan)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "tmnt_turtles_in_time_reshelled.exe"
+      },
+      "year": 2009,
+      "developer": "Konami / Ubisoft",
+      "genre": "Beat 'em up",
+      "wiki": "Teenage Mutant Ninja Turtles: Turtles in Time Re-Shelled",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-11-11T14:26:08Z"
+      },
+      "lb": {
+        "id": 164271,
+        "players": 4,
+        "coop": true,
+        "rating": 3.9,
+        "overview": "The Turtles are back! Relive, or discover for the first time, the flashy visual style and humor of one of the most acclaimed arcade games of all time. Starring Leonardo, Donatello, Raphael and Michelangelo - everyone’s favorite pizza-loving, wise-cracking, reptilian crime fighters. The game has been recreated in beautiful full 3D HD graphics and enhanced animations but still has all of the favorite moments and gameplay from the original. \n\nUse pizza power-ups and huge body slams to make your way through history in an attempt to restore peace to the Big Apple.",
+        "logo": "https://images.launchbox-app.com/a15f9534-0ec1-48ef-aabe-028145a49187.png",
+        "snap": "https://images.launchbox-app.com/e8514b46-024d-469c-9b14-50dd833a1b9d.jpg",
+        "title": "https://images.launchbox-app.com/59a2cd46-0b41-4849-bd3a-27d44f19921e.jpg",
+        "fanart": "https://images.launchbox-app.com/483cca89-d2c1-467b-90a3-28f696a6d070.jpg"
+      }
+    },
+    {
+      "id": "xc3-recomp",
+      "name": "XC3 Recomp",
+      "original_game": "Xenoblade Chronicles 3",
+      "game_id": "xenoblade-chronicles-3",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "jmars125",
+        "repo": "xc3-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/6e59393a83a67afaa68e09dd68aa4cea.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^XC3-Setup-.*-linux\\.AppImage$",
+        "windows-x86_64": "(?i)^XC3-Setup-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el juego base de Xenoblade Chronicles 3 en NSP, la actualización 2.2.1 (los DLC son opcionales; admite los cuatro packs incl. Future Redeemed) y tu prod.keys. Es un instalador/builder: se ejecuta XC3-Setup a mano desde la carpeta del port, se eligen ficheros, idioma y una subcarpeta de instalación (p. ej. game) y compila el juego una vez (unos 36 GiB libres durante la instalación, 20 GiB después). Se juega con xc3.exe. Jugable en Windows (GPU con Vulkan 1.3); 60 fps por defecto, DLSS/FSR3, frame generation, HDR y ultrawide. En Linux/Steam Deck el setup compila pero no está probado en una GPU real."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "xc3.exe"
+      },
+      "year": 2022,
+      "developer": "Monolith Soft",
+      "genre": "RPG",
+      "wiki": "Xenoblade Chronicles 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.14",
+        "published_at": "2026-11-14T01:37:43Z"
+      },
+      "lb": {
+        "id": 213371,
+        "players": 1,
+        "rating": 4.3,
+        "overview": "Join Noah and Mio, members of the two opposing nations of Keves and Agnus, on a heartfelt journey to end the cycle of violence. A group of six characters from these nations join together to awaken the colonies of Aionios and expose the true threat both nations face.\n\nTraverse massive, fantastical landscapes as you learn how this game connects to the larger Xenoblade Chronicles story.\n\nAll six of your core party members jump into action against enemies, auto-attacking with their distinct arts and weapons. Position your team to take advantage of Arts and maximize damage and debuffs. Pairs of characters can Interlink to form a mighty Ouroboros capable of taking down the most threatening enemies with powerful Arts.",
+        "logo": "https://images.launchbox-app.com/3a1987ac-2b20-498c-a9e6-501ff49b9a1a.png",
+        "snap": "https://images.launchbox-app.com/954a2b95-2e34-41ee-ae6a-dd282876c024.png",
+        "title": "https://images.launchbox-app.com/d529daff-abaa-4142-a96e-6a43d2708c3f.jpg",
+        "fanart": "https://images.launchbox-app.com/7b6e3a5d-0b23-4134-a6d7-89f16c9bed27.jpg"
+      }
+    },
+    {
+      "id": "soulcalibur2-recomp",
+      "name": "Soulcalibur II Recomp",
+      "original_game": "Soulcalibur II",
+      "game_id": "soulcalibur-ii",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tmcleroy",
+        "repo": "soulcalibur2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/SoulCalibur%20II%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Soulcalibur2Recomp-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Soulcalibur2Recomp-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de la versión de Xbox. Ejecuta el lanzador (soulcalibur2-launcher / soulcalibur2-launcher.exe) y en la página Game elige tu disco de Soulcalibur II (Xbox, USA o Europa) en .iso o el Default.xbe de los archivos extraídos; se verifica por hash y solo se lee. Opcionalmente, en la página Guest se añaden tu disco de GameCube (Link) y/o de PS2 (Heihachi), que el lanzador convierte en unos minutos para tener a Spawn, Link y Heihachi juntos. Añade modo entrenamiento, online con rollback, cámara libre, panorámico y shaders. Linux probado en Steam Machine; Windows compila pero sin probar. Última versión estable es beta (v0.4.0-beta.1); hay además prereleases de pruebas que se ignoran."
+      },
+      "launch": {
+        "linux": "soulcalibur2-launcher",
+        "windows": "soulcalibur2-launcher.exe"
+      },
+      "year": 2002,
+      "developer": "Namco",
+      "genre": "Lucha",
+      "wiki": "Soulcalibur II",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0-beta.1",
+        "published_at": "2026-11-10T02:22:27Z"
+      },
+      "lb": {
+        "id": 6192,
+        "players": 2,
+        "rating": 4.2,
+        "overview": "Transcending history and the world, a tale of souls and swords eternally retold. \n\nFour years have passed since the spirit sword, Soulcalibur defeated the evil Soul Edge. At the end of that fateful battle, the shards of the shattered Soul Edge were scattered across the world and Soulclibur was lost to the void. Now, the evil that still resides in the scattered shards of Soul Edge threatens again to engulf the world in darkness.\n\nGuest starring exclusively for the Xbox: Spawn.",
+        "logo": "https://images.launchbox-app.com/d89bbc55-f8d0-4545-a882-64723f82c268.png",
+        "snap": "https://images.launchbox-app.com/c524cd8e-4a4e-425a-8c09-530aafd978f9.jpg",
+        "title": "https://images.launchbox-app.com/af966ac5-5e74-4319-ab4b-60f5c91be5fd.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_5bde3d75-b13c-4717-9ae3-4f21171593fe.jpg"
+      }
+    },
+    {
+      "id": "pokepark-wiicompiled",
+      "name": "PokePark Wiicompiled",
+      "original_game": "PokéPark Wii: Pikachu's Adventure",
+      "game_id": "pokepark-wii-pikachus-adventure",
+      "system": "wii",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "MildRain479",
+        "repo": "PokePark-Wiicompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/PokePark%20Wii_%20Pikachu%27s%20Adventure%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PokePark-Wiicompiled-v.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el zip y abre PokePark.exe (mantén las carpetas prompts y tools junto al exe): en el primer arranque pide tu imagen de disco de PokéPark Wii USA (R8AE01; ISO, RVZ, WBFS, WIA, CISO), la comprueba contra el disco original y prepara el juego en una carpeta R8AE01 junto al programa; las partidas van en R8AE01\\nand y se pueden importar desde una Wii o Dolphin. Un main.dol parcheado no vale. Requiere Windows 10/11 x64 y GPU con Vulkan 1.3 u OpenGL 3.3. No hay build de Linux (en Steam Deck, vía Proton sin probar). Beta abierta."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "PokePark.exe"
+      },
+      "year": 2009,
+      "developer": "Creatures Inc.",
+      "genre": "Aventura",
+      "wiki": "PokéPark Wii: Pikachu's Adventure",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.5-beta",
+        "published_at": "2026-11-11T02:11:43Z"
+      },
+      "lb": {
+        "id": 109604,
+        "players": 1,
+        "rating": 4.2,
+        "overview": "Only Pikachu Can Save the PokéPark! The first Pokémon adventure game on the Wii console puts Pikachu at the center of a fun, expansive playground filled with adventure, Attractions and Pokémon. The Rare Pokémon Mew summons Pikachu to the PokéPark to find the missing Sky Prism Pieces, leaving it up to Pikachu to save the day!",
+        "logo": "https://images.launchbox-app.com/59ebb521-05cf-46d6-bf00-4cfda2412499.png",
+        "snap": "https://images.launchbox-app.com/39fbc734-3c4a-44ff-b7a9-f8fcf2427e1c.png",
+        "title": "https://images.launchbox-app.com/r2_af234710-2ea7-453f-b30f-7afc7cc6f09d.png"
+      }
+    },
+    {
+      "id": "frightworks-no100f",
+      "name": "FrightWorks: Night of 100 Frights",
+      "original_game": "Scooby-Doo! Night of 100 Frights",
+      "game_id": "scooby-doo-night-of-100-frights",
+      "system": "gc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "FrightWorks",
+        "repo": "FrightWorks-no100f"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Scooby-Doo%21%20Night%20of%20100%20Frights%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "^FrightWorks\\.AppImage$",
+        "windows-x86_64": "(?i)^FrightWorks-\\d+(\\.\\d+)*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Continuación de Scooby-Doo: Refrightened (recompilación con WiiCompiled). Descomprime el zip portable (~700 MB; alternativa: FrightWorks-win-Setup.exe) o ejecuta el AppImage de Linux (beta, glibc 2.34+, Vulkan y FUSE); en el primer arranque pide tu imagen de GameCube de Night of 100 Frights USA v1.01 (GIHE78, revisión 1) en .iso, .gcm o .ciso. Hasta 4K, panorámico real, 30/60 fps, MSAA, textura HD integrada, mandos y teclado remapeables, guardado en tarjeta de memoria y mods. En Linux los datos van a ~/.local/share/WiiCompiled."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "FrightWorks.exe"
+      },
+      "year": 2002,
+      "developer": "Heavy Iron Studios",
+      "genre": "Plataformas",
+      "wiki": "Scooby-Doo! Night of 100 Frights",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.3",
+        "published_at": "2026-11-10T01:20:03Z"
+      },
+      "lb": {
+        "id": 20937,
+        "players": 1,
+        "rating": 4.0,
+        "overview": "The Mastermind has kidnapped Mystery Inc, and it's up to Scooby-Doo to search for his lost friends. Guide Scooby through 12 huge levels that include a creepy mansion, a spooky cave, a ghostly graveyard, and a perilous pier. As you search for clues, you must avoid classic Scooby-Doo monsters, use wacky inventions, eat Scooby Snacks, and gather power-ups. Do you have what it takes to foil the Mastermind's plan to rid the world of Mystery Inc?",
+        "logo": "https://images.launchbox-app.com/557efe71-5adf-46f9-821d-d8a4527b33f8.png",
+        "snap": "https://images.launchbox-app.com/0160a444-6850-4af1-a113-c9f8c1335f0c.jpg",
+        "title": "https://images.launchbox-app.com/1eaffa41-d7d1-4d23-8e53-ed4810c59f4d.png",
+        "fanart": "https://images.launchbox-app.com/r2_cf74b132-9d3c-4898-8c71-f9aa09eea8c7.jpg"
+      }
+    },
+    {
+      "id": "sanctuaryport",
+      "name": "SanctuaryPort",
+      "original_game": "Diablo III: Reaper of Souls – Ultimate Evil Edition",
+      "game_id": "diablo-iii-reaper-of-souls-ultimate-evil-edition",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "CaduGimenes",
+        "repo": "SanctuaryPort"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/83aa658c240d1badb5185b3d6fc8c808.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SanctuaryPort-linux-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^SanctuaryPort-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Runtime que ejecuta el código x86-64 original de la versión de PS4 con una capa para las librerías del sistema y un núcleo de vídeo derivado de shadPS4 sobre Vulkan. Necesita tu volcado de Diablo III (CUSA00243 brasileña con update 1.47, Eternal Collection, o CUSA00242 USA Ultimate Evil Edition 1.00) como PKG; en el lanzador, Game > Install from PKG (juego, update y add-ons), o apunta a una carpeta ya extraída con eboot.bin (compatible con Importar PKG de Freeport). Jugable, con co-op local para 4, trofeos, hasta 4K/ultrapanorámico y FSR; solo offline. Linux: AppImage con glibc 2.39+, python3 y Vulkan 1.3; Windows: zip con Python incluido."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SanctuaryPort.exe"
+      },
+      "year": 2014,
+      "developer": "Blizzard Entertainment",
+      "genre": "Hack and slash",
+      "wiki": "Diablo III: Reaper of Souls",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.1",
+        "published_at": "2026-11-14T00:59:53Z"
+      },
+      "lb": {
+        "id": 20599,
+        "players": 4,
+        "coop": true,
+        "rating": 4.2,
+        "overview": "PlayStation 4 players can experience the full adventure of Blizzard’s epic action RPG, Diablo III, as the Diablo III: Ultimate Evil Edition includes the expansion pack Reaper of Souls! Bringing the world of Diablo back to PlayStation gamers, this edition of Diablo III features special four-player co-op features. With the DualShock 4 wireless controller and a custom-designed console interface, players will be outfitted with touch pad functionality and new social features as they engage in pulse-pounding combat with hordes of monsters and acquire items of incredible power. \n\nDiablo III picks up the story twenty years after the events of Diablo II. Mephisto, Diablo, and Baal have been defeated, but the Worldstone, which once shielded the inhabitants of the world of Sanctuary from the forces of both Heaven and Hell, has been destroyed, and evil once again stirs in Tristram. Take on the role of one of six powerful character classes - Barbarian, Demon Hunter, Monk, Witch Doctor, Wizard, or the all-new Crusader - and embark on a dark journey through Acts I-V to save the world of Sanctuary from ancient and sinister forces. Players will acquire powerful items, spells, and abilities as they ",
+        "logo": "https://images.launchbox-app.com/7ba640c1-45aa-468d-8bff-eb86f1570368.png",
+        "snap": "https://images.launchbox-app.com/f4166cfc-d99c-4a3d-a1ab-1c9c01abc651.jpg",
+        "fanart": "https://images.launchbox-app.com/4dd9bbcc-5712-45f3-8bd5-e6c0c35f6da1.jpg"
+      }
+    },
+    {
+      "id": "transformers-armada-recomp",
+      "name": "Transformers (PS2): PC Port",
+      "original_game": "Transformers (Armada: Prelude to Energon)",
+      "game_id": "transformers-armada-prelude-to-energon",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "kayliox",
+        "repo": "transformers-armada-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/8fc7ec0dd25008e7c40e24103575c641.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^TransformersArmada-v.*-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Patrón instalador: descomprime el zip, ejecuta tfa-setup.exe a mano desde esa carpeta, elige tu ISO de Transformers USA (SLUS-20668; la europea SLES-52388 es experimental) y una subcarpeta de instalación (p. ej. game); instala Git, Python y las herramientas de Visual Studio y compila el juego (15-25 min; las texturas HD tardan más, hay opción Fast). El juego final se lanza con «Transformers Armada.exe» de la carpeta de instalación. Renderizador Direct3D 12 propio con alta resolución, ultrapanorámico, frame rate alto y mandos; solo Windows 10/11 (hay ruta nativa Linux por línea de comandos en el README)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Transformers Armada.exe"
+      },
+      "year": 2004,
+      "developer": "Melbourne House",
+      "genre": "Acción-aventura",
+      "wiki": "Transformers (2004 video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "setup-v0.7.7",
+        "published_at": "2026-11-14T16:51:44Z"
+      },
+      "lb": {
+        "id": 5378,
+        "players": 1,
+        "rating": 4.1,
+        "overview": "Players control either Optimus Prime, Red Alert or Hot Shot, who are able to transform between robot and vehicle modes at the push of a button. The game revolves around the collection of Mini-cons, which can be equipped to the Transformer. These include weapons, such as a pistol, support items, such as glider wings, and stat-enhancement, such as an armor boost, and, with the exception of the latter, can be controlled using the shoulder buttons. There is a limit to what Mini-cons can be equipped, which more powerful Mini-cons taking up a lot of space. The more of the same color Mini-cons equipped the stronger your character will be. This is referred to as Mini-con linking.",
+        "logo": "https://images.launchbox-app.com/702d5151-f0aa-43de-a4bb-3327101d7af6.png",
+        "snap": "https://images.launchbox-app.com/e62d7343-4c71-4c78-89b6-09f2c5b2c109.jpg",
+        "title": "https://images.launchbox-app.com/f5140a0c-9c2a-4000-9e74-5fc3fd6dd63e.jpg",
+        "fanart": "https://images.launchbox-app.com/02a20576-6ff6-4a70-9cd1-c922b221410c.jpg"
+      }
+    },
+    {
+      "id": "soleanna-sonic06-recomp",
+      "name": "Soleanna (sonic06-recomp)",
+      "original_game": "Sonic the Hedgehog (2006)",
+      "game_id": "sonic-the-hedgehog-2006",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "DrummingBird1",
+        "repo": "sonic06-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/5b91bbeeac59db4371e96f799b0c0ddd.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Soleanna-[0-9.]+\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador/lanzador solo para Windows 10/11 de 64 bits: ejecuta Soleanna-X.Y.Z.exe a mano (no está firmado; SmartScreen avisará), elige carpeta de instalación y se abre el lanzador. Necesita tu propio disco de la versión europea de PS3 (BLES00028) como ISO o carpeta, y RPCS3 instalado para descifrar el EBOOT.BIN. El lanzador copia el disco, instala las herramientas de compilación, descarga FFmpeg/SDL2/ps3recomp, recompila el juego a C y genera sonic06.exe; hacen falta unos 10 GB libres y 8 GB de RAM, y tarda un buen rato la primera vez. Direct3D 12. Trabajo en curso: todas las fases y jefes arrancan, pero nadie ha completado aún una fase; probado en un solo PC."
+      },
+      "launch": {
+        "windows": null,
+        "linux": null
+      },
+      "year": 2006,
+      "developer": "Sonic Team",
+      "genre": "Plataformas",
+      "wiki": "Sonic the Hedgehog (2006 video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-11-13T18:23:28Z"
+      },
+      "lb": {
+        "id": 31759,
+        "players": 2,
+        "coop": true,
+        "rating": 3.1,
+        "overview": "Sonic celebrates his 15th anniversary by blazing his way onto the next-generation consoles, with his first adventure set in the human world! Featuring interactive 3D environments and a large cast of returning and new characters, get ready for the reinvention of Sonic The Hedgehog, in his most intense, high velocity escapade to date!",
+        "logo": "https://images.launchbox-app.com/6ede4c59-6d71-4588-aa88-a87d1863697c.png",
+        "snap": "https://images.launchbox-app.com/b802487b-9d1d-4be5-a0ac-fa0ac7957abe.jpg",
+        "title": "https://images.launchbox-app.com/9c474128-cd6d-45b1-8c1c-604ffe5347ae.png",
+        "fanart": "https://images.launchbox-app.com/69392e48-6404-496d-8cdf-b8c042e020e3.jpg"
+      }
+    },
+    {
+      "id": "tmnt-port",
+      "name": "TMNT Port (TMNT Arcade / Splinter Way)",
+      "original_game": "Teenage Mutant Ninja Turtles",
+      "game_id": "teenage-mutant-ninja-turtles",
+      "system": "arcade",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "cheviman",
+        "repo": "tmnt-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/1616fa0093635cc56c9b6e5f99946c5a.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^tmnt-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^tmnt-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "tmnt.zip",
+        "subdir": null,
+        "notes": "Port nativo construido sobre el decomp en C tmntarcade-decomp. Necesita el set de MAME tmnt.zip (World 4 Players): se deja junto al ejecutable, o la primera vez el juego pide soltarlo en su ventana; extrae de él los recursos y no vuelve a leer el ROM. Trae dos juegos: TMNT (versión de consola: sin monedas, Splinter Way con Normal/Boss Rush/Ronin, hasta 4 jugadores, multijugador en red local, pantalla ancha 16:9) y TMNT Arcade (la recreativa tal cual, con monedas y modo test). Teclado o mando, SDL2 integrado. Se elige la release estable v1.0.6; existe una prerelease «testing-build»."
+      },
+      "launch": {
+        "linux": "TMNT",
+        "windows": "TMNT.exe"
+      },
+      "year": 1989,
+      "developer": "Konami",
+      "genre": "Beat 'em up",
+      "wiki": "Teenage Mutant Ninja Turtles (arcade game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.6",
+        "published_at": "2026-11-09T21:17:21Z"
+      },
+      "lb": {
+        "id": 8670,
+        "players": 4,
+        "coop": true,
+        "rating": 4.4,
+        "overview": "April O'Neil, the reporter friend of the Teenage Mutant Ninja Turtles, is kidnapped by the villainous Shredder and his two goons, Bebop and Rocksteady. The four ninja turtles: Raphael, Michelangelo, Donatello and Leonardo fight their way through hordes of Foot Soldiers in order to rescue April. They battle familiar foes such as the mad scientist Baxter Stockman, General Traag from Dimension X and the evil alien brain Krang, up to the final showdown with Shredder himself.\n\nTeenage Mutant Ninja Turtles is an arcade game made by Konami during the height of the cartoon series' popularity. Depending on the version of the game, up to two, three or four players can take part in the action. The game plays like a simplified Double Dragon. While most of the standard Foot Soldier enemies are easily dispatched, some attack with knives or ray guns and are thus more dangerous. At the end of each level, players encounter a boss (or in certain cases two bosses working in tandem, such as Bebop and Rocksteady).",
+        "logo": "https://images.launchbox-app.com/1684c25f-fb33-47f4-9e15-167c57446723.png",
+        "snap": "https://images.launchbox-app.com/fed0c781-3e84-45ae-bb1d-63edf7186881.jpg",
+        "title": "https://images.launchbox-app.com/3e0b6767-772d-4a35-9410-3790694c0af3.png",
+        "fanart": "https://images.launchbox-app.com/1d0ff1b2-fa07-4404-8f95-c3590cb7d081.png"
+      }
+    },
+    {
+      "id": "freedom-unite-recomp",
+      "name": "Monster Hunter Freedom Unite Recomp",
+      "original_game": "Monster Hunter Freedom Unite",
+      "game_id": "monster-hunter-freedom-unite",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "PateeerQ",
+        "repo": "FreedomUniteRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Monster%20Hunter%20Freedom%20Unite%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^FreedomUniteRecomp-v[0-9.]+-linux-x64-universal\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^FreedomUniteRecomp-v[0-9.]+-windows-x64-universal\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática (psprecomp) del MIPS de PSP a C; en Windows y Linux (también Steam Deck) usa lanzador propio (mhfu_launcher.exe en Windows, ./start.sh en Linux). Necesita tu .iso del UMD (Europa ULES01213, USA ULUS10391 o Portable 2nd G japonés ULJM05500; también vale la traducción FUComplete) y, según el caso, el EBOOT bajo Advanced en el lanzador; no se incluye ni se descarga ningún dato del juego. Requiere GPU con OpenGL 3.3. Añade salas online con código (multiplataforma, entre regiones), 60 FPS (beta), pantalla ancha, trucos CWCheat, packs de texturas de PPSSPP y RetroAchievements. Proyecto dirigido por IA («AI Driven» en su descripción)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "mhfu_launcher.exe"
+      },
+      "year": 2008,
+      "developer": "Capcom",
+      "genre": "Action RPG",
+      "wiki": "Monster Hunter Freedom Unite",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.7",
+        "published_at": "2026-11-12T10:16:00Z"
+      },
+      "lb": {
+        "id": 14633,
+        "players": 4,
+        "rating": 4.3,
+        "overview": "Japan's most successful PSP title, Monster Hunter Portable 2G, is heading to Europe and US. Renamed Monster Hunter Freedom Unite, this latest installment in the epic Monster Hunter series delivers over 500 hours of gameplay spanning some 400 missions. Added with previously unreleased monsters, weapons and missions and you have the biggest Monster Hunter game to date.\n\nUsing the Ad-Hoc connection players can adventure with up to three friends for a savaging multiplayer hunting party. From devising the strategy to executing the attack, players will need to work together in order to hunt down the ferocious beasts and progress through the wide range of quests on offer. Players will be rewarded for their use of deep fighting combat systems, encouraging them to seek out the more experienced hunters and team up in order to learn from their experience.\n\nEven in single player mode Hunters won't be alone thanks to the introduction of the new AI Felyne feature. Accompanying players on quests your furry ally will helping them battle monsters and gather extra resources.",
+        "logo": "https://images.launchbox-app.com/f3bbd188-90f4-4bf4-b10c-f4e149a686d0.png",
+        "snap": "https://images.launchbox-app.com/c7b85304-9933-4e31-954a-b74f7210f55d.jpg",
+        "title": "https://images.launchbox-app.com/7cc14b41-79c9-4661-aeba-f9954aafc725.png",
+        "fanart": "https://images.launchbox-app.com/b2b49209-8bdb-45dd-a091-177a1642d903.jpg"
+      }
+    },
+    {
+      "id": "mario-party-3-recomp",
+      "name": "Mario Party 3: Recompiled",
+      "original_game": "Mario Party 3",
+      "game_id": "mario-party-3",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "mario-party-3-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Party%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MarioParty3Recompiled-v[0-9.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^MarioParty3Recompiled-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "N64Recomp + RT64 con el lanzador de RecompFrontend. Pulsa Load ROM y elige tu ROM de Mario Party 3 (USA) en .z64 big-endian de 32 MiB (SHA-1 6beb80ff…); otras regiones no valen. Linux x86-64 con glibc 2.35+, Vulkan, GTK 3 y FreeType. Menús, los seis tableros y los minijuegos jugables, widescreen e interpolado al refresco del monitor; hasta 4 jugadores con mandos o teclado; también existe versión web. Casi todo el código lo escribieron agentes de IA (Claude), según el README."
+      },
+      "launch": {
+        "linux": "MarioParty3Recompiled",
+        "windows": "MarioParty3Recompiled.exe"
+      },
+      "year": 2000,
+      "developer": "Hudson Soft",
+      "genre": "Party",
+      "wiki": "Mario Party 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.22",
+        "published_at": "2026-11-13T16:22:46Z"
+      },
+      "lb": {
+        "id": 960,
+        "players": 4,
+        "rating": 4.1,
+        "overview": "Mario and friends are throwing a party and you're invited. It's their biggest bash yet, with seventy totally new Mini-Games and five brand new adventure boards. You'll be the life of the party as you punch, pound and stampede right over your opponents in a multiplayer melee or go head-to-head in the new two-player duel mode. You can even unlock new characters in the one-player challenge. With so much fun and excitement, this is a bash you'll just have to crash!",
+        "logo": "https://images.launchbox-app.com/1e1f9be4-3d99-49d3-8545-9a8d787a08cf.png",
+        "snap": "https://images.launchbox-app.com/22fbb8ca-9227-40b5-aba4-40642cef00e3.jpg",
+        "title": "https://images.launchbox-app.com/6a1523fd-ca63-42aa-b803-2159df23f395.png",
+        "fanart": "https://images.launchbox-app.com/5088657b-b301-40b6-b031-9994b0da19ee.jpg"
+      }
+    },
+    {
+      "id": "warriors-reborn",
+      "name": "WarriorsReborn",
+      "original_game": "The Warriors",
+      "game_id": "the-warriors",
+      "system": "xbox",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "mattiasribera",
+        "repo": "WarriorsReborn"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Warriors%2C%20The%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WarriorsReborn-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Runtime nativo (no es emulador completo ni decomp): carga el default.xbe de tu disco original de The Warriors (Xbox) y ejecuta su código x86 directamente, con kernel Xbox, Direct3D 8, XACT/DirectSound y entrada reimplementados sobre Vulkan y SDL2. Ejecuta warriors-launcher.exe: el asistente de primer arranque pide tu imagen .iso/xiso (o carpeta con default.xbe) y la instala (~5,2 GB junto al lanzador; el .iso solo se lee). Requiere GPU con Vulkan. Extras: 60 fps (experimental), 16:9, resolución 1080p+, MSAA/supersampling, sombras HD, lluvia y bloom mejorados. Solo hay binario de Windows en las releases (Linux solo compilando); todas son prerelease."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "warriors-launcher.exe"
+      },
+      "year": 2005,
+      "developer": "Rockstar Toronto",
+      "genre": "Beat 'em up",
+      "wiki": "The Warriors (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.7",
+        "published_at": "2026-11-13T05:27:19Z"
+      },
+      "lb": {
+        "id": 12510,
+        "players": 2,
+        "coop": true,
+        "rating": 4.5,
+        "overview": "The Warriors is based on the 1979 gang film of the same name. In the game, you'll play as the leader of a gang that is struggling to regain control of the streets of New York. You must lead a team of up to eight other gang members and fight rival gangs in locations across New York. The combat system incorporates combos, a rage mode, and trash-talking snap attacks. The game material extends beyond the movie, drawing upon the book on which the movie is based.",
+        "logo": "https://images.launchbox-app.com/d5ee5201-de72-4bcb-9a30-aa907f852c82.png",
+        "snap": "https://images.launchbox-app.com/170ddb3b-0b9e-4030-98a9-1640a7e2f268.png",
+        "title": "https://images.launchbox-app.com/fb08bd59-edf6-4a3d-b1ef-25f157db1b0b.jpg",
+        "fanart": "https://images.launchbox-app.com/d5eb7c67-ae58-4632-82f7-b1d76ac1197f.jpg"
+      }
+    },
+    {
+      "id": "tsukihime-native-pc-port",
+      "name": "Tsukihime Native PC Port",
+      "original_game": "TSUKIHIME -A piece of blue glass moon-",
+      "game_id": "tsukihime-a-piece-of-blue-glass-moon",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "Take00C",
+        "repo": "Tsukihime-Native-PC-Port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/0e8ccd187f56b3696422278ebb620efa.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Tsukihime-v[0-9.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Tsukihime-v[0-9.]+-win-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de la versión de PS4 (CUSA47999) que lee directamente tus ficheros extraídos, sin convertirlos. Hace falta la carpeta del juego (~44 GB) con eboot.bin, image/, data/ y sce_sys/, volcada de tu PS4 o extraída de tu .pkg (vale Importar PKG de Freeport); el update, si lo hay, en una carpeta contigua. Abre TsukihimeLauncher (.exe en Windows), en «Game files» pulsa Browse y elige la carpeta, luego PLAY. Windows 10/11 o Linux x86-64 (glibc 2.34+), OpenGL 3.3; .NET, SDL y FFmpeg incluidos; sirve en Steam Deck. Voces/textos en japonés, inglés y chino, 140 ranuras de guardado, trofeos como logros. La build de macOS es experimental y no se usa."
+      },
+      "launch": {
+        "linux": "TsukihimeLauncher",
+        "windows": "TsukihimeLauncher.exe"
+      },
+      "year": 2021,
+      "developer": "Type-Moon / French Bread",
+      "genre": "Aventura",
+      "wiki": "Tsukihime",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.9",
+        "published_at": "2026-11-14T17:13:58Z"
+      },
+      "lb": {
+        "id": 476967,
+        "overview": "A remake of Type-Moon's classic doujin game Tsukihime, featuring a rewritten scenario with major differences in its setting and plot, as well as several new characters.",
+        "logo": "https://images.launchbox-app.com/0eef84e3-e985-4dcc-a084-0457100ef837.png",
+        "snap": "https://images.launchbox-app.com/03d203f1-a27a-490b-bd57-8e4b6f3df033.jpg"
+      }
+    },
+    {
+      "id": "tera-recomp",
+      "name": "Tera Recomp",
+      "original_game": "Pokémon Scarlet and Violet",
+      "game_id": "pokemon-scarlet-and-violet",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tukidev-lgtm",
+        "repo": "Tera-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/181426fbde5526374ea654b59c16577e.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Tera-Setup-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador/builder solo para Windows 10/11 x64: descomprime Tera-Setup-Windows-x64.zip, ejecuta Tera-Setup.exe a mano (SmartScreen puede avisar) y elige una carpeta de instalación nueva y vacía (p. ej. game); Freeport no lanza el setup. Pide el juego base de Pokémon Scarlet o Violet (NSP/XCI/NSZ/XCZ), el update 4.0.0, tu prod.keys, la carpeta de firmware (Contents/registered) y opcionalmente el DLC. Traduce el código a C y compila en ~20 min, con unos 30 GB libres durante la instalación (12 GB después). Requiere GPU con Vulkan 1.3. Alfa temprana: arranca, intro y creación de personaje, 30 fps, con cuelgues y fallos gráficos; multijugador aún no. El ejecutable final es totk.exe en la carpeta de instalación."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "totk.exe"
+      },
+      "year": 2022,
+      "developer": "Game Freak",
+      "genre": "RPG",
+      "wiki": "Pokémon Scarlet and Violet",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.2",
+        "published_at": "2026-11-14T16:44:23Z"
+      },
+      "lb": {
+        "id": 213312,
+        "players": 4,
+        "coop": true,
+        "rating": 3.9,
+        "overview": "Pokémon Scarlet is a new 2022 role-playing video game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch. Announced in February 2022, they are the first installments in the ninth generation of the Pokémon video game series. Scarlet is set to have open worlds which include urban areas and open wilderness without borders between the two. The games introduce three new starter Pokémon: Sprigatito, Fuecoco, and Quaxly; and two new legendary Pokémon: Koraidon and Miraidon.",
+        "logo": "https://images.launchbox-app.com/d0f1efc4-e853-4d98-8929-1c82c64ee7ac.png",
+        "snap": "https://images.launchbox-app.com/f8041a1a-84e4-46e2-968b-75044d89b990.jpg",
+        "title": "https://images.launchbox-app.com/743097d0-eaed-450b-89d6-57e8f420a517.png",
+        "fanart": "https://images.launchbox-app.com/6260dd08-876c-44e8-a5ae-0d7083ae2aa6.png"
+      }
+    },
+    {
+      "id": "odyssey-recomp",
+      "name": "Odyssey Recomp",
+      "original_game": "Super Mario Odyssey",
+      "game_id": "super-mario-odyssey",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "rwwo8",
+        "repo": "OdysseyRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Odyssey\\.Recomp-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Odyssey\\.Recomp-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Super Mario Odyssey (Switch). Al primer arranque el asistente pide la carpeta con tu copia extraída (exefs y romfs) de la versión 1.0.0, sin actualizaciones; la comprueba, copia lo necesario junto al programa (unos 6 GB) y recompila el código en unos minutos, una sola vez. Después hay que pulsar Play y el primer arranque prepara shaders (~1 minuto). Windows x64 y Linux x64 (glibc 2.35+, X11/XWayland; el tar.gz se arranca con OdysseyRecomp.sh); requiere CPU con AVX2 y GPU Vulkan 1.3. Jugable de principio a fin a 60 fps, con resolución interna hasta 8K, 120 fps interpolados, ultrapanorámico, mando con giroscopio, dos jugadores y mods de RomFS. Hecho con ayuda intensiva de una IA (Claude)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "OdysseyRecomp.exe"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Odyssey",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "0.2.4",
+        "published_at": "2026-11-14T00:59:10Z"
+      },
+      "lb": {
+        "id": 136132,
+        "players": 2,
+        "coop": true,
+        "rating": 4.6,
+        "overview": "Join Mario on a massive, globe-trotting 3D adventure and use his incredible new abilities to collect Moons so you can power up your airship, the Odyssey, and rescue Princess Peach from Bowser's wedding plans! This sandbox-style 3D Mario adventure—the first since 1996's beloved Super Mario 64 and 2002's Nintendo GameCube classic Super Mario Sunshine—is packed with secrets and surprises, and with Mario's new moves like cap throw, cap jump, and capture, you'll have fun and exciting gameplay experiences unlike anything you've enjoyed in a Mario game before. Get ready to be whisked away to strange and amazing places far from the Mushroom Kingdom!",
+        "logo": "https://images.launchbox-app.com/d6501a8a-2c69-4021-9e52-f25175a5c48d.png",
+        "snap": "https://images.launchbox-app.com/932120b8-9cd2-45dd-aa8a-4616e3445a24.jpg",
+        "title": "https://images.launchbox-app.com/50c6e6b1-e5a8-4221-91fd-5e60a01e274e.jpg",
+        "fanart": "https://images.launchbox-app.com/eeb083a3-2274-40c4-8095-30d7a644537d.jpg"
+      }
+    },
+    {
+      "id": "disruptor-recomp",
+      "name": "Disruptor Recomp",
+      "original_game": "Disruptor",
+      "game_id": "disruptor",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "RecompTeam",
+        "repo": "DisruptorRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Disruptor%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^DisruptorRecomp\\.AppImage$",
+        "windows-x86_64": "(?i)^DisruptorRecomp-win-Portable\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación de Disruptor (PlayStation, 1996). El lanzador pide tu imagen de disco USA (SLUS-00224); se arrastra a la ventana y se pulsa Play (un disco francés, alemán o japonés sirve para cambiar el idioma). Se usa el zip portable en Windows (también hay Setup.exe) y el AppImage en Linux x64. Widescreen, 60 fps, resolución hasta 8x, ratón y mando, fotogramas intermedios hasta 320 FPS, RetroAchievements (52 logros) y actualizaciones con un clic. Alfa, pero la campaña se puede jugar de principio a fin."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Disruptor Recompiled.exe"
+      },
+      "year": 1996,
+      "developer": "Insomniac Games",
+      "genre": "Disparos en primera persona",
+      "wiki": "Disruptor (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.14.0",
+        "published_at": "2026-11-07T18:32:57Z"
+      },
+      "lb": {
+        "id": 12907,
+        "players": 1,
+        "rating": 4.0,
+        "overview": "As a soldier in the world-renowned LightStormer Corps., your main objective is to clean up the universe...but it's getting pretty hairy out there! Mutated humans, space marines and aliens have decimated scientific research parties on Mars, threatened Earth and infiltrated various space stations -- the LightStormer Corps. aren't taking this situation lightly.\n\nThe government has a top-secret plan: Psionic power. Implanted into your brain, these psychic powers significantly enhance your mental abilities; you can mentally heal yourself, drain energy, shock deadly organisms and blast a group of baddies to smithereens! Use these powers in moderation, however -- they consume vital Psionic points.\n\nAs a first-person shooter, Disruptor has you blasting your way through a series of dangerous missions on varying planets. With 13 levels in all, you'll run the gauntlet at the LightStormer Academy, destroy a chemical wasteland, infiltrate and retake an important space station on Jupiter, and save Earth from 20 types of deadly mutant freakazoids. Mutants include possessed troops, slimy aliens, jellyfish creatures, genetically altered humans and a group of drones and droids.",
+        "logo": "https://images.launchbox-app.com/13ecb083-1b58-447b-b8ec-30beec1c76c6.png",
+        "snap": "https://images.launchbox-app.com/4140a828-db78-451a-ad36-da46bc4b0d89.png",
+        "title": "https://images.launchbox-app.com/0d400a27-690f-4a01-8d76-be445d4b3d1d.png",
+        "fanart": "https://images.launchbox-app.com/4e0dbba6-8205-4536-b992-c49f6350040b.jpg"
+      }
+    },
+    {
+      "id": "pokemon-xd-pc-port",
+      "name": "Pokémon XD PC Port",
+      "original_game": "Pokémon XD: Gale of Darkness",
+      "game_id": "pokemon-xd-gale-of-darkness",
+      "system": "gc",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "imyourhuckleberryponcho",
+        "repo": "Pokemon-XD-PC-Port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pokemon%20XD_%20Gale%20of%20Darkness%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Pokemon\\.XD\\.PC\\..*Linux(\\.test)?\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Pokemon\\.XD\\.PC\\..*Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo construido sobre el decomp de Pokémon XD (no es un emulador). Se ejecuta Pokemon XD.exe (lanzador); la primera vez pide tu imagen de disco de la versión USA (GXXE01) en .iso, .gcm, .rvz, .wia, .gcz o .ciso, y la recuerda. Se usa el paquete completo «Windows» / «Linux»; el otro zip y tar.gz son paquetes de actualización. Windows es la build principal; la de Linux es de pruebas y aún no se ha jugado en un PC real. Beta pública (0.4.x): jugable desde Nuevo juego hacia la historia, con fallos conocidos; haz copias de tus partidas. Modo Original (idéntico al de GameCube) o Enhanced, mods, randomizer, varias partidas y modelos de Pokémon Battle Revolution si aportas ese disco."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Pokemon XD.exe"
+      },
+      "year": 2005,
+      "developer": "Genius Sonority",
+      "genre": "RPG",
+      "wiki": "Pokémon XD: Gale of Darkness",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.2",
+        "published_at": "2026-11-14T06:29:11Z"
+      },
+      "lb": {
+        "id": 7029,
+        "players": 4,
+        "rating": 4.2,
+        "overview": "Pokémon XD is a sequel to the role-playing game Pokémon Colosseum. You'll play as Michael, a Pokémon trainer who is trying to thwart the evil Cipher. Cipher plans to control the world by using the powerful, but unpredictable, shadow Pokémon. Now you must fight back by collecting your own shadow Pokémon and beating Cipher's goons in battle. Pokémon XD also lets you import Pokémon from Game Boy Advance Pokémon games and participate in head-to-head battles with other players.",
+        "logo": "https://images.launchbox-app.com/d7e0eabb-7472-4239-91e0-a28eefebd0e5.png",
+        "snap": "https://images.launchbox-app.com/r2_33fdca0f-5ddb-460e-a6a8-b636292c301d.jpg",
+        "title": "https://images.launchbox-app.com/4b9b048b-d8ff-4606-b0e5-6841a5478f65.png",
+        "fanart": "https://images.launchbox-app.com/r2_16c5d479-56e2-4c0f-b8c0-2df71ed31fbd.png"
+      }
+    },
+    {
+      "id": "ufc3mons",
+      "name": "UFC3MONS",
+      "original_game": "UFC Undisputed 3",
+      "game_id": "ufc-undisputed-3",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "monscriser",
+        "repo": "UFC3MONS"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c6d34619f7844c1a3cfc66708391d44a.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^UFC3MONS-.*-Linux-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^UFC3MONS-.*-Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de UFC Undisputed 3 (Xbox 360) con ReXGlue y backend Vulkan. El lanzador (Launcher-Config.exe / AppImage) pide tu copia: carpeta del mod Reborn, XEX u carpeta de la edición original, o ISO leída directamente. Pensado sobre todo para el mod comunitario UFC Undisputed Reborn, que recibe más pruebas; también soporta DLC desde carpeta, FSR 1, trucos opcionales y «Add to Steam». Carrera y Exhibición jugables a 60 fps, con presentaciones a 60 fps; lanzador en portugués, inglés y español. Experimental. Las versiones se numeran BETA 1.x dentro de los tags 1.0.x-UFC3MONS."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "UFC3.exe"
+      },
+      "year": 2012,
+      "developer": "Yuke's / THQ",
+      "genre": "Lucha",
+      "wiki": "UFC Undisputed 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "1.0.12-UFC3MONS",
+        "published_at": "2026-11-11T21:26:47Z"
+      },
+      "lb": {
+        "id": 9235,
+        "players": 2,
+        "rating": 4.2,
+        "overview": "The critically acclaimed and best-selling MMA videogame franchise returns to take players inside the Octagon with UFC Undisputed 3, delivering intense UFC action focused on brutal toe-to-toe combat, impressive visual presentation and increased accessibility.",
+        "logo": "https://images.launchbox-app.com/r2_c71e8e72-cb0c-4115-bd18-5672bee3d56c.png",
+        "snap": "https://images.launchbox-app.com/r2_13fa66e4-248b-46a4-845a-c35d9d50bded.png",
+        "title": "https://images.launchbox-app.com/2db0ab81-b0d1-4e86-9ec7-22b051e6ecd4.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_326d4bb7-c355-4f3a-872e-787f6ed7612a.jpg"
+      }
+    },
+    {
+      "id": "toot-r",
+      "name": "TOoT:R",
+      "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+      "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Unkn0wnAli4n",
+        "repo": "TOoT-R"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TOoT-R-Installer-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^TOoT-R-Installer\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador/builder: el AppImage o el .exe pide tu volcado de la versión Switch 2 como un único .nup con la actualización v131072 (title ID 0400486024DEC000), comprueba sus hashes y compila el port en tu PC (15-60 min; unos 3 GB durante la compilación y ~1 GB después). En Linux instala dependencias con tu gestor de paquetes (pide contraseña) y en Windows usa MSYS2; instala en ~/.local/share/tootr o %LOCALAPPDATA%\\tootr y crea el comando tootr, entrada de menú o accesos directos. Hay que ejecutar el instalador a mano desde la carpeta del port y arrancar el juego desde el acceso creado. Requiere GPU Vulkan 1.3 con VK_EXT_external_memory_host y 16 GB de RAM; se actualiza solo al arrancar. Se arranca, renderiza y es jugable con mando; el rendimiento aún está en desarrollo."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2025,
+      "developer": "Nintendo EPD",
+      "genre": "Acción-aventura",
+      "wiki": "The Legend of Zelda: Ocarina of Time",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-11-08T08:58:08Z"
+      },
+      "lb": {
+        "id": 480318,
+        "players": 1,
+        "rating": 4.7,
+        "overview": "Discover an adventure for the ages in The Legend of Zelda: Ocarina of Time, for Nintendo Switch 2. Featuring reimagined visuals, a refreshed soundtrack and modernised gameplay, this classic quest has been remade for a whole new era.",
+        "logo": "https://images.launchbox-app.com/r2_e9e754ab-8687-4de5-a8a5-80bf976e5252.png",
+        "snap": "https://images.launchbox-app.com/c4ddb070-3437-4351-a1ba-d68b4106f423.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_ef8f33b9-2e39-41c8-810d-c4b25254fb91.jpg"
+      }
+    },
+    {
+      "id": "castlevania-cod-qol",
+      "name": "Castlevania COD QOL",
+      "original_game": "Castlevania: Curse of Darkness",
+      "game_id": "castlevania-curse-of-darkness",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "fasipe",
+        "repo": "Castlevania-COD-QOL"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Castlevania%20-%20Curse%20of%20Darkness%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Castlevania-COD-QOL-.*-Linux-SteamDeck\\.zip$",
+        "windows-x86_64": "(?i)^Castlevania-COD-QOL-.*-Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo por recompilación estática de Castlevania: Curse of Darkness (PS2). Hace falta la imagen de disco de la versión europea (SLES-53755). En Windows se ejecuta Setup.exe desde la carpeta extraída: pide el ISO, comprueba el juego y genera y compila el código en tu PC (unos minutos; puede instalar las Build Tools de Visual Studio), y crea un acceso en el escritorio (build\\codport.exe). En Linux/Steam Deck el zip corre vía Proton con Setup-Linux.sh (descarga clang-cl, ~2 GB) y se añade a Steam como no-Steam; sin probar en una Deck. Resolución 2x-4x, widescreen, filtrado de texturas, minimapa, sprint, interpolación opcional hasta 240 fps y packs de texturas (F1 abre ajustes). Hecho con ayuda de una IA (Claude)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "codport.exe"
+      },
+      "year": 2005,
+      "developer": "Konami (KCET)",
+      "genre": "Acción-aventura",
+      "wiki": "Castlevania: Curse of Darkness",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.4.0",
+        "published_at": "2026-11-14T05:01:47Z"
+      },
+      "lb": {
+        "id": 5922,
+        "players": 1,
+        "rating": 4.0,
+        "overview": "The Castlevania series gets a new protagonist in the form of Hector, a Devil Forgemaster, in Castlevania: Curse of Darkness. Hector left Dracula's service to lead a normal life, leaving Dracula vulnerable to attack by the Belmonts. Now that Dracula has been vanquished, you must fight back the unholy curse that has spread across Europe. You can use your skills as a Devil Forgemaster to craft familiars that will help you during your travels. Castlevania: Curse of Darkness provides role-playing game and adventure elements, letting your character grow as he progresses through the story. \n \nVengeance Runs Deep...\nFueled by revenge for the murder of his true love, the Devil Forgemaster Hector returns to the ruins of Dracula's castle to punish those he once fought alongside, unaware of the sinister plot that has been orchestrated to lure him home.\n• Master the dark art of Devil Forgery to summon Innocent Devils as allies\n• Level up by destroying the evil creatures of the night\n• Collect evolution crystals to develop and enhance your Innocent Devils\n• Acquire a wide variety of powerful new weapons and abilities\n• Explore the biggest 3D Castlevania world yet!",
+        "logo": "https://images.launchbox-app.com/68280c8d-f717-42c1-a585-1c27d964190c.png",
+        "snap": "https://images.launchbox-app.com/dabf985c-1e63-44c9-9033-034349922298.jpg",
+        "title": "https://images.launchbox-app.com/5163bdd4-5d78-4b63-a991-bd75d7822f99.jpg",
+        "fanart": "https://images.launchbox-app.com/a1c88220-ceb8-4a8a-8640-7363b104357b.jpg"
+      }
+    },
+    {
+      "id": "tomodachi-ltd-recomp",
+      "name": "Tomodachi LTD Recomp",
+      "original_game": "Tomodachi Life: Living the Dream",
+      "game_id": "tomodachi-life-living-the-dream",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "RussoPhone",
+        "repo": "tomodachi-ltd-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/e4efc746696d9f37472de81cbad04179.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Tomodachi-LTD-Recomp-.*-x86_64\\.AppImage$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Alfa de port nativo no oficial (solo Linux; Windows no está soportado). El AppImage solo contiene el instalador y el lanzador: se copia a ~/.local/share/tomodachi-ltd-recomp, y la primera vez pide tu .nsp de la versión 1.0.0 (sin actualizaciones) y tu prod.keys, y compila todo en tu PC (necesita paquetes de compilación previos, 16 GB de RAM, 8 GB de swap y unos 35 GB libres; el instalador reanuda donde se quedó). Hay que ejecutarlo desde la carpeta del port y después usar el lanzador (play.sh) o el acceso del menú. Probado solo en un portátil NVIDIA con Linux; limitado a 30 FPS. Usa un runtime propio (nxrt) con renderer NVN a Vulkan, aunque parte de los servicios viene de código derivado de suyu. Todas las releases son prerelease."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2026,
+      "developer": "Nintendo EPD / Nintendo",
+      "genre": "Simulación",
+      "wiki": "Tomodachi Life: Living the Dream",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64"
+        ],
+        "latest_tag": "v1.7.8",
+        "published_at": "2026-11-12T22:03:45Z"
+      },
+      "lb": {
+        "id": 471814,
+        "players": 1,
+        "rating": 4.2,
+        "overview": "The Tomodachi Life series is back with its first brand new entry in over ten years.\n\nCreate your own Mii characters based on yourself, friends, family - anyone! - and watch them live their lives on an island out at sea. Get involved with their relationships and experience all the weird and wonderful ways these Mii characters interact. You may even drop in on their dreams!",
+        "logo": "https://images.launchbox-app.com/r2_abd5a082-fe57-45fc-9f8b-7daf43d97ddd.png",
+        "snap": "https://images.launchbox-app.com/r2_c9eacd29-50c0-42e4-8413-a8d629043f90.jpg",
+        "title": "https://images.launchbox-app.com/r2_c0179eda-f4bb-40f6-9eb1-57dcb54dfb67.png",
+        "fanart": "https://images.launchbox-app.com/r2_8ea29444-decc-4705-b8a2-cdb1786f7820.png"
+      }
+    },
+    {
+      "id": "cm0102-bosman-edition",
+      "name": "CM 01/02: Bosman Edition",
+      "original_game": "Championship Manager 01/02",
+      "game_id": "championship-manager-01-02",
+      "system": "pc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "maxevans60",
+        "repo": "cm0102-bosman-edition"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f6ee82a413e12539b770cec0591cb0c8.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^CM0102-Bosman-Edition-.*-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^CM0102-Bosman-Edition-.*-Setup\\.exe$"
+      },
+      "rom": {
+        "required": false,
+        "mode": "none",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "No necesita nada del usuario: cada descarga ya incluye los datos del juego de la versión gratuita que Eidos publicó en 2008 con el último parche oficial (3.9.68). En Windows el asset es un instalador (Setup.exe) que hay que ejecutar a mano; en Linux es un AppImage (también en Steam Deck, modo escritorio). Traducción función a función del ejecutable original a C con SDL2, sin emulador ni Wine; permite cualquier temporada de 2001/02 a 2026/27 y pantalla panorámica. Todas las releases publicadas son preliminares (0.7.x). Las partidas se guardan en ~/.local/share/cm0102 o %APPDATA%\\cm0102."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2001,
+      "developer": "Sports Interactive",
+      "genre": "Simulación",
+      "wiki": "Championship Manager 01/02",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.7.1",
+        "published_at": "2026-11-13T06:48:13Z"
+      },
+      "lb": {
+        "id": 151240,
+        "rating": 4.6,
+        "overview": "Championship Manager: Season 01/02 is a football management computer game in the Sports Interactive's Championship Manager series. It was released in October 2001 exclusively for PC and for Mac in November 2001. It was also later released on Xbox in April 2002. It was released as freeware in 2008.\n\nAlthough never particularly expanding on the graphical side, Sports Interactive included many new features along with the usual updated database. Championship Manager 01/02 implemented the new EU regulated transfer system, introduced in September 2001, and also featured a new attribute masking mode, whereby the player could only see information about footballers they would realistically know about (also known as a fog of war).\n\nOther new additions included the ability to send players away for surgery, player notes, player comparisons, and improved media and board interaction.",
+        "logo": "https://images.launchbox-app.com/f2098ce9-1a23-47ee-b70a-2b2daec1240c.png"
+      }
+    },
+    {
+      "id": "arceuszada",
+      "name": "Arceuszada",
+      "original_game": "Pokémon Legends: Arceus",
+      "game_id": "pokemon-legends-arceus",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "CarlosExabyte",
+        "repo": "Arceuszada"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ce098cf158927e2cea10919e1e2b36a3.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Arceuszada-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el ExeFS y el RomFS extraídos de tu copia de Pokémon Legends: Arceus (Switch), sin comprimir: el contenido de exefs (main, sdk, subsdk0, subsdk1...) va en extracted/exefs y el de romfs (bin, system_resource...) en extracted/romfs dentro de la carpeta del port. Después se ejecuta recompilar_arceus.bat (o lasrecomp.exe), que genera y compila el código (la primera vez tarda), y luego executar_arceus.bat para jugar. Solo Windows; proyecto amateur con fallos y funciones incompletas, basado en LASRecomp. Se descarta v1.0.9 porque va en .rar."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "lasrecomp.exe"
+      },
+      "year": 2022,
+      "developer": "Game Freak",
+      "genre": "Action RPG",
+      "wiki": "Pokémon Legends: Arceus",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.1",
+        "published_at": "2026-11-13T16:39:06Z"
+      },
+      "lb": {
+        "id": 199982,
+        "players": 1,
+        "rating": 4.2,
+        "overview": "An Adventure in the Sinnoh of Days Gone By\n\nYou’ll be brought to the Sinnoh region, the setting for the Pokémon Diamond and Pokémon Pearl games. But this story unfolds in a long-gone era, before ideas such as being a Pokémon Trainer or having a Pokémon League even existed.\n\nAll around, you’ll find Pokémon living wild in harsh environments that make for a Sinnoh unlike the region you may remember from the days of the Pokémon Diamond and Pokémon Pearl games.",
+        "logo": "https://images.launchbox-app.com/r2_5eb8d443-cb57-4dcc-a2ce-aecb4ed5bd60.png",
+        "snap": "https://images.launchbox-app.com/10ec8acd-12b1-4f99-a77b-7280066e1195.jpg",
+        "title": "https://images.launchbox-app.com/34eb160f-400d-43d9-917c-82a184da4d06.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_e3740c8f-472a-4f7c-90d4-21855fee764d.png"
+      }
+    },
+    {
+      "id": "pgr4-regpu",
+      "name": "PGR4: ReGPU",
+      "original_game": "Project Gotham Racing 4",
+      "game_id": "project-gotham-racing-4",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "zer0ducksgiven",
+        "repo": "PGR4-ReGPU"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/90e6b40f3728f30b437e6b71ccda6d0b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^PGR4-Setup-[0-9.]+\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu disco de Project Gotham Racing 4 (Xbox 360) y, opcionalmente, el Title Update 2 y DLC. El asset es un instalador (PGR4-Setup) que hay que ejecutar a mano; instala el lanzador (PGR4Launcher), que prepara el juego desde el disco, gestiona gráficos, DLC (también zips), perfiles, importación de partidas de 360 y actualizaciones. XenonRecomp para el código y ReGPU, un renderizador Direct3D 12 propio. Solo Windows 10/11 con GPU Direct3D 12; el PGR4-x-patch.zip de la release es una actualización y no se descarga."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "pgr4.exe"
+      },
+      "year": 2007,
+      "developer": "Bizarre Creations",
+      "genre": "Carreras",
+      "wiki": "Project Gotham Racing 4",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.7",
+        "published_at": "2026-11-08T00:47:22Z"
+      },
+      "lb": {
+        "id": 95,
+        "players": 8,
+        "rating": 3.9,
+        "overview": "Project Gotham Racing is the second version of the racing game to appear on the Xbox 360, the fourth in the Project Gotham Racing and the sixth Bizarre Creations street racer overall. Major new enhancements include a changing weather system and the option of racing motorcycles. The original 5 cities of London, Las Vegas, Tokyo, New York City and Nürburgring have been joined by Shanghai, St. Petersburg, Macau and Quebec.\n\nThere are now 120 licensed vehicles with classic newcomers such as the Corvette Sting Ray, Maserati 250F, Toyota Supra Turbo, and DeLorean DMC-12 and motorcycles added as a new type of vehicle. The new online mode Bulldog has the player tag other cars in the game. Once tag, they join the hunt for the remaining racers. This mode is played in an open environment where different paths can be chosen. Bikes and cars are allowed to be played simultaneously in this mode.",
+        "logo": "https://images.launchbox-app.com/04108c0f-bc30-466a-ab4e-93163286d11d.png",
+        "snap": "https://images.launchbox-app.com/5c0ab0f0-0bc4-46fa-b4fc-5daedc0cca6c.jpg",
+        "title": "https://images.launchbox-app.com/0c70c88d-b751-433d-835e-0b4db170a507.png",
+        "fanart": "https://images.launchbox-app.com/ca5fbea6-2834-4416-bcf1-4b22bfe648b8.jpg"
+      }
+    },
+    {
+      "id": "skylanders-core-of-light",
+      "name": "Skylanders: Core of Light",
+      "original_game": "Skylanders (Spyro's Adventure, Giants, Swap Force, Trap Team, SuperChargers, Imaginators)",
+      "game_id": "skylanders-core-of-light",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tsapZ",
+        "repo": "SkylandersCoreOfLight"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/51b0fd2b698d100a1cc5fa55ce11afd5.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^CoreOfLightPortable-.*\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Lanzador único de seis recompilaciones de Skylanders (Spyro's Adventure, Giants, Swap Force, Trap Team, SuperChargers e Imaginators). En el primer arranque pide tus discos de Xbox 360 como ISO o carpeta extraída (uno por juego; Imaginators admite también PS3), los comprueba, los instala y descarga cada juego. Se elige la versión portable (CoreOfLightPortable, ejecutar coreoflight.exe; se actualiza sola), no el Setup. Funciona con un Portal of Power real o con un menú de figuras, 60 fps, hasta 3x de resolución y ultrawide. Solo Windows 10/11 con DirectX 12; ningún juego está completado aún y todas las releases son beta; código escrito en gran parte con IA."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "coreoflight.exe"
+      },
+      "year": 2011,
+      "developer": "Toys for Bob",
+      "genre": "Acción-aventura",
+      "wiki": "Skylanders",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0-beta.6",
+        "published_at": "2026-11-14T00:30:53Z"
+      },
+      "lb": {
+        "id": 14414,
+        "players": 2,
+        "rating": 3.0,
+        "overview": "Skylanders: Spyro's Adventure is the first video game in the Skylanders series. It is a video game that is played along with toy figures that interact with it through a \"Portal of Power\", that reads their tag through NFC and features the voices of Josh Keaton, Dave Wittenberg, Darin De Paul, Joey Camen, Audrey Wasilewski, Keythe Farley and Kevin Michael Richardson.\n\nSkylanders Spyro's Adventure was published by Activision and developed by Toys for Bob. It was released on October 12, 2011 in Australia for the PC and October 13, 2011 on other consoles. The game was released in Europe on October 14, 2011, in North America on October 16, 2011, and it was released in South America (including Brazil) by Neoplay on December 15, 2011.[1][2]\n\nJapan eventually finally saw a release of this game, being handled by Toys \"R\" Us and Square Enix and was released for the Wii, PlayStation 3, Nintendo 3DS and the region has also received a unique Wii U port exclusively (instead of having an Xbox 360 release), being released on July 12, 2013, which was nearly two years after its release in the western regions, thus making this the first Spyro game to be released in Japan in almost 10 years, since Spyr",
+        "logo": "https://images.launchbox-app.com/216ac924-038b-4f0b-beea-893811788dc1.png"
+      }
+    },
+    {
+      "id": "skate3-recomp-5c8",
+      "name": "skate3recomp (5C8)",
+      "original_game": "Skate 3",
+      "game_id": "skate-3",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "5C8",
+        "repo": "skate3recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^skate3recomp-Linux-x64\\.zip$",
+        "windows-x86_64": "(?i)^skate3recomp-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu ISO de Skate 3 (Xbox 360). Al ejecutar skate3 (skate3.exe en Windows) aparece un instalador donde se elige la ISO; los parches Title Update 3 vienen incluidos en la carpeta title-update, que debe quedarse junto al ejecutable. Render nativo DirectX 12 o Vulkan (F5 alterna con el emulado), perfiles propios, juego online en servidor comunitario, pantalla partida y SteamVR. Windows x64 con CPU AVX2/BMI2; la versión Linux es experimental y necesita GTK 3 y Vulkan. Variante de 5C8 basada en mchughalex/skate3recomp."
+      },
+      "launch": {
+        "linux": "skate3",
+        "windows": "skate3.exe"
+      },
+      "year": 2010,
+      "developer": "EA Black Box",
+      "genre": "Deportes",
+      "wiki": "Skate 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.9-skate3.20261111",
+        "published_at": "2026-11-11T12:31:34Z"
+      },
+      "lb": {
+        "id": 8306,
+        "rating": 4.7,
+        "overview": "Skate 3 takes place in the town of Port Carverton. After a failed trick (jumping over the shark statue at the stadium), \"The Legend\" (which is the player) starts his goal to become a skating mogul. The player works to create a team of skaters that compete against other teams, with a goal to sell a million skateboards.\n\nPlayers can customize the name of the team, and choose a preset logo upon the start of game. Once chosen, the player can change their appearance, clothing and board. Later in game purchases unlock more clothing and board options.\n\nPlayer use the right stick on the controller to do ollies and tricks. Ollies are the basic way to jump, the player pulls back on the stick and flicking it forward to lift off the ground. By controlling the direction of the flick, the player can flip the board. A combination of buttons while in the will modify the trick even further.\n\nThere are various challenges to complete. More notable challenges:\n\n\"Hall of Meat\", the player will bail from their boards to break and get as many points as possible (by breaking bones, distance, air time, etc.).\n\n\"Own the Spot/Lot\", both are similar in which the player will complete a trick (or series of tric",
+        "logo": "https://images.launchbox-app.com/ff1c2cc2-bb26-4b5f-a76d-eaf58908e8c9.png",
+        "snap": "https://images.launchbox-app.com/40718d78-6f34-42e2-98b8-911b7ff81540.png",
+        "title": "https://images.launchbox-app.com/db340c88-5d28-4cfb-9425-d828aca4a155.png",
+        "fanart": "https://images.launchbox-app.com/f46f9ecc-5348-4921-826e-8de8b1d61237.jpg"
+      }
+    },
+    {
+      "id": "blocksphere",
+      "name": "Blocksphere",
+      "original_game": "Tetrisphere",
+      "game_id": "tetrisphere",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "djultra64",
+        "repo": "Blocksphere"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Tetrisphere%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^blocksphere-[0-9.]+-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^blocksphere-[0-9.]+-windows-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita la ROM de Tetrisphere USA (NTPE) revisión 0; otras regiones, revisiones o ROMs modificadas no valen. Se extrae el paquete entero y se abre el lanzador (blocksphere-launcher), que valida la ROM o ZIP, la instala en una carpeta vacía a elegir y permite añadir el juego a Steam. N64Recomp con RT64 (necesita Vulkan), 4:3 y 16:9, dos jugadores locales y mapeo de mando. Al actualizar hay que instalar en carpeta nueva y copiar data/. Linux requiere glibc 2.43, SDL3 y D-Bus; Windows el VC++ Redistributable. Proyecto creado con ayuda de IA."
+      },
+      "launch": {
+        "linux": "blocksphere-launcher",
+        "windows": "blocksphere-launcher.exe"
+      },
+      "year": 1997,
+      "developer": "H2O Entertainment",
+      "genre": "Puzle",
+      "wiki": "Tetrisphere",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2.1",
+        "published_at": "2026-11-13T00:05:36Z"
+      },
+      "lb": {
+        "id": 405,
+        "players": 2,
+        "rating": 3.4,
+        "overview": "What would you do if your friends were trapped at the core of a sphere layered in hundreds of Tetris pieces? You'd have a BLAST! Tetrisphere is a whole new way to play Tetris, the world's most popular home video puzzle game. Explore over 300 levels of unique 3D gameplay charged with high voltage action. Choose to take control of Wheels, Jak, Rocket, Gear, Turbine or Stomp to experience 3D puzzle excitement like never before!",
+        "logo": "https://images.launchbox-app.com/8023ac98-d178-4b22-93c8-4abe31a4d76e.png",
+        "snap": "https://images.launchbox-app.com/f3495fa5-0205-4de0-93e2-6245fda2fbe7.jpg",
+        "title": "https://images.launchbox-app.com/355fbab1-bf3e-4160-91c6-a891e2b486b6.png",
+        "fanart": "https://images.launchbox-app.com/r2_0e5cbae8-18b9-49c2-a76e-f7991380d496.png"
+      }
+    },
+    {
+      "id": "ssarecomp",
+      "name": "SSARecomp",
+      "original_game": "Skylanders: Spyro's Adventure",
+      "game_id": "skylanders-spyros-adventure",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tsapZ",
+        "repo": "SSARecomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/51b0fd2b698d100a1cc5fa55ce11afd5.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SSARecompSetup-.*\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el disco de Skylanders: Spyro's Adventure de Xbox 360 (default.xex región libre, título 415608AB), como ISO o carpeta extraída; Wii, PS3 y otras versiones no sirven. El asset es un instalador que hay que ejecutar a mano: pide el disco, lo comprueba y toma los datos. Port nativo con ReXGlue: 60 fps, hasta 3x de resolución, ultrawide, menú de figuras o Portal of Power real; sin online todavía. Solo Windows 10/11 con DirectX 12; todas las releases son beta; casi todo el código escrito con Claude. También se instala desde Core of Light."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2011,
+      "developer": "Toys for Bob",
+      "genre": "Acción-aventura",
+      "wiki": "Skylanders: Spyro's Adventure",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.0-beta.9",
+        "published_at": "2026-11-14T00:29:38Z"
+      },
+      "lb": {
+        "id": 14414,
+        "players": 2,
+        "rating": 3.0,
+        "overview": "Skylanders: Spyro's Adventure is the first video game in the Skylanders series. It is a video game that is played along with toy figures that interact with it through a \"Portal of Power\", that reads their tag through NFC and features the voices of Josh Keaton, Dave Wittenberg, Darin De Paul, Joey Camen, Audrey Wasilewski, Keythe Farley and Kevin Michael Richardson.\n\nSkylanders Spyro's Adventure was published by Activision and developed by Toys for Bob. It was released on October 12, 2011 in Australia for the PC and October 13, 2011 on other consoles. The game was released in Europe on October 14, 2011, in North America on October 16, 2011, and it was released in South America (including Brazil) by Neoplay on December 15, 2011.[1][2]\n\nJapan eventually finally saw a release of this game, being handled by Toys \"R\" Us and Square Enix and was released for the Wii, PlayStation 3, Nintendo 3DS and the region has also received a unique Wii U port exclusively (instead of having an Xbox 360 release), being released on July 12, 2013, which was nearly two years after its release in the western regions, thus making this the first Spyro game to be released in Japan in almost 10 years, since Spyr",
+        "logo": "https://images.launchbox-app.com/216ac924-038b-4f0b-beea-893811788dc1.png"
+      }
+    },
+    {
+      "id": "crashwoc-nuworld",
+      "name": "CrashWOC: NuWorld",
+      "original_game": "Crash Bandicoot: The Wrath of Cortex",
+      "game_id": "crash-bandicoot-the-wrath-of-cortex",
+      "system": "ps2",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "denzi-gh",
+        "repo": "crashwoc-nuworld"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Crash%20Bandicoot%20-%20The%20Wrath%20of%20Cortex%20%28USA%29%20%28v1.00%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^CrashWOC-NuWorld-v.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^CrashWOC-NuWorld-v.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita tu disco de Crash Bandicoot: The Wrath of Cortex (PS2), PAL v1.03 (SLES-50386) o USA v1.00 (SLUS-20238), como .iso o .bin/.cue. En el primer arranque NuWorld lo pide, lo comprueba y lo importa; después el juego arranca directo. Port nativo a partir de la decompilación (no es recomp estática), con movimiento mejorado opcional, 50/60 Hz, cualquier relación de aspecto, interpolación de fotogramas y partidas importables desde tarjetas de PCSX2. Juego completo de principio a fin pero es una beta de movimiento; Linux necesita glibc 2.35 y OpenGL 3.3."
+      },
+      "launch": {
+        "linux": "NuWorld",
+        "windows": "NuWorld.exe"
+      },
+      "year": 2003,
+      "developer": "Traveller's Tales",
+      "genre": "Plataformas",
+      "wiki": "Crash Bandicoot: The Wrath of Cortex",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.8.0",
+        "published_at": "2026-11-13T08:59:06Z"
+      },
+      "lb": {
+        "id": 8322,
+        "players": 1,
+        "rating": 4.0,
+        "overview": "Crash Bandicoot: The Wrath of Cortex is the first Crash Bandicoot game for a system other than the original PlayStation. The story is set some time after Warped: Dr. Cortex wants revenge after being defeated by Crash (again). For this purpose, he creates Crunch, a super-bandicoot who can destroy everything that crosses his way. So Crash needs to defeat Crunch (and in the end, Dr. Cortex).\n\nThe game is a typical jump and run, with some other action passages, like air combat and a sequence where Crash is trapped inside a giant sphere rolling around in some sort of rollercoaster. All graphics are in 3D, and the sound is typical for cartoon games like this. The whole game is pretty straightforward in design, getting stuck on a puzzle is not really possible.",
+        "logo": "https://images.launchbox-app.com/a3d38a05-bd6e-46c7-b3d0-80ecb6788657.png",
+        "snap": "https://images.launchbox-app.com/da51072d-5603-4f45-baac-de117c63e80c.png",
+        "title": "https://images.launchbox-app.com/f4abc57a-9609-48b6-96e7-4d65e69803cd.png",
+        "fanart": "https://images.launchbox-app.com/5f518482-088f-4e3a-978e-7136b2a139b0.jpg"
+      }
+    },
+    {
+      "id": "ts2-recomp",
+      "name": "TimeSplitters 2 Recomp",
+      "original_game": "TimeSplitters 2",
+      "game_id": "timesplitters-2",
+      "system": "ps2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Destinity13",
+        "repo": "TimeSplitters-2-Native-Recomp-Windows-Linux-SteamDeck"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/TimeSplitters%202%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TS2-Recomp-[0-9.]+-linux-x86_64\\.tar\\.xz$",
+        "windows-x86_64": "(?i)^TS2-Recomp-[0-9.]+-windows-x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita el volcado .iso del disco USA de TimeSplitters 2 (PS2, SLUS-203.14); PAL y japonés no valen. Se extrae el paquete en una carpeta nueva y se ejecuta TS2-Recomp.bat (Windows) o ./TS2-Recomp.sh (Linux): el lanzador pide la ISO, la extrae y compila el juego una vez (unos 3 minutos; el paquete lleva su propio compilador). Después, Jugar. 60 fps, 16:9 real, hasta 8x de resolución, ratón y teclado, pantalla partida y multijugador online con buscador de servidores; Windows usa Direct3D 11 (Vulkan de respaldo). Asistido por IA (Claude); en 1.0.0 solo había paquete de Linux."
+      },
+      "launch": {
+        "linux": "TS2-Recomp.sh",
+        "windows": "TS2-Recomp.bat"
+      },
+      "year": 2002,
+      "developer": "Free Radical Design",
+      "genre": "Disparos en primera persona",
+      "wiki": "TimeSplitters 2",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.1",
+        "published_at": "2026-11-11T20:23:29Z"
+      },
+      "lb": {
+        "id": 3878,
+        "players": 4,
+        "rating": 4.5,
+        "overview": "In TimeSplitters 2 the evil race of TimeSplitters are travelling back into human history, authoring events that are leading to the enslavement of mankind. Controlling a motley crew of renegade characters, you must hunt them down across environments such as the gangster-filled 1920s, the temples and lush jungles of the Aztecs, Soviet military installations of the Cold War and futuristic robot-factories in space.\n\nTimeSplitters 2 delivers involved single-player and cooperative story modes; it has a complex narrative, multiple objective-based episodes and animated cut-scenes. The game engine has been extensively upgraded to accommodate bigger environments and special graphic effects, and the MapMaker has been enhanced, giving more options to the advanced gamer looking for customisable game scenarios.",
+        "logo": "https://images.launchbox-app.com/79a6bc77-a904-4e81-b5a9-d49dc350fd1e.png",
+        "snap": "https://images.launchbox-app.com/05e69ad1-53bb-4c56-8db4-d8dbe7f737b6.jpg",
+        "title": "https://images.launchbox-app.com/d90ae244-9d93-4d2b-9e9c-5e54e84a5a62.jpg",
+        "fanart": "https://images.launchbox-app.com/a1246ec5-c3de-41bd-9bc4-ca443ee1e663.jpg"
+      }
+    },
+    {
+      "id": "asuras-wrath-recomp",
+      "name": "Asura's Wrath Recomp",
+      "original_game": "Asura's Wrath",
+      "game_id": "asuras-wrath",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "PauloUbirajara",
+        "repo": "asuras-wrath-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c4c02d22655d5d3c383df7f2422409f1.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^asura_wrath_recomp_linux_x86_64\\.zip$",
+        "windows-x86_64": "(?i)^asura_wrath_recomp_windows_x86_64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port en ReXGlue (WIP, solo prereleases). Hay que extraer tu ISO de Asura's Wrath (Xbox 360, Title ID 43430817) con extract-xiso a una carpeta «extracted» junto al ejecutable, o indicarla con --game_data_root. Renderiza con Vulkan (o D3D12 en Windows); Windows y Linux x86-64. DLC sin soporte. El autor enlaza en el README otro repo con mejor rendimiento (omar2300/asuras-wrath-pc)."
+      },
+      "launch": {
+        "linux": "asura_wrath_recomp",
+        "windows": "asura_wrath_recomp.exe"
+      },
+      "year": 2012,
+      "developer": "CyberConnect2",
+      "genre": "Acción",
+      "wiki": "Asura's Wrath",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.1",
+        "published_at": "2026-09-05T00:34:33Z"
+      },
+      "lb": {
+        "id": 949,
+        "players": 1,
+        "rating": 4.0,
+        "overview": "Asura's Wrath is an action game in which players take on the role of the demigod Asura, and take on his quest for justice and revenge against the divine powers that cast him from heaven. The game utilizes beat 'em up mechanics and an episodic narrative storyline rooted in Asian mythology and sci-fi traditions. Additional features include: a range of unique enemies, planetary sized bosses, a second playable character, and a devastating attack system. \n\nLong ago in the realm of Shinkoku, eight deities known as \"The Eight Guardian Generals\" battled to protect civilization from a destructive force known only as Gohma. Asura was one of the most prominent of this group. During the victory celebration, the Emperor of Shinkoku was assassinated in a sinister plot and the blame was placed on Asura. In the middle of the commotion, Asura's wife was also murdered and his daughter kidnapped. With even his brother-in-law and rival Yasha turning against him, Asura was banished from Shinkoku. Awoken by a voice after 12,000 years, Asura vows revenge on all those who have betrayed him. \n\nWith unprecedented levels of dynamism, drama and interaction, Asura's Wrath delivers a fresh take on the action ga",
+        "logo": "https://images.launchbox-app.com/fdd9f332-7215-4afd-9282-b983dc724269.png",
+        "title": "https://images.launchbox-app.com/37c8da57-380a-4279-83e5-6688c691b274.png",
+        "fanart": "https://images.launchbox-app.com/57933fe4-42f4-4341-8ba2-c2fceab1e5b2.jpg"
+      }
+    },
+    {
+      "id": "super-odyssey-pc-recomp",
+      "name": "Super Odyssey PC Recomp",
+      "original_game": "Super Mario Odyssey",
+      "game_id": "super-mario-odyssey",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Simon3Sarkis",
+        "repo": "super-odyssey-pc-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Super\\.Odyssey\\.PC\\.Recomp-.*-linux-x86_64\\.AppImage$",
+        "windows-x86_64": "(?i)^Super\\.Odyssey\\.PC\\.Recomp-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir el instalador pide la carpeta con las carpetas exefs y romfs ya extraídas de tu Super Mario Odyssey (1.0.0, o 1.4.1 con la actualización ya aplicada, romfs completo). Copia los datos (~12 GB), recompila el código (unos minutos) y compila todos los shaders (varios minutos, una sola vez). Vulkan; 60 fps, hasta 4x de resolución, DLSS/DLAA, FSR 1 y ultrawide. Juego completo jugable con fallos conocidos; Windows es lo más probado y Linux/Steam Deck (AppImage) es experimental. Código generado con IA (Claude y Codex)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SuperOdysseyRecomp.exe"
+      },
+      "year": 2017,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Odyssey",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.9",
+        "published_at": "2026-11-14T00:57:11Z"
+      },
+      "lb": {
+        "id": 136132,
+        "players": 2,
+        "coop": true,
+        "rating": 4.6,
+        "overview": "Join Mario on a massive, globe-trotting 3D adventure and use his incredible new abilities to collect Moons so you can power up your airship, the Odyssey, and rescue Princess Peach from Bowser's wedding plans! This sandbox-style 3D Mario adventure—the first since 1996's beloved Super Mario 64 and 2002's Nintendo GameCube classic Super Mario Sunshine—is packed with secrets and surprises, and with Mario's new moves like cap throw, cap jump, and capture, you'll have fun and exciting gameplay experiences unlike anything you've enjoyed in a Mario game before. Get ready to be whisked away to strange and amazing places far from the Mushroom Kingdom!",
+        "logo": "https://images.launchbox-app.com/d6501a8a-2c69-4021-9e52-f25175a5c48d.png",
+        "snap": "https://images.launchbox-app.com/932120b8-9cd2-45dd-aa8a-4616e3445a24.jpg",
+        "title": "https://images.launchbox-app.com/50c6e6b1-e5a8-4221-91fd-5e60a01e274e.jpg",
+        "fanart": "https://images.launchbox-app.com/eeb083a3-2274-40c4-8095-30d7a644537d.jpg"
+      }
+    },
+    {
+      "id": "karpur",
+      "name": "KarPur",
+      "original_game": "Pokémon Scarlet and Violet",
+      "game_id": "pokemon-scarlet-and-violet",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Grunttanamo",
+        "repo": "KarPur"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/181426fbde5526374ea654b59c16577e.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^KarPur-Launcher\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "El KarPur Launcher (exe único, solo Windows 10/11) hace todo: pide tu Pokémon Violet en .xci (probado; Scarlet funciona según la comunidad), la actualización 4.0.0 en .nsp (única soportada), DLC .nsp opcional y tu prod.keys; si el juego base es .nsp también necesita la carpeta de firmware. Descarga unos 250 MB de herramientas, traduce el código ARM64 a C y lo compila con Clang en tu PC (~30 GB libres durante la compilación, ~13 GB después). Vulkan 1.3, 60 fps, DLSS/DLAA/Frame Generation; en AMD aún hay fallos. Jugable desde el título al mundo abierto."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "KarPur-Launcher.exe"
+      },
+      "year": 2022,
+      "developer": "Game Freak",
+      "genre": "RPG",
+      "wiki": "Pokémon Scarlet and Violet",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.8",
+        "published_at": "2026-11-14T10:03:38Z"
+      },
+      "lb": {
+        "id": 213312,
+        "players": 4,
+        "coop": true,
+        "rating": 3.9,
+        "overview": "Pokémon Scarlet is a new 2022 role-playing video game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch. Announced in February 2022, they are the first installments in the ninth generation of the Pokémon video game series. Scarlet is set to have open worlds which include urban areas and open wilderness without borders between the two. The games introduce three new starter Pokémon: Sprigatito, Fuecoco, and Quaxly; and two new legendary Pokémon: Koraidon and Miraidon.",
+        "logo": "https://images.launchbox-app.com/d0f1efc4-e853-4d98-8929-1c82c64ee7ac.png",
+        "snap": "https://images.launchbox-app.com/f8041a1a-84e4-46e2-968b-75044d89b990.jpg",
+        "title": "https://images.launchbox-app.com/743097d0-eaed-450b-89d6-57e8f420a517.png",
+        "fanart": "https://images.launchbox-app.com/6260dd08-876c-44e8-a5ae-0d7083ae2aa6.png"
+      }
+    },
+    {
+      "id": "vinceip-fci-recomp",
+      "name": "FCI Recomp",
+      "original_game": "Far Cry Instincts",
+      "game_id": "far-cry-instincts",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "VinceIP",
+        "repo": "fci-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Far%20Cry%20Instincts%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^fci-recomp-[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows 10/11 con GPU Direct3D 12 (~10 GB libres). Incluye Far Cry Instincts (Title ID 55530008, v1) y Evolution (55530060, v3): el lanzador «FCI Launcher.exe» pide la ISO (o carpeta extraída) de al menos uno y recompila en 5-20 min; el compilador va incluido en el zip. Historia y editores de mapas, ratón y teclado, fps desbloqueado, 16:9 y mejoras gráficas editables en fci.ini. Hay beta 0.3.0 con multijugador online (prerelease; esta ficha sigue la estable 0.2.4). Desarrollo con mucha ayuda de IA."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "FCI Launcher.exe"
+      },
+      "year": 2005,
+      "developer": "Ubisoft Montreal",
+      "genre": "Shooter",
+      "wiki": "Far Cry Instincts",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.4",
+        "published_at": "2026-11-07T22:40:59Z"
+      },
+      "lb": {
+        "id": 4567,
+        "rating": 3.5,
+        "overview": "The game follows the story of a man named Jack Carver. Carver is a former service member of the United States Navy, who was dishonorably discharged following a number of illegal actions. Afterwards, he sets up a shop in Manhattan and begins supplying illegal arms to anyone and everyone, until a gang performs a hit using weapons supplied by Jack against a Mafia heir. Consequently, a price is put on his head by the Mob, and he was forced to flee the United States and settle in Micronesia.",
+        "logo": "https://images.launchbox-app.com/9c445e7d-a68f-4255-add7-d9c2d2a3dac1.png",
+        "snap": "https://images.launchbox-app.com/eeef1849-fadb-4092-bd90-4335edd46bba.png",
+        "title": "https://images.launchbox-app.com/r2_aa82512d-d9e2-4faa-afb9-1f4fb6c7cb60.jpg",
+        "fanart": "https://images.launchbox-app.com/ee0e88bb-6d34-4771-8655-2c23aa2d4161.jpg"
+      }
+    },
+    {
+      "id": "mario-party-2-recomp",
+      "name": "Mario Party 2: Recompiled",
+      "original_game": "Mario Party 2",
+      "game_id": "mario-party-2",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "mario-party-2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Party%202%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MarioParty2Recompiled-v[0-9.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^MarioParty2Recompiled-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Elige tu ROM con «Load ROM» en el menú y luego Start Game: solo vale Mario Party 2 (USA) en .z64 big-endian de 32 MiB, SHA-1 166eda1c05670d337e2c3f15a5db528ae1e5d6e3; otras regiones no están soportadas. Basado en N64Recomp + RT64; tablero y minijuegos jugables, framerate interpolado y resolución/aspecto adaptados a la ventana. Linux requiere glibc 2.35+, Vulkan, GTK 3 y FreeType. Código generado casi por completo con IA."
+      },
+      "launch": {
+        "linux": "MarioParty2Recompiled",
+        "windows": "MarioParty2Recompiled.exe"
+      },
+      "year": 1999,
+      "developer": "Hudson Soft",
+      "genre": "Party",
+      "wiki": "Mario Party 2",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.15",
+        "published_at": "2026-11-13T10:08:35Z"
+      },
+      "lb": {
+        "id": 270,
+        "players": 4,
+        "rating": 4.2,
+        "overview": "Mario and the gang are back for another round of Bowser-bashin' party action! Watch as your favorite Nintendo characters don different duds for each of the five all-new Adventure Boards! A slew of new tricks and devices bring new levels of challenge and excitement to board game play. New board maps, new Mini-Games, new action and new surprises means a whole new batch of fun! Get ready to unleash your best Hip Drops, hammer swings and high-flying high junks for another round of frenzied multi-player action!",
+        "logo": "https://images.launchbox-app.com/a77400e8-5ac1-44c9-96f2-284efe5baece.png",
+        "snap": "https://images.launchbox-app.com/a6ca11a9-c405-4d7e-ab65-96ded0d9d9e8.png",
+        "title": "https://images.launchbox-app.com/31be4271-7005-4139-aae2-c0259de3e184.png",
+        "fanart": "https://images.launchbox-app.com/82da0b7c-91b0-49c2-9d68-3a40859417d6.png"
+      }
+    },
+    {
+      "id": "ufc3-recomp",
+      "name": "UFC 3 Recomp",
+      "original_game": "UFC Undisputed 3",
+      "game_id": "ufc-undisputed-3",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "360recomper",
+        "repo": "UFC3ReX"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c6d34619f7844c1a3cfc66708391d44a.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^UFC3-Recomp-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows. Ejecuta «UFC3 Launcher.exe», pestaña Setup: elige tu ISO de UFC Undisputed 3 (Xbox 360); copia los archivos a assets\\ (~6,5 GB) y opcionalmente toma DLC de tus paquetes. El primer Play construye la caché de shaders del renderer D3D12 nativo. Hecho con ReXGlue; modo carrera jugable de principio a fin, FSR 1, escala de render hasta 4K+, carpeta de mods y addon DLSS 5 aparte (se excluye del asset). Mod pack opcional (Blood and Guts, atuendos) se descarga aparte."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "UFC3 Launcher.exe"
+      },
+      "year": 2012,
+      "developer": "Yuke's",
+      "genre": "Lucha",
+      "wiki": "UFC Undisputed 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.10",
+        "published_at": "2026-11-13T22:44:30Z"
+      },
+      "lb": {
+        "id": 9235,
+        "players": 2,
+        "rating": 4.2,
+        "overview": "The critically acclaimed and best-selling MMA videogame franchise returns to take players inside the Octagon with UFC Undisputed 3, delivering intense UFC action focused on brutal toe-to-toe combat, impressive visual presentation and increased accessibility.",
+        "logo": "https://images.launchbox-app.com/r2_c71e8e72-cb0c-4115-bd18-5672bee3d56c.png",
+        "snap": "https://images.launchbox-app.com/r2_13fa66e4-248b-46a4-845a-c35d9d50bded.png",
+        "title": "https://images.launchbox-app.com/2db0ab81-b0d1-4e86-9ec7-22b051e6ecd4.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_326d4bb7-c355-4f3a-872e-787f6ed7612a.jpg"
+      }
+    },
+    {
+      "id": "portable-ops-native",
+      "name": "Portable Ops Native",
+      "original_game": "Metal Gear Solid: Portable Ops",
+      "game_id": "metal-gear-solid-portable-ops",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "zexk",
+        "repo": "portable-ops-native"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Metal%20Gear%20Solid%20-%20Portable%20Ops%20%28USA%29%20%28v1.02%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^portable-ops-native-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^PortableOpsNative-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Al abrir el ejecutable, el asistente pide tu ISO de PSP de MGS: Portable Ops (ULUS-10202, v1.02); --install reabre el asistente. Extrae el paquete entero (bibliotecas, overlays y fuentes junto al exe). Vulkan y SDL3, Windows y Linux; cámara con stick derecho, widescreen, interpolación de fotogramas y packs de texturas PPSSPP. Solo hay release candidates (rc2); probado en Wine, pruebas en Windows nativo pendientes. Funciones de Peace Walker y multijugador experimentales."
+      },
+      "launch": {
+        "linux": "PortableOpsNative",
+        "windows": "PortableOpsNative.exe"
+      },
+      "year": 2006,
+      "developer": "Kojima Productions",
+      "genre": "Sigilo",
+      "wiki": "Metal Gear Solid: Portable Ops",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-rc2",
+        "published_at": "2026-11-13T22:51:05Z"
+      },
+      "lb": {
+        "id": 3926,
+        "players": 4,
+        "rating": 4.2,
+        "overview": "It's been six years since the events in Snake Eater. Snake has been captured and imprisoned in an abandoned missile silo in Colombia, and with no support this time. At least, not at first. With the help of a fellow prisoner, Snake escapes and the game truly begins.\n\nPortable Ops is a classic Metal Gear game in almost every sense. The controls will be familiar to anyone who has played previous console entries in the series. Snake can peek around corners, sneak up behind guards, they even carried over the CQC moves from Snake Eater.\n\nThe main addition of Portable Ops is the Comrade System. Instead of the solo missions from previous games, Portable Ops uses a squad-based approach, with Snake having to recruit allies to form a team of trained specialists. Before each mission, the player must compose a four-man squad that will be sent into battle. Each member of Snake's squad has their own strengths and weaknesses. While some units are best utilized on the battlefield, others may specialize in producing items, healing allies, or providing intel for each of the game's maps.\n\nPortable Ops has always been a controversial game among the fans due to its unconfirmed canonicity in the series, ",
+        "logo": "https://images.launchbox-app.com/r2_9d520416-0d72-4dc2-bf02-45c6c2fb87f1.png",
+        "snap": "https://images.launchbox-app.com/e5b20311-9755-47de-918b-55da0e7f942b.png",
+        "title": "https://images.launchbox-app.com/933b91fb-c4e8-4a31-b33d-fa2e0ccae798.png",
+        "fanart": "https://images.launchbox-app.com/6db46935-beb0-40c4-9f44-51d96d24ae64.jpg"
+      }
+    },
+    {
+      "id": "portable-ops-plus-native",
+      "name": "Portable Ops+ Native",
+      "original_game": "Metal Gear Solid: Portable Ops Plus",
+      "game_id": "metal-gear-solid-portable-ops-plus",
+      "system": "psp",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "zexk",
+        "repo": "portable-ops-native"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation%20Portable/Named_Boxarts/Metal%20Gear%20Solid%20-%20Portable%20Ops%20Plus%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^portable-ops-plus-native-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^PortableOpsPlusNative-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Edición Plus del mismo repo (paquete aparte, ~640 MB en Linux y ~480 MB en Windows). El asistente pide tu ISO de PSP de Portable Ops+ (ULUS-10290, v1.01); --install reabre el asistente. Vulkan y SDL3; multijugador online contra el servidor comunitario SaveMGO por defecto o uno privado (mpo-server incluido). Solo release candidates (rc2); probado en Wine, Windows nativo pendiente. EU y JP existen como perfiles de código compilados pero sin paquete."
+      },
+      "launch": {
+        "linux": "PortableOpsPlusNative",
+        "windows": "PortableOpsPlusNative.exe"
+      },
+      "year": 2007,
+      "developer": "Kojima Productions",
+      "genre": "Sigilo",
+      "wiki": "Metal Gear Solid: Portable Ops (Plus)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-rc2",
+        "published_at": "2026-11-13T22:51:05Z"
+      },
+      "lb": {
+        "id": 7103,
+        "players": 6,
+        "rating": 3.8,
+        "overview": "Metal Gear Solid: Portable Ops Plus is a standalone addition to last year's award winning stealth action title of the same name. Focusing on a portable multiplayer experience, players will be able to enjoy more maps, more missions, and recruit a talented crew of war heroes for battling real opponents in online arenas.",
+        "logo": "https://images.launchbox-app.com/55570fae-2f5b-4584-a94b-ef1bfe40fc90.png",
+        "snap": "https://images.launchbox-app.com/d0487671-dd9f-4bd5-876b-0856012d921d.png",
+        "title": "https://images.launchbox-app.com/9c18acd3-f92b-4bf6-bd8f-e1ee8e3ff137.png",
+        "fanart": "https://images.launchbox-app.com/8a2b8fed-b653-4565-934a-c923b54a523a.jpg"
+      }
+    },
+    {
+      "id": "emblemweave",
+      "name": "EmblemWeave",
+      "original_game": "Fire Emblem: Fortune's Weave",
+      "game_id": "fire-emblem-fortunes-weave",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "XiONDiGiTaL",
+        "repo": "EmblemWeave"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f03e5e3708a71a9f496e34765f9520f3.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^EmblemWeave-v[0-9.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows x64. El lanzador valida tu volcado de Fire Emblem: Fortune's Weave (Switch, v1.1.0 con su actualización; compara tus módulos ExeFS con el manifiesto de la build probada), genera el juego (recompilación del motor fefw-recomp de Goldoire; el botón Overview instala las herramientas que falten, incluido Visual Studio) y lo lanza. Jugable con el motor base a ~60 fps con sonido y vídeos; el runtime propio en Rust aún no dibuja la geometría. Incluye gestor de mods, perfiles de guardado y editor, trucos. Desarrollo asistido por IA."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "EmblemWeave.exe"
+      },
+      "year": 2026,
+      "developer": "Intelligent Systems",
+      "genre": "RPG",
+      "wiki": "Fire Emblem: Fortune's Weave",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.9",
+        "published_at": "2026-11-14T17:23:38Z"
+      }
+    },
+    {
+      "id": "spaceanimals-recomp",
+      "name": "SpaceAnimalsRecomp (StarFox Remake)",
+      "original_game": "Star Fox (Nintendo Switch 2)",
+      "game_id": "star-fox-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "SerenityG4K",
+        "repo": "SpaceAnimalsRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/081b26a8bdc5222518e51ecdbcc2021c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SpaceAnimalsRecomp-[0-9.]+-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Star Fox de Switch 2 (actualización 2.0.0) a aplicación nativa de Windows con Vulkan. El lanzador pide tu volcado .nup de la consola y compila el juego en tu PC (unos 6 GB libres durante la compilación; 32 GB de RAM recomendados, 16 GB justos). Requiere Windows 10/11, CPU con AVX2 y GPU con Vulkan 1.3; probado solo en NVIDIA RTX 5070 Ti. Se puede pasar entero a 60 fps, aunque sin optimizar y con 80 de 2.468 shaders sin traducir; opciones de FSR/DLSS en el lanzador. El zip «-update» es solo un parche, no se usa. Código generado casi por completo con IA (Claude Code)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "lanceur.exe"
+      },
+      "year": 2025,
+      "developer": "Nintendo EPD",
+      "genre": "Matamarcianos",
+      "wiki": "Star Fox (Nintendo Switch 2)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.0",
+        "published_at": "2026-11-14T00:05:09Z"
+      },
+      "lb": {
+        "id": 472304,
+        "players": 8,
+        "coop": true,
+        "rating": 4.2,
+        "overview": "Step into the cockpit and fly across the stars and skies with Fox McCloud and the Star Fox team! With the Lylat system under attack by evil scientist Andross, it’s up to you and the squad to fend off his forces.",
+        "logo": "https://images.launchbox-app.com/r2_d46151a9-387e-4ee1-920c-ea2483cd4f90.png",
+        "fanart": "https://images.launchbox-app.com/r2_5d9c5910-4931-4969-a3e4-723742b5d32b.png"
+      }
+    },
+    {
+      "id": "sma4-recomp",
+      "name": "Super Mario Advance 4 Recomp",
+      "original_game": "Super Mario Advance 4: Super Mario Bros. 3",
+      "game_id": "super-mario-advance-4-super-mario-bros-3",
+      "system": "gba",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mstan",
+        "repo": "SuperMarioAdvance4Recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Super%20Mario%20Advance%204%20-%20Super%20Mario%20Bros.%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SuperMarioAdvance4Recomp-windows-x64-v[0-9.]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Super Mario Advance 4: Super Mario Bros. 3 para Windows x64. El lanzador pide tu ROM (USA/Australia, Rev 1) y la BIOS retail de GBA, y las recuerda después. Incluye widescreen adaptativo experimental, estados de guardado (Shift+F1-F9 guarda, F1-F9 carga) y mando. Vista previa experimental: arranca y se juega SMB3 pero quedan fallos sin descubrir; todas las releases son prerelease. Licencia PolyForm Noncommercial."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "SuperMarioAdvance4Recomp.exe"
+      },
+      "year": 2003,
+      "developer": "Nintendo R&D2",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Advance 4: Super Mario Bros. 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.0.6",
+        "published_at": "2026-11-14T06:07:10Z"
+      },
+      "lb": {
+        "id": 2350,
+        "players": 1,
+        "rating": 4.4,
+        "overview": "THE MARIO BROS. AT THEIR BEST!\n\nThe best-selling game of all time has arrived for Game Boy Advance, now with all-new features! Mario’s not alone! This time around, Luigi can get in on the action!\n\nLink up with any Super Mario Advance game for multiplayer Mario Bros. madness! Use wild power-ups like the Super Leaf and the Frog and Tanooki Suits!\n\nEven more Mario fun is in the cards! Link up and use an e-reader and special cards to add classic and updated mario levels, all-new levels, and incredibly hard “super” levels, that you can save to your game pak. There are also power-up cards, demo cards with pro techniques, and much more! (e-reader and e-reader cards sold separately.)\n\nBonus level card and power-up card included!",
+        "logo": "https://images.launchbox-app.com/3853f5cd-d292-4836-87db-5ddfc4fa1065.png",
+        "snap": "https://images.launchbox-app.com/r2_e0dea8dc-f366-4164-b027-a57aa265e480.png",
+        "title": "https://images.launchbox-app.com/cac8da1e-1d08-4616-afdd-5ab03f69765e.png",
+        "fanart": "https://images.launchbox-app.com/f2fa45db-0f36-4691-8ad6-800c07ca34b3.jpg"
+      }
+    },
+    {
+      "id": "marathon-recomp",
+      "name": "Marathon Recompiled",
+      "original_game": "Sonic the Hedgehog (2006)",
+      "game_id": "sonic-the-hedgehog-2006",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "sonicnext-dev",
+        "repo": "MarathonRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/5b91bbeeac59db4371e96f799b0c0ddd.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^MarathonRecomp-Flatpak-x86_64\\.zip$",
+        "windows-x86_64": "(?i)^MarathonRecomp-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port no oficial de Sonic the Hedgehog (2006) de Xbox 360 por recompilación estática (XenonRecomp/XenosRecomp). Al primer arranque un instalador pide los archivos de tu copia (ISO/disco o carpeta ya extraída con .xex, .ar.00, .arl) y, si procede, el Title Update de la misma región; no vale la versión de PS3. En Linux el asset es un zip con el Flatpak (datos en ~/.var/app/io.github.sonicnext_dev.marathonrecomp/data). Con --install se repite la instalación; portable.txt fuerza guardado en la carpeta. Los fallos del juego original se conservan, con parches opcionales en la configuración."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "MarathonRecomp.exe"
+      },
+      "year": 2006,
+      "developer": "Sonic Team",
+      "genre": "Plataformas",
+      "wiki": "Sonic the Hedgehog (2006 video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.0",
+        "published_at": "2026-11-14T16:18:12Z"
+      },
+      "lb": {
+        "id": 7581,
+        "players": 1,
+        "rating": 3.2,
+        "overview": "Sonic the Hedgehog is a 2006 platform video game developed by Sonic Team and published by Sega for the PlayStation 3 and Xbox 360. The game allows the player to choose from stories centered on Sonic, Shadow and new character Silver the Hedgehog. The plot follows Sonic's quest to rescue Princess Elise from Dr. Eggman and ultimately the three main characters attempt to prevent the future being destroyed by a monster named Iblis after the Flames of Disaster are released.\n\nSonic's levels are standard for the series, focusing on running and platforming though the game introduces new \"Mach Speed\" stages that force the player to run forward and avoid obstacles at high speed. Shadow's levels are very similar to Sonic but tend to feature heavy use of vehicles. Silver's levels are very different from the other two as they are slower paced and have the player use Silver's telekinesis to navigate levels and solve platforming puzzles. The three main characters are each accompanied by two side characters such as Tails and Knuckles for Sonic.",
+        "logo": "https://images.launchbox-app.com/7177a6dc-598e-420e-b94e-00394b7f8db2.png",
+        "snap": "https://images.launchbox-app.com/r2_dda53b27-90ab-44a0-86e2-89a7090a9522.png",
+        "title": "https://images.launchbox-app.com/r2_c066b1eb-1b9f-4927-89d2-94b8492d185b.png",
+        "fanart": "https://images.launchbox-app.com/2f45e0b2-cc6d-4550-b7fe-c24cf751287a.jpg"
+      }
+    },
+    {
+      "id": "kart-recomp",
+      "name": "Kart Recomp",
+      "original_game": "Mario Kart World",
+      "game_id": "mario-kart-world-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "MIXIDtheSilly",
+        "repo": "kart-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/c2526ac91cf2dba8f8b1b58935c7597c.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^kart-recomp-[0-9.]+-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de Windows del juego de karts de Switch 2 (Mario Kart World) por recompilación del código ARM64 a C++ con renderer Vulkan. Funcionan las versiones 1.0.0 y 1.8.0. El lanzador lleva de tu volcado (o .nup) hasta jugar; su Set up instala lo que falte (Python, .NET 10 SDK, LLVM MinGW) sin admin, y la primera compilación tarda unos 30 min en 8 núcleos. Requiere Windows 10/11 y GPU Vulkan 1.3. Hay otra recompilación del mismo juego en el catálogo."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "launcher.exe"
+      },
+      "year": 2025,
+      "developer": "Nintendo",
+      "genre": "Carreras",
+      "wiki": "Mario Kart World",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-11-14T12:52:53Z"
+      },
+      "lb": {
+        "id": 457888,
+        "players": 24,
+        "coop": true,
+        "rating": 4.4,
+        "overview": "Ready your wheels for a brand-new Mario Kart game exclusively for the Nintendo Switch™ 2 system—with a world of interconnected courses to race through\nThe whole world is your racetrack in this massive evolution of the Mario Kart™ series! The courses you race on are all connected in a seamless world. Drive the paths between them to traverse mountains, forests, cities, and more. Take in the sprawling vistas as you explore at your own pace in Free Roam—or watch how a sudden shift in the weather can mix up a dead heat in a tense Grand Prix.\n\nRide on rails, jump off walls, skim across water, and more as you race for the finish line. Master these new maneuvers and you might cut down your time to the finish line!\n\nTake on a classic Grand Prix, or go the distance in the Knockout Tour elimination mode\n\nSpeed through one course and then drive to the next in a non-stop rally that stretches from one corner of the world to another in the adrenaline-packed Knockout Tour! In this fierce 24-driver mode, racers are steadily eliminated, checkpoint by checkpoint, until only one remains. With Grand Prix and VS Races also supporting up to 24 drivers, the competition has never been tighter!\n\nRace online",
+        "logo": "https://images.launchbox-app.com/r2_eaff8b15-99d8-48f5-8fff-5a0b085ec4f2.png",
+        "snap": "https://images.launchbox-app.com/r2_caf6b06b-ea43-4c02-9a8e-3ed7f76c2778.jpeg",
+        "fanart": "https://images.launchbox-app.com/r2_d0b6567a-3cce-4312-867d-5110edc0f25c.jpg"
+      }
+    },
+    {
+      "id": "winback-recomp",
+      "name": "WinBack Recompiled",
+      "original_game": "WinBack: Covert Operations",
+      "game_id": "winback-covert-operations",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "RetroPulse03",
+        "repo": "WinBackRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/WinBack%20-%20Covert%20Operations%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^WinBackRecompiled-v[0-9.]+-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de WinBack: Covert Operations (N64) con N64Recomp y RT64. Al primer arranque busca la ROM junto al ejecutable o la pide (también con --rom): WinBack - Covert Operations (USA) en .z64 big-endian, SHA-1 fa04477b321a95e1f7a2edcac5c09bfa6ef72041; se guarda una copia en la carpeta del juego. Juega desde el arranque hasta la misión 1 a 30 fps (misiones posteriores poco probadas); incluye widescreen 16:9, mapeos de mando PS2/N64 y menú recomp con selector de nivel. Solo Windows x64 con GPU Vulkan. Código generado en gran parte con IA (Claude Code)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "WinBackRecompiled.exe"
+      },
+      "year": 1999,
+      "developer": "Kronos Digital Entertainment",
+      "genre": "Tercera persona (shooter)",
+      "wiki": "WinBack: Covert Operations",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.0",
+        "published_at": "2026-11-07T22:45:22Z"
+      },
+      "lb": {
+        "id": 413,
+        "players": 4,
+        "rating": 3.6,
+        "overview": "A terrorist group calling itself the Crying Lions is about to take over the world with its mighty satellite and Jean-Luc Cougar is the only one who can stop it. As Jean-Luc, a covert operative working for the Strategic Covert Actions Team, you are responsible for taking back a Lions-controlled base and regaining power of the satellite. Some of the weapons you'll have to acquire and use to defeat the terrorists are handguns, shotguns, and machine guns, though you'll also need to access such materials as explosives, detectors, flashlights and medical kits in order to succeed. A refreshing take on the traditional action game, WINBACK requires as much stealth and strategy as it does reflexes and use of weaponry. The game features six different multiplayer modes, supporting up to four players: Death Match, Lethal Tag, Quick Draw, Cube Hunt, Team Battle, and Point Match. You select your difficulty level and you can even start off in a Tutorial mode to get the controls down.",
+        "logo": "https://images.launchbox-app.com/e1abe217-49b4-4f67-a213-c4a05e8b614b.png",
+        "snap": "https://images.launchbox-app.com/8650ce67-c41c-4855-bf00-25ee5c050693.jpg",
+        "title": "https://images.launchbox-app.com/733b228f-6186-4a6c-98a7-270b74879842.jpg"
+      }
+    },
+    {
+      "id": "sf3comp",
+      "name": "SF3comp",
+      "original_game": "Street Fighter III: 3rd Strike",
+      "game_id": "street-fighter-iii-3rd-strike",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tmcleroy",
+        "repo": "sf3comp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/74795ed1eea8eff2d2ead49ad13475b3.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SF3comp-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^SF3comp-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de la trilogía Street Fighter III arcade (CPS-3: New Generation, 2nd Impact y 3rd Strike) traduciendo el código SH-2 a C++. El lanzador pide tus sets de ROM MAME en zip o carpeta: sfiii3nr1 (3rd Strike, Japan 990512 NO CD, obligatorio para él), sfiiin (New Generation, Asia 970204) y sfiii2n (2nd Impact, Asia 970930); con los tres juntos 3rd Strike gana sus escenarios y música. Incluye modo entrenamiento completo, rollback online, widescreen y modos nuevos. Beta: se juega entero, pero la build de Windows aún no se ha probado en un PC real. Releases de macOS/Android se ignoran."
+      },
+      "launch": {
+        "linux": "sf3comp-launcher",
+        "windows": "sf3comp-launcher.exe"
+      },
+      "year": 1999,
+      "developer": "Capcom",
+      "genre": "Lucha",
+      "wiki": "Street Fighter III: 3rd Strike",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-beta.3",
+        "published_at": "2026-11-13T03:57:19Z"
+      },
+      "lb": {
+        "id": 39660,
+        "players": 2,
+        "rating": 4.5,
+        "overview": "Street Fighter III: 3rd Strike: Fight for the Future is the second updated version of Street Fighter III which adds new characters, new music, storylines, more super arts for each character, a grading system, a manual throw system, and path selection. The most significant change is the introduction of the guard parry, which helps defend against multi-hit combos.\n\nThis version adds five new characters to the rosters such as Chun Li (from Street Fighter II), Makoto (a judo expert), Twelve (another Gill clone), Q (who resembles a Japanese superhero similar to Tetsujin 28) and Remy (a Guile/Nash clone). This game also marks the return of bonus rounds which were last present in Super Street Fighter II.",
+        "logo": "https://images.launchbox-app.com/c9374c3b-1cd5-4e87-846a-c81132a7d308.png",
+        "snap": "https://images.launchbox-app.com/r2_f6ca7d3e-2fe3-4a3b-9f8e-73d1d0054be1.jpg",
+        "title": "https://images.launchbox-app.com/78c831de-e048-4db4-aa70-0ae8886e8bf9.png",
+        "fanart": "https://images.launchbox-app.com/r2_5a47fe1a-97d7-4e2e-b33d-cff5d82144ba.jpg"
+      }
+    },
+    {
+      "id": "superwonders",
+      "name": "SuperWonders",
+      "original_game": "Super Mario Bros. Wonder",
+      "game_id": "super-mario-bros-wonder",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "vfjoo888",
+        "repo": "SuperWonders"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/66da3b21fe18692332284c64e08b8e02.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^SuperWonders-v[\\d.]+-Linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^SuperWonders-v[\\d.]+-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática experimental de Super Mario Bros. Wonder (Switch, versión base 1.0.0; sin updates ni DLC). Necesita tus carpetas ExeFS (con main y sdk) y RomFS ya extraídas de tu propia copia; el lanzador incluido (en Windows existe además un builder GUI aparte en las releases anteriores) prepara y compila el juego a partir de ellas, con 16 GB de RAM como mínimo (32 GB recomendados para compilar). Requiere CPU x86-64 con AVX2 y GPU con Vulkan 1.3; la primera vez compila unos 12.000 shaders. Menú en juego con F1: resolución interna hasta 4K, límite de fps hasta 144, FSR 1, FXAA, mandos Xbox/DualSense y soporte de mods. Probado sobre todo en el tutorial y el mundo 1; Intel sin probar; código escrito en gran parte con IA. En Linux se elige el .tar.gz (también hay AppImage)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2023,
+      "developer": "Nintendo EPD",
+      "genre": "Plataformas",
+      "wiki": "Super Mario Bros. Wonder",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.0",
+        "published_at": "2026-11-14T08:14:48Z"
+      },
+      "lb": {
+        "id": 421985,
+        "players": 4,
+        "coop": true,
+        "rating": 4.6,
+        "overview": "The next evolution of Mario fun!\n\nExperience Mario like never before with the transformative powers of Wonder Flowers in the groundbreaking Super Mario Bros. Wonder! These revolutionary elements introduce a plethora of whimsical and bizarre occurrences. Be prepared to watch pipes spring to life, create mayhem as a massive Spike-Ball, and delve into many more surprises!\n\nWelcome to the Flower Kingdom:\nYour beloved team of Mario and pals are off to the vibrant Flower Kingdom, situated not too far from the renowned Mushroom Kingdom. In an unfortunate turn of events, King Bowser morphs into a formidable flying fortress, spreading disorder and panic in this once peaceful land. It is up to our gallant heroes to thwart his plans and restore peace and joy to the Flower Kingdom in this enchanting new escapade!\n\nShare the wonder with friends and family:\nYou can team up with up to three friends locally on one Nintendo Switch system and race though these worlds together, or play with others online!\n\nStages:\nThe game has six different worlds, as well as a central area to which all of them connect, Petal Isles. Each level contains at least two Wonder Seeds, one of which is obtained by finding th",
+        "logo": "https://images.launchbox-app.com/bf43ccf2-1730-456d-bb08-55d1ada67163.png",
+        "snap": "https://images.launchbox-app.com/b83af594-1847-4130-8cc0-f88c36db0feb.jpg",
+        "title": "https://images.launchbox-app.com/0de4b594-567c-435d-b982-a372969bcb18.jpg",
+        "fanart": "https://images.launchbox-app.com/cc3e3d1c-044c-4078-ae53-061378ddff7a.jpg"
+      }
+    },
+    {
+      "id": "mc3port",
+      "name": "mc3port",
+      "original_game": "Midnight Club 3: DUB Edition Remix",
+      "game_id": "midnight-club-3-dub-edition-remix",
+      "system": "xbox",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "SickSartori",
+        "repo": "mc3port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Midnight%20Club%203%20-%20DUB%20Edition%20Remix%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^mc3port-[\\d.]+-linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^mc3port-[\\d.]+-windows-x86\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo no oficial del Midnight Club 3: DUB Edition Remix de Xbox: el código x86 del juego corre directo y mc3port sustituye kernel, GPU NV2A (Direct3D 11), audio y mandos. Necesita una imagen de disco (.iso o .cci, también partida) de la versión europea o la USA; el lanzador la comprueba por el hash de default.xbe y la lee en cada arranque, sin extraer nada. Da 16:9 real, 60 fps, hasta 5K, efectos opcionales y radio con tu propia música. Se elige el zip portátil (mc3.exe); es un programa de 32 bits para Windows 10/11 con Direct3D 11. El paquete de Linux funciona mediante Wine (experimental, probado en una sola máquina)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "mc3.exe"
+      },
+      "year": 2005,
+      "developer": "Angel Studios (Rockstar San Diego)",
+      "genre": "Carreras",
+      "wiki": "Midnight Club 3: DUB Edition",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.7",
+        "published_at": "2026-11-11T17:51:45Z"
+      },
+      "lb": {
+        "id": 132750,
+        "players": 8,
+        "rating": 3.6,
+        "overview": "Midnight Club 3: DUB Edition Remix is an enhanced budget re-release of Midnight Club 3: DUB Edition. In addition to all the content from the original, it adds a new fully-featured city, Tokyo, adapted from Midnight Club II, 24 new vehicles, new music, new races and battle maps for about 30% more content.",
+        "logo": "https://images.launchbox-app.com/c3b2fcba-a19f-42a8-a8fd-37aec9bc318f.png",
+        "snap": "https://images.launchbox-app.com/72b72c2c-2149-45bf-a746-13bf06977fd5.png",
+        "title": "https://images.launchbox-app.com/7134bd25-a475-43e7-acc2-6aa5c9969549.png"
+      }
+    },
+    {
+      "id": "infamous2-port",
+      "name": "inFAMOUS 2 Port",
+      "original_game": "Infamous 2",
+      "game_id": "infamous-2",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "SamiEnazi",
+        "repo": "infamous2-port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/e238cbc37c2ce28891d7187fb2ef7c58.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^inFAMOUS2-port-v[\\d.]+-Linux-x64\\.zip$",
+        "windows-x86_64": "(?i)^Setup\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de inFAMOUS 2 (PS3) por recompilación estática con render Vulkan, sin emulador al jugar. Necesita tu copia del juego (disco Europa o USA con la actualización 1.04, o la versión digital 01.03) instalada en RPCS3 junto al firmware de PS3. En Windows el asset es Setup.exe: hay que ejecutarlo a mano desde la carpeta del port, elegir una subcarpeta (p. ej. game) como destino y pulsar Install; compila el juego a partir de tu copia (20-60 min, más 10-25 si se activa «Optimise for this PC») y arranca con Infamous2Recomp.exe. En Linux/Steam Deck se descomprime el zip y se ejecuta ./setup.sh. 1080p nativo hasta 4K, menú F2 con trucos, mods y actualizador. Jugable; código generado con IA (Claude Code); Setup.exe no está firmado."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Infamous2Recomp.exe"
+      },
+      "year": 2011,
+      "developer": "Sucker Punch Productions",
+      "genre": "Acción-aventura",
+      "wiki": "Infamous 2",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.4",
+        "published_at": "2026-11-13T19:32:29Z"
+      },
+      "lb": {
+        "id": 941,
+        "players": 1,
+        "rating": 4.2,
+        "overview": "inFAMOUS 2 continues the story of Cole MacGrath, the protagonist of the original game. Right at the beginning Cole is thrown at facing a huge opponent known as The Beast. Little is known as to who or what the beast is and what is its goal. Defeated, Cole managed to escape the destruction of Empire City, and together with his partner Zeke Dunbar, and an NSA agent Lucy Kuo who he teamed up with in order to defeat The Beast, they sail south to the city of New Marais. His goal is to use the Ray Field Inhibitor device to weaken The Beast and take it head-on once and for all.\n\nAlmost all the previous powers from the original game are back with some new ones. Unlike the original game where each button combination was used for a single power, in this game Cole can purchase more powers of the same caliber which will let him assign the power he wants to use to a specific button combination. Unassigned powers cannot be used until assigned. The game lets you use save game file from inFAMOUS to initially raise your good or evil karma.\n\nAs you perform good or evil deeds, your karma will fluctuate toward a blue or red bar, letting you purchase new powers that represent the karma type, as you cann",
+        "logo": "https://images.launchbox-app.com/a010e066-6383-48d2-8f8a-871412cd9442.png",
+        "snap": "https://images.launchbox-app.com/cbcf362e-f3c3-4715-9ac2-367cfcf86f88.jpg",
+        "fanart": "https://images.launchbox-app.com/bff7b5a9-b4bf-4f7d-bae2-6acff6972be1.jpg"
+      }
+    },
+    {
+      "id": "opengp",
+      "name": "OpenGP",
+      "original_game": "Mario Kart Arcade GP / Arcade GP 2",
+      "game_id": "mario-kart-arcade-gp",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "OpenGP-dev",
+        "repo": "OpenGP"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/513006c3cad910dbda9b1762f72aaeec.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^OpenGP-[\\d.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^OpenGP-[\\d.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo de Mario Kart Arcade GP y GP 2 (placa Triforce de Namco) por recompilación estática del código Gekko. Se descomprime el paquete, se abre OpenGP (el lanzador) y se añade la imagen de disco de cada juego (p. ej. GGPE02.iso para GP 2); construye el juego una vez en tu equipo y luego lo lanza como programa nativo. Hace falta Windows 10 1809+ o Linux con Vulkan. Se comporta como el recreativo: Esc abre el menú, con juego gratis (free play), resoluciones altas, panorámico, mandos y volantes con force feedback, Mario Card y enlace de cabinas por red local. La release también trae macOS, que no se usa. Desarrollado con IA (Claude)."
+      },
+      "launch": {
+        "linux": "OpenGP",
+        "windows": "OpenGP.exe"
+      },
+      "year": 2005,
+      "developer": "Namco",
+      "genre": "Carreras",
+      "wiki": "Mario Kart Arcade GP",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0.4",
+        "published_at": "2026-11-12T15:44:40Z"
+      },
+      "lb": {
+        "id": 10750,
+        "players": 2,
+        "rating": 3.8,
+        "overview": "Mario Kart Arcade GP is the first entry in the Mario Kart series to be released exclusively in arcades, and the first to be developed outside of Nintendo, in this case by Namco. It is a 3D kart racer similar to Mario Kart: Double Dash!!, the last game in the series before its release. It features 8 returning playable characters: Mario, Luigi, Yoshi, Wario, Princess Peach, Toad, Donkey Kong, and Bowser. However, due to Namco entering the picture, 3 new playable characters are added, previously having nothing to do with Mario: Pac-Man, Ms. Pac-Man, and Blinky. Gameplay is controlled via the steering wheel, acceleration and brake pedals, the item button, and VS cancel button. Each unit has two cabinets which are connected, and another can be connected to that unit, allowing up to four players, each having their own screen. In order to link up, a player must activate a VS search, and the other cabinets must join (the VS cancel button is used to cancel this search). Unlike many arcade games, Mario Kart Arcade GP features a card reader, to be used with magnetic cards that can be purchased and used to save progress and scores.",
+        "logo": "https://images.launchbox-app.com/bce09a5d-7a09-4e0f-a2d7-14087f0914a9.png",
+        "snap": "https://images.launchbox-app.com/4d41f95f-37d9-4723-8241-690deef1cea6.jpg",
+        "fanart": "https://images.launchbox-app.com/f3b61dcd-d896-47f6-b5c2-bde4e66c98b0.png"
+      }
+    },
+    {
+      "id": "superman-returns-recomp",
+      "name": "Superman Returns Recomp",
+      "original_game": "Superman Returns",
+      "game_id": "superman-returns",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "MrPowerUp82",
+        "repo": "superman_returns_recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/153f226197803645170e7750bf023968.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^superman_returns_win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática experimental (ReXGlue) de Superman Returns de Xbox 360; solo Windows y el README está en portugués. El zip es un build precompilado sin datos del juego: los archivos del juego (default.xex, con SHA-256 C8F243AC…DB2B, y los .AST de DATA/) van en la carpeta game/ junto al ejecutable, y el autor ofrece una página de instalador (GitHub Pages) que lee tu ISO o carpeta en el navegador y arma el paquete. Lanzador con GUI para elegir Direct3D 12 (recomendado) o Vulkan, GPU, resolución y controles; incluye trajes, co-op local experimental (F2) y DLSS/ray tracing en D3D12. Los shaders se traducen en el primer arranque. Llega a la jugabilidad con audio, pero la imagen no está validada en todas las fases."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2006,
+      "developer": "EA Tiburon",
+      "genre": "Acción-aventura",
+      "wiki": "Superman Returns (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v2026.11.12-1353148",
+        "published_at": "2026-11-12T16:15:00Z"
+      },
+      "lb": {
+        "id": 7679,
+        "players": 1,
+        "rating": 3.0,
+        "overview": "Superman Returns is a video game based on the movie of the same name, It was developed by EA Tiburon and published by Electronic Arts in conjunction with Warner Bros. Interactive Entertainment and DC Comics. It features a story arc from the movie, which was released on June 28, 2006, and more than 60 years of comic book content. EA Tiburon, known for its Madden NFL game series, has claimed that the game combines strong creative vision and compelling new technology to deliver a powerful and emotional gaming experience to their consumers, and they will experience a real sense of flying while mastering Superman's superhero powers to save Metropolis.\n\nIn the game, Superman combats Bizarro, who does not appear in the movie, as well as other classic villains (including Mongul) as well as being able to play as Bizarro for a short period of time in one of the many minigames inserted into the game. The game was produced for the Xbox 360 as well as the Playstation 2 and Nintendo DS. A port for the PlayStation Portable was planned but cancelled due to it not having enough power to support the game.\n\nElectronic Arts and Warner Bros. Interactive Entertainment secured an all-star cast for the vo",
+        "logo": "https://images.launchbox-app.com/r2_ed3822ec-9a10-4275-bc5c-ff7f636bd1c0.png",
+        "snap": "https://images.launchbox-app.com/r2_f5c0cfaa-69ba-471c-94c0-f6eebfa41985.png",
+        "title": "https://images.launchbox-app.com/r2_1beab52c-800b-4120-adcb-a800015dfcdb.png",
+        "fanart": "https://images.launchbox-app.com/5d24f99f-e62f-4ddc-a53e-1f9c7fdc19ca.jpg"
+      }
+    },
+    {
+      "id": "gr2port",
+      "name": "GR2port",
+      "original_game": "Gravity Rush 2",
+      "game_id": "gravity-rush-2",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "junminlee2004",
+        "repo": "GR2port"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/cee0281e36d843e932cbabe3aaa22d50.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^GR2port\\.build\\.[0-9a-f]+\\.Linux\\.zip$",
+        "windows-x86_64": "(?i)^GR2port\\.build\\.[0-9a-f]+\\.Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Port nativo no oficial de Gravity Rush 2 (PS4): ejecuta el código x86-64 del ejecutable sin emulación de CPU ni GPU, con un renderer Vulkan reescrito y el firmware de PS4 traducido a llamadas nativas. Necesita tu volcado del juego (cualquier región) con la actualización 1.11, imprescindible; si lo tienes en PKG, Freeport puede extraerlo con «Importar PKG de PS4» y luego se indica la carpeta en el lanzador. Shaders precompilados al arrancar, de 544p a 8K, 30-360 fps, ultrapanorámico, FSR 3.1/4.1 (DLSS solo en Windows), modo foto y online. Windows y Linux, con preset Steam Deck; con -nolauncher se salta el lanzador. Alternativa al port de HayatoG."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2017,
+      "developer": "SIE Japan Studio",
+      "genre": "Acción-aventura",
+      "wiki": "Gravity Rush 2",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.05",
+        "published_at": "2026-11-14T08:54:08Z"
+      },
+      "lb": {
+        "id": 126560,
+        "players": 1,
+        "rating": 3.7,
+        "overview": "Another mind-bending adventure awaits gravity queen Kat as a new danger emerges to threaten the fabric of the universe itself. Still searching for clues behind the mystery of her origin, and with the powerful Raven at her side, Kat must master three unique gravity attack styles as she takes on enemies and massive bosses.",
+        "logo": "https://images.launchbox-app.com/4c04beaa-098a-40d0-b515-c3722268c211.png",
+        "snap": "https://images.launchbox-app.com/e8ed6733-687a-49d6-b89b-59dc5480c9eb.jpg",
+        "fanart": "https://images.launchbox-app.com/ad585e06-bb9c-4b8a-b37f-49e310565978.jpg"
+      }
+    },
+    {
+      "id": "rayman-2-recomp",
+      "name": "Rayman 2: Recompiled",
+      "original_game": "Rayman 2: The Great Escape",
+      "game_id": "rayman-2-the-great-escape",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "rayman-2-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Rayman%202%20-%20The%20Great%20Escape%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Rayman2Recompiled-v[\\d.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Rayman2Recompiled-v[\\d.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática de Rayman 2: The Great Escape de N64 (N64Recomp + RT64) con el lanzador y menús de RecompFrontend. Necesita la ROM USA en formato .z64 big-endian de 32 MiB con SHA-1 50558356b059ad3fbaf5fe95380512b9dceaaf52; otras regiones no valen. Se abre el ejecutable, se pulsa Load ROM para elegirla y luego Start Game. Llega a cargar todos los niveles, con sonido, Controller Pak y mando/teclado, pero aún no se ha jugado de principio a fin. Windows y Linux; también existe una versión web. Código escrito casi por completo con IA."
+      },
+      "launch": {
+        "linux": "Rayman2Recompiled",
+        "windows": "Rayman2Recompiled.exe"
+      },
+      "year": 1999,
+      "developer": "Ubisoft Montpellier",
+      "genre": "Plataformas",
+      "wiki": "Rayman 2: The Great Escape",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.16",
+        "published_at": "2026-11-14T18:14:53Z"
+      },
+      "lb": {
+        "id": 395,
+        "players": 1,
+        "rating": 4.1,
+        "overview": "Admiral Razorbeard and his gang of robot pirates have enslaved all the creatures in Rayman's world, including the peaceful Teensies and the Lums, which give life to the earth. Rayman has been captured by the pirates as well and is lamenting his troubles in his prison cell, when he meets his good friend, Globox. Globox has smuggled in a silver Lum, given to him by the great fairy, Ly. With the power of the silver Lum, Rayman is able to once more shoot his fists. With his power restored, the pair escape the flying prison ship and embark on another adventure to save the entire world!\n\nRayman 2: The Great Escape is the sequel to Rayman, a 2D side-scrolling platform game. Unlike the previous game, Rayman 2 is entirely in free-roaming 3D environments, similar to Super Mario 64. Rayman has many unique abilities that can help him get around the world. In addition to being able to shoot his fists, he can use his hair to hover like a helicopter, and even glide on air currents in certain places. He can climb certain walls and ceilings and can even use his fists to swing from special purple Lums which are shaped like rings. Rayman also has many unique items at his disposal, such as powder kegs",
+        "logo": "https://images.launchbox-app.com/fedaef55-e414-4010-8b0c-16fe0a3f9c10.png",
+        "snap": "https://images.launchbox-app.com/200fb7df-b242-47ce-8e63-35a4ca5d6f83.png",
+        "title": "https://images.launchbox-app.com/53e3346a-d549-437d-bec5-48e0dcbcf4cb.png",
+        "fanart": "https://images.launchbox-app.com/305f8932-16f5-4981-bc66-c8404daff33a.jpg"
+      }
     }
   ]
 }
