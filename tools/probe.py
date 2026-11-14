@@ -117,6 +117,12 @@ def probe_project(p, token):
     try:
         if repo.get("host") == "gitlab":
             releases = gitlab_releases(slug)
+        elif repo.get("host") == "gitea":
+            # Gitea/Forgejo: same release JSON shape as GitHub.
+            base = repo["base"].rstrip("/")
+            req = urllib.request.Request(f"{base}/api/v1/repos/{slug}/releases?limit=10",
+                                         headers={"User-Agent": "decompdeck-probe", "Accept": "application/json"})
+            releases = json.load(urllib.request.urlopen(req, timeout=30))
         else:
             releases = gh_get(f"{API}/repos/{slug}/releases?per_page=10", token)
     except urllib.error.HTTPError as e:
@@ -163,7 +169,7 @@ def main():
     for p in catalog.get("projects", []):
         # Self-hosted (direct-download) projects have no GitHub releases to
         # probe; their cached fields are curated by hand.
-        if p.get("direct") or p.get("repo", {}).get("host", "github") not in ("github", "gitlab"):
+        if p.get("direct") or p.get("repo", {}).get("host", "github") not in ("github", "gitlab", "gitea"):
             continue
         cached = probe_project(p, token)
         if cached is not None:

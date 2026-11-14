@@ -31137,8 +31137,9 @@
       "box_art": null,
       "tier": "curado",
       "repo": {
-        "host": "github",
-        "owner": "NotRexed",
+        "host": "gitea",
+        "base": "https://git.notrexed.dev",
+        "owner": "Hookshot",
         "repo": "Hookshot"
       },
       "release_channel": "stable",
@@ -31160,7 +31161,7 @@
           "windows-x86_64"
         ],
         "latest_tag": "v2.1.0",
-        "published_at": "2026-11-11T02:29:16Z"
+        "published_at": "2026-11-11T01:32:15Z"
       },
       "quality_signals": {
         "downloads": 0,
