@@ -7237,7 +7237,7 @@
       "repo": {
         "host": "github",
         "owner": "flyngmt",
-        "repo": "ACGC-PC-Port"
+        "repo": "Nookery"
       },
       "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20%28USA%29.png",
@@ -7888,15 +7888,15 @@
       "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Spyro%20the%20Dragon%20%28USA%29.png",
       "logo_url": null,
       "direct": {
-        "version": "v0.2.0",
+        "version": "v0.4.3",
         "page": "https://openpete.com/",
         "downloads": {
-          "linux-x86_64": "https://dl.openpete.com/OpenPete-v0.2.0-x86_64.AppImage",
-          "windows-x86_64": "https://dl.openpete.com/openpete-v0.2.0.zip"
+          "linux-x86_64": "https://dl.openpete.com/OpenPete-v0.4.3-x86_64.AppImage",
+          "windows-x86_64": "https://dl.openpete.com/openpete-v0.4.3.zip"
         },
         "sha256": {
-          "OpenPete-v0.2.0-x86_64.AppImage": "53c6bb693b1626c9077f06831ab93e8589a1ca86e4ccbe087f5a7cf4f4230056",
-          "openpete-v0.2.0.zip": "6fd18f4bdd6c0279247e965d913c7a98b017229a1fd9fe534ff054401e62cc10"
+          "OpenPete-v0.4.3-x86_64.AppImage": "76b5dd20654530b0f2d8c49b885349c519df6a70c1c2579f44aed4db158cceed",
+          "openpete-v0.4.3.zip": "d62ba224c4487068409812e3c5d06ba0184e3a9b50ae5d3d11cb7cf89fa6a59b"
         }
       },
       "asset_rules": {
@@ -7912,15 +7912,15 @@
       },
       "launch": {
         "linux": null,
-        "windows": null
+        "windows": "openpete-spyro1.exe"
       },
       "cached": {
         "platforms": [
           "linux-x86_64",
           "windows-x86_64"
         ],
-        "latest_tag": "v0.2.0",
-        "published_at": "2026-09-04T00:00:00Z"
+        "latest_tag": "v0.4.3",
+        "published_at": "2026-11-14T00:00:00Z"
       },
       "year": 1998,
       "developer": "Insomniac Games",
@@ -13948,68 +13948,6 @@
       }
     },
     {
-      "id": "moh-frontline-gc-recomp",
-      "name": "MOH Frontline GC Recomp",
-      "original_game": "Medal of Honor: Frontline",
-      "game_id": "medal-of-honor-frontline",
-      "system": "gc",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "ant0-blase",
-        "repo": "MOHFrontline-GC-RECOMP"
-      },
-      "release_channel": "prerelease",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Medal%20of%20Honor%20-%20Frontline%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "linux-x86_64": "(?i)^MOHFrontline-GC-RECOMP-.*-Linux-x86_64\\.tar\\.gz$",
-        "windows-x86_64": "(?i)^MOHFrontline-GC-RECOMP-.*-Windows-x86_64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Necesita tu ISO USA de Medal of Honor: Frontline (GameCube, GMFE69); la detecta y extrae. Recompilación experimental (DolRecomp + ModernGekko), Vulkan/Wayland."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [],
-        "latest_tag": null,
-        "published_at": null
-      },
-      "year": 2002,
-      "developer": "EA Los Angeles",
-      "genre": "Disparos en primera persona",
-      "wiki": "Medal of Honor: Frontline",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 9,
-        "age_days": 88,
-        "releases": 0,
-        "contributors": 1,
-        "ai": false,
-        "emu": true,
-        "checked": "2026-11-14"
-      },
-      "tier": "experimental",
-      "box_art": null,
-      "lb": {
-        "id": 11661,
-        "players": 4,
-        "rating": 3.7,
-        "overview": "Head back behind enemy lines with Lt. Jimmy Patterson in Medal of Honor Frontline. In this installment of the Medal of Honor series, Lt. Patterson is on a mission to infiltrate the German frontline and steal the HO-IX flying wing, an experimental Nazi weapon so powerful it could turn the tide of World War II. All 20 levels and six major missions in the game are based on real World War II events. You'll also find authentic weapons, including the Colt .45, Springfield sniper rifle, Panzerschreck rocket launcher, and Browning automatic rifle. The World War II experience just got more intense.",
-        "logo": "https://images.launchbox-app.com/e9f25432-9f7b-4c96-8ded-02dac773d8fe.png",
-        "snap": "https://images.launchbox-app.com/c3c0e54f-c421-4b95-b708-399a9d0fa6e1.jpg",
-        "title": "https://images.launchbox-app.com/cecd4b7e-d968-4330-9b0d-6565f13cf0e4.png",
-        "fanart": "https://images.launchbox-app.com/038345b5-f735-40d2-9800-411fd8f08bb9.jpg"
-      }
-    },
-    {
       "id": "sms-launcher",
       "name": "SMS Launcher",
       "original_game": "Super Mario Sunshine",
@@ -14384,69 +14322,6 @@
         "snap": "https://images.launchbox-app.com/68893be8-e440-4c84-959f-494a8a5b6f3b.png",
         "title": "https://images.launchbox-app.com/ba8bd45f-69e1-4b0d-9f3a-3a29f2bc1aec.png",
         "fanart": "https://images.launchbox-app.com/d61b5ea5-1f25-48a7-8de4-11555a6f2eb0.jpg"
-      }
-    },
-    {
-      "id": "wind-waker-recomp",
-      "name": "Wind Waker Recomp",
-      "original_game": "The Legend of Zelda: The Wind Waker",
-      "game_id": "the-legend-of-zelda-the-wind-waker",
-      "system": "gc",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "elliotttate",
-        "repo": "Wind-Waker-Recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Wind%20Waker%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^WindWakerRecomp-.*-windows-x64\\.zip$",
-        "macos-aarch64": "(?i)^WindWakerRecomp-.*-macos-arm64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "RETIRADO: el autor quitó las descargas y el repositorio es ahora su fork personal de BlueWake para iPhone/iPad. Si ya lo tienes instalado sigue funcionando, pero no recibirá actualizaciones; usa «BlueWake» del catálogo (tiene versión nativa para Linux) o «Wind Waker HD Recomp». Al primer arranque elige tu imagen de The Wind Waker (GameCube, USA GZLE01 rev. 0; .iso, .gcm o .rvz) y la verifica. 60/120 fps, widescreen, save states, ratón y teclado. Fork de BlueWake por el autor de DKC1/DKC3 Recomp; listo para jugar, sin compilar (a diferencia de Deep Sea)."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [],
-        "latest_tag": null,
-        "published_at": null
-      },
-      "year": 2002,
-      "developer": "Nintendo EAD",
-      "genre": "Acción-aventura",
-      "wiki": "The Legend of Zelda: The Wind Waker",
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 590,
-        "age_days": 46,
-        "releases": 0,
-        "contributors": 2,
-        "ai": false,
-        "emu": true,
-        "checked": "2026-11-14"
-      },
-      "tier": "experimental",
-      "box_art": null,
-      "lb": {
-        "id": 174,
-        "players": 2,
-        "coop": true,
-        "rating": 4.6,
-        "overview": "The game is set on a group of islands in a vast sea—a first for the series. The player controls Link, the protagonist of the Zelda series. He struggles against his nemesis, Ganondorf, for control of a sacred relic known as the Triforce. Link spends a large portion of the game sailing, traveling between islands, and traversing through dungeons and temples to gain the power necessary to defeat Ganondorf. He also spends time trying to find his little sister.\nThe Wind Waker follows in the footsteps of Ocarina of Time and its sequel Majora's Mask, retaining the basic gameplay and control system from the two Nintendo 64 titles. A heavy emphasis is placed on using and controlling wind with a baton called the Wind Waker, which aids sailing and floating in air. Controversial during development for its use of cel shading graphics and younger Link character, The Wind Waker received acclaim on release and is one of the Nintendo GameCube's most popular games.",
-        "logo": "https://images.launchbox-app.com/3afd4b4d-6af1-4360-86c4-672a5a49baa2.png",
-        "snap": "https://images.launchbox-app.com/262fe839-b29b-47c1-af9d-fac9305b6186.jpg",
-        "title": "https://images.launchbox-app.com/303075be-e279-42ff-91f6-21446d8ddd6f.png",
-        "fanart": "https://images.launchbox-app.com/bab2d638-7acc-4146-8d16-b1780824cac5.jpg"
       }
     },
     {
@@ -14910,71 +14785,6 @@
         "snap": "https://images.launchbox-app.com/ffc2770c-2054-4426-af7e-bbf5ff9d6a44.jpg",
         "title": "https://images.launchbox-app.com/r2_14ffc4e9-be27-4b5d-8b8c-e43ea6d78499.jpg",
         "fanart": "https://images.launchbox-app.com/r2_215c7930-3f01-44c3-acfc-eb836489b19e.jpeg"
-      }
-    },
-    {
-      "id": "metroid-prime-port",
-      "name": "Metroid Prime Port",
-      "original_game": "Metroid Prime",
-      "game_id": "metroid-prime",
-      "system": "gc",
-      "type": "native-port",
-      "repo": {
-        "host": "github",
-        "owner": "Odrannnn",
-        "repo": "MetroidPrimePort"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metroid%20Prime%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "linux-x86_64": "(?i)^MetroidPrime-x86_64\\.AppImage$",
-        "windows-x86_64": "(?i)-windows-x86_64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Al arrancar sin disco te pide la imagen de tu Metroid Prime (GameCube, GM8E01 USA v1.00, .iso) y la recuerda. Port nativo compilado del decomp PrimeDecomp sobre Aurora (SDL3 + WebGPU): panorámico, FOV, ratón, mods, randomizer y Archipelago."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.46.0",
-        "published_at": "2026-11-12T19:05:40Z"
-      },
-      "year": 2002,
-      "developer": "Retro Studios",
-      "genre": "Acción/Aventura (FPS)",
-      "wiki": "Metroid Prime (video game)",
-      "box_art": null,
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "tier": "experimental",
-      "lb": {
-        "id": 172,
-        "players": 1,
-        "rating": 4.6,
-        "overview": "Ten years ago, beneath the surface of Planet Zebes, the mercenaries known as \"Space Pirates\" were defeated by interstellar bounty hunter Samus Aran. Descending to the very core of the pirate stronghold, Samus exterminated the energy based parasites called \"Metroids\" and defeated Mother Brain, the leader of the pirate hoarde.\n\nBut the Space Pirates were far from finished. Several pirate research vessels were orbiting Zebes when Samus fought on the surface below.\n\nAfter the fall of Mother Brain, the ships escaped, with the hope of finding enough resources to rebuild their forces and take their revenge.\n\nAfter discovering a possible pirate colony on planet Talon IV, Samus has once again prepared for war, hoping to end the Pirate threat forever.",
-        "logo": "https://images.launchbox-app.com/e142864a-81a4-464b-afe9-f49f9bfdc1ad.png",
-        "snap": "https://images.launchbox-app.com/308f86d3-e66a-448d-9cb8-1f01c07d97b8.png",
-        "title": "https://images.launchbox-app.com/62b24761-527d-47ad-a0ac-9b9faad2a151.png",
-        "fanart": "https://images.launchbox-app.com/f80824f3-889f-4731-9365-b1008723222c.jpg"
       }
     },
     {
@@ -18105,87 +17915,6 @@
       }
     },
     {
-      "id": "sky-recomp",
-      "name": "Sky Recomp",
-      "original_game": "The Legend of Zelda: Skyward Sword HD",
-      "game_id": "the-legend-of-zelda-skyward-sword-hd",
-      "system": "switch",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "Apolinario-coder",
-        "repo": "SkyRecomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/3c2033624959422ce2b7306217be6f84.png",
-      "logo_url": null,
-      "asset_rules": {
-        "linux-x86_64": "(?i)^Sky\\.Recomp\\-.*\\-linux\\-x86_64\\.AppImage$",
-        "macos-aarch64": "(?i)^SkyRecomp\\-.*\\-macOS\\.dmg$",
-        "windows-x86_64": "(?i)^SkyRecomp\\-.*\\-Windows\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Necesitas los archivos de tu copia de Switch de Skyward Sword HD en versión 1.0.0 (sin actualizaciones), ya descomprimidos en una carpeta; el launcher no descifra NSP/XCI ni acepta claves. Al abrir skyrecomp.exe aparece la pantalla 'Game Files': eliges la carpeta, pulsas 'Set up game files' (unos 10 segundos, importa los archivos; según el README la librería recompilada ya viene precompilada) y luego PLAY; las siguientes veces va directo a PLAY. CPU con AVX2 y FMA, Vulkan 1.3, ~15 GB libres. Estado experimental: el autor avisa de cuelgues, menús que se congelan y diferencias de renderizado; 60 fps no garantizados. Con «Importar NSP/XCI/NSZ» (Freeport ≥ 0.2.88, build de Linux) Freeport extrae tu volcado y ejecuta el propio asistente del port en modo automático: copia los archivos a extracted/, crea romfs.bin y compila el código del juego (varios minutos); al terminar borra la copia temporal y Jugar arranca directo. Con la build de Windows el volcado queda en la carpeta dump/ del port para elegirlo en «Set up game files».",
-        "import_dir": "dump",
-        "after_import": {
-          "args": [],
-          "env": {
-            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}",
-            "LARECOMP_DATA_ROOT": "{install_dir}"
-          },
-          "expect_output": "-> READY",
-          "remove_source": true,
-          "rom_path_after": "extracted"
-        }
-      },
-      "launch": {
-        "windows": "skyrecomp.exe",
-        "linux": "skyrecomp"
-      },
-      "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "macos-aarch64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v2.2.0",
-        "published_at": "2026-11-10T03:22:18Z"
-      },
-      "year": 2021,
-      "developer": "Nintendo EPD / Tantalus Media",
-      "genre": "Acción/Aventura",
-      "wiki": "The Legend of Zelda: Skyward Sword HD",
-      "box_art": null,
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "tier": "experimental",
-      "launch_env": {
-        "LARECOMP_DATA_ROOT": "{install_dir}"
-      },
-      "lb": {
-        "id": 199647,
-        "players": 1,
-        "rating": 4.2,
-        "overview": "The Legend of Zelda: Skyward Sword game soars onto Nintendo Switch!\nTake to the skies, draw your sword, and experience the earliest story in the Legend of Zelda series. Join Link in his high-flying quest to save Zelda, a childhood friend who must confront her destiny. Soar between floating islands and descend to the treacherous surface world in this updated HD version of the Legend of Zelda: Skyward Sword.\n\nMaster realistic swordplay that matches your movements\nSwing your sword and angle your slashes to uncover and break through opponents’ defenses using intuitive motion controls. Link will match the angle of each strike you make with the Joy-Con controller, creating immersive swordplay that relies on strategy and accuracy. Movements feel smoother and more immediate thanks to the Nintendo Switch system’s increased processing power and HD graphics. Take advantage of the newly-added button only control scheme—perfect for playing in handheld mode or on the Nintendo Switch Lite system.",
-        "logo": "https://images.launchbox-app.com/38aeb63d-d794-441f-bfc3-6fe1afaa49e2.png",
-        "snap": "https://images.launchbox-app.com/0008ce75-5054-4100-8867-110f2a84ef73.jpg",
-        "title": "https://images.launchbox-app.com/3893f35c-2ae7-4533-940e-bb7771c8ae73.jpg",
-        "fanart": "https://images.launchbox-app.com/c08b8698-7e2b-4ab4-a962-afa7f5ae7b49.jpg"
-      }
-    },
-    {
       "id": "new-super-paper-bros",
       "name": "New Super Paper Bros.",
       "original_game": "Super Paper Mario",
@@ -19432,80 +19161,6 @@
       }
     },
     {
-      "id": "mushroom-maker-recomp",
-      "name": "Mushroom Maker Recomp",
-      "original_game": "Super Mario Maker 2",
-      "game_id": "super-mario-maker-2",
-      "system": "switch",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "Apolinario-coder",
-        "repo": "MushroomMakerRecomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/1a3377beff1ae18422f3a8dfe9ef7231.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^MushroomMakerRecomp-v.*-Windows-x64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Alternativa a SMM2 Recomp (basada en LAS Recomp y Sky Recomp). MushroomMakerRecomp.exe es un lanzador .NET (Framework 4.8) que te pide la carpeta de tu Super Mario Maker 2 ya extraída con la actualización 3.0.3 APLICADA (exefs+romfs fusionados; no desempaqueta NSP/XCI ni aplica updates; puedes señalar una carpeta padre y busca dentro). «Check files» verifica los hashes del ejecutable y «Prepare game» traduce el código a C y lo COMPILA con el compilador y Python incluidos (de minutos a media hora); después «Play». Con «Importar NSP/XCI/NSZ» Freeport deja esa carpeta lista (importa base + actualización 3.0.3). Vulkan 1.3; 4K, FSR 1/NIS, SMAA y generación de frames a 120 fps opcional; Course World mediante el servicio público MariOver (necesita internet). Partidas y código generado en %LOCALAPPDATA%\\MushroomMakerRecomp. Solo Windows; sin licencia declarada. Experimental: fallos y cuelgues posibles. Tras importar, Freeport ejecuta «setup.py prepare» con el Python incluido (bajo el runner del juego) para traducir y compilar; el lanzador abre ya con la carpeta puesta.",
-        "build_id": "C2DC405AC414C37C",
-        "game_version": "3.0.3",
-        "after_import": {
-          "exe": "portable/python/python.exe",
-          "args": [
-            "setup.py",
-            "prepare",
-            "--dump",
-            "{rom_path}"
-          ]
-        }
-      },
-      "launch": {
-        "windows": "MushroomMakerRecomp.exe"
-      },
-      "year": 2019,
-      "developer": "Nintendo EPD",
-      "genre": "Plataformas",
-      "wiki": "Super Mario Maker 2",
-      "box_art": null,
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.0.0",
-        "published_at": "2026-10-26T01:01:04Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "tier": "experimental",
-      "lb": {
-        "id": 166418,
-        "players": 4,
-        "coop": true,
-        "rating": 4.3,
-        "overview": "Make it Your Way, Play it Your Way. \n\nMario fans of the world, unite! Now you can play, create, and share the side-scrolling Super Mario courses of your dreams in Super Mario Maker 2, available exclusively on the Nintendo Switch! Dive into the single-player Story Mode and play built-in courses to rebuild Princess Peach’s castle. Make your own courses, alone or together. And with a Nintendo Switch Online membership, share your courses, access a near-endless supply made by others, enjoy online multiplayer, and more! \n\nA new side-scrolling Mario adventure that unleashes the creative potential of Super Mario Maker 2 awaits in Story Mode, which contains over 100 built-in courses. And in Course Maker, a wide range of parts, tools, and more are available so you can construct your own courses. Want coin-shooting cannons? Bowser riding on a giant Goomba? Cat Mario sliding down slopes to take out an army of baddies? Go for it! You call the shots. Pass a Joy-Con controller to a partner to build cooperatively on a single system! \n\nPower-up the fun even further with a Nintendo Switch Online membership, which gives you access to Course World and its wealth of online content and functionality. Tr",
-        "logo": "https://images.launchbox-app.com/ddc32660-f795-44c7-bc09-61ae11948138.png",
-        "snap": "https://images.launchbox-app.com/194f024e-6ce8-490e-91f3-cc8971e9e3d3.jpg",
-        "title": "https://images.launchbox-app.com/3894ccd6-323c-4b80-8459-e863d09fca8b.jpg",
-        "fanart": "https://images.launchbox-app.com/5b626cff-d814-4817-b1f9-f1d2408bf735.jpg"
-      }
-    },
-    {
       "id": "rayman3-hd-recompiled",
       "name": "Rayman 3 HD Recompiled",
       "original_game": "Rayman 3 HD",
@@ -19832,71 +19487,6 @@
         "snap": "https://images.launchbox-app.com/ff75fa33-7fae-4b6f-803f-fbc4a07e8932.jpg",
         "title": "https://images.launchbox-app.com/r2_ed6fd0ab-271f-4191-a435-dd2d1d94e336.jpg",
         "fanart": "https://images.launchbox-app.com/r2_e37d406c-b08e-40bb-a1f3-6872f17f8cc4.jpg"
-      }
-    },
-    {
-      "id": "metroid-prime-2-port",
-      "name": "Echoes Unbound (Metroid Prime 2 Port)",
-      "original_game": "Metroid Prime 2: Echoes",
-      "game_id": "metroid-prime-2-echoes",
-      "system": "gc",
-      "type": "native-port",
-      "repo": {
-        "host": "github",
-        "owner": "Odrannnn",
-        "repo": "MetroidPrime2Port"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Metroid%20Prime%202%20-%20Echoes%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "linux-x86_64": "(?i)^MetroidPrime2-x86_64\\.AppImage$",
-        "windows-x86_64": "(?i)-windows-x86_64\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Port nativo del decomp de Metroid Prime 2: Echoes (PrimeDecomp) sobre Aurora (SDL3 + WebGPU), del mismo autor que Metroid Prime Port. Al arrancar sin disco pide tu imagen (.iso, .gcm, .rvz, .wia, .gcz, .ciso o .wbfs) de Metroid Prime 2: Echoes USA (G2ME01) o PAL (G2MP01), o del Metroid Prime Trilogy de Wii (R3ME01/R3MP01), y la recuerda; también MP2_DISC o la ruta como argumento. F1 (o Start+Back) abre el menú con todo: panorámico con HUD adaptado, escala de render, fps altos con interpolación, FOV, MSAA, ratón y doble stick, giroscopio, saltar cinemáticas, atajo de los portales luz/oscuridad, save states y reanudación rápida, importar/exportar tarjetas de memoria (Dolphin/PrimeHack), mods y pack HD, modo foto, Discord. Ajustes y tarjetas en user/ junto al ejecutable (AppImage: junto al .AppImage). La AppImage no incluye librerías: FreeType, libpng y driver Vulkan del sistema. Pre-release de pocos días."
-      },
-      "launch": {
-        "linux": null,
-        "windows": null
-      },
-      "year": 2004,
-      "developer": "Retro Studios",
-      "genre": "Acción/Aventura (FPS)",
-      "wiki": "Metroid Prime 2: Echoes",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.16.0",
-        "published_at": "2026-11-12T19:07:10Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 6426,
-        "players": 4,
-        "rating": 4.4,
-        "overview": "The sequel to Metroid Prime puts you in the role of bounty hunter Samus Aran once again. Your mission is to locate federation troopers who are missing on Aether--a planet torn into light and dark domains. To help you travel through the depths of light and dark, you'll have all-new beam weapons, a screw attack, and power-ups. Eliminate your enemies, solve puzzles, and open doors in an effort to restore peace to Aether. Metroid Prime 2: Echoes also features competitive multiplayer modes supporting up to four players.",
-        "logo": "https://images.launchbox-app.com/44d55c42-2b0a-439c-867c-90092a8fa60f.png",
-        "snap": "https://images.launchbox-app.com/8c2a2512-6ba7-419d-8541-e23e0edc1d74.png",
-        "title": "https://images.launchbox-app.com/53833a13-9fc9-464e-af33-02c4da7b2d51.png",
-        "fanart": "https://images.launchbox-app.com/58b191a6-dcbc-41b7-8643-ddad7cf22a6a.jpg"
       }
     },
     {
@@ -20755,67 +20345,6 @@
         "snap": "https://images.launchbox-app.com/d8853581-837e-4830-82df-0343b6b5d9bf.jpg",
         "title": "https://images.launchbox-app.com/b0e812cf-0a07-46f7-94b5-bd0fceaf34d9.jpg",
         "fanart": "https://images.launchbox-app.com/9badbf96-bca0-4c42-86f2-d8f15c1c7d9b.png"
-      }
-    },
-    {
-      "id": "oogies-revenge-recomp",
-      "name": "Oogie's Revenge Recomp",
-      "original_game": "Tim Burton's The Nightmare Before Christmas: Oogie's Revenge",
-      "game_id": "tim-burtons-the-nightmare-before-christmas-oogies-revenge",
-      "system": "xbox",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "josiahg2502-glitch",
-        "repo": "OogiesRevengeRecompiled"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Tim%20Burton%27s%20-%20The%20Nightmare%20Before%20Christmas%20-%20Oogie%27s%20Revenge%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^OogiesRevenge\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Al arrancar «Oogie's Revenge.exe» por primera vez te pide tu disco de Oogie's Revenge para Xbox original (USA, title ID 42560004): .iso Redump, XISO o carpeta extraída, comprobado contra el SHA-256 del default.xbe; lo copia a data\\ y después el propio menú del juego (dibujado con su arte) hace de lanzador con Play, Ajustes, Controles y Mods (F1 durante la partida). Recompilación estática x86→C++ con xboxrecomp, Direct3D 8 reemplazado por Direct3D 11; solo Windows 10/11 x64. Estado: «playable start»: intro, menús, nueva partida y el primer nivel (Town Square) renderizan bien a 4K; el resto sin verificar. Hasta 4K, ultrawide, 120 fps (interpolado sobre los 60 del juego), oclusión ambiental por rayos, mandos XInput y teclado; partidas en UserData\\hdd."
-      },
-      "launch": {
-        "windows": "Oogie's Revenge.exe"
-      },
-      "year": 2005,
-      "developer": "Capcom",
-      "genre": "Hack and slash",
-      "wiki": "The Nightmare Before Christmas: Oogie's Revenge",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v1.0.1",
-        "published_at": "2026-10-23T14:14:12Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 13506,
-        "players": 1,
-        "rating": 3.7,
-        "overview": "Based on the animated movie, Tim Burton's The Nightmare Before Christmas: Oogie's Revenge continues the story of Jack Skellington, Oogie Boogie, and other familiar favorites. In the game, you'll assume the role of Jack Skellington, the Pumpkin King of Halloween Town, who must help reclaim the town from the mischievous Oogie Boogie and his henchmen. Jack has a variety of attack options, including his trusty \"rubber soul\" attack, and real-time costume changes.",
-        "logo": "https://images.launchbox-app.com/d739e9d8-ccd8-4311-b6e2-3f6b526f6f7c.png",
-        "snap": "https://images.launchbox-app.com/dab32b07-119d-4371-964e-8082cf55a4e5.png",
-        "title": "https://images.launchbox-app.com/975ca0d6-d5ff-40e5-8b1a-02ebbadf4aff.png"
       }
     },
     {
@@ -27316,7 +26845,7 @@
       "repo": {
         "host": "github",
         "owner": "WitherBlitz",
-        "repo": "NSMB-Wii-Multiplayer-Recompilation"
+        "repo": "NSMB-Wii-Recompilation"
       },
       "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/New%20Super%20Mario%20Bros.%20Wii%20%28USA%29.png",
@@ -27880,69 +27409,6 @@
         "snap": "https://images.launchbox-app.com/r2_f19f3ff9-950c-460a-a870-189039c66390.png",
         "title": "https://images.launchbox-app.com/r2_ceb04c90-6f4c-489f-ab2b-d1ee9eb020a8.png",
         "fanart": "https://images.launchbox-app.com/r2_1ec444fc-e83f-4862-bd98-9e56c2c7f4c5.jpg"
-      }
-    },
-    {
-      "id": "project-tandem-mkdd",
-      "name": "Project Tandem",
-      "original_game": "Mario Kart: Double Dash!!",
-      "game_id": "mario-kart-double-dash",
-      "system": "gc",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "badcompany94-rcmp",
-        "repo": "project-tandem"
-      },
-      "release_channel": "prerelease",
-      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Mario%20Kart_%20Double%20Dash%21%21%20%28USA%29.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^Project-Tandem-Windows-Public-Beta-\\d+\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Se usa el paquete completo de Windows (el zip «Cumulative-Update» es solo un parche para instalaciones previas). Tras descomprimir, ejecuta a mano Setup-Tandem.cmd desde la carpeta del port y elige tu ISO/CISO de Mario Kart: Double Dash!! versión USA (GM4E01, main.dol SHA-1 e389e503…; otras regiones y RVZ/GCZ se rechazan): verifica el disco y COMPILA el juego en tu PC con las herramientas incluidas (no hace falta Visual Studio ni Python). Después arranca ProjectTandem.exe (lanzador con actualizaciones automáticas). Solo Windows 10/11 x64 con OpenGL 3.3. Beta: online de 2 a 16 jugadores (karts en solitario o compartidos, salas privadas/públicas, EOS con relay, todos con el mismo build ID), Grand Prix y Battle, 16:9 natural, ratón/teclado en menús y carreras, adaptadores GameCube USB experimentales. Hay un paquete Linux antiguo sin actualizar."
-      },
-      "launch": {
-        "windows": "ProjectTandem.exe"
-      },
-      "year": 2003,
-      "developer": "Nintendo EAD",
-      "genre": "Carreras",
-      "wiki": "Mario Kart: Double Dash",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.1.0-beta.15",
-        "published_at": "2026-11-05T01:44:22Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 166,
-        "players": 16,
-        "coop": true,
-        "rating": 4.5,
-        "overview": "The Mushroom Kingdom just got a whole lot more hectic as Mario and friends double up for furious kart racing. This time around, each kart holds two racers that can switch places at any time, so choose from a huge cast of favorites and pair them up any way you see fit. The character in front handles the driving duties, while the character in the rear doles out damage with six normal items and eight special items that only specific characters can use. Get ready for some intense multiplayer mayhem with your favorite characters, including Mario, Luigi, Donkey Kong, Peach, Bowser, and Koopa.",
-        "logo": "https://images.launchbox-app.com/520b0efe-4cea-4993-a56f-f7f0974563e1.png",
-        "snap": "https://images.launchbox-app.com/7672cc0f-1f85-412b-a698-275a54c54a55.jpg",
-        "title": "https://images.launchbox-app.com/bf851417-5419-4891-b6e8-3cffc373849b.png",
-        "fanart": "https://images.launchbox-app.com/9eec61ed-8b50-41a7-95bb-7d96329abcf4.jpg"
       }
     },
     {
@@ -28890,70 +28356,6 @@
         "snap": "https://images.launchbox-app.com/290fca07-4d30-4882-85c9-0d0cde988608.jpg",
         "title": "https://images.launchbox-app.com/14e26dff-8023-49a6-ae56-b5c6a2aaeafb.jpg",
         "fanart": "https://images.launchbox-app.com/829941c0-8162-484b-9529-38e720564cd1.jpg"
-      }
-    },
-    {
-      "id": "ttt2-recomp-thatcalikid",
-      "name": "TTT2 Recomp",
-      "original_game": "Tekken Tag Tournament 2",
-      "game_id": "tekken-tag-tournament-2",
-      "system": "x360",
-      "type": "recompilation",
-      "repo": {
-        "host": "github",
-        "owner": "thatcalikid760",
-        "repo": "TTT2-Recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/39c39eb6c34b4b3799fd38a0509dd76b.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^ttt2_setup\\.exe$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "El asset es un instalador (ttt2_setup.exe), no el juego: hay que ejecutarlo a mano desde la carpeta del port, señalarle tu imagen de disco de Tekken Tag Tournament 2 (Xbox 360, USA/Europa) y el Title Update 3, y elegir como destino una subcarpeta (p. ej. game) en vez de la ruta por defecto; construye los archivos del juego en tu PC y deja tekken_recomp.exe. Build parcheada de la recompilación estática nativa (fork de tekken-tag-tournament-2-pc) centrada en el online: partidas clasificatorias y Player Match por Steam con rollback, servidores comunitarios con tablas, chat de voz y texto; Steam tiene que estar abierto para jugar online. Hasta 4K a 60 fps, FSR 1, SMAA/FXAA, mandos Xbox/DualShock/DualSense y teclado con vibración, modo Classic Offline para desbloquear los 37 luchadores. Solo Windows 10/11; el instalador sin firmar lo marcan 2-3 antivirus por heurística. Actualizaciones desde el propio juego."
-      },
-      "launch": {
-        "linux": null,
-        "windows": "tekken_recomp.exe"
-      },
-      "year": 2012,
-      "developer": "Bandai Namco",
-      "genre": "Lucha",
-      "wiki": "Tekken Tag Tournament 2",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.2.8",
-        "published_at": "2026-10-29T23:25:17Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 12522,
-        "players": 4,
-        "coop": true,
-        "rating": 4.4,
-        "overview": "Never underestimate the heart of a champion! The original Tag Team Fighter that started it all is back! Tekken Tag Tournament 2 delivers new and returning characters in the largest roster ever. Experience the most advanced attack mechanics, Ultimate combo move sets, and new battle modes with innovative features to broaden Tekken consumer accessibility. Unlimited fighter combinations and multiple ways to challenge your friends - get ready for the next battle!",
-        "logo": "https://images.launchbox-app.com/d047a03d-a79c-4647-89b2-dfbd05248394.png",
-        "snap": "https://images.launchbox-app.com/r2_56683e2d-a1e3-495e-9136-4dfb01d6a591.jpg",
-        "title": "https://images.launchbox-app.com/3b10e133-16f1-47ae-95fa-374afe79ba58.jpg",
-        "fanart": "https://images.launchbox-app.com/55bb590b-0db8-4182-a4e6-f8b3834304f6.jpg"
       }
     },
     {
@@ -30856,71 +30258,6 @@
       }
     },
     {
-      "id": "power-moon-recomp",
-      "name": "Power Moon Recomp",
-      "original_game": "Super Mario Odyssey",
-      "game_id": "super-mario-odyssey",
-      "system": "switch",
-      "type": "recompilation",
-      "repo": {
-        "host": "gitlab",
-        "owner": "zzzarathustra-dev",
-        "repo": "power-moon-recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
-      "logo_url": null,
-      "asset_rules": {
-        "linux-x86_64": "(?i)^Power.Moon.Recomp-.*-linux-x86_64\\.AppImage$",
-        "windows-x86_64": "(?i)^Power.Moon.Recomp-.*-windows\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Port nativo de Super Mario Odyssey por recompilación estática (basado en LAS Recomp), con Vulkan. Hay AppImage nativa de Linux y zip de Windows. Necesitas tu propia copia en la versión 1.0.0 SIN actualizaciones, extraída como carpetas exefs/ y romfs/ (build id 3ca12dfaaf9c82da). En el primer arranque el propio port pide esa carpeta, copia lo que necesita (unos 6 GB) y compila el código del juego en tu PC (unos minutos, una vez); desde la 0.2.1 además precompila todos los shaders antes de abrir el juego (1-2 minutos; algo más en Steam Deck) y así no hay tirones al entrar en cada reino. Jugable de principio a fin a 60 fps (la lógica va atada a 60), resolución nativa hasta 4K o más, FSR 1, SMAA, interpolación de fotogramas (aún con algún fallo visual), vibración, zona muerta de stick, mandos y teclado reasignables (menú F1/Esc), mods de RomFS en mods/ (no los de código). En Linux sus datos van a ~/.local/share/power-moon-recomp. CPU con AVX2, Vulkan 1.3, 8 GB de RAM (16 recomendados), ~7 GB libres. Hecho con ayuda de IA (Claude) según el autor. Proyecto de una semana: experimental."
-      },
-      "launch": {
-        "windows": "PowerMoonRecomp.exe"
-      },
-      "year": 2017,
-      "developer": "Nintendo EPD",
-      "genre": "Plataformas",
-      "wiki": "Super Mario Odyssey",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "linux-x86_64",
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.2.1",
-        "published_at": "2026-11-04T16:59:35.000Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 136132,
-        "players": 2,
-        "coop": true,
-        "rating": 4.6,
-        "overview": "Join Mario on a massive, globe-trotting 3D adventure and use his incredible new abilities to collect Moons so you can power up your airship, the Odyssey, and rescue Princess Peach from Bowser's wedding plans! This sandbox-style 3D Mario adventure—the first since 1996's beloved Super Mario 64 and 2002's Nintendo GameCube classic Super Mario Sunshine—is packed with secrets and surprises, and with Mario's new moves like cap throw, cap jump, and capture, you'll have fun and exciting gameplay experiences unlike anything you've enjoyed in a Mario game before. Get ready to be whisked away to strange and amazing places far from the Mushroom Kingdom!",
-        "logo": "https://images.launchbox-app.com/d6501a8a-2c69-4021-9e52-f25175a5c48d.png",
-        "snap": "https://images.launchbox-app.com/932120b8-9cd2-45dd-aa8a-4616e3445a24.jpg",
-        "title": "https://images.launchbox-app.com/50c6e6b1-e5a8-4221-91fd-5e60a01e274e.jpg",
-        "fanart": "https://images.launchbox-app.com/eeb083a3-2274-40c4-8095-30d7a644537d.jpg"
-      }
-    },
-    {
       "id": "conker-recomped-reloaded",
       "name": "Conker: Recomped & Reloaded",
       "original_game": "Conker: Live & Reloaded",
@@ -31047,80 +30384,6 @@
         "logo": "https://images.launchbox-app.com/r2_519b04b3-9f4b-4b70-a545-c08acccd332c.png",
         "snap": "https://images.launchbox-app.com/r2_63086a13-2956-41f2-973d-bae2e932536f.png",
         "title": "https://images.launchbox-app.com/r2_d76b2f3c-df32-4e14-aeb9-933db0968b6f.png"
-      }
-    },
-    {
-      "id": "fe3h-recomp",
-      "name": "FE3H Recomp",
-      "original_game": "Fire Emblem: Three Houses",
-      "game_id": "fire-emblem-three-houses",
-      "system": "switch",
-      "type": "recompilation",
-      "repo": {
-        "host": "gitlab",
-        "owner": "onerag90",
-        "repo": "fe3h-recomp"
-      },
-      "release_channel": "stable",
-      "cover_url": "https://cdn2.steamgriddb.com/grid/849460026d42c840faab34d4d3b9fc33.png",
-      "logo_url": null,
-      "asset_rules": {
-        "windows-x86_64": "(?i)^FE3H-Recomp-.*-windows\\.zip$"
-      },
-      "rom": {
-        "required": true,
-        "mode": "in-app",
-        "expected_filename": null,
-        "subdir": null,
-        "notes": "Recompilación estática de Fire Emblem: Three Houses derivada de LAS Recomp, con Vulkan. Necesitas tu copia con la actualización 1.2.0 aplicada (exefs y romfs; el setup rechaza la actualización sola sin el juego base) y, si quieres, tus DLC (Pase de expansión, Cindered Shadows) en extracted/dlc/<id de contenido>/romfs. En fe3hrecomp.exe: Settings > Game Files, eliges la carpeta y «Set up game files»: copia los archivos y compila el código del juego en tu PC (unos minutos, una vez). Con «Importar NSP/XCI/NSZ» Freeport extrae base + actualización a la carpeta dump/ del port y lanza el propio asistente del port en modo automático (LARECOMP_LAUNCHER_EXTRACT) bajo tu Wine/Proton; si no terminara, elige dump/ a mano en Set up game files. Todo (partidas, ajustes, cachés) se guarda en la carpeta del programa. Solo Windows por ahora; bajo Proton funciona (el autor lo prueba en Steam Deck). Opciones de resolución interna hasta 200 % y nitidez; problemas conocidos: a algunos efectos de batalla les falta una capa. Al actualizar no hace falta repetir el setup, solo se retraducen los shaders.",
-        "import_dir": "dump",
-        "game_version": "1.2.0",
-        "after_import": {
-          "exe": "fe3hrecomp.exe",
-          "args": [],
-          "env": {
-            "LARECOMP_LAUNCHER_EXTRACT": "{rom_path}"
-          },
-          "expect_output": "-> READY",
-          "remove_source": false,
-          "rom_path_after": "extracted"
-        }
-      },
-      "launch": {
-        "windows": "fe3hrecomp.exe"
-      },
-      "year": 2019,
-      "developer": "Intelligent Systems",
-      "genre": "Rol táctico",
-      "wiki": "Fire Emblem: Three Houses",
-      "box_art": null,
-      "tier": "experimental",
-      "cached": {
-        "platforms": [
-          "windows-x86_64"
-        ],
-        "latest_tag": "v0.1.9",
-        "published_at": "2026-11-10T13:11:47.000Z"
-      },
-      "quality_signals": {
-        "downloads": 0,
-        "stars": 0,
-        "age_days": 0,
-        "releases": 0,
-        "contributors": 0,
-        "ai": false,
-        "emu": false,
-        "checked": "2026-11-14"
-      },
-      "lb": {
-        "id": 167709,
-        "players": 1,
-        "rating": 4.4,
-        "overview": "War is coming to the continent of Fódlan.\n\nHere, order is maintained by the Church of Seiros, which hosts the prestigious Officer’s Academy within its headquarters. You are invited to teach one of its three mighty houses, each comprised of students brimming with personality and represented by a royal from one of three territories. As their professor, you must lead your students in their academic lives and in turn-based, tactical RPG battles wrought with strategic, new twists to overcome. Which house, and which path, will you choose?\n\nThe game features the refined gameplay the Fire Emblem franchise is known for. Command a party of warriors to move and fight on a grid-based battlefield and, for the first time in the series history, assign battalions of troops to support individual units in battle. As a professor, you are responsible for teaching your students and improving their skills in their academic lives and in battle. These may be school assignments, but the stakes are very real. Your students’ lives depend on your leadership. It’s up to you to guide each of them, so that they may wield a variety of weapons, master the study of magic, and acquire special skills such as horseman",
-        "logo": "https://images.launchbox-app.com/dbb58680-a1f8-4a6e-bd6a-ece486979ad8.png",
-        "snap": "https://images.launchbox-app.com/be581a9f-e7d2-4719-bc71-d3b19ffa1a59.jpg",
-        "title": "https://images.launchbox-app.com/70080a9f-accf-4e6a-8205-b9714d3ac9ff.jpg",
-        "fanart": "https://images.launchbox-app.com/cb2ce4d9-1f43-49fb-bfd0-7315a99ba2f5.jpg"
       }
     },
     {
