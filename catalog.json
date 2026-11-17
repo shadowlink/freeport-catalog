@@ -24934,11 +24934,21 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "La descarga es un builder, no el juego: copia tu volcado descifrado de Majora's Mask 3D USA v1.1 (.3ds o .cci) a la carpeta del port y ejecuta a mano Setup.bat (Windows) o ./Setup.sh (Linux, solo necesita python3); descarga un compilador (llvm-mingw / zig) con SHA-256 fijado, extrae la ROM, traduce el código ARM a C++ y compila el módulo del juego en 10-40 minutos, y al final hace un «tour» automático de 15-40 minutos para precompilar shaders (se puede cortar). Luego se juega con Play.bat / Play.sh. Runtime TriAevum con Vulkan 1.2: resolución escalable, pantalla única sin táctil, interpolación a 60 fps, estados de guardado, warp y trucos. Para actualizar hay que repetir Setup en una carpeta nueva y copiar data/savedata. El autor avisa de rendimiento irregular y de que quizá no siga manteniéndolo; proyecto hecho con IA (Claude) bajo revisión humana."
+        "notes": "La descarga es un builder, no el juego. En Linux: tras instalar, pulsa «Añadir tu copia del juego» y elige tu volcado DESCIFRADO de Majora's Mask 3D USA v1.1 (.3ds o .cci); Freeport ejecuta el Setup del port (solo necesita python3): descarga el compilador zig con SHA-256 fijado, extrae la ROM, traduce el código ARM a C++ y compila el módulo del juego en 10-40 minutos. Después, Jugar arranca Play.sh. En Windows hay que copiar el volcado a la carpeta del port y ejecutar Setup.bat a mano; luego Jugar abre Play.bat. Los shaders se compilan mientras juegas (algún tirón los primeros minutos); para precompilarlos todos está BuildShaders.sh/.bat, que abre y cierra ventanas del juego durante 15-40 minutos. Runtime TriAevum con Vulkan 1.2: resolución escalable, pantalla única sin táctil, interpolación a 60 fps, estados de guardado, warp y trucos; F1 ajustes, F11 pantalla completa. Para actualizar hay que repetir el Setup en una carpeta nueva y copiar data/savedata. El autor avisa de rendimiento irregular y de que quizá no siga manteniéndolo; proyecto hecho con IA (Claude) bajo revisión humana.",
+        "setup_cmd": {
+          "linux": {
+            "exe": "Setup.sh",
+            "args": [
+              "{base}",
+              "--no-shader-tour"
+            ],
+            "dest": "."
+          }
+        }
       },
       "launch": {
-        "linux": null,
-        "windows": null
+        "linux": "Play.sh",
+        "windows": "Play.bat"
       },
       "year": 2015,
       "developer": "Grezzo / Nintendo",
