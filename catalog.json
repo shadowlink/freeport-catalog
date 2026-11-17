@@ -37336,7 +37336,24 @@
         "mode": "in-app",
         "expected_filename": null,
         "subdir": null,
-        "notes": "Patrón instalador: descomprime el zip, ejecuta SPR-Setup.exe a mano desde la carpeta del port y elige una subcarpeta (p. ej. game) como destino; el instalador trae compilador, Python y traductor de shaders. Pide tu volcado de Splatoon Raiders (Switch 2) con la actualización 65536 (única probada), como .nup o carpetas ExeFS/RomFS extraídas, sin claves; compila el juego en unos 30 min y deja spr-recomp.exe. Solo Windows 10/11 con CPU AVX2, GPU Vulkan 1.3 (probado solo en NVIDIA; AMD con correcciones experimentales), 16 GB de RAM más archivo de paginación grande. Temprano y jugable por partes (ultrawide, F1 menú); código muy generado con IA (vibecoded) y experimental."
+        "notes": "Tras instalar, pulsa «Añadir tu copia del juego» y elige tu volcado .nup de Splatoon Raiders (Switch 2; la actualización 65536 es la única probada, otras compilan pero son experimentales). Freeport lanza el instalador del port, que trae su propio compilador y Python: extrae, traduce y compila el juego en unos 30 minutos (más bajo Proton) y lo deja en la subcarpeta game; no necesita claves. Después, Jugar arranca spr-recomp.exe. Solo Windows 10/11 (en Linux, vía Proton) con CPU AVX2, GPU Vulkan 1.3 (probado solo en NVIDIA; AMD con correcciones experimentales) y 16 GB de RAM más un archivo de paginación grande. Temprano y jugable por partes (ultrapanorámico, F1 abre el menú); código muy generado con IA y experimental.",
+        "setup_cmd": {
+          "windows": {
+            "exe": "python/python.exe",
+            "args": [
+              "-m",
+              "installer",
+              "--game",
+              "raiders",
+              "--nup",
+              "{base}",
+              "--dest",
+              "{dest}",
+              "--no-update-check"
+            ],
+            "dest": "game"
+          }
+        }
       },
       "launch": {
         "linux": null,
@@ -37362,7 +37379,10 @@
         "overview": "The game takes place in a new location in the Splatoon universe, the Spirhalite Islands. The player, known as the mechanic, is investigating strange phenomena along with the members of Deep Cut: Shiver, Frye, and Big Man. The trailer starts with Deep Cut flying on a helicopter toward the Spirhalite Islands, when a beam of light emanates from the center of a vortex over the islands, causing a violent cyclone to form and down the helicopter.",
         "logo": "https://images.launchbox-app.com/r2_2f52c97f-d1cd-492d-b24b-ae6619d41f99.png",
         "fanart": "https://images.launchbox-app.com/3e6427a9-80f5-47fb-94de-01f60ebcff20.png"
-      }
+      },
+      "launch_args": [
+        "--boot"
+      ]
     },
     {
       "id": "true-crime-nyc-recomp",
