@@ -13384,7 +13384,7 @@
       "type": "recompilation",
       "repo": {
         "host": "github",
-        "owner": "Unchiga",
+        "owner": "krystalgamer",
         "repo": "Yu-Gi-Oh-Forbidden-Memories-Recompiled"
       },
       "release_channel": "prerelease",
@@ -33026,7 +33026,7 @@
       "repo": {
         "host": "github",
         "owner": "chasem-dev",
-        "repo": "colosseum-launcher"
+        "repo": "orre-launcher"
       },
       "release_channel": "stable",
       "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Pokemon%20Colosseum%20%28USA%29.png",
@@ -35898,7 +35898,7 @@
       "name": "EmblemWeave",
       "original_game": "Fire Emblem: Fortune's Weave",
       "game_id": "fire-emblem-fortunes-weave",
-      "system": "switch",
+      "system": "switch2",
       "type": "recompilation",
       "repo": {
         "host": "github",
@@ -35944,6 +35944,14 @@
         "ai": true,
         "emu": true,
         "checked": "2026-11-17"
+      },
+      "lb": {
+        "id": 481038,
+        "players": 1,
+        "overview": "The advent of the underworld\n\nThe year is 1454, and the Dagdan Empire lies on the brink of ruin following the return of Balor, a resurrected demon god. In an effort to avert disaster, a soul descends from the heavens at the behest of the goddess Sothis.\n\nFaced with the monumental task of fighting Balor alone, Fortuna – a goddess blessed with the ability to travel through time – offers this soul an alternative: help heroes from the past change their fate and lead them to the future for the final battle.",
+        "logo": "https://images.launchbox-app.com/cf752661-3cac-40d0-984a-b1b5626e0ef8.png",
+        "snap": "https://images.launchbox-app.com/d21772be-2e6e-4977-b758-673f17d64465.jpg",
+        "fanart": "https://images.launchbox-app.com/30f9305f-f60b-4e01-aa0e-f2b6007eec37.jpg"
       }
     },
     {
@@ -36774,6 +36782,1224 @@
         "ai": false,
         "emu": false,
         "checked": "2026-11-17"
+      }
+    },
+    {
+      "id": "tekken3-expanded",
+      "name": "Tekken 3 Expanded",
+      "original_game": "Tekken 3",
+      "game_id": "tekken-3",
+      "system": "psx",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "omarma",
+        "repo": "tekken3-expanded"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Tekken%203%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Tekken3Expanded-.*-Linux\\.zip$",
+        "windows-x86_64": "(?i)^Tekken3Expanded-.*-Windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Expansión de Tekken 3 sobre Tekken3Recompiled: añade los 18 personajes de Tekken Tag Tournament, movesets y modelos TTT, escenarios con música y finales TTT, más el moveset de Jin de Tekken 5 DR (experimental). El setup construye el juego en tu PC a partir de tu Tekken 3 (PS1, USA, SLUS-00402, .cue con sus .bin) y del set de MAME tektagt.zip (TTT arcade); opcionales: tekken3.zip (arcade), disco PS2 de TTT (SLUS-20001) y PSP de Tekken: Dark Resurrection (ULUS-10139, con PPSSPP). Trae lanzador con página de Mods, renderer OpenGL o software y opciones de pantalla (CRT, supersampling). Windows, Linux, macOS y Android; sin licencia declarada."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 1997,
+      "developer": "Namco",
+      "genre": "Lucha",
+      "wiki": "Tekken 3",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.5.1",
+        "published_at": "2026-11-14T22:43:00Z"
+      },
+      "lb": {
+        "id": 2546,
+        "players": 2,
+        "rating": 4.5,
+        "overview": "Tekken 3 maintains the same core fighting system and concept as its predecessors, but brings many improvements, such as significantly more detailed graphics and animations, fifteen new characters added to the game's roster, more modern music and faster and more fluid gameplay.",
+        "logo": "https://images.launchbox-app.com/r2_d8579233-4312-4295-8b9c-206dbd10dbe0.png",
+        "snap": "https://images.launchbox-app.com/r2_735438fa-e6f3-46be-99e4-01c3a1b96354.png",
+        "title": "https://images.launchbox-app.com/9b9cb336-4553-40a0-9f9a-f5756a9df05c.png",
+        "fanart": "https://images.launchbox-app.com/3b7d95ea-1851-49f6-8c42-e3233fc2a437.jpg"
+      }
+    },
+    {
+      "id": "ocarina-reborn",
+      "name": "Ocarina Reborn",
+      "original_game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+      "game_id": "the-legend-of-zelda-ocarina-of-time-switch-2",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "misterrageguy-cyber",
+        "repo": "OoT2026-PC-Recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/2644a3967c43b879d262ec0d06de3801.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Ocarina-Reborn-Alpha-Setup\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador/builder solo para Windows x64: ejecuta Ocarina-Reborn-Alpha-Setup.exe a mano desde la carpeta del port, abre el lanzador Ocarina Reborn, elige tu propio .nup de la versión Switch 2 y construye el juego en tu PC. Motor propio con renderer Vulkan (hace falta GPU compatible), widescreen/ultrawide, FSR 3.1/4, DLSS opcional (se descarga aparte desde el lanzador), mandos Xbox/PlayStation/Switch, guardados y ajustes en el lanzador. Versión alpha de desarrollo; compatibilidad y rendimiento varían. En Linux hay otras opciones (Hookshot)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2026,
+      "developer": "Nintendo EPD",
+      "genre": "Acción-aventura",
+      "wiki": "The Legend of Zelda: Ocarina of Time",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.4-1",
+        "published_at": "2026-11-17T10:22:02Z"
+      },
+      "lb": {
+        "id": 480318,
+        "players": 1,
+        "rating": 4.7,
+        "overview": "Discover an adventure for the ages in The Legend of Zelda: Ocarina of Time, for Nintendo Switch 2. Featuring reimagined visuals, a refreshed soundtrack and modernised gameplay, this classic quest has been remade for a whole new era.",
+        "logo": "https://images.launchbox-app.com/r2_e9e754ab-8687-4de5-a8a5-80bf976e5252.png",
+        "snap": "https://images.launchbox-app.com/c4ddb070-3437-4351-a1ba-d68b4106f423.jpg",
+        "fanart": "https://images.launchbox-app.com/r2_ef8f33b9-2e39-41c8-810d-c4b25254fb91.jpg"
+      }
+    },
+    {
+      "id": "spikeout-recomp",
+      "name": "Spikeout: Final Edition Recomp",
+      "original_game": "Spikeout: Final Edition",
+      "game_id": "spikeout-final-edition",
+      "system": "arcade",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tastyrepublic",
+        "repo": "spikeout-recomp"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/b80a759616393262a377079a813650f7.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^spikeout-.*-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^spikeout-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación del arcade Spikeout: Final Edition (Sega Model 3, 1999): el programa PowerPC se traduce a código nativo en el primer arranque. Necesita tu volcado como set de MAME/Supermodel spikeofe.zip, que se elige al abrir spikeout.exe (o ./spikeout en Linux/Steam Deck, glibc 2.31+). Render 3D en GPU hasta 6x la resolución arcade, widescreen hasta 21:9, guardados con lista (F10) y cooperativo online de hasta cuatro jugadores, uno por PC. Solo hay prereleases (preview6): estado de preview con algún «Communication error» en red conocido."
+      },
+      "launch": {
+        "linux": "spikeout",
+        "windows": "spikeout.exe"
+      },
+      "year": 1999,
+      "developer": "Sega AM2",
+      "genre": "Beat 'em up",
+      "wiki": "Spikeout",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0-preview6",
+        "published_at": "2026-11-15T22:36:08Z"
+      },
+      "lb": {
+        "id": 39554,
+        "players": 4,
+        "rating": 3.2,
+        "overview": "Spikeout: Final Edition (スパイクアウト ファイナルエディション) is the 1999 update for Spikeout: Digital Battle Online, and the second in the Spikeout series of arcade games.",
+        "logo": "https://images.launchbox-app.com/r2_5c3d11d4-aab3-48bd-9193-198a5b26805e.png",
+        "snap": "https://images.launchbox-app.com/2fd3d69b-15d3-4579-9fac-16b8db4451b0.png",
+        "title": "https://images.launchbox-app.com/5c93e2e1-94f3-4b3b-883c-5c93f7b46a59.png",
+        "fanart": "https://images.launchbox-app.com/1e69910a-7ca4-44ec-a760-02efe1678370.jpg"
+      }
+    },
+    {
+      "id": "lavender-shift",
+      "name": "Lavender Shift",
+      "original_game": "Forza Horizon 2",
+      "game_id": "forza-horizon-2",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "arcanite24",
+        "repo": "lavender-shift"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/983a389763a10769e5fecfcd184c5f0d.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^LavenderShift-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Lanzador solo para Windows 10/11 x64 (CPU con AVX2, GPU Vulkan, unos 20 GB libres). Abre LavenderShiftLauncher.exe, elige la imagen .iso de Forza Horizon 2 (Xbox 360, USA) y el title update v2, y pulsa «Set up»: construye el juego en tu PC (15-60 min la primera vez, reanuda si se corta). Solo vale la versión USA con TU v2. Ajustes en juego con F6; sincronización de guardados y APK de Android opcionales desde el lanzador. Mismo motor ShiftGlue que Pinyon Shift (Forza Horizon 1)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "LavenderShiftLauncher.exe"
+      },
+      "year": 2014,
+      "developer": "Playground Games",
+      "genre": "Carreras",
+      "wiki": "Forza Horizon 2",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.0",
+        "published_at": "2026-11-11T21:48:39Z"
+      },
+      "lb": {
+        "id": 20756,
+        "players": 8,
+        "rating": 4.1,
+        "overview": "Race through a massive wide-open world with friends in the ultimate celebration of speed, style, and action-packed driving. Explore beautiful and exotic locations in more than 200 of the world’s greatest cars, all created with precise detail. A world of beauty and freedom awaits.",
+        "logo": "https://images.launchbox-app.com/efaacf7a-0fca-42b5-97fc-9836ed740354.png",
+        "snap": "https://images.launchbox-app.com/f4f7b193-1922-4346-b889-ede9661fbbe8.jpg",
+        "title": "https://images.launchbox-app.com/1c010f10-103f-42b1-a354-3ecf51f60cfb.jpg",
+        "fanart": "https://images.launchbox-app.com/a51a728a-9248-4d00-bf6f-0e4337d1fe14.jpg"
+      }
+    },
+    {
+      "id": "dead-nation-ps4-recomp",
+      "name": "Dead Nation (PS4) Recompiled",
+      "original_game": "Dead Nation",
+      "game_id": "dead-nation",
+      "system": "ps4",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "rcostanza",
+        "repo": "dead-nation-ps4-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/ddb2b49210243775b278bbee1c03c78f.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^deadnation-pc-.*-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^deadnation-pc-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Runner nativo del Dead Nation de PS4: el código x86-64 del juego corre directo, con las librerías del sistema reimplementadas y render Vulkan 1.3. Necesita tu volcado DESCIFRADO CUSA00236 (carpeta con eboot.bin, sce_module, sce_sys, audio.pck, stream.dat, UI, Videos) y la actualización descifrada 1.03 en otra carpeta; el setup rechaza otras versiones. Ejecuta deadnation-setup.exe (en Linux necesita python3 y glibc 2.39+), elige las carpetas y pulsa Install; luego deadnation.exe. Si tus PKG están sin extraer, vale «Importar PKG». Hasta 360 fps, 4K, ultrawide, cheats y dos mandos locales; requiere CPU con AVX. README admite código generado con IA."
+      },
+      "launch": {
+        "linux": "deadnation",
+        "windows": "deadnation.exe"
+      },
+      "year": 2015,
+      "developer": "Housemarque",
+      "genre": "Shooter",
+      "wiki": "Dead Nation",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5",
+        "published_at": "2026-11-17T14:57:52Z"
+      }
+    },
+    {
+      "id": "goin-quackers-recomp",
+      "name": "Goin' Quackers Recompiled",
+      "original_game": "Donald Duck: Goin' Quackers",
+      "game_id": "donald-duck-goin-quackers",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "donald-duck-goin-quackers-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donald%20Duck%20-%20Goin%27%20Quackers%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^GoinQuackersRecompiled-.*-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^GoinQuackersRecompiled-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación estática (N64Recomp + RT64) de Donald Duck: Goin' Quackers (USA; Quack Attack en Europa). Necesita tu ROM USA en .z64 big-endian de 20 MiB (SHA-1 e31a7567d408c890065029ba537f830765b17d94); se elige con «Load ROM» y luego «Start Game». Admite mods con parche BPS (p. ej. Music Repair Patch). Arranca, juega desde el mundo hasta cada nivel con sonido y Controller Pak, pero no se ha jugado entero. Código generado con IA (Claude), según el README."
+      },
+      "launch": {
+        "linux": "GoinQuackersRecompiled",
+        "windows": "GoinQuackersRecompiled.exe"
+      },
+      "year": 2000,
+      "developer": "Ubi Soft",
+      "genre": "Plataformas",
+      "wiki": "Donald Duck: Goin' Quackers",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.13",
+        "published_at": "2026-11-15T00:22:03Z"
+      },
+      "lb": {
+        "id": 1089,
+        "players": 1,
+        "rating": 4.1,
+        "overview": "You play as Donald in this 3D platform action game. Donald's girlfriend, Daisy is a reporter for a television station in Duckberg. While doing a story on the secret temple of the terrible magician Merlock, Daisy is kidnapped. Now, it is up to Donald to get her back. Along the way he will have help from his nephews, Huey, Dewey, and Louie, and the inventor Gyro Gearloose. He will also have competition from Gladstone Gander, who is also trying to save Daisy. \n\nGame play alternates between side-scrolling running and jumping and 3D running and jumping. The side-scrolling levels play a lot like the Super Mario Bros. games. The 3D levels are more akin to the Crash Bandicoot series of games. All in all, there are 20 levels spread out through various areas.",
+        "logo": "https://images.launchbox-app.com/ce707ac6-0b44-45d6-800b-85a284ef5df3.png",
+        "snap": "https://images.launchbox-app.com/adee7f1e-b8d6-4a3a-a79c-948b322f6d16.png",
+        "title": "https://images.launchbox-app.com/995a311c-73bb-44ff-b4e6-f696ed1889f4.png",
+        "fanart": "https://images.launchbox-app.com/5d29bd6c-398f-4b34-979c-10b3558892bd.jpg"
+      }
+    },
+    {
+      "id": "haiku-fates",
+      "name": "Haiku",
+      "original_game": "Fire Emblem Fates",
+      "game_id": "fire-emblem-fates",
+      "system": "3ds",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "tyle-beep",
+        "repo": "Haiku"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/cd6ef1843e7d16d521d700df3e01ca71.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Haiku\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador/builder solo para Windows 10/11 x64 (GPU Vulkan, ~3 GB). Extrae Haiku.zip en una carpeta con permiso de escritura y ejecuta «Haiku Setup.exe» a mano: elige tu volcado descifrado de Fire Emblem Fates Special Edition (USA; .3ds/.cci, .cia, .cxi o carpeta sdmc de Citra/Azahar), opcionalmente tu DLC, y compila (10-30 min, una vez; lleva compilador propio). El juego final es Haiku.exe, con menú de opciones (Esc), widescreen/ultrawide, 8x de resolución, pantalla inferior en una sola ventana, mods, randomizer y batallas online. Cubierto por tests hasta el capítulo 6; los capítulos finales están menos probados. El zip Haiku-toolchain-source es solo el código del compilador."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "Haiku.exe"
+      },
+      "year": 2016,
+      "developer": "Intelligent Systems",
+      "genre": "Estrategia",
+      "wiki": "Fire Emblem Fates",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.0",
+        "published_at": "2026-11-17T00:59:49Z"
+      },
+      "lb": {
+        "id": 35066,
+        "players": 1,
+        "rating": 3.6,
+        "overview": "Developed by the same team that created Fire Emblem Awakening, the new adventure adds challenges never before seen in the series and asks players to make decisions that will affect the game’s world in new ways. For the first time in the series, players take on the role of the main character and command an army, while struggling to decide which path to follow: helping blood relatives or the family that raised him or her.\n\nFire Emblem Fates is available in two separate chapters: Birthright and Conquest. Each version of the game offers a different path to play, posing to players an unprecedented choice: fight an opposing force or join the other side and try to make changes from within.",
+        "logo": "https://images.launchbox-app.com/fac59021-aead-4617-b200-752bdc20d457.png",
+        "snap": "https://images.launchbox-app.com/44e09dab-1fec-44a3-ab18-7ad4ab6d648f.jpg",
+        "fanart": "https://images.launchbox-app.com/ca6ec37e-2538-4294-a20e-6ecb7e418a7d.jpg"
+      }
+    },
+    {
+      "id": "fefw-recomp",
+      "name": "FEFW Recomp",
+      "original_game": "Fire Emblem: Fortune's Weave",
+      "game_id": "fire-emblem-fortunes-weave",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "metrist38",
+        "repo": "fefw-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/f03e5e3708a71a9f496e34765f9520f3.jpg",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^fefw-recomp-.*-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^fefw-recomp-[\\d.]+-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el zip en su propia carpeta y abre fefw-launcher.exe; en Setup elige tu volcado descifrado de Fire Emblem: Fortune's Weave (Switch 2) con la actualización 131072 (carpeta con exefs/romfs, carpeta base+updates o un .nup). El launcher compila el juego para tu CPU y prepara los shaders, lo que tarda bastante (se puede pausar); necesita unos 30 GB libres, 16 GB de RAM y GPU con Vulkan 1.3. Ofrece 60/120 fps, ultrawide, escalado temporal y DLSS opcional. En Linux/Steam Deck el tar.gz trae fefw-launcher.AppImage y el juego corre vía Proton/umu/Wine, no nativo."
+      },
+      "launch": {
+        "linux": "fefw-launcher.AppImage",
+        "windows": "fefw-launcher.exe"
+      },
+      "year": 2026,
+      "developer": "Intelligent Systems",
+      "genre": "RPG",
+      "wiki": "Fire Emblem: Fortune's Weave",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.4",
+        "published_at": "2026-11-17T13:46:32Z"
+      },
+      "lb": {
+        "id": 481038,
+        "players": 1,
+        "overview": "The advent of the underworld\n\nThe year is 1454, and the Dagdan Empire lies on the brink of ruin following the return of Balor, a resurrected demon god. In an effort to avert disaster, a soul descends from the heavens at the behest of the goddess Sothis.\n\nFaced with the monumental task of fighting Balor alone, Fortuna – a goddess blessed with the ability to travel through time – offers this soul an alternative: help heroes from the past change their fate and lead them to the future for the final battle.",
+        "logo": "https://images.launchbox-app.com/cf752661-3cac-40d0-984a-b1b5626e0ef8.png",
+        "snap": "https://images.launchbox-app.com/d21772be-2e6e-4977-b758-673f17d64465.jpg",
+        "fanart": "https://images.launchbox-app.com/30f9305f-f60b-4e01-aa0e-f2b6007eec37.jpg"
+      }
+    },
+    {
+      "id": "nsmbw-wiicompiled",
+      "name": "New Super Mario Bros. Wiicompiled",
+      "original_game": "New Super Mario Bros. Wii",
+      "game_id": "new-super-mario-bros-wii",
+      "system": "wii",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "ral1009",
+        "repo": "NSMBWiicompiled"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Wii/Named_Boxarts/New%20Super%20Mario%20Bros.%20Wii%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^NSMBWCompiled-v[\\d.]+-[0-9a-f]+\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el zip en su propia carpeta y ejecuta NSMBWCompiled.exe; en la ventana de configuración elige tu imagen de disco (.rvz, .iso o .wbfs) PAL (SMNP01) o USA (SMNE01), revisión 1, o una carpeta ya extraída con Dolphin. Se extrae una vez a una carpeta disc junto al juego (unos segundos). Solo Windows 10/11 64 bits, con GPU Direct3D 12 o Vulkan; ofrece hasta 6K, widescreen, interpolación a 120/180 fps, packs de texturas HD de Dolphin y hasta 4 jugadores. F10 abre el menú de opciones."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "NSMBWCompiled.exe"
+      },
+      "year": 2009,
+      "developer": "Nintendo EAD",
+      "genre": "Plataformas",
+      "wiki": "New Super Mario Bros. Wii",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.2",
+        "published_at": "2026-11-07T19:00:46Z"
+      },
+      "lb": {
+        "id": 170,
+        "players": 4,
+        "coop": true,
+        "rating": 4.5,
+        "overview": "Run and jump to your way to fun with Mario™ & friends! - Play together with up to 4 friends or family members\n\nRediscover legendary 2D gameplay loved by millions\n\nFun, simple controls—just like classic Mario games\n\nDevelopers at Nintendo have dreamed of creating a simultaneous multiplayer Super Mario Bros.™ game for decades. The Wii console finally makes that dream come true for everyone. Now players can navigate the side-scrolling worlds alone as before or invite up to three others to join them at the same time on the same level at any point in the game for competitive and cooperative multiplayer fun. With the multiplayer mode, the newest installment of the most popular video game franchise is designed to bring yet another type of family entertainment into living rooms and engage groups of friends in fast-paced Super Mario Bros. fun.\n\nNew Super Mario Bros. Wii offers a combination of cooperation and competition. Players can pick each other up to save them from danger or toss them into it.\n\nMario™, Luigi™ and two Toads are all playable characters, while many others from the Mushroom Kingdom make appearances throughout the game. Players can even ride different Yoshi characters and u",
+        "logo": "https://images.launchbox-app.com/e546f1bd-652e-444d-965d-00a66bddc074.png",
+        "snap": "https://images.launchbox-app.com/0a8458ce-beda-42c5-a089-17da14d248f5.jpg",
+        "title": "https://images.launchbox-app.com/16e85bbd-646f-46d4-94ed-cf3051561984.png",
+        "fanart": "https://images.launchbox-app.com/r2_b3bd3f83-d0fa-49e4-a106-deb7dc431f5c.jpg"
+      }
+    },
+    {
+      "id": "tenchu-z-recomp",
+      "name": "Tenchu Z Recomp",
+      "original_game": "Tenchu Z",
+      "game_id": "tenchu-z",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "8bitninja64",
+        "repo": "TenchuZ-PC"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/db9d51709661c2a50a3f8f56117b994d.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TenchuZ-linux-x64\\.tar\\.xz$",
+        "windows-x86_64": "(?i)^TenchuZ-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el release (Windows: en una carpeta con escritura, no Program Files) y abre TenchuZ.exe (Linux: TenchuZ/TenchuZ) y elige tu imagen ISO de Tenchu Z (USA, Europa) con default.xex de SHA-256 c727debe...9f6. En el primer arranque compila el código del juego desde el disco (unos minutos); el compilador y Python van incluidos en Windows, en Linux basta python3 y un driver Vulkan 1.3 (glibc 2.35+). El juego arranca, reproduce vídeos y sonido y es jugable en menús, refugio y misiones a 30 fps originales o más; admite escalado hasta 4x, HDR10 (solo Windows) y MSAA. Aún no hay widescreen más allá de 16:9 ni logros."
+      },
+      "launch": {
+        "linux": "TenchuZ",
+        "windows": "TenchuZ.exe"
+      },
+      "year": 2006,
+      "developer": "K2 / FromSoftware",
+      "genre": "Sigilo",
+      "wiki": "Tenchu Z",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.4",
+        "published_at": "2026-11-17T10:27:17Z"
+      },
+      "lb": {
+        "id": 7680,
+        "players": 4,
+        "coop": true,
+        "rating": 4.4,
+        "overview": "The states of Goda and Ogawara have long been at odds. The government of Ogawara is oppressive and power-hungry, and Goda must protect themselves and uphold justice. Conflict is about to break out between these two states, and it all begins with the assassination of a corrupt official named Rokube Echigoya. Soon enough, a rival ninja from Ogawara shows up, calling himself Shigi. As a nameless ninja working under Tenchu mainstay Rikimaru, you will act on the will of your lord, assassinating corrupt officials and other threats to your country, retrieving stolen goods, contacting agents, and even performing the occasional rescue mission.\n\nTenchu Z is is one of the long-running Tenchu series, and contains many of the elements familiar to the franchise. Each mission has you sneaking around an area controlled by enemy forces, avoiding detection and eliminating anyone who gets in your way. At your disposal are numerous ninja techniques such as slient sneaking, clinging to ceilings, and the almighty Stealth Kill. Once you complete each mission, you are graded and rewarded accordingly. The game contains 50 missions total, and offers three difficulty levels.",
+        "logo": "https://images.launchbox-app.com/c093fb22-91d5-4ca0-882b-660c98b28e4f.png",
+        "snap": "https://images.launchbox-app.com/33243060-c14d-4389-b929-a658ff9fe240.jpg",
+        "fanart": "https://images.launchbox-app.com/467b83ab-1021-4b83-b341-4f4cf7a5368d.jpg"
+      }
+    },
+    {
+      "id": "spr-recomp",
+      "name": "SPR Recomp",
+      "original_game": "Splatoon Raiders",
+      "game_id": "splatoon-raiders",
+      "system": "switch2",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "Elie-0066",
+        "repo": "SPR-Recomp-Project"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/d075aa61e582e34e160418c0b76276a3.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^SPR-Setup-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Patrón instalador: descomprime el zip, ejecuta SPR-Setup.exe a mano desde la carpeta del port y elige una subcarpeta (p. ej. game) como destino; el instalador trae compilador, Python y traductor de shaders. Pide tu volcado de Splatoon Raiders (Switch 2) con la actualización 65536 (única probada), como .nup o carpetas ExeFS/RomFS extraídas, sin claves; compila el juego en unos 30 min y deja spr-recomp.exe. Solo Windows 10/11 con CPU AVX2, GPU Vulkan 1.3 (probado solo en NVIDIA; AMD con correcciones experimentales), 16 GB de RAM más archivo de paginación grande. Temprano y jugable por partes (ultrawide, F1 menú); código muy generado con IA (vibecoded) y experimental."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "spr-recomp.exe"
+      },
+      "year": 2026,
+      "developer": "Nintendo EPD",
+      "genre": "Shooter",
+      "wiki": "Splatoon Raiders",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.9",
+        "published_at": "2026-11-17T09:20:31Z"
+      },
+      "lb": {
+        "id": 458259,
+        "coop": true,
+        "rating": 4.2,
+        "overview": "The game takes place in a new location in the Splatoon universe, the Spirhalite Islands. The player, known as the mechanic, is investigating strange phenomena along with the members of Deep Cut: Shiver, Frye, and Big Man. The trailer starts with Deep Cut flying on a helicopter toward the Spirhalite Islands, when a beam of light emanates from the center of a vortex over the islands, causing a violent cyclone to form and down the helicopter.",
+        "logo": "https://images.launchbox-app.com/r2_2f52c97f-d1cd-492d-b24b-ae6619d41f99.png",
+        "fanart": "https://images.launchbox-app.com/3e6427a9-80f5-47fb-94de-01f60ebcff20.png"
+      }
+    },
+    {
+      "id": "true-crime-nyc-recomp",
+      "name": "True Crime: New York City Recomp",
+      "original_game": "True Crime: New York City",
+      "game_id": "true-crime-new-york-city",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "roz1077",
+        "repo": "true-crime-new-york-city-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/True%20Crime%20-%20New%20York%20City%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^TrueCrimeNYC-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^TrueCrimeNYC\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el release y abre el lanzador (TrueCrimeNYC.exe / ./TrueCrimeNYC): elige o suelta tu ISO de Xbox original (USA NTSC; PAL en ambas ediciones, experimental) o usa «Use local assets» si ya extrajiste los ficheros a assets/. Monta la ISO donde está y la recuerda; el primer arranque compila el código del juego y tarda. Direct3D 12 en Windows y Vulkan en Linux/SteamOS (sin Proton); incluye widescreen hasta 32:9, FSR, TAA, HDR y mando/ratón. Estado beta."
+      },
+      "launch": {
+        "linux": "TrueCrimeNYC",
+        "windows": "TrueCrimeNYC.exe"
+      },
+      "year": 2004,
+      "developer": "Luxoflux",
+      "genre": "Acción-aventura",
+      "wiki": "True Crime: New York City",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.9.2-beta.4",
+        "published_at": "2026-11-17T03:26:05Z"
+      },
+      "lb": {
+        "id": 24308,
+        "players": 1,
+        "rating": 3.2,
+        "overview": "Be a good cop or a bad cop in the streetwise action game True Crime: New York City. You can explore the authentically modeled streets of New York City as a police officer tracking down criminals and administering justice. The game features a diverse weapon set, as well as a mixed offering of fighting styles that you can use to take out those who stand in your way. In addition to combat on foot, the game features driving sequences and shootouts. Laurence Fishburne, Christopher Walken, and Mickey Rourke contribute their voice talent to the game as well.",
+        "logo": "https://images.launchbox-app.com/d669c46d-fabe-47ad-9a08-96d5f64a0efd.png",
+        "snap": "https://images.launchbox-app.com/bd181d70-7b79-4e04-a3d1-687853a007b4.png",
+        "title": "https://images.launchbox-app.com/61ac071b-bd44-4c21-880c-2e813fc00aa6.png"
+      }
+    },
+    {
+      "id": "smbd-recompilation",
+      "name": "SMBD Recompilation",
+      "original_game": "Super Monkey Ball Deluxe",
+      "game_id": "super-monkey-ball-deluxe",
+      "system": "xbox",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "timftw21",
+        "repo": "smbd-recompilation"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Super%20Monkey%20Ball%20Deluxe%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^smbd-[\\d.]+-windows-x64-setup\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Patrón instalador: ejecuta smbd-X-windows-x64-setup.exe y elige tu imagen XISO de la versión USA de Super Monkey Ball Deluxe para Xbox (un volcado de disco completo debe convertirse antes a XISO); verifica, extrae y copia los ficheros y crea accesos directos. Requiere GPU Direct3D 11; ofrece 4:3, 16:9 y 21:9, resolución interna 1x-4x, FXAA/MSAA y refresco alto. Modo historia, práctica, desafío y casi todos los minijuegos funcionan; el antivirus puede dar falso positivo. El README menciona Linux/Steam Deck, pero la release solo publica el instalador de Windows. Desarrollo asistido por IA (OpenAI Codex y Claude)."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2005,
+      "developer": "Sega / Traveller's Tales",
+      "genre": "Puzle",
+      "wiki": "Super Monkey Ball Deluxe",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.6.0",
+        "published_at": "2026-11-17T04:16:45Z"
+      },
+      "lb": {
+        "id": 18373,
+        "players": 4,
+        "rating": 4.4,
+        "overview": "This game is basically a fusion of Super Monkey Ball 1 and 2 for the PS2 and XBox. All of the levels from those two games are available in this collection, and all of the minigames are already unlocked and included. Formerly only available to GameCube players, the Super Monkey Ball series has made it to the PS2 and Xbox after a wait of almost 3 and a half years.\n\nThe game itself plays very much like the old arcade game Marble Madness. You control a monkey in a ball, and you have to navigate it through many perilous labyrinths to the finish. In the previous two games you had limited lives/tries, but here you have infinite lives, which makes it all the easier.",
+        "logo": "https://images.launchbox-app.com/fdfa9b5d-480b-4f5b-b5cc-d1467edceeca.png",
+        "snap": "https://images.launchbox-app.com/9d0fbc14-6964-4572-82f7-ba76f02d26ca.jpg",
+        "title": "https://images.launchbox-app.com/6cc11420-be71-4844-88e1-c3d731bf46eb.jpg",
+        "fanart": "https://images.launchbox-app.com/35d99063-94c7-44c2-afcb-ce775a096cde.jpg"
+      }
+    },
+    {
+      "id": "f-zero-x-recompiled",
+      "name": "F-Zero X: Recompiled",
+      "original_game": "F-Zero X",
+      "game_id": "f-zero-x",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "n64hub",
+        "repo": "f-zero-x-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^FZeroXRecompiled-v[\\d.]+-linux-x64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^FZeroXRecompiled-v[\\d.]+-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Descomprime el release y ejecuta FZeroXRecompiled(.exe); elige tu ROM con Load ROM: F-Zero X (USA) primera versión (CFZE), .z64 big-endian de 16 MiB, SHA-1 5f658e88ffa9de23cba6986a8fd3d3a90d7b4340; otras regiones, revisiones y 64DD no valen. Usa N64Recomp + RT64 con símbolos del decomp inspectredc/fzerox; llega hasta una carrera de Grand Prix con sonido, guardado SRAM, pantalla dividida, VS Battle de hasta 4 y ampliación widescreen e interpolación de fps. Linux necesita glibc 2.35+, Vulkan y GTK 3. Código escrito casi por completo por IA (Claude)."
+      },
+      "launch": {
+        "linux": "FZeroXRecompiled",
+        "windows": "FZeroXRecompiled.exe"
+      },
+      "year": 1998,
+      "developer": "Nintendo EAD",
+      "genre": "Carreras",
+      "wiki": "F-Zero X",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.14",
+        "published_at": "2026-11-14T22:46:17Z"
+      },
+      "lb": {
+        "id": 10836,
+        "players": 4,
+        "rating": 4.3,
+        "overview": "It's you against 29 other machines competing for the title of F-Zero X Champion. You're racing at speeds of over 1,000 km/h high above the atmosphere. Your competition comes from every corner of the galaxy and won't shed a tear at the thought of smashing you off the track. With four-player simultaneous gameplay and the Rumble Pak accessory, you have the fastest racing game on the N64 system!",
+        "logo": "https://images.launchbox-app.com/915929f3-3af0-4441-a45d-8a061f0a8a38.png",
+        "snap": "https://images.launchbox-app.com/9715374b-a568-48bf-b3f9-fff268bcee7f.png",
+        "title": "https://images.launchbox-app.com/66c39af1-ec75-4b00-baea-de5574f8f3cb.png",
+        "fanart": "https://images.launchbox-app.com/r2_3473a836-6563-4c47-8b89-555a1842756e.png"
+      }
+    },
+    {
+      "id": "bourne-conspiracy-recomp",
+      "name": "The Bourne Conspiracy Recomp",
+      "original_game": "Robert Ludlum's The Bourne Conspiracy",
+      "game_id": "robert-ludlums-the-bourne-conspiracy",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "thegh0sts",
+        "repo": "bourne-conspiracy-x360-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/88524e6327a0bd5ff7cc03f86846a15e.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^BourneConspiracy\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Patrón instalador/lanzador: BourneConspiracy.exe construye el juego en tu PC a partir de tu imagen de disco de Xbox 360 (instala las herramientas de compilación de Visual Studio que necesita) y después pasa a ser el lanzador; ejecútalo a mano desde su carpeta. Cada versión nueva cambia el código del juego, así que hay que pulsar Reinstall now y elegir de nuevo la ISO (conviene conservarla). Solo Windows 10/11 x64, basado en ReXGlue SDK 0.10.1; opción de 60 fps, teclado y ratón. Temprano pero jugable, probado en los primeros niveles."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "BourneConspiracy.exe"
+      },
+      "year": 2008,
+      "developer": "High Moon Studios",
+      "genre": "Tercera persona (shooter)",
+      "wiki": "The Bourne Conspiracy (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.3.2",
+        "published_at": "2026-11-17T11:05:58Z"
+      },
+      "lb": {
+        "id": 7683,
+        "players": 1,
+        "rating": 3.9,
+        "overview": "You are the perfect weapon. You are Jason Bourne. Robert Ludlum's best-selling spy novels and blockbuster film adaptations have thrilled millions. Now become Ludlum's most famous spy Jason Bourne, going deeper than ever into his world of espionage and conspiracy. A signature Jason Bourne video game experience is born in an original title fusing the viscous tension and depth of the novels with the aggressive style and frenetic action of the films. \n\nBecome Jason Bourne, a 30 million dollar weapon on the loose, in action-packed original missions and sequences inspired by The Bourne Identity. Go deeper into the Bourne mythos than ever before, experiencing Bourne as both ruthless agent and wanted assassin on the run from his own agency. Move from firefights to fistfights in sequences that seamlessly blend shooting with hand-to-hand combat. Employ signature Bourne techniques to weaponize, improvise, and always survive. Pull off heart-pounding escapes, memorable fight moves, acrobatic gun play, and devastating takedowns.",
+        "logo": "https://images.launchbox-app.com/f07c87d5-92a6-469b-bac2-ed2905412809.png",
+        "fanart": "https://images.launchbox-app.com/b2ac4f3f-622e-4fb5-aeec-dd99ff2da9d9.jpg"
+      }
+    },
+    {
+      "id": "dimensions-recomp",
+      "name": "Dimensions Recompiled",
+      "original_game": "LEGO Dimensions",
+      "game_id": "lego-dimensions",
+      "system": "x360",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "NeverCookFirst",
+        "repo": "DimensionsRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/9772b7ba951a7ba095b34845e2c75632.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^DimensionsRecompiled-NativeGPU-Setup\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador: ejecuta DimensionsRecompiled-NativeGPU-Setup.exe a mano desde la carpeta del port y elige una subcarpeta (p. ej. game) como destino; el exe del juego es legodimensions.exe. Pide el disco de Xbox 360 volcado y EXTRAÍDO a carpeta (con Default.xex, GAME.DAT y GAME.HDR; solo vale la edición original), el Title Update 23 (ni 22 ni 24; paquete tu00000003_00000000 o carpeta con Default.xexp, PATCH.DAT y PATCH.HDR) y, opcional, los DLC. Esta v0.2.0 es la edición experimental Native GPU (Windows x64 con AVX2 y Direct3D 12); la 0.1.38 original es prerelease aparte. Incluye la app LEGO Toypad como Toy Pad emulado y admite pads reales con Zadig. Release final del autor; código escrito en buena parte con ayuda de Claude (IA). Ocupa unos 790 MB."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "legodimensions.exe"
+      },
+      "year": 2014,
+      "developer": "Traveller's Tales",
+      "genre": "Acción-aventura",
+      "wiki": "Lego Dimensions",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.2.0",
+        "published_at": "2026-11-16T14:24:18Z"
+      },
+      "lb": {
+        "id": 27129,
+        "players": 2,
+        "rating": 3.5,
+        "overview": "When a mysterious and powerful vortex suddenly appears in various LEGO worlds, different characters from DC Comics, The Lord of the Rings and The LEGO Movie are swept away. To save their friends, Batman, Gandalf and Wyldstyle bravely jump into the vortex and quickly find themselves fighting to save all of LEGO humanity. Let creativity be the guide to a building and gaming adventure - journey through unexpected worlds and team-up with unlikely allies on the quest to defeat the evil Lord Vortech. Play with different from different worlds together in one LEGO videogame, and use each other's vehicles and gadgets in a way never before possible. LEGO Bad Cop driving the DeLorean Time Machine. Why not?! The LEGO Ninja go Masters of Spinjitsu fighting alongside Wonder Woman...yes, please! Get ready to break the rules, because the only rule with LEGO Dimensions is that there are no rules.",
+        "logo": "https://images.launchbox-app.com/e6eae550-f85c-4d17-83a7-3708b9da2276.png",
+        "fanart": "https://images.launchbox-app.com/f228d707-8e07-4736-846c-279e20b88bb4.jpg"
+      }
+    },
+    {
+      "id": "isaac-recomp",
+      "name": "IsaacRecomp",
+      "original_game": "The Binding of Isaac",
+      "game_id": "the-binding-of-isaac",
+      "system": "pc",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "whylurking",
+        "repo": "IsaacRecomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/53437e409e9b4214ea549a7996d6f01b.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^IsaacRecomp_Linux64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^IsaacRecomp_Win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Recompilación nativa en C++ de The Binding of Isaac (la versión Flash de 2011): necesita el Isaac.exe de tu copia de Steam (original, Wrath of the Lamb o Eternal Edition; el programa reconoce cada versión al arrancar y lee de él gráficos y sonido). Corre a 60 fps o más con la lógica a 30 Hz intacta, resolución nativa, mando sin herramientas externas y reasignación de controles. Hecho con ayuda de IA según el README. El release también trae APK de Android y zip de Switch, que Freeport ignora."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2011,
+      "developer": "Edmund McMillen / Florian Himsl",
+      "genre": "Acción",
+      "wiki": "The Binding of Isaac (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.7.0",
+        "published_at": "2026-11-16T17:36:18Z"
+      },
+      "lb": {
+        "id": 8419,
+        "players": 1,
+        "rating": 4.1,
+        "overview": "The Binding of Isaac is an almost top-down game that borrows heavily from the roguelike genre. Players explore dungeons that consist of a series of connected, single-screen rooms with randomized environments, items and enemies for each gameplay session. Like the original games death is final and the player has to restart the entire game to continue. Each game consists of five series of dungeons leading up to a final confrontation. Each dungeon has a boss and defeating it opens a staircase to descend to a new environment.\n\nThe story is based on the one from the Hebrew bible where God asks Abraham to sacrifice his son Isaac. In the game Isaac is a young boy whose mother is called by a voice to kill her son to prove her allegiance. The introduction however hints that it is only the boy's imagination as he draws the scenes on sheets of paper. In his story, Isaac manages to flee from his mother by escaping through a trap door before she can kill him. That way he ends up in a dungeon and he has to find a way to kill her.\n\nPlayers control Isaac through four movement keys along with four additional ones to fire in the four main directions. Isaac attacks monsters by launching his tears. The",
+        "logo": "https://images.launchbox-app.com/a997d4f2-934f-4d81-b3a4-e60997f7caba.png",
+        "snap": "https://images.launchbox-app.com/b3077cee-b49c-415a-baa5-28ab7835aa00.jpg",
+        "title": "https://images.launchbox-app.com/45a13863-5ef2-41e5-a884-84c2ad5a4c08.jpg",
+        "fanart": "https://images.launchbox-app.com/68efcde6-becb-42c0-b9c7-f47df6d0ba7e.jpg"
+      }
+    },
+    {
+      "id": "strikers-recomp",
+      "name": "Strikers Recomp",
+      "original_game": "Mario Strikers: Battle League",
+      "game_id": "mario-strikers-battle-league",
+      "system": "switch",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "MTG9T4",
+        "repo": "strikers-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/a2816e8fb5606b7b2ffc9ecaf17cee83.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^StrikersRecomp-.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows x64 (Vulkan). Descomprime el zip entero en una carpeta con permiso de escritura y ejecuta StrikersSetup.exe a mano; pide, extraídos de tu propia Switch con nxdumptool, el ExeFS de la actualización 1.3.2 (v393216: main, main.npdm, rtld, sdk, subsdk0) y el RomFS del juego con esa actualización aplicada. La primera compilación tarda de 10 a 60 minutos; luego se juega con el lanzador (strikers_native.exe). Resolución de 0,5x a 2x, FSR 1, HDR10, ultrawide experimental, mods, multijugador local por red y 60 fps. No usa claves ni descifra nada. Versión 0.1.x, joven."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "strikers_native.exe"
+      },
+      "year": 2022,
+      "developer": "Next Level Games",
+      "genre": "Deportes",
+      "wiki": "Mario Strikers: Battle League",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.1",
+        "published_at": "2026-11-16T18:17:37Z"
+      },
+      "lb": {
+        "id": 209302,
+        "players": 8,
+        "coop": true,
+        "rating": 3.8,
+        "overview": "Introducing Strike, a 5-on-5, soccer-like sport with no rules—do whatever it takes to win! Get gritty and try to score the most goals by tackling enemies, using items, and pulling off score-boosting special shots. Super Mario series mainstays like Peach, Toad, and Yoshi put their cleats (and stats) to the pitch and will stop at nothing to score. Customize your characters with gear that can augment their stats and appearance. Take the carnage online* or pass the ball to players locally**—just look out for the electric fence.\n\nBand together with up to 20 strikers online* and compete against other clubs for points. Find the right club for you, team up with friends, and bring your own striker style to the table. Strive to become the world’s top club each season!\n\n8 players can go for the goal on one Nintendo Switch system, with local wireless**, or online*. Bring along a secondary striker on the same system in online battles, too. Locally, 4 players on each team can go cleat-to-cleat in individual matches.",
+        "logo": "https://images.launchbox-app.com/24a5ed94-a655-42c4-ba64-7d4f62f9c920.png",
+        "snap": "https://images.launchbox-app.com/ea4d8543-69d4-406f-b186-5470933e2e28.jpg",
+        "fanart": "https://images.launchbox-app.com/e43f9275-2834-4f46-8c74-e0ae9ed1af4a.jpg"
+      }
+    },
+    {
+      "id": "bleach-soul-resurreccion-recomp",
+      "name": "Bleach: Soul Resurrección PC Recomp",
+      "original_game": "Bleach: Soul Resurrección",
+      "game_id": "bleach-soul-resurreccion",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "xPXavierx",
+        "repo": "bleach-soul-resurreccion-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/b7aeb9f697fa1458255a4d8b1639825a.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^Bleach\\.Soul\\.Resurreccion\\.-\\.Setup\\.exe$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Instalador: ejecuta Bleach.Soul.Resurreccion.-.Setup.exe a mano desde la carpeta del port; pide tu volcado de BLUS30769 (versión USA sin actualizaciones), como .iso o carpeta con PS3_GAME. Descarga de Sony el PS3UPDAT.PUP (solo se usan las fuentes), usa RPCS3 solo para descifrar tu EBOOT y leer el firmware, baja las herramientas de compilación (unos 245 MB) y recompila en 3 a 20 minutos; requiere conexión a internet. Solo Windows 10/11 con DirectX 12. Resolución de 720p a 4K, 30/60/120 fps, ultrawide experimental, textos en inglés, portugués, francés o español. Tras instalar, el juego se abre con su acceso directo y lanzador."
+      },
+      "launch": {
+        "linux": null,
+        "windows": null
+      },
+      "year": 2011,
+      "developer": "Bandai Namco Games / Tose",
+      "genre": "Lucha",
+      "wiki": "Bleach: Soul Resurrección",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.2",
+        "published_at": "2026-11-15T17:35:31Z"
+      },
+      "lb": {
+        "id": 13011,
+        "players": 1,
+        "rating": 4.2,
+        "overview": "The afterlife adventures of reluctant Soul Reaper Ichigo Kurosaki make their high-def video game debut in the PlayStation 3-exclusive Bleach: Soul Resurrección. Gamers can role-play through re-creations of their favorite plotlines from the Bleach comics and cartoon series, or seek out new side-adventures in the freely roamed game world, stocked with random encounters and fan-friendly details. Cel-shaded graphics add interactive depth, in the anime's distinctive visual style. In addition to Ichigo, gamers may play through the mission-driven stories of 20 other characters from the popular manga and animated series. By choosing which new powers and abilities to unlock, characters can be custom-developed as they earn experience. The combat-centric action involves super-human swordplay and supernatural powers, and battles sometimes develop Dynasty Warriors-style odds, as the player's lone hero must aggressively fend through deluges of enemy opponents. The game's Mission Mode offers a goal-oriented alternative to the Story Mode's character-based campaigns.",
+        "logo": "https://images.launchbox-app.com/5c099ff9-24d0-4f68-a741-9f4ad35dd9ab.png",
+        "snap": "https://images.launchbox-app.com/f2c20a4c-7739-45a7-8f5b-097707f27773.jpg",
+        "fanart": "https://images.launchbox-app.com/aaabaa60-73dc-4b75-b977-fb2ae83cf273.jpg"
+      }
+    },
+    {
+      "id": "kigold-recomp",
+      "name": "Killer Instinct Gold: Recompiled",
+      "original_game": "Killer Instinct Gold",
+      "game_id": "killer-instinct-gold",
+      "system": "n64",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "geno55",
+        "repo": "kigold-recomp"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Killer%20Instinct%20Gold%20%28USA%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^kigold-recomp-v.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Necesita la ROM USA Rev 2 (v1.2) de Killer Instinct Gold en .z64, .v64 o .n64 (SHA-1 aaeb492b1e538af65a3544a97240675ef438a04f). Ejecuta kig.exe: la primera vez pide el fichero (también vale arrastrarlo sobre el exe). Basado en N64Recomp y RT64; el release es solo Windows (el README explica compilar en Linux). Funcionan intro, selección de personaje y combates completos; guardado, todos los personajes y escenarios aún sin comprobar. Trae trucos opcionales (salud infinita, Gargos jugable) y quick-save con F5/F7."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "kig.exe"
+      },
+      "year": 1996,
+      "developer": "Rare",
+      "genre": "Lucha",
+      "wiki": "Killer Instinct Gold",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.4.1",
+        "published_at": "2026-11-15T18:19:54Z"
+      },
+      "lb": {
+        "id": 261,
+        "players": 2,
+        "rating": 3.9,
+        "overview": "Killer Instinct Gold rocks the gaming world with its earth-shattering moves and unbelievable graphics. Your battles unfold with lightning-fast action and fluid character animation at 60 frames per second. We faithfully duplicated all the features that made Killer Instinct 2 an arcade hit. We've even thrown in a complete training mode to school you on all the moves! The eye-popping graphics, the explosive hits and jaw-dropping combos make Killer Instinct Gold the only fighting game you'll ever want in your house!",
+        "logo": "https://images.launchbox-app.com/5808adc6-58e2-438e-989b-e96347380afc.png",
+        "snap": "https://images.launchbox-app.com/6dc8f7b7-87b2-44b8-b029-608b30232217.png",
+        "title": "https://images.launchbox-app.com/02462a7b-6b94-45b2-aabd-02353450b11f.png",
+        "fanart": "https://images.launchbox-app.com/833bba77-5178-40a9-812a-0b2dd17711cc.png"
+      }
+    },
+    {
+      "id": "likethewind",
+      "name": "LikeTheWind",
+      "original_game": "Power Drift",
+      "game_id": "power-drift",
+      "system": "arcade",
+      "type": "native-port",
+      "repo": {
+        "host": "github",
+        "owner": "hojoworks",
+        "repo": "likethewind"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Power%20Drift%20%28World%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^LikeTheWind-.*-linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^LikeTheWind-.*-win64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "pdrift.zip",
+        "subdir": "roms",
+        "notes": "Necesita el pdrift.zip de MAME (World, Rev A) sin descomprimir, en la carpeta roms junto al ejecutable. El primer arranque lo verifica y crea roms/.prepared; después reutiliza esa caché. En Linux el tar.gz trae un AppImage (glibc 2.34+, X11 o Wayland) que hay que marcar como ejecutable; en Windows es portable. Resoluciones 4:3 hasta 21:9, banda sonora remasterizada opcional, voces restauradas, modo Special Tour y mando sin configuración."
+      },
+      "launch": {
+        "linux": "LikeTheWind.AppImage",
+        "windows": "LikeTheWind.exe"
+      },
+      "year": 1988,
+      "developer": "Sega AM2",
+      "genre": "Carreras",
+      "wiki": "Power Drift",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.5",
+        "published_at": "2026-11-16T06:03:04Z"
+      },
+      "lb": {
+        "id": 31642,
+        "players": 1,
+        "rating": 3.8,
+        "overview": "Choose from wacky drivers, like Jason the Skinhead or Jeronimo the Mohican and rev your way through all the stomach-churning circuits! Watch the dust fly and the wheels spin as you screech over a roller coaster track and wave goodbye to your opponents. Roar over mounds of mud, drive through the desert, slip 'n' slide on snow-covered tarmac and race your way through the night to face the final lap! CAREFUL! Power Drift is no easy ride! If you're heading for a collision hold on to your seat and enjoy those 360 degree spins before you bump back down to earth!",
+        "logo": "https://images.launchbox-app.com/9181d18a-9cb6-444a-b6a8-f7dbf9148347.png",
+        "snap": "https://images.launchbox-app.com/817e12f6-ed3f-4415-baf6-1e17b95d08d1.png",
+        "title": "https://images.launchbox-app.com/2eeaa828-dda7-4e38-865b-ad37a8ef0b46.png",
+        "fanart": "https://images.launchbox-app.com/r2_162adaed-90ff-4004-b4d4-bf95e5dca1cd.jpg"
+      }
+    },
+    {
+      "id": "project-vekta",
+      "name": "Project Vekta",
+      "original_game": "Killzone HD",
+      "game_id": "killzone-hd",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "gustavomorinaga",
+        "repo": "project-vekta"
+      },
+      "release_channel": "prerelease",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/cd97a1b65a03e2c63c60ad12db864b38.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^project-vekta-.*-linux\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^project-vekta-.*-windows\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Todas las releases son prerelease (campaña jugable de principio a fin, niveles 1-11, pero en pruebas). Necesita Killzone HD (NPUA80856) instalado desde tu disco Killzone Trilogy y el firmware PS3 4.93 (dev_flash, para la música); si ambos están en tu RPCS3 los usa, si no hay que dar el EBOOT y libsre descifrados. En el zip/tar.gz, run.cmd / ./run.sh pregunta por tus ficheros y compila el port (unos 5 minutos, trae su propia toolchain; en Linux solo hace falta Python 3.10+, SDL2 y Vulkan) y play.cmd / ./play.sh lo juega. Requiere CPU con AVX2 y GPU Vulkan; unos 4 GB de juego y 2 a 6 GB extra. La release también ofrece un setup.exe para Windows (lanzador Project Vekta.exe). Código generado en parte con IA (el README tiene sección de uso de IA)."
+      },
+      "launch": {
+        "linux": "play.sh",
+        "windows": "play.cmd"
+      },
+      "year": 2007,
+      "developer": "Guerrilla Games",
+      "genre": "Disparos en primera persona",
+      "wiki": "Killzone (video game)",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.5.1",
+        "published_at": "2026-11-17T06:21:05Z"
+      },
+      "lb": {
+        "id": 15744,
+        "players": 2,
+        "coop": true,
+        "rating": 3.8,
+        "overview": "Relive the original Killzone experience in high-definition 720p and new Trophy support Originally released for PlayStation 2 in 2004, Killzone tells the story of Jan Templar, an ISA Captain whose home planet comes under attack from a Helghast invasion army. Together with a hot-headed sergeant named Rico, a deadly Shadow Marshal known as Luger, and the half-human, half-Helghast spy Hakha, Templar must attempt to reactivate the Orbital Defense Platform and drive the invading forces from his planet Vekta. This rip-roaring introduction to the Killzone universe has been remastered in HD. Featuring a single-player campaign with four playable characters and an offline multiplayer mode against AI opponents, Killzone HD has received a thorough audiovisual overhaul: the game boasts 720p graphics at a steady 30fps, with MSAA filtering, sharper textures and higher quality sound effects.",
+        "logo": "https://images.launchbox-app.com/b3259974-9a95-48e1-825f-19f773afd8a1.png",
+        "snap": "https://images.launchbox-app.com/6fed4549-ae59-452b-b2f7-b247fc2a36c5.jpg",
+        "fanart": "https://images.launchbox-app.com/c6167894-ab41-47a7-8db1-2f4850b35abb.jpg"
+      }
+    },
+    {
+      "id": "project-tourline-5",
+      "name": "Project Tourline 5",
+      "original_game": "Gran Turismo 5",
+      "game_id": "gran-turismo-5",
+      "system": "ps3",
+      "type": "recompilation",
+      "repo": {
+        "host": "github",
+        "owner": "mathewdouglas",
+        "repo": "Project-Tourline-5"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://cdn2.steamgriddb.com/grid/0b5a37bc2c7f039ceed54c28073e35b9.png",
+      "logo_url": null,
+      "asset_rules": {
+        "windows-x86_64": "(?i)^project-tourline-5-v.*-windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "in-app",
+        "expected_filename": null,
+        "subdir": null,
+        "notes": "Solo Windows x64 con Direct3D 12. Necesita el disco USA de Gran Turismo 5 (BCUS98114, versión de disco 02.00) extraído a carpeta (la que contiene PS3_GAME con INSDIR y USRDIR/GT.VOL; las ISO hay que extraerlas antes). Ejecuta tourline5.exe, elige carpeta de datos y tu carpeta de disco, y pulsa «Prepare from my disc»: descarga RPCS3 (37 MB) un minuto para desempaquetar la actualización 01.04 del propio disco y lo borra. El primer arranque lee el disco (unos 20 GB) para verificarlo. Estado temprano: llega al menú con sonido y las carreras Arcade van a unos 55 fps."
+      },
+      "launch": {
+        "linux": null,
+        "windows": "tourline5.exe"
+      },
+      "year": 2010,
+      "developer": "Polyphony Digital",
+      "genre": "Carreras",
+      "wiki": "Gran Turismo 5",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "windows-x86_64"
+        ],
+        "latest_tag": "v0.1.10",
+        "published_at": "2026-11-17T10:51:57Z"
+      },
+      "lb": {
+        "id": 810,
+        "players": 16,
+        "rating": 4.2,
+        "overview": "Gran Turismo 5  is the fifth edition of the Gran Turismo sim racing video game series. It is the first game in the franchise to provide a damage model, with variations of damage depending on whether a vehicle is a \"Standard\" or \"Premium\" car. The game also features weather effects, however they are only available on certain circuits. Optional Stereoscopic-3D resolution and Karting found a place in the game.Furthermore, new visual effects have been introduced, including dynamic skid marks, dust and the ability for drivers to flash their headlights. A course editor which allows the player to create new circuits by using tools that randomly generate track-parts according to certain player-selected specifications, including the number of corners, the time of day and the number of sectors. There are a variety of themes the player can choose from to act as a base for each circuit design. Themes also have an effect on track length and highest elevation.",
+        "logo": "https://images.launchbox-app.com/1f7ab83b-3d97-42fe-8a0b-bf65d9167d51.png",
+        "fanart": "https://images.launchbox-app.com/cd0361e7-47a2-4bcf-83a7-d97cf315966b.jpg"
       }
     }
   ]

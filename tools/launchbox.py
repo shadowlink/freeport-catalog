@@ -35,6 +35,7 @@ ALIAS = {
     "Resident Evil Code: Veronica X": "Resident Evil Code: Veronica X HD",
     "Tekken Tag Tournament 2": "Tekken Tag Tournament 2: Wii U Edition",
     "Pokémon Scarlet and Violet": "Pokémon Scarlet",
+    "Fire Emblem Fates": "Fire Emblem Fates: Birthright",
     "Skylanders (Spyro's Adventure, Giants, Swap Force, Trap Team, SuperChargers, Imaginators)": "Skylanders: Spyro's Adventure",
 }
 
