@@ -37349,6 +37349,8 @@
               "{base}",
               "--dest",
               "{dest}",
+              "--root",
+              "{install_dir}",
               "--no-update-check"
             ],
             "dest": "game"
