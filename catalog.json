@@ -38023,6 +38023,61 @@
         "logo": "https://images.launchbox-app.com/1f7ab83b-3d97-42fe-8a0b-bf65d9167d51.png",
         "fanart": "https://images.launchbox-app.com/cd0361e7-47a2-4bcf-83a7-d97cf315966b.jpg"
       }
+    },
+    {
+      "id": "dekui",
+      "name": "DekUI",
+      "original_game": "The Legend of Zelda: Majora's Mask 3D",
+      "game_id": "the-legend-of-zelda-majoras-mask-3d",
+      "system": "3ds",
+      "type": "port",
+      "repo": {
+        "host": "github",
+        "owner": "tgacquin",
+        "repo": "mm3d-dekui"
+      },
+      "release_channel": "stable",
+      "cover_url": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%203DS/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%203D%20%28USA%29%20%28En%2CFr%2CEs%29.png",
+      "logo_url": null,
+      "asset_rules": {
+        "linux-x86_64": "(?i)^Dekui-[0-9.]+-Linux-x86_64\\.tar\\.gz$",
+        "windows-x86_64": "(?i)^Dekui-[0-9.]+-Windows-x64\\.zip$"
+      },
+      "rom": {
+        "required": true,
+        "mode": "copy",
+        "expected_filename": "mm3d.3ds",
+        "subdir": null,
+        "notes": "Majora's Mask 3D en una sola pantalla, como un Zelda de sobremesa: máscaras, objetos, mapa, cuaderno de los Bombers y canciones en la pantalla principal, HUD rediseñado y configurable, 60 fps interpolados (o 30 originales), panorámico con más campo de visión, opciones de Project Restoration y de dificultad, texturas personalizadas y textos en español. Elige tu volcado DESCIFRADO de Majora's Mask 3D USA v1.1 (.3ds o .cci, de un cartucho con la 1.1 de serie): Freeport lo copia junto al programa (solo puede haber uno). El primer arranque comprueba el juego y prepara sus ficheros en user/ sin ventanas; tarda un poco más. F1 abre los ajustes, F11 pantalla completa. No es una recompilación: es un fork del emulador Azahar dedicado a este juego (como Samus Returns 2DS). Linux: AppImage, necesita Python 3.9+ instalado en el sistema; Windows 10/11 lo trae. GPU con Vulkan. Conocido: cámara con algún zoom raro y tutoriales de las piedras Sheikah sin adaptar."
+      },
+      "launch": {
+        "linux": "Dekui.AppImage",
+        "windows": "Dekui.exe"
+      },
+      "year": 2015,
+      "developer": "Grezzo / Nintendo",
+      "genre": "Acción-aventura",
+      "wiki": "The Legend of Zelda: Majora's Mask 3D",
+      "box_art": null,
+      "tier": "experimental",
+      "cached": {
+        "platforms": [
+          "linux-x86_64",
+          "windows-x86_64"
+        ],
+        "latest_tag": "v1.1.0",
+        "published_at": "2026-10-25T01:43:59Z"
+      },
+      "lb": {
+        "id": 23870,
+        "players": 1,
+        "rating": 4.6,
+        "overview": "In three days, the moon will fall and the land of Termina will meet with a terrible fate. Can you save it in time? Relive the world’s final 72 hours, solve elaborate puzzles, conquer dungeons, battle giant bosses, and befriend the doomed people of Termina in one of Nintendo’s most suspenseful apocalyptic adventures ever.\n\nThe Legend of Zelda: Majora’s Mask 3D is a remastered and enhanced version of the Nintendo classic that’s unlike any other Legend of Zelda adventure. In this shadowy tale, a masked Skull Kid drags Link™ into the world of Termina, where the moon is falling from the sky. Lucky for Termina, Link can reverse time and relive his last 72 hours in limitless ways. Each time, he’ll don any of his 20+ masks, help different citizens, battle different bosses, and ultimately change the fate of a world. This is the definitive version of a dark classic.",
+        "logo": "https://images.launchbox-app.com/7da11e73-6b60-434f-b2f2-f28170befc30.png",
+        "snap": "https://images.launchbox-app.com/00fa0ad6-37d9-4c21-9c98-7dfc28b26aca.png",
+        "title": "https://images.launchbox-app.com/4f443405-c8b2-4313-9a9d-1656524582c3.png",
+        "fanart": "https://images.launchbox-app.com/r2_907d1e3a-71a7-4b24-ad22-39dcb729635c.png"
+      }
     }
   ]
 }
